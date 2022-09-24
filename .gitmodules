@@ -1,6 +1,6 @@
 [submodule "content"]
 	path = content
-	url = https://github.com/maxoidIO/notes.git
+	url = https://github.com/maxoidIO/notes
 [submodule "themes/hugo-byte"]
 	path = themes/hugo-byte
-	url = https://github.com/maxoidIO/hugo-byte.git
+	url = https://github.com/maxoidIO/hugo-byte
