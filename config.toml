@@ -1,0 +1,150 @@
+baseURL = "https://maxoid.io"
+title = "maxoid.io"
+theme = "hugo-byte"
+languageCode = "en"
+defaultContentLanguage = "en"
+enableEmoji = true
+paginate = 20
+# contentDir = 'content'
+
+# for rss
+copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
+[author]
+  name = 'maxoid'
+
+custom_css = ["css/custom.css"]
+
+[params]
+author = "maxoid"
+email = "me@maxoid.io"
+description = "Personal website example"
+keywords = "blog"
+avatarURL = "/images/avatar.jpg"
+favicon_32 = "/images/favicon.png"
+favicon_16 = "/images/favicon.png"
+defaultImage = "/images/default-image.png"
+dateFormat = "02/01/2006"
+since = 2022
+colorScheme = "dark"
+hideColorSchemeToggle = false
+greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Max</span>"
+blurbContent = [
+  'I am a software developer based in Europe',
+  'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'
+]
+sidePanelTags = [
+  'typescript',
+  'typescriptbook',
+  'node',
+  'vim',
+  'linux'
+]
+summaryLength = 100
+disable_comments = false
+enableTwemoji = false
+isFloatFollowBtnShown = true
+isIndieWebRingShown = true
+
+[params.subscription]
+title = "Subscribe to the newsletter"
+description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
+endpoint = "https://www.getrevue.co/profile/maxoid/add_subscriber"
+successMessage = "Success! Now check your email to confirm your subscription."
+failureMessage = "Oops, Something went wrong! Try again."
+subscriptionPageLink = "https://www.getrevue.co/profile/maxoid"
+
+[params.utterances]
+repo = "maxoidIO/maxoidio-comments"
+issueTerm = "pathname"
+theme = "github-dark"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = true
+    hl_Lines = ''
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = false
+    style = 'monokai'
+    tabWidth = 4
+
+[taxonomies]
+tag = "tags"
+
+[[params.social]]
+name = "Twitter"
+icon = "fa fa-twitter"
+iconColor = "#5f9fe6"
+weight = 1
+url = "https://twitter.com/maxoidIO"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa fa-github"
+iconColor = "#f4f4f4"
+weight = 2
+url = "https://github.com/maxoidIO"
+
+[[params.social]]
+name = "YouTube"
+icon = "fa fa-youtube-play"
+iconColor = "#f4f4f4"
+weight = 3
+url = "https://www.youtube.com/channel/UCvjx6Q_8iyME0FHiDB-nxiA"
+
+[languages.en]
+languageName = ":uk:"
+
+[[languages.en.menu.main]]
+name = "~/"
+weight = 1
+url = "/"
+pre = "<i class='fa fa-home color-green'></i>"
+
+[[languages.en.menu.main]]
+name = "about.md"
+weight = 2
+url = "about/"
+pre = "<i class='fa fa-user color-skyblue'></i>"
+
+[[languages.en.menu.main]]
+name = "blog/"
+weight = 3
+url = "blog/"
+pre = "<i class='fa fa-book color-pink'></i>"
+
+[[languages.en.menu.main]]
+name = "notes/"
+weight = 4
+url = "notes/"
+pre = "<i class='fa fa-archive color-orange'></i>"
+
+[[languages.en.menu.main]]
+name = "newsletter"
+weight = 5
+url = "http://maxoid.io/newsletter"
+pre = "<i class='fa fa-envelope color-cyan'></i>"
+
+[[languages.en.menu.main]]
+name = "rss.xml"
+weight = 6
+url = "/index.xml"
+pre = "<i class='fa fa-rss-square color-pink'></i>"
+
+#[[languages.en.menu.main]]
+#name = "stats"
+#weight = 5
+#url = "https://plausible.io/maxoid.io"
+#pre = "<i class='fa fa-bar-chart color-cyan'></i>"
+
+
+[params.plausibleAnalytics]
+domain = "maxoid.io"
+
+[params.webmention]
+webmentionUrl = "https://webmention.io/maxoid.io/webmention"
+pingbackUrl = "https://webmention.io/maxoid.io/xmlrpc"

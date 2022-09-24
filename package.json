@@ -1,0 +1,22 @@
+{
+  "name": "maxoid.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/maxoidIO/maxoid.io",
+  "author": "maxoid <me@maxoid.io>",
+  "license": "MIT",
+  "scripts": {
+    "storeRevueSubscribersCount": "node scripts/storeRevueSubscribersCount",
+    "storePlausibleViewsCount": "node scripts/storePlausibleViewsCount",
+    "getWebmentions": "node scripts/getWebmentions",
+    "main": "npm run storeRevueSubscribersCount && npm run storePlausibleViewsCount"
+  },
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "node-fetch": "^3.2.4"
+  },
+  "type": "module",
+  "dependencies": {
+    "got": "^12.0.4"
+  }
+}
