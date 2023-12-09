@@ -45,13 +45,13 @@ enableTwemoji = false
 isFloatFollowBtnShown = true
 isIndieWebRingShown = true
 
-[params.subscription]
-title = "Subscribe to the newsletter"
-description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
-endpoint = "https://www.getrevue.co/profile/maxoid/add_subscriber"
-successMessage = "Success! Now check your email to confirm your subscription."
-failureMessage = "Oops, Something went wrong! Try again."
-subscriptionPageLink = "https://www.getrevue.co/profile/maxoid"
+# [params.subscription]
+# title = "Subscribe to the newsletter"
+# description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
+# endpoint = "https://www.getrevue.co/profile/maxoid/add_subscriber"
+# successMessage = "Success! Now check your email to confirm your subscription."
+# failureMessage = "Oops, Something went wrong! Try again."
+# subscriptionPageLink = "https://www.getrevue.co/profile/maxoid"
 
 [params.utterances]
 repo = "maxoidIO/maxoidio-comments"
@@ -94,7 +94,7 @@ name = "YouTube"
 icon = "fa fa-youtube-play"
 iconColor = "#f4f4f4"
 weight = 3
-url = "https://www.youtube.com/channel/UCvjx6Q_8iyME0FHiDB-nxiA"
+url = "https://www.youtube.com/@maxoidIO"
 
 [languages.en]
 languageName = ":uk:"
@@ -123,11 +123,11 @@ weight = 4
 url = "notes/"
 pre = "<i class='fa fa-archive color-orange'></i>"
 
-[[languages.en.menu.main]]
-name = "newsletter"
-weight = 5
-url = "http://maxoid.io/newsletter"
-pre = "<i class='fa fa-envelope color-cyan'></i>"
+# [[languages.en.menu.main]]
+# name = "newsletter"
+# weight = 5
+# url = "http://maxoid.io/newsletter"
+# pre = "<i class='fa fa-envelope color-cyan'></i>"
 
 [[languages.en.menu.main]]
 name = "rss.xml"
