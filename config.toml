@@ -1,5 +1,5 @@
-baseURL = "https://maxoid.io"
-title = "maxoid.io"
+baseURL = "https://mkvl.me"
+title = "Max Kovalevskii"
 theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
@@ -10,13 +10,13 @@ paginate = 20
 # for rss
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 [author]
-  name = 'maxoid'
+  name = 'Max Kovalevskii'
 
 custom_css = ["css/custom.css"]
 
 [params]
-author = "maxoid"
-email = "me@maxoid.io"
+author = "Max Kovalevskii"
+email = "usrmaxoid@gmail.com"
 description = "Personal website example"
 keywords = "blog"
 avatarURL = "/images/avatar.jpg"
@@ -53,10 +53,10 @@ isIndieWebRingShown = true
 # failureMessage = "Oops, Something went wrong! Try again."
 # subscriptionPageLink = "https://www.getrevue.co/profile/maxoid"
 
-[params.utterances]
-repo = "maxoidIO/maxoidio-comments"
-issueTerm = "pathname"
-theme = "github-dark"
+# [params.utterances]
+# repo = "maxoidIO/maxoidio-comments"
+# issueTerm = "pathname"
+# theme = "github-dark"
 
 [markup]
   [markup.highlight]
@@ -87,14 +87,14 @@ name = "GitHub"
 icon = "fa fa-github"
 iconColor = "#f4f4f4"
 weight = 2
-url = "https://github.com/maxoidIO"
+url = "https://github.com/mkvl0"
 
 [[params.social]]
 name = "YouTube"
 icon = "fa fa-youtube-play"
 iconColor = "#f4f4f4"
 weight = 3
-url = "https://www.youtube.com/@maxoidIO"
+url = "https://www.youtube.com/@m_kvl"
 
 [languages.en]
 languageName = ":uk:"
@@ -143,8 +143,8 @@ pre = "<i class='fa fa-rss-square color-pink'></i>"
 
 
 [params.plausibleAnalytics]
-domain = "maxoid.io"
+domain = "mkvl.me"
 
 [params.webmention]
-webmentionUrl = "https://webmention.io/maxoid.io/webmention"
-pingbackUrl = "https://webmention.io/maxoid.io/xmlrpc"
+webmentionUrl = "https://webmention.io/mkvl.me/webmention"
+pingbackUrl = "https://webmention.io/mkvl.me/xmlrpc"

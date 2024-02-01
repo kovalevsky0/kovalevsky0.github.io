@@ -1,6 +1,6 @@
-# maxoid.io
+# mkvl.me
 
-👨‍💻 My personal website
+Max Kovalevskii's personal website
 
 - technology: [Hugo](https://github.com/gohugoio/hugo)
-- theme: [Hugo Byte](https://github.com/maxoidIO/hugo-byte)
+- theme: [Hugo Byte](https://github.com/mkvl0/hugo-byte)

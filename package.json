@@ -1,9 +1,9 @@
 {
-  "name": "maxoid.io",
+  "name": "mkvl.me",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/maxoidIO/maxoid.io",
-  "author": "maxoid <me@maxoid.io>",
+  "repository": "https://github.com/mkvl0/mkvl.me",
+  "author": "Max Kovalevskii <usrmaxoid@gmail.com>",
   "license": "MIT",
   "scripts": {
     "storeRevueSubscribersCount": "node scripts/storeRevueSubscribersCount",
