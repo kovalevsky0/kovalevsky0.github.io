@@ -1,6 +1,4 @@
 /themes/hugo-gravel-local
-public/*
-!public/_redirects
 *.lock
 
 **/*.DS_Store
