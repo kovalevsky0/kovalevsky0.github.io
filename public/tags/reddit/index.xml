@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reddit on Max Kovalevskii</title>
+    <link>https://mkvl.me/tags/reddit/</link>
+    <description>Recent content in Reddit on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://mkvl.me/tags/reddit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Subreddit &#39;byteski&#39; Greeting post</title>
+      <link>https://mkvl.me/subreddit-byteski-greeting-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/subreddit-byteski-greeting-post/</guid>
+      <description>Subreddit &amp;lsquo;byteski&amp;rsquo; Greeting post Hello! Welcome to my subreddit.
+I am Max, a software developer based in 🇪🇺 Europe.
+Besides working as a developer I write a blog about programming in general, TypeScript, Node, vim/neovim, and other stuff.
+I also interested in writing and things like Second Brain, Zettelkasten, IndieWeb, etc.
+Now I am in the process of re-design and re-writing my personal website. The first version of the website was written using Gatsby.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

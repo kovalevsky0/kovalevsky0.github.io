@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Monicalent on Max Kovalevskii</title>
+    <link>https://mkvl.me/tags/monicalent/</link>
+    <description>Recent content in Monicalent on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://mkvl.me/tags/monicalent/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mkvl.me/workshop-on-site-seo-for-developers---notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/workshop-on-site-seo-for-developers---notes/</guid>
+      <description>Workshop On-site SEO for Developers - Notes Parts of SEO described in this workshop:
+Technical SEO On-page SEO How Google Works Website Architecture important resource should be available after no more than 5 clicks
+Googlebot:
+Home page /blog /article Tips to avoid problem with having more than 5 clicks increase page size of pagination show 20-30 posts on one page SSR Server-side rendering is still needed You need one of these techniques: pre-rendering dynamic rendering server-side rendering Canonical URLs Canonical urls should be on your website Need to add canonical url to post&amp;rsquo;s page and all pages like /blog &amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;https://maxoid.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

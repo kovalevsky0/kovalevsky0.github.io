@@ -1,0 +1,2732 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Max Kovalevskii</title>
+    <link>https://mkvl.me/</link>
+    <description>Recent content on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 08 Sep 2022 02:28:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Links</title>
+      <link>https://mkvl.me/links/</link>
+      <pubDate>Thu, 08 Sep 2022 02:28:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/links/</guid>
+      <description> Links Twitter GitHub Newsletter YouTube Patreon [GitLab][https://maxoid.io/gitlab] HN Reddit </description>
+      
+        
+            <type>page</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>List of interesting command-line interface tools</title>
+      <link>https://mkvl.me/list-of-interesting-command-line-interface-tools/</link>
+      <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/list-of-interesting-command-line-interface-tools/</guid>
+      <description> List of interesting command-line interface tools ble.sh GitUI </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Neovim - LSP Setup</title>
+      <link>https://mkvl.me/neovim---lsp-setup/</link>
+      <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
+      
+      <guid>https://mkvl.me/neovim---lsp-setup/</guid>
+      <description>Neovim - LSP Setup Install plugin &amp;rsquo;lspconfig&#39; If you use Packer
+Put it inside vim config file:
+1 use &amp;#39;neovim/nvim-lspconfig&amp;#39; Lua Language Server Configuration github.com/sumneko/lua-language-server Install (brew)
+1 brew install lua-language-server In any lua file or in a specific file that includes LSP configuration:
+1 require&amp;#39;lspconfig&amp;#39;.sumneko_lua.setup{} It activates LSP for lua files You can check that LSP works for Lua files Open any .lua file type :LspInfo You should see the line 1 client(s) attached to this bufer and Client: sumneko_lua JavaScript/TypeScript Server Configuration github.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>https://mkvl.me/docker/</link>
+      <pubDate>Sun, 14 Aug 2022 22:59:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/docker/</guid>
+      <description>Docker Image vs Container container is a running env for image it provides: application image postgres, redis file system (virtual) env configs it has port to connect to the application that runs inside the container for example: 5000 Basic commands docker pull 1 docker pull &amp;lt;image&amp;gt; it pulls an image from the registry (by default: Docker Hub) docker images 1 docker images returns list of downloaded/available images on your machine docker run 1 docker run &amp;lt;image&amp;gt; it runs/start the image in the container flags</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>watch (command)</title>
+      <link>https://mkvl.me/watch-command/</link>
+      <pubDate>Sat, 13 Aug 2022 12:17:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/watch-command/</guid>
+      <description> watch (command) The command runs other commands or jobs repeatedly in N time intervals
+Git: auto-commit all changes every 15 mins 1 watch -n 900 &amp;#34;git pull origin main &amp;amp;&amp;amp; (git ls-files --modified --others --exclude-standard | grep . &amp;gt; /dev/null) &amp;amp;&amp;amp; { git add . ; git commit -m &amp;#39;auto-commit&amp;#39; ; git push origin main; }&amp;#34; </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://mkvl.me/tmux/</link>
+      <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/tmux/</guid>
+      <description>tmux Installing macOS
+1 brew install tmux Commands tmux ls 1 tmux ls returns list of active tmux sessions Default key bindings Default prefix key 1 ctrl(control) + b Panes default key bindings
+Split the window horizontally (Horizontal pane)
+1 ctrl(control) + b + &amp;#34; Split the window vertically (Vertical pane)
+1 ctrl(control) + b + % Delete (kill) current (focused) pane
+(with confirmation prompt)
+1 ctrl(control) + b + x Switch to the right pane</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Neovim - LuaSnip</title>
+      <link>https://mkvl.me/neovim---luasnip/</link>
+      <pubDate>Sat, 23 Jul 2022 15:39:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/neovim---luasnip/</guid>
+      <description> Neovim - LuaSnip </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Saving Links to My Site With a Bookmarklet (timkadlec.com) 🔗</title>
+      <link>https://mkvl.me/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</link>
+      <pubDate>Tue, 03 May 2022 14:56:59 +0000</pubDate>
+      
+      <guid>https://mkvl.me/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</guid>
+      <description> Saving Links to My Site With a Bookmarklet (timkadlec.com) Links https://timkadlec.com/remembers/2018-02-06-saving-links-to-my-site-with-a-bookmarklet/ See Also https://mxb.dev/blog/indieweb-link-sharing/ </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Cool Things People Do With Their Blogs 🔗</title>
+      <link>https://mkvl.me/cool-things-people-do-with-their-blogs/</link>
+      <pubDate>Mon, 02 May 2022 18:33:25 +0000</pubDate>
+      
+      <guid>https://mkvl.me/cool-things-people-do-with-their-blogs/</guid>
+      <description>Cool Things People Do With Their Blogs 🔗 https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+        <twitterTags>
+            
+        </twitterTags>
+      
+      
+        <linkedinTags>
+            
+        </linkedinTags>
+      
+    </item>
+    
+    <item>
+      <title>Newsletters</title>
+      <link>https://mkvl.me/newsletters/</link>
+      <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
+      
+      <guid>https://mkvl.me/newsletters/</guid>
+      <description> Newsletters https://sifted.eu/newsletter </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Blog Search Engine - Blog Surf</title>
+      <link>https://mkvl.me/blog-search-engine---blog-surf/</link>
+      <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/blog-search-engine---blog-surf/</guid>
+      <description> Blog Search Engine - Blog Surf 🔗 Links blogsurf.io </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>LanguageTool</title>
+      <link>https://mkvl.me/languagetool/</link>
+      <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/languagetool/</guid>
+      <description> LanguageTool LanguageTool’s multilingual grammar, style, and spell checker An alternative to Grammarly Links languagetool.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Bullet Journal</title>
+      <link>https://mkvl.me/bullet-journal/</link>
+      <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/bullet-journal/</guid>
+      <description> Bullet Journal Bullet Journal is a methodology of journaling.
+Links bulletjournal.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>IndieWeb</title>
+      <link>https://mkvl.me/indieweb/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/indieweb/</guid>
+      <description> IndieWeb The idea about making own website or web page to store the content on your own platform instead of social media controlled by corporations.
+Links indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog part of the Fediverse and IndieWeb brid.gy tantek.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Interesting personal websites and blogs</title>
+      <link>https://mkvl.me/interesting-personal-websites-and-blogs/</link>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/interesting-personal-websites-and-blogs/</guid>
+      <description> Interesting personal websites and blogs randomwits.com blog posts about Leetcode tantek.com IndieWeb contributor ilya-sher.org Next Generation Shell author&amp;rsquo;s blog jvt.me IndieWeber monicalent.com Monica Lent&amp;rsquo;s blog. Author of Blogging For Devs notanomadblog.com Monica Lent&amp;rsquo;s travel blog https://mxb.dev </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>European alternatives for digital products</title>
+      <link>https://mkvl.me/european-alternatives-for-digital-products/</link>
+      <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/european-alternatives-for-digital-products/</guid>
+      <description> European alternatives for digital products Links european-alternatives.eu </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>empty</title>
+      <link>https://mkvl.me/empty/</link>
+      <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/empty/</guid>
+      <description> empty </description>
+      
+        
+            <type>post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Software Engs Interview Preparation</title>
+      <link>https://mkvl.me/software-engs-interview-preparation/</link>
+      <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/software-engs-interview-preparation/</guid>
+      <description> Software Engs Interview Preparation Everything about coding interview, solving problems, algorithms and data structures, system design, etc.
+Links Daily Coding Problem LeetCode AlgoExpert https://thedailybyte.dev https://binarysearch.com https://resumeworded.com https://bigfrontend.dev </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>empty</title>
+      <link>https://mkvl.me/empty/</link>
+      <pubDate>Sat, 02 Oct 2021 15:35:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/empty/</guid>
+      <description> empty </description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>empty</title>
+      <link>https://mkvl.me/empty/</link>
+      <pubDate>Fri, 01 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/empty/</guid>
+      <description> empty </description>
+      
+        
+            <type>note</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>#2 Weekly Dose Of Software Engineering Stuff</title>
+      <link>https://mkvl.me/2-weekly-newsletter/</link>
+      <pubDate>Fri, 06 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/2-weekly-newsletter/</guid>
+      <description>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there!
+Here is a second edition of the newsletter Weekly Dose Of Software Engineering Stuff.
+Blog Last week I published new post How To Configure tsconfig.json: TypeScript Strict options Book The book Grokking TypeScript was updated to version 0.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>#1 Weekly Dose Of Software Engineering Stuff</title>
+      <link>https://mkvl.me/1-weekly-newsletter/</link>
+      <pubDate>Fri, 30 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/1-weekly-newsletter/</guid>
+      <description>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there! 👋
+It&amp;rsquo;s the first edition of Weekly Dose Of Software Engineering Stuff - a newsletter where you can read the content of topics that might be interesting for software developers and engineers.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>How To Configure tsconfig.json: TypeScript Strict options</title>
+      <link>https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/</link>
+      <pubDate>Thu, 29 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/</guid>
+      <description>TypeScript is not just a superset of JavaScript with static types. It is also a quite configurable tool that can be used for different types of projects. One parameter or group of parameters that can be configured is strict. If you are not familiar with strict mode and why you should use it for a new project then check out the post What Is Strict Mode In TypeScript, Why And When You Should Use It?</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+        <twitterTags>
+            
+                #TypeScript
+            
+                #SoftwareEngineer
+            
+                #softwaredevelopment
+            
+                #DEVCommunity
+            
+                #development
+            
+                #javascript
+            
+                #web
+            
+                #nodejs
+            
+                #webdevelopment
+            
+                #howto
+            
+        </twitterTags>
+      
+      
+        <linkedinTags>
+            
+                #TypeScript
+            
+                #SoftwareEngineer
+            
+                #softwaredevelopment
+            
+                #DEVCommunity
+            
+                #development
+            
+                #javascript
+            
+                #web
+            
+                #nodejs
+            
+                #webdevelopment
+            
+                #howto
+            
+        </linkedinTags>
+      
+    </item>
+    
+    <item>
+      <title>What Is Strict Mode In TypeScript, Why And When You Should Use It?</title>
+      <link>https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</link>
+      <pubDate>Fri, 16 Jul 2021 04:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</guid>
+      <description>There are many options and parameters that can be used in the TypeScript configuration. One of the important &amp;ldquo;groups&amp;rdquo; of options is strict options. These options provide us the ability to write the safest code. How? Because TypeScript was developed primarily as superset of JavaScript, by default it allows us to write code that is not super strict in types and other aspects. It was made like this because TypeScript should be easily used by JavaScript developers.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Fluent UI Web</title>
+      <link>https://mkvl.me/fluent-ui-web/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fluent-ui-web/</guid>
+      <description> Fluent UI Web React components library Written in TypeScript Developed by Microsoft team </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://mkvl.me/microsoft/</link>
+      <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/microsoft/</guid>
+      <description> Microsoft An American international big tech company Links Official website (microsoft.com) github.com/microsoft </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Next.js</title>
+      <link>https://mkvl.me/next.js/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/next.js/</guid>
+      <description>Next.js Next.js is a React full stack framework. It provides an ability to develop applications with server-side rendering and also can be used as a Static Site Generator.
+Creating a Next.js application (with TypeScript) For creating a Next.js application you need install Node and npm on your machine. if you didn&amp;rsquo;t do it before check out the post How To Install or Update Node by Using nvm (Node Version Manager).</description>
+      
+        
+            <type>note</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Static Site Generator</title>
+      <link>https://mkvl.me/static-site-generator/</link>
+      <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/static-site-generator/</guid>
+      <description> Static Site Generator It is a tool or program that generates HTML files from some source files and code. Most of them generates content that is written in markdown for a website.
+Popular Static Site Generators:
+GatsbyJS Next.js Hugo (Go) </description>
+      
+        
+            <type>note</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Hugo (Go)</title>
+      <link>https://mkvl.me/hugo-go/</link>
+      <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/hugo-go/</guid>
+      <description>Hugo (Go) Links gohugo.io GitHub A static-site generator written in Golang.
+Resources byteski/hugo-blog-sample Installing 1 brew install hugo 1 hugo version 1 Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown Creating a new site 1 hugo new site &amp;lt;folder-name&amp;gt; Structure 1 2 3 4 5 6 7 8 9 ls -1 archetypes/ config.toml content/ data/ layouts/ static/ themes/ archetypes/ - entities that are smth like markdown templates of content config.</description>
+      
+        
+            <type>note</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Configuring TypeScript: options rootDir, outDir, module, target</title>
+      <link>https://mkvl.me/configuring-typescript-options-rootdir-outdir-module-target/</link>
+      <pubDate>Tue, 18 May 2021 20:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/configuring-typescript-options-rootdir-outdir-module-target/</guid>
+      <description>In the post Getting Started With TypeScript Compiler (tsc) we started to use TypeScript compiler with a few options in a simple Node project. We used tsc command to compile our app with specific rules and in watch mode. It works but we can use much more options of TypeScript compiler. However, use it just like a command in the Terminal with a bunch of flags is not so comfortable. We can improve our workflow by using TypeScript configuration file - tsconfig.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Getting Started With TypeScript Compiler (tsc)</title>
+      <link>https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/</link>
+      <pubDate>Sun, 16 May 2021 20:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/</guid>
+      <description>From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
+The thing is that TypeScript is provided with a special program, tool - compiler.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Angular</title>
+      <link>https://mkvl.me/angular/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/angular/</guid>
+      <description> Angular A TypeScript framework for building Front End web applications.
+Links angular.io GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Babel</title>
+      <link>https://mkvl.me/babel/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/babel/</guid>
+      <description> Babel A JavaScript compiler. Compilers modern JavaScript or TypeScript code to one that supports by target environment (old Web browser, etc).
+Links babeljs.io GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>CommonJS Modules</title>
+      <link>https://mkvl.me/commonjs-modules/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/commonjs-modules/</guid>
+      <description> CommonJS Modules Module system for JavaScript that uses in Node.
+The syntax:
+1 2 3 4 5 6 7 const fs = require(&amp;#39;fs&amp;#39;); function foo() { // ... } exports.foo = foo; Links Node.js Docs Wikipedia </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>ES Modules</title>
+      <link>https://mkvl.me/es-modules/</link>
+      <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/es-modules/</guid>
+      <description> ES Modules Module system in ECMAScript standard JavaScript.
+An example:
+1 2 3 4 5 6 7 8 import { foo } from &amp;#39;first-module&amp;#39;; import * as all from &amp;#39;second-module&amp;#39;; export const SPECIAL_CHAR = &amp;#34;*&amp;#34;; export function anotherFoo() { // ... } Links Node.js Docs ES modules: A cartoon deep-dive </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)</title>
+      <link>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</link>
+      <pubDate>Wed, 12 May 2021 22:10:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
+      <description>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&amp;rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
+First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
+1 npm i -g typescript I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>nodemon</title>
+      <link>https://mkvl.me/nodemon/</link>
+      <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/nodemon/</guid>
+      <description> nodemon nodemon is a tool that restarts your Node application when some file changes. It really helps in developing because you don&amp;rsquo;t need to re-run Node if you change code in your application.
+Links GitHub nodemon.io </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>What Are Type Declaration Files In TypeScript?</title>
+      <link>https://mkvl.me/what-are-type-declaration-files-in-typescript/</link>
+      <pubDate>Tue, 11 May 2021 20:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/what-are-type-declaration-files-in-typescript/</guid>
+      <description>You probably have seen files with a file extension like .d.ts in some JavaScript or TypeScript projects (libraries or frameworks) before and you wondered what are these files and what they are for. In TypeScript they are called Type Declaration files. Let&amp;rsquo;s find out what is that practically.
+Let&amp;rsquo;s create a simple example with TypeScript code. Create a folder with the name typescript-type-defs or whatever name you want and then let&amp;rsquo;s create a file called users-list.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>ts-node</title>
+      <link>https://mkvl.me/ts-node/</link>
+      <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/ts-node/</guid>
+      <description>ts-node A tool that executes a Node program that is written in TypeScript
+Basically, instead of using this command every time:
+1 tsc index.ts &amp;amp;&amp;amp; node index.js you can use this tool.
+Installing and Usage Install it globally by npm:
+1 npm install -g ts-node Create a file add.ts with simple TypeScript code:
+1 2 3 4 5 function add(a: number, b: number): number { return a + b; } console.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Detecting Errors Before Running Code With TypeScript</title>
+      <link>https://mkvl.me/detecting-errors-before-running-code-with-typescript/</link>
+      <pubDate>Mon, 10 May 2021 21:10:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/detecting-errors-before-running-code-with-typescript/</guid>
+      <description>The problem In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
+We need to know how to start using TypeScript in our JavaScript project. In examples of this post series, I will use mostly code that written in Node environment. It won&amp;rsquo;t be any specific code that is understandable for only developers who worked with Node before.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>How To Install or Update Node by Using nvm (Node Version Manager)</title>
+      <link>https://mkvl.me/how-to-install-or-update-node-by-using-nvm/</link>
+      <pubDate>Sun, 09 May 2021 21:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/how-to-install-or-update-node-by-using-nvm/</guid>
+      <description>Intro There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.
+For that purpose, you can use a tool called nvm (Node Version Manager).</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>TypeScript - What Is All About and Why Should You Use It?</title>
+      <link>https://mkvl.me/typescript-what-is-all-about-and-why-should-you-use-it/</link>
+      <pubDate>Sat, 08 May 2021 19:50:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/typescript-what-is-all-about-and-why-should-you-use-it/</guid>
+      <description>What is TypeScript? TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
+What&amp;rsquo;s the purpose of this language? TypeScript brings to developers some features that help to write code on JavaScript easier and safer. One of the most important features that TypeScript provides is Static typing.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://mkvl.me/bash/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/bash/</guid>
+      <description> Bash Bash is a Unix shell and command language. Name is acronym for Bourne Again Shell.
+It was default shell on macOS (currently - Z shell).
+Links Website </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Fish Shell</title>
+      <link>https://mkvl.me/fish-shell/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fish-shell/</guid>
+      <description> Fish Shell Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
+Links Website (fishshell.com) GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>fish-nvm</title>
+      <link>https://mkvl.me/fish-nvm/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fish-nvm/</guid>
+      <description> fish-nvm Node Version Manager wrapper for Fish Shell.
+Installation Using Fisher (Fish Shell Plugin Manager):
+1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Fisher (Fish Shell Plugin Manager)</title>
+      <link>https://mkvl.me/fisher-fish-shell-plugin-manager/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fisher-fish-shell-plugin-manager/</guid>
+      <description> Fisher (Fish Shell Plugin Manager) A plugin manager for Fish Shell.
+Links GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Node Version Manager</title>
+      <link>https://mkvl.me/node-version-manager/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/node-version-manager/</guid>
+      <description> Node Version Manager A tool that provides an ability to install Node on specific version on your local machine. Also you can upgrade or downgrade versions.
+GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Prettier</title>
+      <link>https://mkvl.me/prettier/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/prettier/</guid>
+      <description> Prettier Code formatter that supports languages JavaScript, HTML, CSS, GraphQL, markdown, and others. Written in JavaScript.
+Links Website (prettier.io) GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Z shell</title>
+      <link>https://mkvl.me/z-shell/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/z-shell/</guid>
+      <description> Z shell Z shell is a Unix shell. It is an alternative to Bash. It is a community &amp;ldquo;Oh My Zsh&amp;rdquo; that is developing and supporting many plugins and themes for this shell.
+Now it is a default shell on macOS (previous - Bash).
+Links Official website (zsh.org) Oh My Zsh website </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Visual Studio Code</title>
+      <link>https://mkvl.me/visual-studio-code/</link>
+      <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/visual-studio-code/</guid>
+      <description> Visual Studio Code Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
+Links code.visualstudio.com GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Test asynchronous code using Jest</title>
+      <link>https://mkvl.me/test-asynchronous-code-using-jest/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-asynchronous-code-using-jest/</guid>
+      <description>Test asynchronous code using Jest Test code that contains method setTimeout Let&amp;rsquo;s say we have some function that called another function after N seconds:
+1 2 3 4 5 function completeTask(task: Task) { setTimeout(() =&amp;gt; { task.complete(); }, DELAY); } Okay, now we want to test that method task.complete was called when we called function completeTask:
+1 2 3 4 5 6 7 8 9 10 11 12 13 const { completeTask } = require(&amp;#34;.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Temporal Dead Zone In JavaScript</title>
+      <link>https://mkvl.me/temporal-dead-zone-in-javascript/</link>
+      <pubDate>Sun, 25 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/temporal-dead-zone-in-javascript/</guid>
+      <description> Temporal Dead Zone In JavaScript Links Temporal dead zone (TDZ) (MDN Web Docs) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Name your mocked function with word &#34;mock&#34;</title>
+      <link>https://mkvl.me/name-your-mocked-function-with-word-mock/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/name-your-mocked-function-with-word-mock/</guid>
+      <description>Name your mocked function with word &amp;ldquo;mock&amp;rdquo; Let&amp;rsquo;s look at the example:
+1 2 3 4 5 6 7 8 9 10 11 const fakeApi = jest.fn().mockImplementation(() =&amp;gt; ({ ok({ data: [] }) })); jest.mock(&amp;#39;../some-module.js&amp;#39;, () =&amp;gt; { return jest.fn().mockImplementation(function () { this.api = fakeApi; }); }); It&amp;rsquo;s a part of the test where we mock some module. We also use mocked function &amp;ldquo;fakeApi&amp;rdquo; in the mock of module. But it will not work because function &amp;ldquo;fakeApi&amp;rdquo; will be in Temporal Dead Zone In JavaScript.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>@testing-library</title>
+      <link>https://mkvl.me/@testing-library/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/@testing-library/</guid>
+      <description> @testing-library It is a library that provides an ability to write tests. Actually it is a bunch of libraries, each of them has specific target for testing. For example, @testing-library/react, which is specializing on testing React components.
+Links react-testing-library (GitHub) testing-library.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>command-line interface</title>
+      <link>https://mkvl.me/command-line-interface/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/command-line-interface/</guid>
+      <description> command-line interface It is a program that has interface which is based on commands
+Examples Git </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>create-react-app</title>
+      <link>https://mkvl.me/create-react-app/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/create-react-app/</guid>
+      <description> create-react-app It is a command-line interface that provides an ability to create simple React application as a starting point of creating the application that you need.
+Usage Quick start
+1 2 3 npx create-react-app my-app cd my-app npm start Links create-react-app.dev GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://mkvl.me/git/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/git/</guid>
+      <description> Git The man page describes Git as &amp;ldquo;the stupid content tracker&amp;rdquo;.
+Links git-scm.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>npx</title>
+      <link>https://mkvl.me/npx/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/npx/</guid>
+      <description> npx npx is a package runner of npm packages. It comes with npm by default.
+It is used for installing npm package. There are some differences between npx and npm install:
+downloads the latest version of X package every time It is not dependent on when your X package is installed Also it doesn&amp;rsquo;t install package on your machine </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>First Steps in Unit Testing with TypeScript</title>
+      <link>https://mkvl.me/first-steps-in-unit-testing/</link>
+      <pubDate>Sun, 18 Apr 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/first-steps-in-unit-testing/</guid>
+      <description>Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.
+Because I work mostly with TypeScript and React ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Back End</title>
+      <link>https://mkvl.me/back-end/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/back-end/</guid>
+      <description>Back End Side of development that responsible for server-side of the application.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Front End</title>
+      <link>https://mkvl.me/front-end/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/front-end/</guid>
+      <description>Front End Side of development that responsible for client-side or UI of the application.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Chromium</title>
+      <link>https://mkvl.me/chromium/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/chromium/</guid>
+      <description> Chromium The open-source project which code can be compiled into a Web browser, developed by Google
+Links chromium.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Cypress</title>
+      <link>https://mkvl.me/cypress/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/cypress/</guid>
+      <description> Cypress A library that provides an ability of:
+Setup tests Write tests Running tests Recording tests Links GitHub cypress.io </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Don&#39;t use arrow function inside mockImplementation with this (Jest)</title>
+      <link>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</guid>
+      <description>Don&amp;rsquo;t use arrow function inside mockImplementation with this (Jest) When using the arrow function:
+1 2 3 4 5 6 7 8 // ... someAPI.JWT = jest.fn().mockImplementation(() =&amp;gt; { this.authorize = jest.fn(); this.credentials = { access_token: &amp;#34;fake_access_token&amp;#34; }; }); // ... const jwtInstance = someAPI.JWT.mock.instances[0]; console.log(jwtInstance); // mockConstructor When using function:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 // .</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Firefox</title>
+      <link>https://mkvl.me/firefox/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/firefox/</guid>
+      <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
+Links mozilla.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://mkvl.me/google/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/google/</guid>
+      <description> Google IT company
+Products:
+google.com Google Chrome </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Google Chrome</title>
+      <link>https://mkvl.me/google-chrome/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/google-chrome/</guid>
+      <description> Google Chrome A Web browser that made by Google company, based on Chromium project.
+Links google.com/chrome </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Playwright</title>
+      <link>https://mkvl.me/playwright/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/playwright/</guid>
+      <description> Playwright Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
+Links GitHub playwright.dev </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Puppeteer</title>
+      <link>https://mkvl.me/puppeteer/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/puppeteer/</guid>
+      <description> Puppeteer Puppeteer is a Node library that provides API to control Chrome-based browser by DevTools protocol.
+Links GitHub pptr.dev </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Web browser</title>
+      <link>https://mkvl.me/web-browser/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/web-browser/</guid>
+      <description> Web browser An application that provides an ability to view web pages and more.
+Examples Chromium Google Chrome </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>WebKit</title>
+      <link>https://mkvl.me/webkit/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/webkit/</guid>
+      <description> WebKit A Web browser engine developed by Apple. It&amp;rsquo;s used in Safari Web browser. It was used in Chromium project (before fork Blink).
+Links webkit.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Debugging in Jest</title>
+      <link>https://mkvl.me/debugging-in-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/debugging-in-jest/</guid>
+      <description> Debugging in Jest Add breakpoint in test:
+1 2 3 4 5 6 7 8 it.each` a | b | result ${1} | ${2} | ${3} ${0} | ${4} | ${4} `(&amp;#34;should return $result when a = $a, b = $b&amp;#34;, ({ a, b, result }) =&amp;gt; { debugger; // breakpoint expect(sum(a, b)).toBe(result); }); Run this following command:
+1 node --inspect-brk ./node_modules/.bin/jest ./&amp;lt;file_of_test&amp;gt;.test.js </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Spy</title>
+      <link>https://mkvl.me/spy-in-testing/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/spy-in-testing/</guid>
+      <description> Spy (in testing) Method that is spying on some function (that you need) It is tracking information about: how many times was the function called with what parameters was the function called what was the result of function call etc </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Stub</title>
+      <link>https://mkvl.me/stub/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/stub/</guid>
+      <description> Stub Contains specific rules like: if parameters are x1, x2 then result is y (2, 3) =&amp;gt; [5] () =&amp;gt; { params: [] } An example of stub in JestJS is: jest.fn() </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Test of async method in Jest</title>
+      <link>https://mkvl.me/test-of-async-method-in-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-of-async-method-in-jest/</guid>
+      <description>Test of async method in Jest An example of code:
+1 2 3 4 5 6 7 8 9 10 module.exports = { checkUser: (user, cb) =&amp;gt; { if (user.age &amp;lt; 18) { setTimeout(() =&amp;gt; { // do smth cb(user.age); }, 500); } }, }; If you write test like this:
+1 2 3 4 5 6 7 8 9 10 11 12 13 describe(&amp;#34;example&amp;#34;, () =&amp;gt; { it(&amp;#34;First test&amp;#34;, () =&amp;gt; { expect.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>The problem with mutation of object data in Jest</title>
+      <link>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</guid>
+      <description>The problem with mutation of object data in Jest Let&amp;rsquo;s say we have some method that just set fields like this:
+1 2 3 joinServer({ host, user }) { user.serverId = host.serverId; } Here is the example of test of this method:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 it(&amp;#34;should move user to host&amp;#39;s server&amp;#34;, () =&amp;gt; { const user1 = { id: 1, serverId: 1, }; const user2 = { id: 2, serverId: 2, }; joinServer({ host: user1, user: user2, }); expect(user2.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Using &#34;table&#34; in method it.each of Jest</title>
+      <link>https://mkvl.me/using-table-in-method-it.each-of-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/using-table-in-method-it.each-of-jest/</guid>
+      <description> Using &amp;ldquo;table&amp;rdquo; in method it.each of Jest test.each`table`(name, fn, timeout)
+1 2 3 4 5 6 7 it.each` a | b | result ${1} | ${2} | ${3} ${0} | ${4} | ${4} `(&amp;#34;should return $result when a = $a, b = $b&amp;#34;, ({ a, b, result }) =&amp;gt; { expect(sum(a, b)).toBe(result); }); </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Arrange in unit test</title>
+      <link>https://mkvl.me/arrange-in-unit-test/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/arrange-in-unit-test/</guid>
+      <description> Arrange in unit test Preparing to acting of tests All errors in this phase are not actually errors / failures of tests In terms of JestJS, most likely, beforeEach or beforeAll methods Sometimes we need to mock import/require (in JavaScript) It can be done by means of framework like JestJS It can be done by means of independent library like Rewire Here you should write stubs, mocks, etc (Test Doubles) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Assertion</title>
+      <link>https://mkvl.me/assertion/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/assertion/</guid>
+      <description>Assertion It provides the ability to write code in test to check expected value and output value (the result of phase Act from Arrange-Act-Assert).
+This functionality can be a part of the testing framework (example - JestJS) or can be independent library like Chai.js</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>ava.js</title>
+      <link>https://mkvl.me/ava.js/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/ava.js/</guid>
+      <description> ava.js Ava is a JavaScript test runner for Node
+Links GitHub repo </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Behavior Driven Development</title>
+      <link>https://mkvl.me/behavior-driven-development/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/behavior-driven-development/</guid>
+      <description> Behavior Driven Development The concept provides the ability to write test by kind of human language (natural language constructs). It can be implemented by frameworks. Combines ideas from Test Driven Development and Domain Driven Design Frameworks Gherkin Syntax (cucumber.io) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Browser Object Model</title>
+      <link>https://mkvl.me/browser-object-model/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/browser-object-model/</guid>
+      <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Chai.js</title>
+      <link>https://mkvl.me/chai.js/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/chai.js/</guid>
+      <description> Chai.js The assertion library that can be used with any JavaScript testing framework.
+Links chaijs.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Document Object Model</title>
+      <link>https://mkvl.me/document-object-model/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/document-object-model/</guid>
+      <description> Document Object Model DOM is a programming interface for HTML and XML documents.
+Links Introduction to the DOM (MDN Web Docs) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Domain Driven Design</title>
+      <link>https://mkvl.me/domain-driven-design/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/domain-driven-design/</guid>
+      <description> Domain Driven Design </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Fixtures</title>
+      <link>https://mkvl.me/fixtures/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fixtures/</guid>
+      <description> Fixtures In Front End It&amp;rsquo;s fake data that replaces data from API (back end) responses In Back End The state of the DB DB contains specific data that needed for the test </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://mkvl.me/html/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/html/</guid>
+      <description> HTML HTML (HyperText Markup Language) is a markup language for document that are displayed in the browser. It is not a programming language btw </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>JSDOM</title>
+      <link>https://mkvl.me/jsdom/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/jsdom/</guid>
+      <description> JSDOM JSDOM is a JavaScript implementation of Document Object Model and Browser Object Model for Node
+Links GitHub repo </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>mocha.js</title>
+      <link>https://mkvl.me/mocha.js/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/mocha.js/</guid>
+      <description> mocha.js Mocha is a JavaScript test framework running on Node
+Links mochajs.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>monkey-patching</title>
+      <link>https://mkvl.me/monkey-patching/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/monkey-patching/</guid>
+      <description> monkey-patching It replacement of attributes, methods of classes in runtime It replacement of modules in runtime It replacement or extending of external libraries Examples In JavaScript you can use monkey-patching for unit testing this ability is provided by libraries like Rewire </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Rewire</title>
+      <link>https://mkvl.me/rewire/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/rewire/</guid>
+      <description> Rewire The library that provides the ability to do monkey-patching
+Links GitHub repo </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Sinon.js</title>
+      <link>https://mkvl.me/sinon.js/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/sinon.js/</guid>
+      <description> Sinon.js The library that provides the ability to write Mocks, Stubs, Spies It works with any JavaScript framework for Unit tests Links sinonjs.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Test Driven Development</title>
+      <link>https://mkvl.me/test-driven-development/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-driven-development/</guid>
+      <description> Test Driven Development The concept of testing that can be describes by idea &amp;ldquo;tests first&amp;rdquo;:
+Add test for specific feature Test should be failed (red) Write a code of the feature Test should be successful/passed (green) Refactoring Tests must be green Repeat </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Test Runner</title>
+      <link>https://mkvl.me/test-runner/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-runner/</guid>
+      <description> Test Runner Test Runner is a program that runs tests
+Required features:
+Run tests in parallel Isolation of tests Test filtering Watch mode (re-running edited tests) Coverage Reports (html, etc) Examples In JavaScript JestJS mocha.js ava.js </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/honesty-test/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/honesty-test/</guid>
+      <description> Honesty test If test is green then module works correctly nothing from the outside affects module to work correctly If test is red then module doesn&amp;rsquo;t work correctly the error inside module, nowhere else </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>(Anti-)fragility in testing</title>
+      <link>https://mkvl.me/anti-fragility-in-testing/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/anti-fragility-in-testing/</guid>
+      <description> (Anti-)fragility in testing Test is anti fragile if module&amp;rsquo;s test is green after refactoring of the module Requirement: outer behavior of the module should be the same as before (refactoring) </description>
+      
+        
+            <type>note</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Arrange-Act-Assert</title>
+      <link>https://mkvl.me/arrange-act-assert/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/arrange-act-assert/</guid>
+      <description> Arrange-Act-Assert AAA is a pattern for structure Unit test
+Follow the AAA Arrange in unit test Act Execution of operations that we are testing Assert expect(result) Assertion </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Test Doubles</title>
+      <link>https://mkvl.me/test-doubles/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-doubles/</guid>
+      <description>Test Doubles Dummy (Dummy Object) doesn&amp;rsquo;t have any data inside can be empty object {} just exists that&amp;rsquo;s the purpose of the Dummy Object Fake has simple data contains simplified data of the object that is replaced by this fake object example: using in-memory db or some &amp;ldquo;light&amp;rdquo; db (SQLite?) instead of real db on the project (like PostgreSQL, Oracle) Stub Spy (in testing) Mock it contains expectations about what parameters should be when the function will be called if function was called with different parameters than expected parameters then test will be failed Fixtures Implementation For writing all this stuff you can use: Functionality of the framework like JestJS Independent library like Sinon.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>End-to-End tests</title>
+      <link>https://mkvl.me/end-to-end-tests/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/end-to-end-tests/</guid>
+      <description>End-to-End tests End-to-End (e2e) tests are tests that emulate user&amp;rsquo;s behaviour. Basically, these tests looks like that:
+automatically opens browser open specific page click on specific field, control or button on the page we should see that happens when &amp;ldquo;user&amp;rdquo; interacts with some part of UI Why we don&amp;rsquo;t always need End-to-End? End-to-End tests show state of the system / UI from perspective of external observer (&amp;ldquo;user&amp;rdquo;). We don&amp;rsquo;t know that actually happens inside system / UI.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Integration tests</title>
+      <link>https://mkvl.me/integration-tests/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/integration-tests/</guid>
+      <description> Integration tests Integration tests are tests that check behavior of group of modules </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Pyramid of testing</title>
+      <link>https://mkvl.me/pyramid-of-testing/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/pyramid-of-testing/</guid>
+      <description> Pyramid of testing Types of testing (from less to more):
+e2e End-to-End tests e2e should be less Integration tests Unit tests a.k.a. module tests unit tests should be more (opinioned) typing static typing TypeScript </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Unit tests</title>
+      <link>https://mkvl.me/unit-tests/</link>
+      <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/unit-tests/</guid>
+      <description>Unit tests Unit tests are tests of modularity They test specific part/piece of the system (called module) independently from other modules of the system For example, test of module (component in Front End) that shows red error text: module has input data (error status - existing or not) output data&amp;quot; is null (if error does not exist) red text (if error exists) unit test should check that module/component returns specific output data based on input data in the system this module get input data (error status) from other module we don&amp;rsquo;t care about that because unit test checks module independently from other modules for checking interaction between several modules we should use Integration tests Unit tests are documenting behavior of specific module What is unit?</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Evergreen notes</title>
+      <link>https://mkvl.me/evergreen-notes/</link>
+      <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/evergreen-notes/</guid>
+      <description>Evergreen notes Evergreen notes is a term that was invented by Andy Matuschak Evergreen notes are notes that have actual information. They have been built not for short-term using. These notes can and should be used in long-term. Here is how I understand it: They are called evergreen because they are like leaves that get watered. The more you put new or update current information in there than more they are green.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Jest</title>
+      <link>https://mkvl.me/jestjs/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/jestjs/</guid>
+      <description>Jest It&amp;rsquo;s a JavaScript Testing Framework. It works with: TypeScript, React, Node, etc. It contains functionality of Test Runner Links GitHub repo (facebook/jest) Official website (jestjs.io) Examples Test of async method in Jest The problem with mutation of object data in Jest Using &amp;ldquo;table&amp;rdquo; in method it.each of Jest Debugging in Jest Don&amp;rsquo;t use arrow function inside mockImplementation with this (Jest) Name your mocked function with word &amp;ldquo;mock&amp;rdquo; Test asynchronous code using Jest Terminology mock (jest.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>RxJS</title>
+      <link>https://mkvl.me/rxjs/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/rxjs/</guid>
+      <description> RxJS It&amp;rsquo;s a reactive programming library for JavaScript.
+Links GitHub repo (ReactiveX/rxjs) Official website (rxjs.dev) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Vortex Race III RGB</title>
+      <link>https://mkvl.me/vortex-race-iii-rgb/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/vortex-race-iii-rgb/</guid>
+      <description>Vortex Race III RGB It&amp;rsquo;s a 75% (size) mechanical keyboard that I&amp;rsquo;m using right now.
+This is how it looks like:</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Digital Garden</title>
+      <link>https://mkvl.me/digital-garden/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/digital-garden/</guid>
+      <description> Digital Garden It is the way of making a content (notes) and sharing it with people on the Web.
+See also:
+List of Digital Gardens Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://mkvl.me/home/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/home/</guid>
+      <description>Home Welcome to my Digital Garden</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Templates in Obsidian</title>
+      <link>https://mkvl.me/templates-in-obsidian/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/templates-in-obsidian/</guid>
+      <description> Templates in Obsidian How to create and implement templates in Obsidian
+How to enable templates:
+Open settings Core Plugins Templates -&amp;gt; Enable </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Creating GatsbyJS theme</title>
+      <link>https://mkvl.me/creating-gatsbyjs-theme/</link>
+      <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/creating-gatsbyjs-theme/</guid>
+      <description>Creating GatsbyJS theme Note about how to make theme for GatsbyJS
+make folder
+1 mkdir gatsby-&amp;lt;name&amp;gt;-theme-workspace &amp;amp;&amp;amp; cd &amp;lt;gatsby-your-new-theme&amp;gt; initialize npm/Yarn new project
+1 yarn init in package.json:
+1 2 3 4 5 6 7 8 { ... &amp;#34;private&amp;#34;: true, &amp;#34;workspaces&amp;#34;: [ &amp;#34;example&amp;#34;, // example of the gatsby website that will use theme &amp;#34;gatsby-&amp;lt;name&amp;gt;-theme&amp;#34; // folder where is your theme is located ] } setup theme folder
+1 2 cd gatsby-&amp;lt;name&amp;gt;-theme yarn init setup example website folder</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Yarn</title>
+      <link>https://mkvl.me/yarn/</link>
+      <pubDate>Sun, 03 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/yarn/</guid>
+      <description>Yarn Yarn is a package manager for JavaScript and TypeScript. It is a alternative to npm
+Links yarnpkg.com Workspaces Yarn provide a solution to manage Monorepo - Yarn Workspaces
+Basically a Monorepo manager in comparison with Lerna.js Yarn Workspaces are low-level Setup from scratch Source: yarn-workspaces-sample (GitHub) 1 mkdir yarn-workspaces-sample &amp;amp;&amp;amp; cd yarn-workspaces-sample &amp;amp;&amp;amp; touch package.json 1 2 3 4 5 6 7 // package.json { &amp;#34;private&amp;#34;: true, &amp;#34;workspaces&amp;#34;: [ &amp;#34;packages/*&amp;#34; ] } 1 mkdir packages &amp;amp;&amp;amp; mkdir packages/server &amp;amp;&amp;amp; mkdir packages/utils 1 2 cd packages/utils &amp;amp;&amp;amp; yarn init -y cd .</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://mkvl.me/typescript/</link>
+      <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/typescript/</guid>
+      <description> TypeScript TypeScript is a superset of JavaScript that provides you to write JavaScript code with static typing (optionally).
+Interesting projects:
+type-challenges Links GitHub repo (Microsoft/TypeScript) Official website (typescriptlang.org) Core Types number example: 0, 1, 2.5 string example: &amp;ldquo;str1&amp;rdquo;, &amp;lsquo;str2&amp;rsquo;, `str3` boolean example: true, false </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Working with images in GatsbyJS</title>
+      <link>https://mkvl.me/working-with-images-in-gatsbyjs/</link>
+      <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/working-with-images-in-gatsbyjs/</guid>
+      <description>Working with images in GatsbyJS install npm deps:
+gatsby-image gatsby-plugin-sharp gatsby-transformer-sharp 1 npm install --save gatsby-transformer-sharp gatsby-plugin-sharp gatsby-image In gatsby-config.js
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 plugins: [ // ... `gatsby-plugin-sharp`, `gatsby-transformer-sharp`, // ... { resolve: `gatsby-source-filesystem`, options: { path: `${__dirname}/src/images`, name: &amp;#34;images&amp;#34;, }, }, // ... ] Display photo In Layout.tsx
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 import Img from &amp;#34;gatsby-image&amp;#34; // .</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Creating a post&#39;s page in GatsbyJS</title>
+      <link>https://mkvl.me/creating-a-post-page-in-gatsbyjs/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/creating-a-post-page-in-gatsbyjs/</guid>
+      <description>Creating a post&amp;rsquo;s page in GatsbyJS Post page component Create a component for post page (temporary with basic jsx w/o any data)
+1 2 3 4 5 6 7 8 9 10 11 12 13 import React from &amp;#34;react&amp;#34; import Layout from &amp;#34;./Layout&amp;#34; const PostLayout = () =&amp;gt; { return ( &amp;lt;Layout&amp;gt; &amp;lt;h1&amp;gt;Some Post&amp;lt;/h1&amp;gt; &amp;lt;/Layout&amp;gt; ) } export default PostLayout gatsby-node.ts In gatsby-node.ts you should use createPages GatsbyJS method and set path to this component</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>How to set up GatsbyJS with TypeScript</title>
+      <link>https://mkvl.me/how-to-set-up-gatsbyjs-with-typescript/</link>
+      <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/how-to-set-up-gatsbyjs-with-typescript/</guid>
+      <description>How to set up GatsbyJS with TypeScript First things Install TypeScript as dependency:
+npm: 1 npm i typescript --save-dev yarn 1 yarn add typescript -D After installing, you should initialize TypeScript project by generating tsconfig.json file
+1 tsc --init Because in GatsbyJS you are using React components that includes JSX you should set specific parameter in tsconfig.json:
+1 2 3 4 5 6 { &amp;#34;compilerOptions&amp;#34;: { .... &amp;#34;jsx&amp;#34;: &amp;#34;react&amp;#34;, } } If you want to use TypeScript for your src/ files you can easily just rename all files in src/ from .</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Basic example of GraphQL in GatsbyJS</title>
+      <link>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</guid>
+      <description>Basic example of GraphQL in GatsbyJS GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
+In the editor you can write a query and you will get information from API&amp;rsquo;s that based on this written query
+Example
+1 2 3 4 5 { site { } } site is like an object/schema that contains some information about your website. For example, it contains information about siteMetadata (that you configured in gatsby-config.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>GatsbyJS - Adding the display of post&#39;s list in the app</title>
+      <link>https://mkvl.me/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</guid>
+      <description>GatsbyJS - Adding the display of post&amp;rsquo;s list in the app gatsby-source-filesystem (plugin) This plugin provides the access to app&amp;rsquo;s file-system. It adds specific nodes in GraphQL scheme of the app
+Installation Install gatsby-source-filesystem in your GatsbyJS app
+npm install gatsby-source-filesystem set up plugin in gatsby-config.js 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // gatsby-config.js { ... plugins: [ ... { resolve: `gatsby-source-filesystem`, options: { path: `${__dirname}/src/posts`, name: &amp;#34;posts&amp;#34;, }, }, ] } Create the post Create markdown post in /src/posts, for example greetings.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://mkvl.me/golang/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/golang/</guid>
+      <description>Golang Go or Golang is a programming language that designed at Google.
+The language can be described by these following items:
+it&amp;rsquo;s compiled language similar to C language by syntax the language has: memory safety garbage collection structural typing Official website cli **go run &amp;lt;module&amp;gt; - run the file/module as a program go test - run tests go mod init &amp;lt;module&amp;gt; - initialise a module godoc It provides an ability to open Go documentation locally and even offline</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>GraphQL</title>
+      <link>https://mkvl.me/graphql/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/graphql/</guid>
+      <description> GraphQL GraphQL is a data query and specific language for APIs
+Links GraphQL spec (GitHub) Examples of using GraphQL Basic example of GraphQL in GatsbyJS </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Server Side Rendering</title>
+      <link>https://mkvl.me/server-side-rendering/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/server-side-rendering/</guid>
+      <description> Server Side Rendering Server Side Rendering is a process when your files (for example, HTML and CSS files) are rendering by server side instead of client side
+Links Rendering on the Web (developers.google.com) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>ECMAScript</title>
+      <link>https://mkvl.me/ecmascript/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/ecmascript/</guid>
+      <description>ECMAScript ECMAScript it is a programming-language and also it is a standard of JavaScript programming language. It has own specification.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Gatsby.js</title>
+      <link>https://mkvl.me/gatsbyjs/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/gatsbyjs/</guid>
+      <description>Gatsby.js gatsbyjs.com
+Gatsby.js is a static site generator written in JavaScript for React
+Quick Start Gatsby CLI To start making your application you should install gatsby-cli globally by these npm command:
+1 npm install -g gatsby-cli To check that gatsby-cli was successfully installed just use this command that should return version of gatsby-cli on your computer:
+1 gatsby --version Creating a new Gatsby application To create a new Gatsby application use command:</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://mkvl.me/javascript/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/javascript/</guid>
+      <description> JavaScript JavaScript is programming language that it described by these criteria&amp;rsquo;s:
+high-level language dynamic type system multi-paradigm language designed by @BrendanEich conforms to ECMAScript specification </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Node</title>
+      <link>https://mkvl.me/node/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/node/</guid>
+      <description> Node.js Node.js is a JavaScript runtime that is based on Chrome&amp;rsquo;s V8 Engine
+Links GitHub repo (nodejs/node) Official website (nodejs.org) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>npm</title>
+      <link>https://mkvl.me/npm/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/npm/</guid>
+      <description> npm npm is a tool for managing JavaScript module&amp;rsquo;s dependencies. It is a package manager for JavaScript and TypeScript. It might be already installed with Node on your computer.
+Links npmjs.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://mkvl.me/react/</link>
+      <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/react/</guid>
+      <description> React React is a JavaScript library for building user interface.
+Links GitHub repo (facebook/react) Official website (reactjs.org) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Markdown</title>
+      <link>https://mkvl.me/markdown/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/markdown/</guid>
+      <description> Markdown Specific format of plain text.
+Links:
+Markdown Syntax on GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian</title>
+      <link>https://mkvl.me/obsidian/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian/</guid>
+      <description> 💎 Obsidian Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
+Here is all information and materials about Obdisian
+Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours 👤 Communities &amp;amp; Socials Twitter Discord Forum /r/ObsidianMD/ Plugins [[Obsidian Dataview]] </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian.md Materials</title>
+      <link>https://mkvl.me/obsidian.md-materials/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian.md-materials/</guid>
+      <description> Obsidian.md Materials If you interested in topic how to effectively use @obsdmd Obsidian I’d recommend these YT channels:
+Effective Remote Work @EffectiveRemote Linking Your Thinking by @NickMilo Bryan Jenks @tallguyjenks Obsidian Office Hours </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Substack</title>
+      <link>https://mkvl.me/substack/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/substack/</guid>
+      <description>Substack Link
+It is a new service that seems like Twitter and Patreon with email subscription for me</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Notion</title>
+      <link>https://mkvl.me/notion/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/notion/</guid>
+      <description> Notion Website
+All-in-one app that provides abilities to create:
+notes posts plans projects tasks </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>org-roam</title>
+      <link>https://mkvl.me/org-roam/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/org-roam/</guid>
+      <description>org-roam org-roam is a implementation of Roam in Emacs org-mode
+org-roam on GitHub</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Remnote</title>
+      <link>https://mkvl.me/remnote/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/remnote/</guid>
+      <description>Remnote Website
+Remnote is an app that provides note-taking and spaced-repetition in one tool.
+Basically, all notes (or bullets) that you write in Remnote transformed into Anki-like cards.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Workflowy</title>
+      <link>https://mkvl.me/workflowy/</link>
+      <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/workflowy/</guid>
+      <description>Workflowy Workflowy is an app for writing note as lists (with outlines) or how it&amp;rsquo;s described on their website - Workflowy is The Infinite List Maker
+Website</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>NeuraCache</title>
+      <link>https://mkvl.me/neuracache/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/neuracache/</guid>
+      <description>NeuraCache It is a Anki-like app for spaced-repetition but cards are created from your note-taking app (Obsidian, Roam, etc)
+neuracache.com</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Static typing</title>
+      <link>https://mkvl.me/static-typing/</link>
+      <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/static-typing/</guid>
+      <description> Static typing Static typing is a typing that could be described like Types checked before run-time
+Examples of programming languages that have static typing TypeScript Golang </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Readwise</title>
+      <link>https://mkvl.me/readwise/</link>
+      <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/readwise/</guid>
+      <description>Readwise Readwise.io</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-taking Tools</title>
+      <link>https://mkvl.me/note-taking-tools/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/note-taking-tools/</guid>
+      <description> Note-taking Tools Requirements:
+Support note-taking by Zettelkasten method Zettelkasten method List:
+Notion Roam Research Foam (VSCode) Obsidian Zettlr Bear iA Writer Joplin </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Zettelkasten method</title>
+      <link>https://mkvl.me/zettelkasten-method/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/zettelkasten-method/</guid>
+      <description> Zettelkasten method Zettelkasten - method of taking short notes that contains connections (links) to relative notes. Author: Niklas Luhmann
+Links:
+Resources about Zettelkasten method Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>About Roam Research</title>
+      <link>https://mkvl.me/about-roam-research/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/about-roam-research/</guid>
+      <description> About Roam Research Roam - is a tool for taking notes and doing links between them. Foam (implementation of the Roam for VSCode) is inspired by Roam.
+Links:
+Roam Demo Videos r/RoamResearch </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-taking summary</title>
+      <link>https://mkvl.me/note-taking-summary/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/note-taking-summary/</guid>
+      <description> Note-taking summary Summarize all ideas and concepts in lists. Also keep links to articles about:
+note-taking itself Zettelkasten method Digital Garden Relative notes:
+Gigital Gardens List of Digital Gardens Learn in public inspirations Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Resources about Zettelkasten method</title>
+      <link>https://mkvl.me/resources-about-zettelkasten-method/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/resources-about-zettelkasten-method/</guid>
+      <description> Resources about Zettelkasten method How to take smart notes (Book) r/Zettelkasten/ zettelkasten.de </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>List of Digital Gardeners</title>
+      <link>https://mkvl.me/list-of-digital-gardens/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/list-of-digital-gardens/</guid>
+      <description> List of Digital Gardeners List of Digital Gardeners on GitHub Alexis Rondeau&amp;rsquo;s Digital Garden (Obsidian Publish) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Digital Gardens</title>
+      <link>https://mkvl.me/gigital-gardens/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/gigital-gardens/</guid>
+      <description> Digital Gardens It is the way of sharing knowledge in the Web.
+As far as I understand this terminology correctly, it is just another way of writing things like Zettelkasten method but more about &amp;ldquo;my own wiki&amp;rdquo;. Sharing knowledge, learning in public, etc.
+I&amp;rsquo;ve googled this term and wanna explore results.
+Links:
+List of digital gardeners List of Digital Gardens Resources about digital gardens [resources-about-digital-garden] My blog is a digital garden, not a blog </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</guid>
+      <description> Idea - UI library for code snippets to show arrows and annotations see an example in code snippets here: https://imba.io Should add arrows and labels under specific word/letter </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/microsoft-mvp/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/microsoft-mvp/</guid>
+      <description> Microsoft MVP Microsoft Most Valuable Professional
+Links https://mvp.microsoft.com/en-US/Nomination/nominate-an-mvp </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/munich/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/munich/</guid>
+      <description> Munich https://wunderflats.com/en </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/obsidian-dataview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview/</guid>
+      <description>date: 2023-08-16 01:39:20 tags: #obsidian #dataview Obsidian Dataview Basics DW - Dataview write query inside 1 2 \```dataview \``` there are 4 types of DW queries list Query syntax LIST|TABLE|TASK|CALENDAR FROM - the location of notes you need (folder?) WHERE - notes with this criteria SORT - with sorting (asc/desc) GROUP BY - to group notes (shows them under the subitem/subtitle) LIMIT - how many notes to show Types of query List to show the list of all notes from the vault 1 2 LIST FROM &amp;#34;&amp;#34; to show the list of all notes from the vault which have a name &amp;ldquo;Obsidian Dataview&amp;rdquo; 1 2 3 LIST FROM &amp;#34;&amp;#34; WHERE file.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/site-about-block/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/site-about-block/</guid>
+      <description>Hello there! I am Max.
+I am a software developer, currently working mostly with TypeScript, React and Node ecosystems.
+I write a blog about topics that interest me most: programming languages in general, TypeScript, testing, writing and other great stuff.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/site-blurb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/site-blurb/</guid>
+      <description>Hello there! I am Max.
+I am a software developer, currently working mostly with TypeScript, React and Node ecosystems.
+I write a blog about topics that interest me most: programming languages in general, TypeScript, testing, writing and other great stuff.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/spaced-repetition-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/spaced-repetition-apps/</guid>
+      <description> Spaced-repetition apps Anki Zordi </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/terminal-workflow/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/terminal-workflow/</guid>
+      <description> Terminal Workflow utilities imgcat shows images in terminal fzf and vim to search file and open it in vim:
+1 vim -o `fzf` file preview (bat) 1 fzf --preview &amp;#39;bat --style numbers,changes --color=always {} | head -500&amp;#39; </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/workshop-on-site-seo-for-developers---notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/workshop-on-site-seo-for-developers---notes/</guid>
+      <description>Workshop On-site SEO for Developers - Notes Parts of SEO described in this workshop:
+Technical SEO On-page SEO How Google Works Website Architecture important resource should be available after no more than 5 clicks
+Googlebot:
+Home page /blog /article Tips to avoid problem with having more than 5 clicks increase page size of pagination show 20-30 posts on one page SSR Server-side rendering is still needed You need one of these techniques: pre-rendering dynamic rendering server-side rendering Canonical URLs Canonical urls should be on your website Need to add canonical url to post&amp;rsquo;s page and all pages like /blog &amp;lt;link rel=&amp;quot;canonical&amp;quot; href=&amp;quot;https://maxoid.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/zordi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/zordi/</guid>
+      <description> Zordi Links https://zorbi.cards/ </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://mkvl.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/about/</guid>
+      <description>About me @maxoid, a software developer This is my website - the place where I share information and knowledge about topics that interest me with everyone and myself.
+I have been working as a developer for several years. Most of the projects are related to web technologies, including UI (front end) side and server side.
+I work on the project that build on these following stack: TypeScript, React, Node, JestJS, RxJS and other great technologies.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://mkvl.me/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/github/</guid>
+      <description> GitHub Hosting for Git repositories Website and/or service where you can create and manage Git repositories It also can be described as &amp;ldquo;social network for devs&amp;rdquo; </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Homebrew</title>
+      <link>https://mkvl.me/homebrew/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/homebrew/</guid>
+      <description> Homebrew A package manager for macOS
+Links Website GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>JSON</title>
+      <link>https://mkvl.me/json/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/json/</guid>
+      <description>JSON JSON (JavaScript Object Notation) is a language-independent data format.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Lerna.js</title>
+      <link>https://mkvl.me/lerna.js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/lerna.js/</guid>
+      <description> Lerna.js A tool that provides an ability to manage JavaScript with multiple packages JavaScript Monorepo manager Links lerna.js.org GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Log 2021-07-12</title>
+      <link>https://mkvl.me/log-2021-07-12/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/log-2021-07-12/</guid>
+      <description> Log 2021-07-12 if I need to say to aliens what is the best craft of humanity i would say it is a craftsmanship of drawing dicks https://www.sapiens.org/archaeology/cerne-abbas-giant Obsidian For Mobile Is Available For Everyone obsidian.md/mobile Discussion on HN </description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Lua</title>
+      <link>https://mkvl.me/lua/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/lua/</guid>
+      <description> Lua It is a lightweight programming language that is designed for embedded use in applications. It used often for some Linux tools configurations Since Neovim 0.5+ version it can be used for configuring </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>mini-typescript</title>
+      <link>https://mkvl.me/mini-typescript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/mini-typescript/</guid>
+      <description> mini-typescript A project on GitHub that can be described as &amp;ldquo;mini version of TypeScript compiler&amp;rdquo; The goal of this project is &amp;ldquo;to teach the structure of the real Typescript compiler&amp;rdquo;. Links sandersn/mini-typescript (GitHub) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Monorepo</title>
+      <link>https://mkvl.me/monorepo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/monorepo/</guid>
+      <description>Monorepo Monorepo is a way or strategy of managing a large project that consists of many packages or modules in one repository You have one repository with bunch of packages/modules instead of system &amp;ldquo;one package = one repository&amp;rdquo; An example of the project that is monorepo - Babel If you open Babel on GitHub you will see a folder called packages that contains all packages of Babel project In not monorepo system each of these packages would be in a separate repository Pros: You can provide cross-changes in a several packages faster and easily It is possible to create a one pull/merge request with changes in a several packages Managing different versions of packages and dependencies Deploying all packages at the same time Using the same build system for many packages Cons: Most of the tools for managing monorepo are hard to implementing or they bring a lot of unnecessary abstractions Technologies and tools Yarn Workspaces Lerna.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Neovim</title>
+      <link>https://mkvl.me/neovim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/neovim/</guid>
+      <description>Neovim vim-based text-editor Since 0.5 version it is configurable by using Lua programming language Links neovim.io GitHub Configuring plugins interesting formatter.nvim hologram.nvim colorschemes tokyonight.nvim Complete configurations MiaadTeam/lesvim Tips and tricks LSP Rename symbol When you rename some symbol in the code that is used in many files, nvim will change the name of the symbol in files The files will be modified but not saved You can save all files at once to apply name changing: 1 :writeAll or</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian DataView Docs</title>
+      <link>https://mkvl.me/obsidian-dataview-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview-docs/</guid>
+      <description> Obsidian DataView Docs Links https://blacksmithgu.github.io/obsidian-dataview/data-annotation/ </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian DataView Readme</title>
+      <link>https://mkvl.me/obsidian-dataview-readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview-readme/</guid>
+      <description>Obsidian DataView Readme Treat your obsidian vault as a database which you can query from. Provides a fully-fledged query language for filtering, sorting, and extracting data from your pages. See the Examples section below for some quick examples, or the full reference.
+Examples Show all games in the game folder, sorted by rating, with some metadata:
+1 2 3 4 5 ```dataview table time-played, length, rating from &amp;#34;games&amp;#34; sort rating desc ``` List games which are MOBAs or CRPGs.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>React Router</title>
+      <link>https://mkvl.me/react-router/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/react-router/</guid>
+      <description> React Router A library (or package) for React that provides an ability to specify routing in your React application in a declarative style.
+Links GitHub reactrouter.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Revue newsletter</title>
+      <link>https://mkvl.me/revue-newsletter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/revue-newsletter/</guid>
+      <description> Revue newsletter Links getrevue.co </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Rush Stack</title>
+      <link>https://mkvl.me/rush-stack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/rush-stack/</guid>
+      <description> Rush Stack Tools for managing TypeScript monorepos
+Projects Rush.js Links GitHub rushstack.io </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Rush.js</title>
+      <link>https://mkvl.me/rush.js/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/rush.js/</guid>
+      <description> Rush.js A TypeScript Monorepo manager Part of the Rush Stack Links rushjs.io </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>sed (utility)</title>
+      <link>https://mkvl.me/sed-utility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/sed-utility/</guid>
+      <description>sed (utility) sed is an Linux utility or command that can be used to replace string by another string.
+Examples Basic syntax 1 sed -i &amp;#39;s/old-word/new-word/g&amp;#39; *.md Troubleshooting sed: 1: &amp;ldquo;something&amp;hellip;&amp;rdquo;: invalid command code W Try adding the -e argument explicitly and giving &#39;&#39; as argument to -i:
+1 sed -i &amp;#39;&amp;#39; -e &amp;#39;s/..\/src\/components/..\/components/g&amp;#39; *.mdx sed: content: in-place editing only works for regular files 1 sed -i &amp;#39;&amp;#39; -e &amp;#34;s/oldstr/newstr/g&amp;#34; `find .</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Subreddit &#39;byteski&#39; Greeting post</title>
+      <link>https://mkvl.me/subreddit-byteski-greeting-post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/subreddit-byteski-greeting-post/</guid>
+      <description>Subreddit &amp;lsquo;byteski&amp;rsquo; Greeting post Hello! Welcome to my subreddit.
+I am Max, a software developer based in 🇪🇺 Europe.
+Besides working as a developer I write a blog about programming in general, TypeScript, Node, vim/neovim, and other stuff.
+I also interested in writing and things like Second Brain, Zettelkasten, IndieWeb, etc.
+Now I am in the process of re-design and re-writing my personal website. The first version of the website was written using Gatsby.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://mkvl.me/vim/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/vim/</guid>
+      <description>vim Text editor</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Webpack</title>
+      <link>https://mkvl.me/webpack/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/webpack/</guid>
+      <description> Webpack It is a JavaScript module bundler. It bundles modules (.js, .scss, .jpg, and others) with dependencies into static assets that are used as output code of an app.
+Links GitHub webpack.js.org </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

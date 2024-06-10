@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Graphql on Max Kovalevskii</title>
+    <link>https://mkvl.me/tags/graphql/</link>
+    <description>Recent content in Graphql on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Basic example of GraphQL in GatsbyJS</title>
+      <link>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</guid>
+      <description>Basic example of GraphQL in GatsbyJS GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
+In the editor you can write a query and you will get information from API&amp;rsquo;s that based on this written query
+Example
+1 2 3 4 5 { site { } } site is like an object/schema that contains some information about your website. For example, it contains information about siteMetadata (that you configured in gatsby-config.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>GraphQL</title>
+      <link>https://mkvl.me/graphql/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/graphql/</guid>
+      <description> GraphQL GraphQL is a data query and specific language for APIs
+Links GraphQL spec (GitHub) Examples of using GraphQL Basic example of GraphQL in GatsbyJS </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

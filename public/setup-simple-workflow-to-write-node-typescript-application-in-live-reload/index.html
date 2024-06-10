@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="Max Kovalevskii">
+  <meta name="description" content="In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
+First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
+1 npm i -g typescript I&rsquo;m sure you already installed Node on your computer but maybe you need to update your version.">
+  <meta name="keywords" content="javascript,typescript,node">
+
+
+  
+    <meta name="image" content="https://mkvl.me/images/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mkvl.me/images/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload.png">
+  <meta name="twitter:title" content="Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)">
+  <meta name="twitter:description" content="In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let’s say you wanna build just a command-line application by using TypeScript and Node.
+First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
+1 npm i -g typescript I’m sure you already installed Node on your computer but maybe you need to update your version.">
+
+  <meta property="og:url" content="https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/">
+  <meta property="og:site_name" content="Max Kovalevskii">
+  <meta property="og:title" content="Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)">
+  <meta property="og:description" content="In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let’s say you wanna build just a command-line application by using TypeScript and Node.
+First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
+1 npm i -g typescript I’m sure you already installed Node on your computer but maybe you need to update your version.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-05-12T22:10:00+00:00">
+    <meta property="article:modified_time" content="2021-05-12T22:10:00+00:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Typescript">
+    <meta property="article:tag" content="Node">
+    <meta property="article:tag" content="Typescriptbook">
+    <meta property="og:image" content="https://mkvl.me/images/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload.png">
+
+
+  <title>
+    Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.97ef5ae14db2373509968e933cfc86335a5762de4c8b06f94f6309cb312365a5.css" integrity="sha256-l&#43;9a4U2yNzUJlo6TPPyGM1pXYt5Miwb5T2MJyzEjZaU=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.6512281eb4785d96940628d87ad594f102919d70bb59548285eb9d56bc20a723.css" integrity="sha256-ZRIoHrR4XZaUBijYetWU8QKRnXC7WVSCheudVrwgpyM=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Max Kovalevskii</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/index.xml">
+                    <i class='fa fa-rss-square color-pink'></i>
+                    rss.xml
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+        <div class="content__image">
+      <Img class="content__image-inner" src="/images/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload.png" alt="Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)" ></Img>
+          
+            <div
+              style="
+                font-size: 14px;
+                text-align: right;
+                margin-top: 10px;
+                margin-right: 20px;
+              "
+            >
+              Photo by
+              
+                <a href="https://www.pexels.com/@negativespace">Negative Space</a>
+              
+            </div>
+          
+        </div>
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=12/05/2021>
+              12/05/2021
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/javascript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #javascript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/node/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #node
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescriptbook/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescriptbook
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      
+        <div id="subscription" class="subscription-top">
+          
+
+
+        </div>
+      
+      <section class="e-content">
+        <p>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&rsquo;s say you wanna build just a command-line application by using TypeScript and Node.</p>
+<p>First of all, you need to install TypeScript on your computer. Install it by <a href="/npm/">npm</a> or <a href="/yarn/">Yarn</a> globally.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm i -g typescript
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I&rsquo;m sure you already installed <a href="/node/">Node</a> on your computer but maybe you need to update your version. If so, check out the post about <a href="https://maxoid.io/blog/article/how-to-install-or-update-node-by-using-nvm">How To Install or Update Node by Using nvm (Node Version Manager)</a>.</p>
+<p>Okay, now let&rsquo;s create a project&rsquo;s folder with name whatever you want (I name it as <strong>node-ts-setup-example</strong>). Open this folder in Terminal and your editor (I use <a href="/visual-studio-code/">Visual Studio Code</a>).</p>
+<p>Initialize the project by npm command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm init -y
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Our project as an example will be simple - it is a command-line app that asks users to type their name in the Terminal and then prints greetings with this name.</p>
+<p>Let&rsquo;s create a first file of the project - <strong>main.ts</strong>. Just put there very basic <a href="/typescript/">TypeScript</a> code like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">createInterface</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;readline&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">promisify</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;util&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">rlInterface</span> <span class="o">=</span> <span class="nx">createInterface</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">input</span>: <span class="kt">process.stdin</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">output</span>: <span class="kt">process.stdout</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">question</span> <span class="o">=</span> <span class="nx">promisify</span><span class="p">(</span><span class="nx">rlInterface</span><span class="p">.</span><span class="nx">question</span><span class="p">).</span><span class="nx">bind</span><span class="p">(</span><span class="nx">rlInterface</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">greeting</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">unknown</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Hello, </span><span class="si">${</span><span class="nx">name</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">question</span><span class="p">(</span><span class="s2">&#34;Type your name: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">rlInterface</span><span class="p">.</span><span class="nx">close</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now let&rsquo;s try to compile this file by using the TypeScript compiler:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tsc main.ts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div id="subscription-shortcode">
+  
+
+
+</div>
+
+<p>As you may have noticed TypeScript tells us that we need to install Type Declaration for modules of <a href="/node/">Node</a> that we use - <strong>readline</strong> and <strong>util</strong>. If you are not familiar with Type Declarations check out the post <a href="https://maxoid.io/blog/article/what-are-type-declaration-files-in-typescript">What Are Type Declaration Files In TypeScript?</a>. For now, let&rsquo;s just install these Type Declarations by <a href="/npm/">npm</a>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm install --save-dev @types/node
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Try to compile <strong>main.ts</strong> again:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tsc main.ts
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Great! The file was successfully compiled. Let&rsquo;s run it by <a href="/node/">Node</a> and type our name to see greetings:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">node main.js
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Awesome. But what if we need to change our code a bit? When we change that we need to compile this file again and run it by Node. It would be great if our code will be automatically compiled and executed after changing. We can automate the process by running TypeScript compiler in <strong>watch mode</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tsc main.ts -w
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>So now TypeScript compiler automatically compiles <strong>main.ts</strong> into JavaScript code. But what about executing this? Well, TypeScript can&rsquo;t execute the code, only compile it.</p>
+<p>We can set up the project to automate our development process. Let&rsquo;s start with TypeScript configuration. We need to create TypeScript configuration file in our project. We can use a special command that generates a configuration file with default settings:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tsc --init
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It generated the file <strong>tsconfig.json</strong>. If you open this file you will see there are many options and parameters. I will write about it more in the next posts. All we need to do is focus on parameters <strong>outDir</strong> and <strong>rootDir</strong>. Uncomment these options in the <strong>tsconfig.json</strong>.</p>
+<p><strong>outDir</strong> is the path to folder where will be compiled from TypeScript to JavaScript code.</p>
+<p><strong>rootDir</strong> is the path to folder where are our TypeScript source code of the app. In our case - file <strong>main.ts</strong>.</p>
+<p>Specify the options with values:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="err">...</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&#34;outDir&#34;</span><span class="p">:</span> <span class="s2">&#34;./dist&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;rootDir&#34;</span><span class="p">:</span> <span class="s2">&#34;./src&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">	<span class="err">...</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Also we need to uncomment parameter <strong>moduleResolution</strong> with value <strong>node</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="s2">&#34;moduleResolution&#34;</span><span class="err">:</span> <span class="s2">&#34;node&#34;</span><span class="err">,</span> <span class="err">/*</span> <span class="err">Specify</span> <span class="err">module</span> <span class="err">resolution</span> <span class="err">strategy:</span> <span class="err">&#39;node&#39;</span> <span class="err">(Node.js)</span> <span class="err">or</span> <span class="err">&#39;classic&#39;</span> <span class="err">(TypeScript</span> <span class="err">pre</span><span class="mf">-1.6</span><span class="err">).</span> <span class="err">*/</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Create folder <strong>/src</strong> and move <strong>main.ts</strong> there.</p>
+<p>Alright. We configured TypeScript for our project. Now we have to configure <a href="/node/">Node</a> to execute our code in <strong>watch</strong> mode.</p>
+<p>We need to install a few dev dependencies - <a href="/ts-node/">ts-node</a> and <a href="/nodemon/">nodemon</a>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm i -D ts-node nodemon
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><strong>ts-node</strong> is a tool that executes code that is written in TypeScript as if it is written in JavaScript. I mean, you can perceive this as running <a href="/node/">Node</a> but for TypeScript files. You can also use <strong>ts-node</strong> as a REPL to execute the code without files.</p>
+<p><strong>nodemon</strong> is a tool that restarts your Node application when some file changes. It really helps in developing because you don&rsquo;t need to re-run <a href="/node/">Node</a> if you change code in your application.</p>
+<p>Now let&rsquo;s specify section <strong>scripts</strong> in <strong>package.json</strong> file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="err">...</span>
+</span></span><span class="line"><span class="cl">	<span class="nt">&#34;scripts&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nt">&#34;dev&#34;</span><span class="p">:</span> <span class="s2">&#34;nodemon -w src src/main.ts&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="nt">&#34;start&#34;</span><span class="p">:</span> <span class="s2">&#34;node dist/main.js&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">		<span class="nt">&#34;build&#34;</span><span class="p">:</span> <span class="s2">&#34;tsc -p .&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="p">},</span>
+</span></span><span class="line"><span class="cl">	<span class="err">...</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>To run dev server use this command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm run dev
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now if we change our code in <strong>main.ts</strong> it automatically re-compiles and re-run Node to execute the code.</p>
+
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             Max Kovalevskii 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/byteski/hugo-byte">Byte theme</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

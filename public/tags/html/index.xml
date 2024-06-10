@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Max Kovalevskii</title>
+    <link>https://mkvl.me/tags/html/</link>
+    <description>Recent content in Html on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Document Object Model</title>
+      <link>https://mkvl.me/document-object-model/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/document-object-model/</guid>
+      <description> Document Object Model DOM is a programming interface for HTML and XML documents.
+Links Introduction to the DOM (MDN Web Docs) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://mkvl.me/html/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/html/</guid>
+      <description> HTML HTML (HyperText Markup Language) is a markup language for document that are displayed in the browser. It is not a programming language btw </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

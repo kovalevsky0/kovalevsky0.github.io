@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nvim on Max Kovalevskii</title>
+    <link>https://mkvl.me/tags/nvim/</link>
+    <description>Recent content in Nvim on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 23 Aug 2022 14:10:15 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/nvim/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Neovim - LSP Setup</title>
+      <link>https://mkvl.me/neovim---lsp-setup/</link>
+      <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
+      
+      <guid>https://mkvl.me/neovim---lsp-setup/</guid>
+      <description>Neovim - LSP Setup Install plugin &amp;rsquo;lspconfig&#39; If you use Packer
+Put it inside vim config file:
+1 use &amp;#39;neovim/nvim-lspconfig&amp;#39; Lua Language Server Configuration github.com/sumneko/lua-language-server Install (brew)
+1 brew install lua-language-server In any lua file or in a specific file that includes LSP configuration:
+1 require&amp;#39;lspconfig&amp;#39;.sumneko_lua.setup{} It activates LSP for lua files You can check that LSP works for Lua files Open any .lua file type :LspInfo You should see the line 1 client(s) attached to this bufer and Client: sumneko_lua JavaScript/TypeScript Server Configuration github.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

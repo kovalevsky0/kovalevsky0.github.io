@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Digital-Garden on Max Kovalevskii</title>
+    <link>https://mkvl.me/tags/digital-garden/</link>
+    <description>Recent content in Digital-Garden on Max Kovalevskii</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/digital-garden/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Digital Garden</title>
+      <link>https://mkvl.me/digital-garden/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/digital-garden/</guid>
+      <description> Digital Garden It is the way of making a content (notes) and sharing it with people on the Web.
+See also:
+List of Digital Gardens Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-taking summary</title>
+      <link>https://mkvl.me/note-taking-summary/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/note-taking-summary/</guid>
+      <description> Note-taking summary Summarize all ideas and concepts in lists. Also keep links to articles about:
+note-taking itself Zettelkasten method Digital Garden Relative notes:
+Gigital Gardens List of Digital Gardens Learn in public inspirations Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>List of Digital Gardeners</title>
+      <link>https://mkvl.me/list-of-digital-gardens/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/list-of-digital-gardens/</guid>
+      <description> List of Digital Gardeners List of Digital Gardeners on GitHub Alexis Rondeau&amp;rsquo;s Digital Garden (Obsidian Publish) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Digital Gardens</title>
+      <link>https://mkvl.me/gigital-gardens/</link>
+      <pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/gigital-gardens/</guid>
+      <description> Digital Gardens It is the way of sharing knowledge in the Web.
+As far as I understand this terminology correctly, it is just another way of writing things like Zettelkasten method but more about &amp;ldquo;my own wiki&amp;rdquo;. Sharing knowledge, learning in public, etc.
+I&amp;rsquo;ve googled this term and wanna explore results.
+Links:
+List of digital gardeners List of Digital Gardens Resources about digital gardens [resources-about-digital-garden] My blog is a digital garden, not a blog </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>
