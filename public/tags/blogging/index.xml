@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogging on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/blogging/</link>
-    <description>Recent content in Blogging on Max Kovalevskii</description>
+    <title>Blogging on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/blogging/</link>
+    <description>Recent content in Blogging on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://mkvl.me/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://mkvl.me/workshop-on-site-seo-for-developers---notes/</link>
+      <link>http://localhost:1313/workshop-on-site-seo-for-developers---notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/workshop-on-site-seo-for-developers---notes/</guid>
+      <guid>http://localhost:1313/workshop-on-site-seo-for-developers---notes/</guid>
       <description>Workshop On-site SEO for Developers - Notes Parts of SEO described in this workshop:
 Technical SEO On-page SEO How Google Works Website Architecture important resource should be available after no more than 5 clicks
 Googlebot:

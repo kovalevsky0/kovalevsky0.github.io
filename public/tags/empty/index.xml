@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Empty on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/empty/</link>
-    <description>Recent content in Empty on Max Kovalevskii</description>
+    <title>Empty on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/empty/</link>
+    <description>Recent content in Empty on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/empty/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 30 Nov 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/empty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>empty</title>
-      <link>https://mkvl.me/empty/</link>
+      <link>http://localhost:1313/empty/</link>
       <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/empty/</guid>
+      <guid>http://localhost:1313/empty/</guid>
       <description> empty </description>
       
         
@@ -26,10 +26,10 @@
     
     <item>
       <title>empty</title>
-      <link>https://mkvl.me/empty/</link>
+      <link>http://localhost:1313/empty/</link>
       <pubDate>Sat, 02 Oct 2021 15:35:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/empty/</guid>
+      <guid>http://localhost:1313/empty/</guid>
       <description> empty </description>
       
         

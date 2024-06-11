@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Graphql on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/graphql/</link>
-    <description>Recent content in Graphql on Max Kovalevskii</description>
+    <title>Graphql on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/graphql/</link>
+    <description>Recent content in Graphql on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 16 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/graphql/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Basic example of GraphQL in GatsbyJS</title>
-      <link>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</link>
+      <link>http://localhost:1313/basic-example-of-graphql-in-gatsbyjs/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</guid>
+      <guid>http://localhost:1313/basic-example-of-graphql-in-gatsbyjs/</guid>
       <description>Basic example of GraphQL in GatsbyJS GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
 In the editor you can write a query and you will get information from API&amp;rsquo;s that based on this written query
 Example
@@ -27,10 +27,10 @@ Example
     
     <item>
       <title>GraphQL</title>
-      <link>https://mkvl.me/graphql/</link>
+      <link>http://localhost:1313/graphql/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/graphql/</guid>
+      <guid>http://localhost:1313/graphql/</guid>
       <description> GraphQL GraphQL is a data query and specific language for APIs
 Links GraphQL spec (GitHub) Examples of using GraphQL Basic example of GraphQL in GatsbyJS </description>
       

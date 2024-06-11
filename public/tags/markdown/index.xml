@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Markdown on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/markdown/</link>
-    <description>Recent content in Markdown on Max Kovalevskii</description>
+    <title>Markdown on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/markdown/</link>
+    <description>Recent content in Markdown on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Markdown</title>
-      <link>https://mkvl.me/markdown/</link>
+      <link>http://localhost:1313/markdown/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/markdown/</guid>
+      <guid>http://localhost:1313/markdown/</guid>
       <description> Markdown Specific format of plain text.
 Links:
 Markdown Syntax on GitHub </description>
@@ -26,10 +26,10 @@ Markdown Syntax on GitHub </description>
     
     <item>
       <title>Obsidian</title>
-      <link>https://mkvl.me/obsidian/</link>
+      <link>http://localhost:1313/obsidian/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/obsidian/</guid>
+      <guid>http://localhost:1313/obsidian/</guid>
       <description> 💎 Obsidian Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
 Here is all information and materials about Obdisian
 Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours 👤 Communities &amp;amp; Socials Twitter Discord Forum /r/ObsidianMD/ Plugins [[Obsidian Dataview]] </description>

@@ -1,4 +1,4 @@
-/themes/hugo-gravel-local
+/themes/hugo-byte-local
 *.lock
 
 **/*.DS_Store

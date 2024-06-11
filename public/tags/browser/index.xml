@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Browser on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/browser/</link>
-    <description>Recent content in Browser on Max Kovalevskii</description>
+    <title>Browser on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/browser/</link>
+    <description>Recent content in Browser on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chromium</title>
-      <link>https://mkvl.me/chromium/</link>
+      <link>http://localhost:1313/chromium/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/chromium/</guid>
+      <guid>http://localhost:1313/chromium/</guid>
       <description> Chromium The open-source project which code can be compiled into a Web browser, developed by Google
 Links chromium.org </description>
       
@@ -25,10 +25,10 @@ Links chromium.org </description>
     
     <item>
       <title>Firefox</title>
-      <link>https://mkvl.me/firefox/</link>
+      <link>http://localhost:1313/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/firefox/</guid>
+      <guid>http://localhost:1313/firefox/</guid>
       <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
 Links mozilla.org </description>
       
@@ -40,10 +40,10 @@ Links mozilla.org </description>
     
     <item>
       <title>Google Chrome</title>
-      <link>https://mkvl.me/google-chrome/</link>
+      <link>http://localhost:1313/google-chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/google-chrome/</guid>
+      <guid>http://localhost:1313/google-chrome/</guid>
       <description> Google Chrome A Web browser that made by Google company, based on Chromium project.
 Links google.com/chrome </description>
       
@@ -55,10 +55,10 @@ Links google.com/chrome </description>
     
     <item>
       <title>Web browser</title>
-      <link>https://mkvl.me/web-browser/</link>
+      <link>http://localhost:1313/web-browser/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/web-browser/</guid>
+      <guid>http://localhost:1313/web-browser/</guid>
       <description> Web browser An application that provides an ability to view web pages and more.
 Examples Chromium Google Chrome </description>
       
@@ -70,10 +70,10 @@ Examples Chromium Google Chrome </description>
     
     <item>
       <title>Browser Object Model</title>
-      <link>https://mkvl.me/browser-object-model/</link>
+      <link>http://localhost:1313/browser-object-model/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/browser-object-model/</guid>
+      <guid>http://localhost:1313/browser-object-model/</guid>
       <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
       
         <type>note</type>
@@ -84,10 +84,10 @@ Examples Chromium Google Chrome </description>
     
     <item>
       <title>Document Object Model</title>
-      <link>https://mkvl.me/document-object-model/</link>
+      <link>http://localhost:1313/document-object-model/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/document-object-model/</guid>
+      <guid>http://localhost:1313/document-object-model/</guid>
       <description> Document Object Model DOM is a programming interface for HTML and XML documents.
 Links Introduction to the DOM (MDN Web Docs) </description>
       

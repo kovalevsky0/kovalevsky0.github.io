@@ -1,6 +1,6 @@
 baseURL = "https://mkvl.me"
-title = "Max Kovalevskii"
-theme = "hugo-byte"
+title = "Max Kovalevskii (MKVL)"
+theme = "hugo-byte-local"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -15,8 +15,9 @@ copyright = 'This work is licensed under a Creative Commons Attribution-ShareAli
 custom_css = ["css/custom.css"]
 
 [params]
+logoTitle = "MKVL"
 author = "Max Kovalevskii"
-email = "usrmaxoid@gmail.com"
+email = "max@mkvl.me"
 description = "Personal website example"
 keywords = "blog"
 avatarURL = "/images/avatar.jpg"

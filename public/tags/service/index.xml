@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Service on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/service/</link>
-    <description>Recent content in Service on Max Kovalevskii</description>
+    <title>Service on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/service/</link>
+    <description>Recent content in Service on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 11 Mar 2022 13:56:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/service/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 13:56:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/service/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LanguageTool</title>
-      <link>https://mkvl.me/languagetool/</link>
+      <link>http://localhost:1313/languagetool/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/languagetool/</guid>
+      <guid>http://localhost:1313/languagetool/</guid>
       <description> LanguageTool LanguageTool’s multilingual grammar, style, and spell checker An alternative to Grammarly Links languagetool.org </description>
       
         <type>note</type>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Revue newsletter</title>
-      <link>https://mkvl.me/revue-newsletter/</link>
+      <link>http://localhost:1313/revue-newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/revue-newsletter/</guid>
+      <guid>http://localhost:1313/revue-newsletter/</guid>
       <description> Revue newsletter Links getrevue.co </description>
       
         <type>note</type>

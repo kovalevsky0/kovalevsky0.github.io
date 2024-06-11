@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Testing on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/testing/</link>
-    <description>Recent content in Testing on Max Kovalevskii</description>
+    <title>Testing on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/testing/</link>
+    <description>Recent content in Testing on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/testing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/testing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test asynchronous code using Jest</title>
-      <link>https://mkvl.me/test-asynchronous-code-using-jest/</link>
+      <link>http://localhost:1313/test-asynchronous-code-using-jest/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/test-asynchronous-code-using-jest/</guid>
+      <guid>http://localhost:1313/test-asynchronous-code-using-jest/</guid>
       <description>Test asynchronous code using Jest Test code that contains method setTimeout Let&amp;rsquo;s say we have some function that called another function after N seconds:
 1 2 3 4 5 function completeTask(task: Task) { setTimeout(() =&amp;gt; { task.complete(); }, DELAY); } Okay, now we want to test that method task.complete was called when we called function completeTask:
 1 2 3 4 5 6 7 8 9 10 11 12 13 const { completeTask } = require(&amp;#34;.</description>
@@ -26,10 +26,10 @@
     
     <item>
       <title>Name your mocked function with word &#34;mock&#34;</title>
-      <link>https://mkvl.me/name-your-mocked-function-with-word-mock/</link>
+      <link>http://localhost:1313/name-your-mocked-function-with-word-mock/</link>
       <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/name-your-mocked-function-with-word-mock/</guid>
+      <guid>http://localhost:1313/name-your-mocked-function-with-word-mock/</guid>
       <description>Name your mocked function with word &amp;ldquo;mock&amp;rdquo; Let&amp;rsquo;s look at the example:
 1 2 3 4 5 6 7 8 9 10 11 const fakeApi = jest.fn().mockImplementation(() =&amp;gt; ({ ok({ data: [] }) })); jest.mock(&amp;#39;../some-module.js&amp;#39;, () =&amp;gt; { return jest.fn().mockImplementation(function () { this.api = fakeApi; }); }); It&amp;rsquo;s a part of the test where we mock some module. We also use mocked function &amp;ldquo;fakeApi&amp;rdquo; in the mock of module. But it will not work because function &amp;ldquo;fakeApi&amp;rdquo; will be in Temporal Dead Zone In JavaScript.</description>
       
@@ -41,10 +41,10 @@
     
     <item>
       <title>@testing-library</title>
-      <link>https://mkvl.me/@testing-library/</link>
+      <link>http://localhost:1313/@testing-library/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/@testing-library/</guid>
+      <guid>http://localhost:1313/@testing-library/</guid>
       <description> @testing-library It is a library that provides an ability to write tests. Actually it is a bunch of libraries, each of them has specific target for testing. For example, @testing-library/react, which is specializing on testing React components.
 Links react-testing-library (GitHub) testing-library.com </description>
       
@@ -56,10 +56,10 @@ Links react-testing-library (GitHub) testing-library.com </description>
     
     <item>
       <title>First Steps in Unit Testing with TypeScript</title>
-      <link>https://mkvl.me/first-steps-in-unit-testing/</link>
+      <link>http://localhost:1313/first-steps-in-unit-testing/</link>
       <pubDate>Sun, 18 Apr 2021 23:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/first-steps-in-unit-testing/</guid>
+      <guid>http://localhost:1313/first-steps-in-unit-testing/</guid>
       <description>Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.
 Because I work mostly with TypeScript and React ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.</description>
       
@@ -73,10 +73,10 @@ Because I work mostly with TypeScript and React ecosystems, I will refer to tool
     
     <item>
       <title>Cypress</title>
-      <link>https://mkvl.me/cypress/</link>
+      <link>http://localhost:1313/cypress/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/cypress/</guid>
+      <guid>http://localhost:1313/cypress/</guid>
       <description> Cypress A library that provides an ability of:
 Setup tests Write tests Running tests Recording tests Links GitHub cypress.io </description>
       
@@ -88,10 +88,10 @@ Setup tests Write tests Running tests Recording tests Links GitHub cypress.io </
     
     <item>
       <title>Don&#39;t use arrow function inside mockImplementation with this (Jest)</title>
-      <link>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</link>
+      <link>http://localhost:1313/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</guid>
+      <guid>http://localhost:1313/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</guid>
       <description>Don&amp;rsquo;t use arrow function inside mockImplementation with this (Jest) When using the arrow function:
 1 2 3 4 5 6 7 8 // ... someAPI.JWT = jest.fn().mockImplementation(() =&amp;gt; { this.authorize = jest.fn(); this.credentials = { access_token: &amp;#34;fake_access_token&amp;#34; }; }); // ... const jwtInstance = someAPI.JWT.mock.instances[0]; console.log(jwtInstance); // mockConstructor When using function:
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 // .</description>
@@ -104,10 +104,10 @@ Setup tests Write tests Running tests Recording tests Links GitHub cypress.io </
     
     <item>
       <title>Playwright</title>
-      <link>https://mkvl.me/playwright/</link>
+      <link>http://localhost:1313/playwright/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/playwright/</guid>
+      <guid>http://localhost:1313/playwright/</guid>
       <description> Playwright Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
 Links GitHub playwright.dev </description>
       
@@ -119,10 +119,10 @@ Links GitHub playwright.dev </description>
     
     <item>
       <title>Puppeteer</title>
-      <link>https://mkvl.me/puppeteer/</link>
+      <link>http://localhost:1313/puppeteer/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/puppeteer/</guid>
+      <guid>http://localhost:1313/puppeteer/</guid>
       <description> Puppeteer Puppeteer is a Node library that provides API to control Chrome-based browser by DevTools protocol.
 Links GitHub pptr.dev </description>
       
@@ -134,10 +134,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Debugging in Jest</title>
-      <link>https://mkvl.me/debugging-in-jest/</link>
+      <link>http://localhost:1313/debugging-in-jest/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/debugging-in-jest/</guid>
+      <guid>http://localhost:1313/debugging-in-jest/</guid>
       <description> Debugging in Jest Add breakpoint in test:
 1 2 3 4 5 6 7 8 it.each` a | b | result ${1} | ${2} | ${3} ${0} | ${4} | ${4} `(&amp;#34;should return $result when a = $a, b = $b&amp;#34;, ({ a, b, result }) =&amp;gt; { debugger; // breakpoint expect(sum(a, b)).toBe(result); }); Run this following command:
 1 node --inspect-brk ./node_modules/.bin/jest ./&amp;lt;file_of_test&amp;gt;.test.js </description>
@@ -150,10 +150,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Spy</title>
-      <link>https://mkvl.me/spy-in-testing/</link>
+      <link>http://localhost:1313/spy-in-testing/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/spy-in-testing/</guid>
+      <guid>http://localhost:1313/spy-in-testing/</guid>
       <description> Spy (in testing) Method that is spying on some function (that you need) It is tracking information about: how many times was the function called with what parameters was the function called what was the result of function call etc </description>
       
         <type>note</type>
@@ -164,10 +164,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Stub</title>
-      <link>https://mkvl.me/stub/</link>
+      <link>http://localhost:1313/stub/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/stub/</guid>
+      <guid>http://localhost:1313/stub/</guid>
       <description> Stub Contains specific rules like: if parameters are x1, x2 then result is y (2, 3) =&amp;gt; [5] () =&amp;gt; { params: [] } An example of stub in JestJS is: jest.fn() </description>
       
         <type>note</type>
@@ -178,10 +178,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Test of async method in Jest</title>
-      <link>https://mkvl.me/test-of-async-method-in-jest/</link>
+      <link>http://localhost:1313/test-of-async-method-in-jest/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/test-of-async-method-in-jest/</guid>
+      <guid>http://localhost:1313/test-of-async-method-in-jest/</guid>
       <description>Test of async method in Jest An example of code:
 1 2 3 4 5 6 7 8 9 10 module.exports = { checkUser: (user, cb) =&amp;gt; { if (user.age &amp;lt; 18) { setTimeout(() =&amp;gt; { // do smth cb(user.age); }, 500); } }, }; If you write test like this:
 1 2 3 4 5 6 7 8 9 10 11 12 13 describe(&amp;#34;example&amp;#34;, () =&amp;gt; { it(&amp;#34;First test&amp;#34;, () =&amp;gt; { expect.</description>
@@ -194,10 +194,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>The problem with mutation of object data in Jest</title>
-      <link>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</link>
+      <link>http://localhost:1313/the-problem-with-mutation-of-object-data-in-jest/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</guid>
+      <guid>http://localhost:1313/the-problem-with-mutation-of-object-data-in-jest/</guid>
       <description>The problem with mutation of object data in Jest Let&amp;rsquo;s say we have some method that just set fields like this:
 1 2 3 joinServer({ host, user }) { user.serverId = host.serverId; } Here is the example of test of this method:
 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 it(&amp;#34;should move user to host&amp;#39;s server&amp;#34;, () =&amp;gt; { const user1 = { id: 1, serverId: 1, }; const user2 = { id: 2, serverId: 2, }; joinServer({ host: user1, user: user2, }); expect(user2.</description>
@@ -210,10 +210,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Using &#34;table&#34; in method it.each of Jest</title>
-      <link>https://mkvl.me/using-table-in-method-it.each-of-jest/</link>
+      <link>http://localhost:1313/using-table-in-method-it.each-of-jest/</link>
       <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/using-table-in-method-it.each-of-jest/</guid>
+      <guid>http://localhost:1313/using-table-in-method-it.each-of-jest/</guid>
       <description> Using &amp;ldquo;table&amp;rdquo; in method it.each of Jest test.each`table`(name, fn, timeout)
 1 2 3 4 5 6 7 it.each` a | b | result ${1} | ${2} | ${3} ${0} | ${4} | ${4} `(&amp;#34;should return $result when a = $a, b = $b&amp;#34;, ({ a, b, result }) =&amp;gt; { expect(sum(a, b)).toBe(result); }); </description>
       
@@ -225,10 +225,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Arrange in unit test</title>
-      <link>https://mkvl.me/arrange-in-unit-test/</link>
+      <link>http://localhost:1313/arrange-in-unit-test/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/arrange-in-unit-test/</guid>
+      <guid>http://localhost:1313/arrange-in-unit-test/</guid>
       <description> Arrange in unit test Preparing to acting of tests All errors in this phase are not actually errors / failures of tests In terms of JestJS, most likely, beforeEach or beforeAll methods Sometimes we need to mock import/require (in JavaScript) It can be done by means of framework like JestJS It can be done by means of independent library like Rewire Here you should write stubs, mocks, etc (Test Doubles) </description>
       
         <type>note</type>
@@ -239,10 +239,10 @@ Links GitHub pptr.dev </description>
     
     <item>
       <title>Assertion</title>
-      <link>https://mkvl.me/assertion/</link>
+      <link>http://localhost:1313/assertion/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/assertion/</guid>
+      <guid>http://localhost:1313/assertion/</guid>
       <description>Assertion It provides the ability to write code in test to check expected value and output value (the result of phase Act from Arrange-Act-Assert).
 This functionality can be a part of the testing framework (example - JestJS) or can be independent library like Chai.js</description>
       
@@ -254,10 +254,10 @@ This functionality can be a part of the testing framework (example - JestJS) or 
     
     <item>
       <title>ava.js</title>
-      <link>https://mkvl.me/ava.js/</link>
+      <link>http://localhost:1313/ava.js/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/ava.js/</guid>
+      <guid>http://localhost:1313/ava.js/</guid>
       <description> ava.js Ava is a JavaScript test runner for Node
 Links GitHub repo </description>
       
@@ -269,10 +269,10 @@ Links GitHub repo </description>
     
     <item>
       <title>Chai.js</title>
-      <link>https://mkvl.me/chai.js/</link>
+      <link>http://localhost:1313/chai.js/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/chai.js/</guid>
+      <guid>http://localhost:1313/chai.js/</guid>
       <description> Chai.js The assertion library that can be used with any JavaScript testing framework.
 Links chaijs.com </description>
       
@@ -284,10 +284,10 @@ Links chaijs.com </description>
     
     <item>
       <title>Fixtures</title>
-      <link>https://mkvl.me/fixtures/</link>
+      <link>http://localhost:1313/fixtures/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fixtures/</guid>
+      <guid>http://localhost:1313/fixtures/</guid>
       <description> Fixtures In Front End It&amp;rsquo;s fake data that replaces data from API (back end) responses In Back End The state of the DB DB contains specific data that needed for the test </description>
       
         <type>note</type>
@@ -298,10 +298,10 @@ Links chaijs.com </description>
     
     <item>
       <title>mocha.js</title>
-      <link>https://mkvl.me/mocha.js/</link>
+      <link>http://localhost:1313/mocha.js/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/mocha.js/</guid>
+      <guid>http://localhost:1313/mocha.js/</guid>
       <description> mocha.js Mocha is a JavaScript test framework running on Node
 Links mochajs.org </description>
       
@@ -313,10 +313,10 @@ Links mochajs.org </description>
     
     <item>
       <title>monkey-patching</title>
-      <link>https://mkvl.me/monkey-patching/</link>
+      <link>http://localhost:1313/monkey-patching/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/monkey-patching/</guid>
+      <guid>http://localhost:1313/monkey-patching/</guid>
       <description> monkey-patching It replacement of attributes, methods of classes in runtime It replacement of modules in runtime It replacement or extending of external libraries Examples In JavaScript you can use monkey-patching for unit testing this ability is provided by libraries like Rewire </description>
       
         <type>note</type>
@@ -327,10 +327,10 @@ Links mochajs.org </description>
     
     <item>
       <title>Rewire</title>
-      <link>https://mkvl.me/rewire/</link>
+      <link>http://localhost:1313/rewire/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/rewire/</guid>
+      <guid>http://localhost:1313/rewire/</guid>
       <description> Rewire The library that provides the ability to do monkey-patching
 Links GitHub repo </description>
       
@@ -342,10 +342,10 @@ Links GitHub repo </description>
     
     <item>
       <title>Sinon.js</title>
-      <link>https://mkvl.me/sinon.js/</link>
+      <link>http://localhost:1313/sinon.js/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/sinon.js/</guid>
+      <guid>http://localhost:1313/sinon.js/</guid>
       <description> Sinon.js The library that provides the ability to write Mocks, Stubs, Spies It works with any JavaScript framework for Unit tests Links sinonjs.org </description>
       
         <type>note</type>
@@ -356,10 +356,10 @@ Links GitHub repo </description>
     
     <item>
       <title>Test Driven Development</title>
-      <link>https://mkvl.me/test-driven-development/</link>
+      <link>http://localhost:1313/test-driven-development/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/test-driven-development/</guid>
+      <guid>http://localhost:1313/test-driven-development/</guid>
       <description> Test Driven Development The concept of testing that can be describes by idea &amp;ldquo;tests first&amp;rdquo;:
 Add test for specific feature Test should be failed (red) Write a code of the feature Test should be successful/passed (green) Refactoring Tests must be green Repeat </description>
       
@@ -371,10 +371,10 @@ Add test for specific feature Test should be failed (red) Write a code of the fe
     
     <item>
       <title>Test Runner</title>
-      <link>https://mkvl.me/test-runner/</link>
+      <link>http://localhost:1313/test-runner/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/test-runner/</guid>
+      <guid>http://localhost:1313/test-runner/</guid>
       <description> Test Runner Test Runner is a program that runs tests
 Required features:
 Run tests in parallel Isolation of tests Test filtering Watch mode (re-running edited tests) Coverage Reports (html, etc) Examples In JavaScript JestJS mocha.js ava.js </description>
@@ -387,10 +387,10 @@ Run tests in parallel Isolation of tests Test filtering Watch mode (re-running e
     
     <item>
       <title>(Anti-)fragility in testing</title>
-      <link>https://mkvl.me/anti-fragility-in-testing/</link>
+      <link>http://localhost:1313/anti-fragility-in-testing/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/anti-fragility-in-testing/</guid>
+      <guid>http://localhost:1313/anti-fragility-in-testing/</guid>
       <description> (Anti-)fragility in testing Test is anti fragile if module&amp;rsquo;s test is green after refactoring of the module Requirement: outer behavior of the module should be the same as before (refactoring) </description>
       
         
@@ -403,10 +403,10 @@ Run tests in parallel Isolation of tests Test filtering Watch mode (re-running e
     
     <item>
       <title>Arrange-Act-Assert</title>
-      <link>https://mkvl.me/arrange-act-assert/</link>
+      <link>http://localhost:1313/arrange-act-assert/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/arrange-act-assert/</guid>
+      <guid>http://localhost:1313/arrange-act-assert/</guid>
       <description> Arrange-Act-Assert AAA is a pattern for structure Unit test
 Follow the AAA Arrange in unit test Act Execution of operations that we are testing Assert expect(result) Assertion </description>
       
@@ -418,10 +418,10 @@ Follow the AAA Arrange in unit test Act Execution of operations that we are test
     
     <item>
       <title>Test Doubles</title>
-      <link>https://mkvl.me/test-doubles/</link>
+      <link>http://localhost:1313/test-doubles/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/test-doubles/</guid>
+      <guid>http://localhost:1313/test-doubles/</guid>
       <description>Test Doubles Dummy (Dummy Object) doesn&amp;rsquo;t have any data inside can be empty object {} just exists that&amp;rsquo;s the purpose of the Dummy Object Fake has simple data contains simplified data of the object that is replaced by this fake object example: using in-memory db or some &amp;ldquo;light&amp;rdquo; db (SQLite?) instead of real db on the project (like PostgreSQL, Oracle) Stub Spy (in testing) Mock it contains expectations about what parameters should be when the function will be called if function was called with different parameters than expected parameters then test will be failed Fixtures Implementation For writing all this stuff you can use: Functionality of the framework like JestJS Independent library like Sinon.</description>
       
         <type>note</type>
@@ -432,10 +432,10 @@ Follow the AAA Arrange in unit test Act Execution of operations that we are test
     
     <item>
       <title>End-to-End tests</title>
-      <link>https://mkvl.me/end-to-end-tests/</link>
+      <link>http://localhost:1313/end-to-end-tests/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/end-to-end-tests/</guid>
+      <guid>http://localhost:1313/end-to-end-tests/</guid>
       <description>End-to-End tests End-to-End (e2e) tests are tests that emulate user&amp;rsquo;s behaviour. Basically, these tests looks like that:
 automatically opens browser open specific page click on specific field, control or button on the page we should see that happens when &amp;ldquo;user&amp;rdquo; interacts with some part of UI Why we don&amp;rsquo;t always need End-to-End? End-to-End tests show state of the system / UI from perspective of external observer (&amp;ldquo;user&amp;rdquo;). We don&amp;rsquo;t know that actually happens inside system / UI.</description>
       
@@ -447,10 +447,10 @@ automatically opens browser open specific page click on specific field, control 
     
     <item>
       <title>Integration tests</title>
-      <link>https://mkvl.me/integration-tests/</link>
+      <link>http://localhost:1313/integration-tests/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/integration-tests/</guid>
+      <guid>http://localhost:1313/integration-tests/</guid>
       <description> Integration tests Integration tests are tests that check behavior of group of modules </description>
       
         <type>note</type>
@@ -461,10 +461,10 @@ automatically opens browser open specific page click on specific field, control 
     
     <item>
       <title>Pyramid of testing</title>
-      <link>https://mkvl.me/pyramid-of-testing/</link>
+      <link>http://localhost:1313/pyramid-of-testing/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/pyramid-of-testing/</guid>
+      <guid>http://localhost:1313/pyramid-of-testing/</guid>
       <description> Pyramid of testing Types of testing (from less to more):
 e2e End-to-End tests e2e should be less Integration tests Unit tests a.k.a. module tests unit tests should be more (opinioned) typing static typing TypeScript </description>
       
@@ -476,10 +476,10 @@ e2e End-to-End tests e2e should be less Integration tests Unit tests a.k.a. modu
     
     <item>
       <title>Unit tests</title>
-      <link>https://mkvl.me/unit-tests/</link>
+      <link>http://localhost:1313/unit-tests/</link>
       <pubDate>Tue, 06 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/unit-tests/</guid>
+      <guid>http://localhost:1313/unit-tests/</guid>
       <description>Unit tests Unit tests are tests of modularity They test specific part/piece of the system (called module) independently from other modules of the system For example, test of module (component in Front End) that shows red error text: module has input data (error status - existing or not) output data&amp;quot; is null (if error does not exist) red text (if error exists) unit test should check that module/component returns specific output data based on input data in the system this module get input data (error status) from other module we don&amp;rsquo;t care about that because unit test checks module independently from other modules for checking interaction between several modules we should use Integration tests Unit tests are documenting behavior of specific module What is unit?</description>
       
         <type>note</type>

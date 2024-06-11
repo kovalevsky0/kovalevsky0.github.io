@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blogs on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/blogs/</link>
-    <description>Recent content in Blogs on Max Kovalevskii</description>
+    <title>Blogs on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/blogs/</link>
+    <description>Recent content in Blogs on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 26 Apr 2022 12:38:13 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 26 Apr 2022 12:38:13 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/blogs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Newsletters</title>
-      <link>https://mkvl.me/newsletters/</link>
+      <link>http://localhost:1313/newsletters/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
-      <guid>https://mkvl.me/newsletters/</guid>
+      <guid>http://localhost:1313/newsletters/</guid>
       <description> Newsletters https://sifted.eu/newsletter </description>
       
         <type>note</type>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Blog Search Engine - Blog Surf</title>
-      <link>https://mkvl.me/blog-search-engine---blog-surf/</link>
+      <link>http://localhost:1313/blog-search-engine---blog-surf/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/blog-search-engine---blog-surf/</guid>
+      <guid>http://localhost:1313/blog-search-engine---blog-surf/</guid>
       <description> Blog Search Engine - Blog Surf 🔗 Links blogsurf.io </description>
       
         <type>note</type>
@@ -38,10 +38,10 @@
     
     <item>
       <title>Interesting personal websites and blogs</title>
-      <link>https://mkvl.me/interesting-personal-websites-and-blogs/</link>
+      <link>http://localhost:1313/interesting-personal-websites-and-blogs/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/interesting-personal-websites-and-blogs/</guid>
+      <guid>http://localhost:1313/interesting-personal-websites-and-blogs/</guid>
       <description> Interesting personal websites and blogs randomwits.com blog posts about Leetcode tantek.com IndieWeb contributor ilya-sher.org Next Generation Shell author&amp;rsquo;s blog jvt.me IndieWeber monicalent.com Monica Lent&amp;rsquo;s blog. Author of Blogging For Devs notanomadblog.com Monica Lent&amp;rsquo;s travel blog https://mxb.dev </description>
       
         <type>note</type>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tmux on Max Kovalevskii</title>
-    <link>https://mkvl.me/tags/tmux/</link>
-    <description>Recent content in Tmux on Max Kovalevskii</description>
+    <title>Tmux on Max Kovalevskii (MKVL)</title>
+    <link>http://localhost:1313/tags/tmux/</link>
+    <description>Recent content in Tmux on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 02 Aug 2022 23:24:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Aug 2022 23:24:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tmux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>tmux</title>
-      <link>https://mkvl.me/tmux/</link>
+      <link>http://localhost:1313/tmux/</link>
       <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tmux/</guid>
+      <guid>http://localhost:1313/tmux/</guid>
       <description>tmux Installing macOS
 1 brew install tmux Commands tmux ls 1 tmux ls returns list of active tmux sessions Default key bindings Default prefix key 1 ctrl(control) + b Panes default key bindings
 Split the window horizontally (Horizontal pane)
