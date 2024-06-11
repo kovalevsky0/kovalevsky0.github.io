@@ -1,6 +1,6 @@
 baseURL = "https://mkvl.me"
-title = "Max Kovalevskii (MKVL)"
-theme = "hugo-byte-local"
+title = "Learn Go with MKVL | Golang Courses and Tutorials | How To Golang"
+theme = "hugo-byte"
 languageCode = "en"
 defaultContentLanguage = "en"
 enableEmoji = true
@@ -10,16 +10,16 @@ paginate = 20
 # for rss
 copyright = 'This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.'
 [author]
-  name = 'Max Kovalevskii'
+  name = 'MKVL'
 
 custom_css = ["css/custom.css"]
 
 [params]
-logoTitle = "MKVL"
-author = "Max Kovalevskii"
+logoTitle = "Learn Go with MKVL"
+author = "MKVL"
 email = "max@mkvl.me"
-description = "Personal website example"
-keywords = "blog"
+description = "Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books."
+keywords = "Go,Programming,Blog,Go Programming,Golang,golang playground,golang install,golang tutorial,golangci-lint,golang for loop,golang enum,golang time,golang json,golang generics,golang gin,golang append,golang array,golang assert,golang append to slice,golang anonymous struct,golang atomic,golang atoi,golang array contains,golang api,awesome golang,append golang,array golang,aws lambda golang,anonymous struct golang,atoi golang,assert golang,atomic golang,golang byte array to string,golang bool to string,golang bufio,golang benchmark,golang base64 decode,golang base64,golang books,golang base64 encode,golang blog,brew install golang,byte to string golang,bufio golang,best ide for golang,bool to string golang,buffered channel golang,best golang books,bubble tea golang,bcrypt golang,base64 decode golang,golang context,golang channels,golang cobra,golang convert int to string,golang chi,golang check if file exists,golang constants,golang concurrency,golang copy,golang csv,cobra golang,convert string to int golang,context golang,chi golang,channels in golang,concurrency in golang,const golang,check if file exists golang,create error golang,clean architecture golang,golang download,golang defer,golang docker image,golang docs,golang developer,golang dependency injection,golang dictionary,golang developer jobs,golang delete from map,golang default parameter,download golang,defer golang,docker golang,dependency injection golang,database/sql golang,dockerfile golang,design patterns in golang,do while golang,data types in golang,delete from map golang,golang error,golang echo,golang else if,golang errgroup,golang embed,golang environment variables,golang error handling,golang exec"
 avatarURL = "/images/avatar.jpg"
 favicon_32 = "/images/favicon.png"
 favicon_16 = "/images/favicon.png"
@@ -30,8 +30,8 @@ colorScheme = "dark"
 hideColorSchemeToggle = false
 greetingTitle = "<span class='gradient'>Hey, I'm</span> <span class='p-name'>Max</span>"
 blurbContent = [
-  'I am a software developer based in Europe',
-  'I write a blog about topics that interest me most: programming languages in general, <a href="/tags/typescript">TypeScript</a>, testing, writing and other great stuff.'
+  'A software developer who wants to teach you everything about amazing technology such as <a href="/golang">Go (Golang)</a> and more.',
+  'I write blog posts and make courses about topics that interest me most: <a href="/tags/golang">Go (Golang)</a>, Command-Line Interface (CLI) Applications, TUIs, <a href="/tags/linux">Linux</a>, <a href="/tags/git">Git</a>, <a href="/tags/docker">Docker</a>, <a href="/tags/vim">Vim (Neovim)</a>, Kubernetes (k8s), <a href="/tags/testing">TDD</a>, <a href="/tags/zettelkasten">note-taking</a> and other great stuff.'
 ]
 sidePanelTags = [
   'typescript',
@@ -45,19 +45,6 @@ disable_comments = false
 enableTwemoji = false
 isFloatFollowBtnShown = true
 isIndieWebRingShown = true
-
-# [params.subscription]
-# title = "Subscribe to the newsletter"
-# description = "Get a once-per-week email with my latest content. By subscribing to this newsletter you will also be the first to receive last updates of my eBooks and courses."
-# endpoint = "https://www.getrevue.co/profile/maxoid/add_subscriber"
-# successMessage = "Success! Now check your email to confirm your subscription."
-# failureMessage = "Oops, Something went wrong! Try again."
-# subscriptionPageLink = "https://www.getrevue.co/profile/maxoid"
-
-# [params.utterances]
-# repo = "maxoidIO/maxoidio-comments"
-# issueTerm = "pathname"
-# theme = "github-dark"
 
 [markup]
   [markup.highlight]
@@ -127,21 +114,14 @@ pre = "<i class='fa fa-archive color-orange'></i>"
 # [[languages.en.menu.main]]
 # name = "newsletter"
 # weight = 5
-# url = "http://maxoid.io/newsletter"
+# url = "/newsletter"
 # pre = "<i class='fa fa-envelope color-cyan'></i>"
 
-[[languages.en.menu.main]]
-name = "rss.xml"
-weight = 6
-url = "/index.xml"
-pre = "<i class='fa fa-rss-square color-pink'></i>"
-
-#[[languages.en.menu.main]]
-#name = "stats"
-#weight = 5
-#url = "https://plausible.io/maxoid.io"
-#pre = "<i class='fa fa-bar-chart color-cyan'></i>"
-
+# [[languages.en.menu.main]]
+# name = "rss.xml"
+# weight = 6
+# url = "/index.xml"
+# pre = "<i class='fa fa-rss-square color-pink'></i>"
 
 [params.plausibleAnalytics]
 domain = "mkvl.me"

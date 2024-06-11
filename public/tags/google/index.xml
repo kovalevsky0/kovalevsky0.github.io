@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Google on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/google/</link>
-    <description>Recent content in Google on Max Kovalevskii (MKVL)</description>
+    <title>google on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/google/</link>
+    <description>Recent content in google on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/google/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/google/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Google</title>
-      <link>http://localhost:1313/google/</link>
+      <link>https://mkvl.me/google/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/google/</guid>
-      <description> Google IT company
+      <guid>https://mkvl.me/google/</guid>
+      <description>Google    IT company
 Products:
-google.com Google Chrome </description>
+ google.com Google Chrome  </description>
       
         <type>note</type>
       
@@ -26,12 +26,12 @@ google.com Google Chrome </description>
     
     <item>
       <title>Google Chrome</title>
-      <link>http://localhost:1313/google-chrome/</link>
+      <link>https://mkvl.me/google-chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/google-chrome/</guid>
-      <description> Google Chrome A Web browser that made by Google company, based on Chromium project.
-Links google.com/chrome </description>
+      <guid>https://mkvl.me/google-chrome/</guid>
+      <description>Google Chrome    A Web browser that made by Google company, based on Chromium project.
+Links     google.com/chrome  </description>
       
         <type>note</type>
       

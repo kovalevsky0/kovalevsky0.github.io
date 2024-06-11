@@ -2,771 +2,769 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://mkvl.me/links/</loc>
     <lastmod>2022-09-08T02:28:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2022-09-08T02:28:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/cli/</loc>
+    <loc>https://mkvl.me/tags/cli/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://mkvl.me/tags/linux/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/list-of-interesting-command-line-interface-tools/</loc>
+    <loc>https://mkvl.me/list-of-interesting-command-line-interface-tools/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://mkvl.me/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/terminal/</loc>
+    <loc>https://mkvl.me/tags/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neovim/</loc>
+    <loc>https://mkvl.me/tags/terminal/</loc>
+    <lastmod>2022-08-31T15:41:00+00:00</lastmod>
+  </url><url>
+    <loc>https://mkvl.me/tags/neovim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neovim---lsp-setup/</loc>
+    <loc>https://mkvl.me/neovim-lsp-setup/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nvim/</loc>
+    <loc>https://mkvl.me/tags/nvim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vim/</loc>
+    <loc>https://mkvl.me/tags/vim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://mkvl.me/docker/</loc>
     <lastmod>2022-08-14T22:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docker/</loc>
+    <loc>https://mkvl.me/tags/docker/</loc>
     <lastmod>2022-08-14T22:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/watch-command/</loc>
+    <loc>https://mkvl.me/watch-command/</loc>
     <lastmod>2022-08-13T12:17:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tmux/</loc>
+    <loc>https://mkvl.me/tags/tmux/</loc>
     <lastmod>2022-08-02T23:24:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tmux/</loc>
+    <loc>https://mkvl.me/tmux/</loc>
     <lastmod>2022-08-02T23:24:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lua/</loc>
+    <loc>https://mkvl.me/tags/lua/</loc>
     <lastmod>2022-07-23T15:39:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neovim---luasnip/</loc>
+    <loc>https://mkvl.me/neovim-luasnip/</loc>
     <lastmod>2022-07-23T15:39:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/link/</loc>
+    <loc>https://mkvl.me/tags/link/</loc>
     <lastmod>2022-05-03T14:56:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</loc>
+    <loc>https://mkvl.me/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</loc>
     <lastmod>2022-05-03T14:56:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/websites/</loc>
+    <loc>https://mkvl.me/tags/websites/</loc>
     <lastmod>2022-05-03T14:56:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://mkvl.me/tags/blog/</loc>
     <lastmod>2022-05-02T18:33:25+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cool-things-people-do-with-their-blogs/</loc>
+    <loc>https://mkvl.me/cool-things-people-do-with-their-blogs/</loc>
     <lastmod>2022-05-02T18:33:25+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/indieweb/</loc>
+    <loc>https://mkvl.me/tags/indieweb/</loc>
     <lastmod>2022-05-02T18:33:25+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blogs/</loc>
+    <loc>https://mkvl.me/tags/blogs/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/email/</loc>
+    <loc>https://mkvl.me/tags/email/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/newsletters/</loc>
+    <loc>https://mkvl.me/newsletters/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newsletters/</loc>
+    <loc>https://mkvl.me/tags/newsletters/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog-search-engine---blog-surf/</loc>
+    <loc>https://mkvl.me/blog-search-engine-blog-surf/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/search/</loc>
+    <loc>https://mkvl.me/tags/search/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/services/</loc>
+    <loc>https://mkvl.me/tags/services/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/apps/</loc>
+    <loc>https://mkvl.me/tags/apps/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/language/</loc>
+    <loc>https://mkvl.me/tags/language/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/languagetool/</loc>
+    <loc>https://mkvl.me/languagetool/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/service/</loc>
+    <loc>https://mkvl.me/tags/service/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bullet-journal/</loc>
+    <loc>https://mkvl.me/bullet-journal/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/journaling/</loc>
+    <loc>https://mkvl.me/tags/journaling/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/methodology/</loc>
+    <loc>https://mkvl.me/tags/methodology/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/writing/</loc>
+    <loc>https://mkvl.me/tags/writing/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/indieweb/</loc>
+    <loc>https://mkvl.me/indieweb/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/interesting-personal-websites-and-blogs/</loc>
+    <loc>https://mkvl.me/interesting-personal-websites-and-blogs/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web/</loc>
+    <loc>https://mkvl.me/tags/web/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/website/</loc>
+    <loc>https://mkvl.me/tags/website/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/european-alternatives-for-digital-products/</loc>
+    <loc>https://mkvl.me/european-alternatives-for-digital-products/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/links/</loc>
+    <loc>https://mkvl.me/tags/links/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/empty/</loc>
+    <loc>https://mkvl.me/tags/empty/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/empty/</loc>
+    <loc>https://mkvl.me/empty/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/algorithms/</loc>
+    <loc>https://mkvl.me/tags/algorithms/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/faang/</loc>
+    <loc>https://mkvl.me/tags/faang/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/interview/</loc>
+    <loc>https://mkvl.me/tags/interview/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software-engs-interview-preparation/</loc>
+    <loc>https://mkvl.me/software-engs-interview-preparation/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/solvingproblems/</loc>
+    <loc>https://mkvl.me/tags/solvingproblems/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/empty/</loc>
+    <loc>https://mkvl.me/empty/</loc>
     <lastmod>2021-10-02T15:35:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/empty/</loc>
+    <loc>https://mkvl.me/empty/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2-weekly-newsletter/</loc>
+    <loc>https://mkvl.me/2-weekly-newsletter/</loc>
     <lastmod>2021-08-06T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/newsletter/</loc>
+    <loc>https://mkvl.me/tags/newsletter/</loc>
     <lastmod>2021-08-06T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/1-weekly-newsletter/</loc>
+    <loc>https://mkvl.me/1-weekly-newsletter/</loc>
     <lastmod>2021-07-30T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/how-to-configure-tsconfigjson-typescript-strict-options/</loc>
+    <loc>https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/</loc>
     <lastmod>2021-07-29T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/typescript/</loc>
+    <loc>https://mkvl.me/tags/typescript/</loc>
     <lastmod>2021-07-29T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/typescriptbook/</loc>
+    <loc>https://mkvl.me/tags/typescriptbook/</loc>
     <lastmod>2021-07-29T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://mkvl.me/tags/javascript/</loc>
     <lastmod>2021-07-16T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</loc>
+    <loc>https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</loc>
     <lastmod>2021-07-16T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fluent-ui-web/</loc>
+    <loc>https://mkvl.me/fluent-ui-web/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/microsoft/</loc>
+    <loc>https://mkvl.me/microsoft/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microsoft/</loc>
+    <loc>https://mkvl.me/tags/microsoft/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>https://mkvl.me/tags/react/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/next.js/</loc>
+    <loc>https://mkvl.me/next.js/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nextjs/</loc>
+    <loc>https://mkvl.me/tags/nextjs/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssg/</loc>
+    <loc>https://mkvl.me/tags/ssg/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/static-site-generator/</loc>
+    <loc>https://mkvl.me/static-site-generator/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
+    <loc>https://mkvl.me/tags/golang/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://mkvl.me/tags/hugo/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-go/</loc>
+    <loc>https://mkvl.me/hugo-go/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/configuring-typescript-options-rootdir-outdir-module-target/</loc>
+    <loc>https://mkvl.me/configuring-typescript-options-rootdir-outdir-module-target/</loc>
     <lastmod>2021-05-18T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/getting-started-using-and-configuring-typescript-compiler/</loc>
+    <loc>https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/</loc>
     <lastmod>2021-05-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/angular/</loc>
+    <loc>https://mkvl.me/angular/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/angular/</loc>
+    <loc>https://mkvl.me/tags/angular/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/babel/</loc>
+    <loc>https://mkvl.me/babel/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/commonjs-modules/</loc>
+    <loc>https://mkvl.me/commonjs-modules/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ecmascript/</loc>
+    <loc>https://mkvl.me/tags/ecmascript/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es-modules/</loc>
+    <loc>https://mkvl.me/es-modules/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/node/</loc>
+    <loc>https://mkvl.me/tags/node/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</loc>
+    <loc>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</loc>
     <lastmod>2021-05-12T22:10:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/nodemon/</loc>
+    <loc>https://mkvl.me/nodemon/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-are-type-declaration-files-in-typescript/</loc>
+    <loc>https://mkvl.me/what-are-type-declaration-files-in-typescript/</loc>
     <lastmod>2021-05-11T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ts-node/</loc>
+    <loc>https://mkvl.me/ts-node/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/detecting-errors-before-running-code-with-typescript/</loc>
+    <loc>https://mkvl.me/detecting-errors-before-running-code-with-typescript/</loc>
     <lastmod>2021-05-10T21:10:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/how-to-install-or-update-node-by-using-nvm/</loc>
+    <loc>https://mkvl.me/how-to-install-or-update-node-by-using-nvm/</loc>
     <lastmod>2021-05-09T21:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/typescript-what-is-all-about-and-why-should-you-use-it/</loc>
+    <loc>https://mkvl.me/typescript-what-is-all-about-and-why-should-you-use-it/</loc>
     <lastmod>2021-05-08T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bash/</loc>
+    <loc>https://mkvl.me/bash/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fish-shell/</loc>
+    <loc>https://mkvl.me/fish-shell/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fish-nvm/</loc>
+    <loc>https://mkvl.me/fish-nvm/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fisher-fish-shell-plugin-manager/</loc>
+    <loc>https://mkvl.me/fisher-fish-shell-plugin-manager/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fishshell/</loc>
+    <loc>https://mkvl.me/tags/fishshell/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/macos/</loc>
+    <loc>https://mkvl.me/tags/macos/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/node-version-manager/</loc>
+    <loc>https://mkvl.me/node-version-manager/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/prettier/</loc>
+    <loc>https://mkvl.me/prettier/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/unix/</loc>
+    <loc>https://mkvl.me/tags/unix/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/z-shell/</loc>
+    <loc>https://mkvl.me/z-shell/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/visual-studio-code/</loc>
+    <loc>https://mkvl.me/visual-studio-code/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/jest/</loc>
+    <loc>https://mkvl.me/tags/jest/</loc>
     <lastmod>2021-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-asynchronous-code-using-jest/</loc>
+    <loc>https://mkvl.me/test-asynchronous-code-using-jest/</loc>
     <lastmod>2021-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/testing/</loc>
+    <loc>https://mkvl.me/tags/testing/</loc>
     <lastmod>2021-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/temporal-dead-zone-in-javascript/</loc>
+    <loc>https://mkvl.me/temporal-dead-zone-in-javascript/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/name-your-mocked-function-with-word-mock/</loc>
+    <loc>https://mkvl.me/name-your-mocked-function-with-word-mock/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/@testing-library/</loc>
+    <loc>https://mkvl.me/testing-library/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/command-line-interface/</loc>
+    <loc>https://mkvl.me/command-line-interface/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/create-react-app/</loc>
+    <loc>https://mkvl.me/create-react-app/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://mkvl.me/git/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/git/</loc>
+    <loc>https://mkvl.me/tags/git/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/npm/</loc>
+    <loc>https://mkvl.me/tags/npm/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/npx/</loc>
+    <loc>https://mkvl.me/npx/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/first-steps-in-unit-testing/</loc>
+    <loc>https://mkvl.me/first-steps-in-unit-testing/</loc>
     <lastmod>2021-04-18T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/back-end/</loc>
+    <loc>https://mkvl.me/back-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/back-end/</loc>
+    <loc>https://mkvl.me/tags/back-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/front-end/</loc>
+    <loc>https://mkvl.me/front-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/front-end/</loc>
+    <loc>https://mkvl.me/tags/front-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
+    <loc>https://mkvl.me/tags/web-development/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/browser/</loc>
+    <loc>https://mkvl.me/tags/browser/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chrome/</loc>
+    <loc>https://mkvl.me/tags/chrome/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chromium/</loc>
+    <loc>https://mkvl.me/chromium/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/company/</loc>
+    <loc>https://mkvl.me/tags/company/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cypress/</loc>
+    <loc>https://mkvl.me/cypress/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</loc>
+    <loc>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/e2e/</loc>
+    <loc>https://mkvl.me/tags/e2e/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/firefox/</loc>
+    <loc>https://mkvl.me/firefox/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/firefox/</loc>
+    <loc>https://mkvl.me/tags/firefox/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/google/</loc>
+    <loc>https://mkvl.me/google/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/google/</loc>
+    <loc>https://mkvl.me/tags/google/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/google-chrome/</loc>
+    <loc>https://mkvl.me/google-chrome/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/it/</loc>
+    <loc>https://mkvl.me/tags/it/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mozilla/</loc>
+    <loc>https://mkvl.me/tags/mozilla/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/playwright/</loc>
+    <loc>https://mkvl.me/playwright/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/puppeteer/</loc>
+    <loc>https://mkvl.me/puppeteer/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/puppeteer/</loc>
+    <loc>https://mkvl.me/tags/puppeteer/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/web-browser/</loc>
+    <loc>https://mkvl.me/web-browser/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/webkit/</loc>
+    <loc>https://mkvl.me/webkit/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/debugging-in-jest/</loc>
+    <loc>https://mkvl.me/debugging-in-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/spy-in-testing/</loc>
+    <loc>https://mkvl.me/spy-in-testing/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stub/</loc>
+    <loc>https://mkvl.me/stub/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-of-async-method-in-jest/</loc>
+    <loc>https://mkvl.me/test-of-async-method-in-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/the-problem-with-mutation-of-object-data-in-jest/</loc>
+    <loc>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/using-table-in-method-it.each-of-jest/</loc>
+    <loc>https://mkvl.me/using-table-in-method-it.each-of-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/arrange-in-unit-test/</loc>
+    <loc>https://mkvl.me/arrange-in-unit-test/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/assertion/</loc>
+    <loc>https://mkvl.me/assertion/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ava.js/</loc>
+    <loc>https://mkvl.me/ava.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/behavior-driven-development/</loc>
+    <loc>https://mkvl.me/behavior-driven-development/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/browser-object-model/</loc>
+    <loc>https://mkvl.me/browser-object-model/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chai.js/</loc>
+    <loc>https://mkvl.me/chai.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/document-object-model/</loc>
+    <loc>https://mkvl.me/document-object-model/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/domain-driven-design/</loc>
+    <loc>https://mkvl.me/domain-driven-design/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fixtures/</loc>
+    <loc>https://mkvl.me/fixtures/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://mkvl.me/html/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/html/</loc>
+    <loc>https://mkvl.me/tags/html/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jsdom/</loc>
+    <loc>https://mkvl.me/jsdom/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/mocha.js/</loc>
+    <loc>https://mkvl.me/mocha.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/monkey-patching/</loc>
+    <loc>https://mkvl.me/monkey-patching/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rewire/</loc>
+    <loc>https://mkvl.me/rewire/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sinon.js/</loc>
+    <loc>https://mkvl.me/sinon.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software-development/</loc>
+    <loc>https://mkvl.me/tags/software-development/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-driven-development/</loc>
+    <loc>https://mkvl.me/test-driven-development/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-runner/</loc>
+    <loc>https://mkvl.me/test-runner/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/honesty-test/</loc>
+    <loc>https://mkvl.me/honesty-test/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/anti-fragility-in-testing/</loc>
+    <loc>https://mkvl.me/anti-fragility-in-testing/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/arrange-act-assert/</loc>
+    <loc>https://mkvl.me/arrange-act-assert/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-doubles/</loc>
+    <loc>https://mkvl.me/test-doubles/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/testing-/</loc>
-    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/end-to-end-tests/</loc>
+    <loc>https://mkvl.me/end-to-end-tests/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/integration-tests/</loc>
+    <loc>https://mkvl.me/integration-tests/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pyramid-of-testing/</loc>
+    <loc>https://mkvl.me/pyramid-of-testing/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/unit-tests/</loc>
+    <loc>https://mkvl.me/unit-tests/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/evergreen-notes/</loc>
+    <loc>https://mkvl.me/evergreen-notes/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/note-taking/</loc>
+    <loc>https://mkvl.me/tags/note-taking/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jestjs/</loc>
+    <loc>https://mkvl.me/jestjs/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/keyboards/</loc>
+    <loc>https://mkvl.me/tags/keyboards/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mechanical-keybords/</loc>
+    <loc>https://mkvl.me/tags/mechanical-keybords/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rxjs/</loc>
+    <loc>https://mkvl.me/tags/rxjs/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rxjs/</loc>
+    <loc>https://mkvl.me/rxjs/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/vortex-race-iii-rgb/</loc>
+    <loc>https://mkvl.me/vortex-race-iii-rgb/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/digital-garden/</loc>
+    <loc>https://mkvl.me/digital-garden/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/digital-garden/</loc>
+    <loc>https://mkvl.me/tags/digital-garden/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://mkvl.me/home/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/obsidian/</loc>
+    <loc>https://mkvl.me/tags/obsidian/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/templates-in-obsidian/</loc>
+    <loc>https://mkvl.me/templates-in-obsidian/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/creating-gatsbyjs-theme/</loc>
+    <loc>https://mkvl.me/creating-gatsbyjs-theme/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gatsbyjs/</loc>
+    <loc>https://mkvl.me/tags/gatsbyjs/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/yarn/</loc>
+    <loc>https://mkvl.me/yarn/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/typescript/</loc>
+    <loc>https://mkvl.me/typescript/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/working-with-images-in-gatsbyjs/</loc>
+    <loc>https://mkvl.me/working-with-images-in-gatsbyjs/</loc>
     <lastmod>2020-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/creating-a-post-page-in-gatsbyjs/</loc>
+    <loc>https://mkvl.me/creating-a-post-page-in-gatsbyjs/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/how-to-set-up-gatsbyjs-with-typescript/</loc>
+    <loc>https://mkvl.me/how-to-set-up-gatsbyjs-with-typescript/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/basic-example-of-graphql-in-gatsbyjs/</loc>
+    <loc>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</loc>
+    <loc>https://mkvl.me/gatsbyjs-adding-the-display-of-posts-list-in-the-app/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/golang/</loc>
+    <loc>https://mkvl.me/golang/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/graphql/</loc>
+    <loc>https://mkvl.me/graphql/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/graphql/</loc>
+    <loc>https://mkvl.me/tags/graphql/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/server-side-rendering/</loc>
+    <loc>https://mkvl.me/server-side-rendering/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ecmascript/</loc>
+    <loc>https://mkvl.me/ecmascript/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gatsbyjs/</loc>
+    <loc>https://mkvl.me/gatsbyjs/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/javascript/</loc>
+    <loc>https://mkvl.me/javascript/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/node/</loc>
+    <loc>https://mkvl.me/node/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/npm/</loc>
+    <loc>https://mkvl.me/npm/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/react/</loc>
+    <loc>https://mkvl.me/react/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://mkvl.me/markdown/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/markdown/</loc>
+    <loc>https://mkvl.me/tags/markdown/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/obsidian/</loc>
+    <loc>https://mkvl.me/obsidian/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/obsidian.md-materials/</loc>
+    <loc>https://mkvl.me/obsidian.md-materials/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/substack/</loc>
+    <loc>https://mkvl.me/substack/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/zettelkasten/</loc>
+    <loc>https://mkvl.me/tags/zettelkasten/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/notion/</loc>
+    <loc>https://mkvl.me/notion/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notion/</loc>
+    <loc>https://mkvl.me/tags/notion/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/org-roam/</loc>
+    <loc>https://mkvl.me/org-roam/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/remnote/</loc>
+    <loc>https://mkvl.me/remnote/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/workflowy/</loc>
+    <loc>https://mkvl.me/workflowy/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neuracache/</loc>
+    <loc>https://mkvl.me/neuracache/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>https://mkvl.me/tags/programming/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/static-typing/</loc>
+    <loc>https://mkvl.me/static-typing/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/readwise/</loc>
+    <loc>https://mkvl.me/readwise/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/note-taking-tools/</loc>
+    <loc>https://mkvl.me/note-taking-tools/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zettelkasten-method/</loc>
+    <loc>https://mkvl.me/zettelkasten-method/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about-roam-research/</loc>
+    <loc>https://mkvl.me/about-roam-research/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/note-taking-summary/</loc>
+    <loc>https://mkvl.me/note-taking-summary/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resources-about-zettelkasten-method/</loc>
+    <loc>https://mkvl.me/resources-about-zettelkasten-method/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/list-of-digital-gardens/</loc>
+    <loc>https://mkvl.me/list-of-digital-gardens/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gigital-gardens/</loc>
+    <loc>https://mkvl.me/gigital-gardens/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</loc>
+    <loc>https://mkvl.me/idea-ui-library-for-code-snippets-to-show-arrows-and-annotations/</loc>
   </url><url>
-    <loc>http://localhost:1313/microsoft-mvp/</loc>
+    <loc>https://mkvl.me/microsoft-mvp/</loc>
   </url><url>
-    <loc>http://localhost:1313/munich/</loc>
+    <loc>https://mkvl.me/munich/</loc>
   </url><url>
-    <loc>http://localhost:1313/obsidian-dataview/</loc>
+    <loc>https://mkvl.me/obsidian-dataview/</loc>
   </url><url>
-    <loc>http://localhost:1313/site-about-block/</loc>
+    <loc>https://mkvl.me/site-about-block/</loc>
   </url><url>
-    <loc>http://localhost:1313/site-blurb/</loc>
+    <loc>https://mkvl.me/site-blurb/</loc>
   </url><url>
-    <loc>http://localhost:1313/spaced-repetition-apps/</loc>
+    <loc>https://mkvl.me/spaced-repetition-apps/</loc>
   </url><url>
-    <loc>http://localhost:1313/terminal-workflow/</loc>
+    <loc>https://mkvl.me/terminal-workflow/</loc>
+    <priority>0</priority>
   </url><url>
-    <loc>http://localhost:1313/workshop-on-site-seo-for-developers---notes/</loc>
+    <loc>https://mkvl.me/workshop-on-site-seo-for-developers-notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/zordi/</loc>
+    <loc>https://mkvl.me/zordi/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://mkvl.me/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/anki/</loc>
+    <loc>https://mkvl.me/tags/anki/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://mkvl.me/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/blogging/</loc>
+    <loc>https://mkvl.me/tags/blogging/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/bloggingfordevs/</loc>
+    <loc>https://mkvl.me/tags/bloggingfordevs/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/dataview/</loc>
+    <loc>https://mkvl.me/tags/dataview/</loc>
   </url><url>
-    <loc>http://localhost:1313/github/</loc>
+    <loc>https://mkvl.me/github/</loc>
   </url><url>
-    <loc>http://localhost:1313/homebrew/</loc>
+    <loc>https://mkvl.me/homebrew/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/idea/</loc>
+    <loc>https://mkvl.me/tags/idea/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/js-tools/</loc>
+    <loc>https://mkvl.me/tags/js-tools/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/json/</loc>
+    <loc>https://mkvl.me/json/</loc>
   </url><url>
-    <loc>http://localhost:1313/json/</loc>
+    <loc>https://mkvl.me/tags/json/</loc>
   </url><url>
-    <loc>http://localhost:1313/lerna.js/</loc>
+    <loc>https://mkvl.me/lerna.js/</loc>
   </url><url>
-    <loc>http://localhost:1313/log-2021-07-12/</loc>
+    <loc>https://mkvl.me/log-2021-07-12/</loc>
   </url><url>
-    <loc>http://localhost:1313/lua/</loc>
+    <loc>https://mkvl.me/lua/</loc>
   </url><url>
-    <loc>http://localhost:1313/mini-typescript/</loc>
+    <loc>https://mkvl.me/mini-typescript/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/monicalent/</loc>
+    <loc>https://mkvl.me/tags/monicalent/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/monorepo/</loc>
+    <loc>https://mkvl.me/monorepo/</loc>
   </url><url>
-    <loc>http://localhost:1313/monorepo/</loc>
+    <loc>https://mkvl.me/tags/monorepo/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/munich/</loc>
+    <loc>https://mkvl.me/tags/munich/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://mkvl.me/notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/neovim/</loc>
+    <loc>https://mkvl.me/neovim/</loc>
   </url><url>
-    <loc>http://localhost:1313/obsidian-dataview-docs/</loc>
+    <loc>https://mkvl.me/obsidian-dataview-docs/</loc>
   </url><url>
-    <loc>http://localhost:1313/obsidian-dataview-readme/</loc>
+    <loc>https://mkvl.me/obsidian-dataview-readme/</loc>
   </url><url>
-    <loc>http://localhost:1313/react-router/</loc>
+    <loc>https://mkvl.me/react-router/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/reddit/</loc>
+    <loc>https://mkvl.me/tags/reddit/</loc>
   </url><url>
-    <loc>http://localhost:1313/revue-newsletter/</loc>
+    <loc>https://mkvl.me/revue-newsletter/</loc>
   </url><url>
-    <loc>http://localhost:1313/rush-stack/</loc>
+    <loc>https://mkvl.me/rush-stack/</loc>
   </url><url>
-    <loc>http://localhost:1313/rush.js/</loc>
+    <loc>https://mkvl.me/rush.js/</loc>
   </url><url>
-    <loc>http://localhost:1313/sed-utility/</loc>
+    <loc>https://mkvl.me/sed-utility/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/seo/</loc>
+    <loc>https://mkvl.me/tags/seo/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/site/</loc>
+    <loc>https://mkvl.me/tags/site/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/spacedrepetition/</loc>
+    <loc>https://mkvl.me/tags/spacedrepetition/</loc>
   </url><url>
-    <loc>http://localhost:1313/subreddit-byteski-greeting-post/</loc>
+    <loc>https://mkvl.me/subreddit-byteski-greeting-post/</loc>
   </url><url>
-    <loc>http://localhost:1313/vim/</loc>
+    <loc>https://mkvl.me/vim/</loc>
   </url><url>
-    <loc>http://localhost:1313/webpack/</loc>
+    <loc>https://mkvl.me/webpack/</loc>
   </url>
 </urlset>

@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Gatsbyjs on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/gatsbyjs/</link>
-    <description>Recent content in Gatsbyjs on Max Kovalevskii (MKVL)</description>
+    <title>gatsbyjs on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/gatsbyjs/</link>
+    <description>Recent content in gatsbyjs on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gatsbyjs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/gatsbyjs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Creating GatsbyJS theme</title>
-      <link>http://localhost:1313/creating-gatsbyjs-theme/</link>
+      <link>https://mkvl.me/creating-gatsbyjs-theme/</link>
       <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/creating-gatsbyjs-theme/</guid>
-      <description>Creating GatsbyJS theme Note about how to make theme for GatsbyJS
+      <guid>https://mkvl.me/creating-gatsbyjs-theme/</guid>
+      <description>Creating GatsbyJS theme    Note about how to make theme for GatsbyJS
 make folder
-1 mkdir gatsby-&amp;lt;name&amp;gt;-theme-workspace &amp;amp;&amp;amp; cd &amp;lt;gatsby-your-new-theme&amp;gt; initialize npm/Yarn new project
-1 yarn init in package.json:
-1 2 3 4 5 6 7 8 { ... &amp;#34;private&amp;#34;: true, &amp;#34;workspaces&amp;#34;: [ &amp;#34;example&amp;#34;, // example of the gatsby website that will use theme &amp;#34;gatsby-&amp;lt;name&amp;gt;-theme&amp;#34; // folder where is your theme is located ] } setup theme folder
-1 2 cd gatsby-&amp;lt;name&amp;gt;-theme yarn init setup example website folder</description>
+1  mkdir gatsby-&amp;lt;name&amp;gt;-theme-workspace &amp;amp;&amp;amp; cd &amp;lt;gatsby-your-new-theme&amp;gt;   initialize npm/Yarn new project
+1  yarn init   in package.json:
+1 2 3 4 5 6 7 8  { ... &amp;#34;private&amp;#34;: true, &amp;#34;workspaces&amp;#34;: [ &amp;#34;example&amp;#34;, // example of the gatsby website that will use theme 	&amp;#34;gatsby-&amp;lt;name&amp;gt;-theme&amp;#34; // folder where is your theme is located 	] }   setup theme folder</description>
       
         <type>note</type>
       
@@ -29,14 +28,13 @@ make folder
     
     <item>
       <title>Working with images in GatsbyJS</title>
-      <link>http://localhost:1313/working-with-images-in-gatsbyjs/</link>
+      <link>https://mkvl.me/working-with-images-in-gatsbyjs/</link>
       <pubDate>Tue, 22 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/working-with-images-in-gatsbyjs/</guid>
-      <description>Working with images in GatsbyJS install npm deps:
-gatsby-image gatsby-plugin-sharp gatsby-transformer-sharp 1 npm install --save gatsby-transformer-sharp gatsby-plugin-sharp gatsby-image In gatsby-config.js
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 plugins: [ // ... `gatsby-plugin-sharp`, `gatsby-transformer-sharp`, // ... { resolve: `gatsby-source-filesystem`, options: { path: `${__dirname}/src/images`, name: &amp;#34;images&amp;#34;, }, }, // ... ] Display photo In Layout.tsx
-1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 import Img from &amp;#34;gatsby-image&amp;#34; // .</description>
+      <guid>https://mkvl.me/working-with-images-in-gatsbyjs/</guid>
+      <description>Working with images in GatsbyJS    install npm deps:
+ gatsby-image gatsby-plugin-sharp gatsby-transformer-sharp  1  npm install --save gatsby-transformer-sharp gatsby-plugin-sharp gatsby-image   In gatsby-config.js
+1 2 3 4 5 6 7 8 9 10 11 12 13 14  plugins: [ // ...  `gatsby-plugin-sharp`, `gatsby-transformer-sharp`, // ... 	{ resolve: `gatsby-source-filesystem`, options: { path: `${__dirname}/src/images`, name: &amp;#34;images&amp;#34;, }, }, // ...  ]   Display photo    In Layout.</description>
       
         <type>note</type>
       
@@ -46,12 +44,12 @@ gatsby-image gatsby-plugin-sharp gatsby-transformer-sharp 1 npm install --save g
     
     <item>
       <title>Creating a post&#39;s page in GatsbyJS</title>
-      <link>http://localhost:1313/creating-a-post-page-in-gatsbyjs/</link>
+      <link>https://mkvl.me/creating-a-post-page-in-gatsbyjs/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/creating-a-post-page-in-gatsbyjs/</guid>
-      <description>Creating a post&amp;rsquo;s page in GatsbyJS Post page component Create a component for post page (temporary with basic jsx w/o any data)
-1 2 3 4 5 6 7 8 9 10 11 12 13 import React from &amp;#34;react&amp;#34; import Layout from &amp;#34;./Layout&amp;#34; const PostLayout = () =&amp;gt; { return ( &amp;lt;Layout&amp;gt; &amp;lt;h1&amp;gt;Some Post&amp;lt;/h1&amp;gt; &amp;lt;/Layout&amp;gt; ) } export default PostLayout gatsby-node.ts In gatsby-node.ts you should use createPages GatsbyJS method and set path to this component</description>
+      <guid>https://mkvl.me/creating-a-post-page-in-gatsbyjs/</guid>
+      <description>Creating a post&amp;rsquo;s page in GatsbyJS    Post page component    Create a component for post page (temporary with basic jsx w/o any data)
+1 2 3 4 5 6 7 8 9 10 11 12 13  import React from &amp;#34;react&amp;#34; import Layout from &amp;#34;./Layout&amp;#34; const PostLayout = () =&amp;gt; { return ( &amp;lt;Layout&amp;gt; &amp;lt;h1&amp;gt;Some Post&amp;lt;/h1&amp;gt; &amp;lt;/Layout&amp;gt; ) } export default PostLayout   gatsby-node.ts    In gatsby-node.</description>
       
         <type>note</type>
       
@@ -61,14 +59,13 @@ gatsby-image gatsby-plugin-sharp gatsby-transformer-sharp 1 npm install --save g
     
     <item>
       <title>How to set up GatsbyJS with TypeScript</title>
-      <link>http://localhost:1313/how-to-set-up-gatsbyjs-with-typescript/</link>
+      <link>https://mkvl.me/how-to-set-up-gatsbyjs-with-typescript/</link>
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/how-to-set-up-gatsbyjs-with-typescript/</guid>
-      <description>How to set up GatsbyJS with TypeScript First things Install TypeScript as dependency:
-npm: 1 npm i typescript --save-dev yarn 1 yarn add typescript -D After installing, you should initialize TypeScript project by generating tsconfig.json file
-1 tsc --init Because in GatsbyJS you are using React components that includes JSX you should set specific parameter in tsconfig.json:
-1 2 3 4 5 6 { &amp;#34;compilerOptions&amp;#34;: { .... &amp;#34;jsx&amp;#34;: &amp;#34;react&amp;#34;, } } If you want to use TypeScript for your src/ files you can easily just rename all files in src/ from .</description>
+      <guid>https://mkvl.me/how-to-set-up-gatsbyjs-with-typescript/</guid>
+      <description>How to set up GatsbyJS with TypeScript    First things    Install TypeScript as dependency:
+ npm:  1  npm i typescript --save-dev    yarn  1  yarn add typescript -D   After installing, you should initialize TypeScript project by generating tsconfig.json file
+1  tsc --init   Because in GatsbyJS you are using React components that includes JSX you should set specific parameter in tsconfig.</description>
       
         <type>note</type>
       
@@ -78,14 +75,14 @@ npm: 1 npm i typescript --save-dev yarn 1 yarn add typescript -D After installin
     
     <item>
       <title>Basic example of GraphQL in GatsbyJS</title>
-      <link>http://localhost:1313/basic-example-of-graphql-in-gatsbyjs/</link>
+      <link>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/basic-example-of-graphql-in-gatsbyjs/</guid>
-      <description>Basic example of GraphQL in GatsbyJS GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
+      <guid>https://mkvl.me/basic-example-of-graphql-in-gatsbyjs/</guid>
+      <description>Basic example of GraphQL in GatsbyJS    GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
 In the editor you can write a query and you will get information from API&amp;rsquo;s that based on this written query
 Example
-1 2 3 4 5 { site { } } site is like an object/schema that contains some information about your website. For example, it contains information about siteMetadata (that you configured in gatsby-config.</description>
+1 2 3 4 5  {site{}}  site is like an object/schema that contains some information about your website. For example, it contains information about siteMetadata (that you configured in gatsby-config.</description>
       
         <type>note</type>
       
@@ -95,13 +92,13 @@ Example
     
     <item>
       <title>GatsbyJS - Adding the display of post&#39;s list in the app</title>
-      <link>http://localhost:1313/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</link>
+      <link>https://mkvl.me/gatsbyjs-adding-the-display-of-posts-list-in-the-app/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</guid>
-      <description>GatsbyJS - Adding the display of post&amp;rsquo;s list in the app gatsby-source-filesystem (plugin) This plugin provides the access to app&amp;rsquo;s file-system. It adds specific nodes in GraphQL scheme of the app
-Installation Install gatsby-source-filesystem in your GatsbyJS app
-npm install gatsby-source-filesystem set up plugin in gatsby-config.js 1 2 3 4 5 6 7 8 9 10 11 12 13 14 // gatsby-config.js { ... plugins: [ ... { resolve: `gatsby-source-filesystem`, options: { path: `${__dirname}/src/posts`, name: &amp;#34;posts&amp;#34;, }, }, ] } Create the post Create markdown post in /src/posts, for example greetings.</description>
+      <guid>https://mkvl.me/gatsbyjs-adding-the-display-of-posts-list-in-the-app/</guid>
+      <description>GatsbyJS - Adding the display of post&amp;rsquo;s list in the app    gatsby-source-filesystem (plugin)    This plugin provides the access to app&amp;rsquo;s file-system. It adds specific nodes in GraphQL scheme of the app
+Installation    Install gatsby-source-filesystem in your GatsbyJS app
+ npm install gatsby-source-filesystem set up plugin in gatsby-config.js  1 2 3 4 5 6 7 8 9 10 11 12 13 14  // gatsby-config.</description>
       
         <type>note</type>
       
@@ -111,15 +108,15 @@ npm install gatsby-source-filesystem set up plugin in gatsby-config.js 1 2 3 4 5
     
     <item>
       <title>Gatsby.js</title>
-      <link>http://localhost:1313/gatsbyjs/</link>
+      <link>https://mkvl.me/gatsbyjs/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/gatsbyjs/</guid>
-      <description>Gatsby.js gatsbyjs.com
+      <guid>https://mkvl.me/gatsbyjs/</guid>
+      <description>Gatsby.js    gatsbyjs.com
 Gatsby.js is a static site generator written in JavaScript for React
-Quick Start Gatsby CLI To start making your application you should install gatsby-cli globally by these npm command:
-1 npm install -g gatsby-cli To check that gatsby-cli was successfully installed just use this command that should return version of gatsby-cli on your computer:
-1 gatsby --version Creating a new Gatsby application To create a new Gatsby application use command:</description>
+Quick Start    Gatsby CLI    To start making your application you should install gatsby-cli globally by these npm command:
+1  npm install -g gatsby-cli   To check that gatsby-cli was successfully installed just use this command that should return version of gatsby-cli on your computer:
+1  gatsby --version   Creating a new Gatsby application    To create a new Gatsby application use command:</description>
       
         <type>note</type>
       

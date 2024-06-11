@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Apps on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/apps/</link>
-    <description>Recent content in Apps on Max Kovalevskii (MKVL)</description>
+    <title>apps on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/apps/</link>
+    <description>Recent content in apps on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Fri, 11 Mar 2022 13:56:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/apps/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Mar 2022 13:56:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/apps/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LanguageTool</title>
-      <link>http://localhost:1313/languagetool/</link>
+      <link>https://mkvl.me/languagetool/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/languagetool/</guid>
-      <description> LanguageTool LanguageTool’s multilingual grammar, style, and spell checker An alternative to Grammarly Links languagetool.org </description>
+      <guid>https://mkvl.me/languagetool/</guid>
+      <description>LanguageTool     LanguageTool’s multilingual grammar, style, and spell checker An alternative to Grammarly  Links     languagetool.org  </description>
       
         <type>note</type>
       
@@ -24,12 +24,12 @@
     
     <item>
       <title>Visual Studio Code</title>
-      <link>http://localhost:1313/visual-studio-code/</link>
+      <link>https://mkvl.me/visual-studio-code/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/visual-studio-code/</guid>
-      <description> Visual Studio Code Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
-Links code.visualstudio.com GitHub </description>
+      <guid>https://mkvl.me/visual-studio-code/</guid>
+      <description>Visual Studio Code    Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
+Links     code.visualstudio.com GitHub  </description>
       
         <type>note</type>
       
@@ -39,13 +39,13 @@ Links code.visualstudio.com GitHub </description>
     
     <item>
       <title>Obsidian</title>
-      <link>http://localhost:1313/obsidian/</link>
+      <link>https://mkvl.me/obsidian/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/obsidian/</guid>
-      <description> 💎 Obsidian Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
+      <guid>https://mkvl.me/obsidian/</guid>
+      <description>💎 Obsidian    Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
 Here is all information and materials about Obdisian
-Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours 👤 Communities &amp;amp; Socials Twitter Discord Forum /r/ObsidianMD/ Plugins [[Obsidian Dataview]] </description>
+Useful links    📹 YT Channels     Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours  👤 Communities &amp;amp; Socials     Twitter Discord Forum /r/ObsidianMD/  Plugins     [[Obsidian Dataview]]  </description>
       
         <type>note</type>
       
@@ -55,13 +55,13 @@ Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan 
     
     <item>
       <title>Notion</title>
-      <link>http://localhost:1313/notion/</link>
+      <link>https://mkvl.me/notion/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/notion/</guid>
-      <description> Notion Website
+      <guid>https://mkvl.me/notion/</guid>
+      <description>Notion    Website
 All-in-one app that provides abilities to create:
-notes posts plans projects tasks </description>
+ notes posts plans projects  tasks    </description>
       
         <type>note</type>
       
@@ -71,11 +71,11 @@ notes posts plans projects tasks </description>
     
     <item>
       <title>Remnote</title>
-      <link>http://localhost:1313/remnote/</link>
+      <link>https://mkvl.me/remnote/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/remnote/</guid>
-      <description>Remnote Website
+      <guid>https://mkvl.me/remnote/</guid>
+      <description>Remnote    Website
 Remnote is an app that provides note-taking and spaced-repetition in one tool.
 Basically, all notes (or bullets) that you write in Remnote transformed into Anki-like cards.</description>
       
@@ -87,11 +87,11 @@ Basically, all notes (or bullets) that you write in Remnote transformed into Ank
     
     <item>
       <title>Workflowy</title>
-      <link>http://localhost:1313/workflowy/</link>
+      <link>https://mkvl.me/workflowy/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/workflowy/</guid>
-      <description>Workflowy Workflowy is an app for writing note as lists (with outlines) or how it&amp;rsquo;s described on their website - Workflowy is The Infinite List Maker
+      <guid>https://mkvl.me/workflowy/</guid>
+      <description>Workflowy    Workflowy is an app for writing note as lists (with outlines) or how it&amp;rsquo;s described on their website - Workflowy is The Infinite List Maker
 Website</description>
       
         <type>note</type>
@@ -102,11 +102,11 @@ Website</description>
     
     <item>
       <title>NeuraCache</title>
-      <link>http://localhost:1313/neuracache/</link>
+      <link>https://mkvl.me/neuracache/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/neuracache/</guid>
-      <description>NeuraCache It is a Anki-like app for spaced-repetition but cards are created from your note-taking app (Obsidian, Roam, etc)
+      <guid>https://mkvl.me/neuracache/</guid>
+      <description>NeuraCache    It is a Anki-like app for spaced-repetition but cards are created from your note-taking app (Obsidian, Roam, etc)
 neuracache.com</description>
       
         <type>note</type>
@@ -117,11 +117,11 @@ neuracache.com</description>
     
     <item>
       <title>Readwise</title>
-      <link>http://localhost:1313/readwise/</link>
+      <link>https://mkvl.me/readwise/</link>
       <pubDate>Fri, 04 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/readwise/</guid>
-      <description>Readwise Readwise.io</description>
+      <guid>https://mkvl.me/readwise/</guid>
+      <description>Readwise    Readwise.io</description>
       
         <type>note</type>
       
@@ -131,13 +131,13 @@ neuracache.com</description>
     
     <item>
       <title>Note-taking Tools</title>
-      <link>http://localhost:1313/note-taking-tools/</link>
+      <link>https://mkvl.me/note-taking-tools/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/note-taking-tools/</guid>
-      <description> Note-taking Tools Requirements:
-Support note-taking by Zettelkasten method Zettelkasten method List:
-Notion Roam Research Foam (VSCode) Obsidian Zettlr Bear iA Writer Joplin </description>
+      <guid>https://mkvl.me/note-taking-tools/</guid>
+      <description>Note-taking Tools    Requirements:
+ Support note-taking by Zettelkasten method Zettelkasten method  List:
+ Notion Roam Research Foam (VSCode) Obsidian Zettlr Bear iA Writer Joplin  </description>
       
         <type>note</type>
       
@@ -147,11 +147,11 @@ Notion Roam Research Foam (VSCode) Obsidian Zettlr Bear iA Writer Joplin </descr
     
     <item>
       <title></title>
-      <link>http://localhost:1313/spaced-repetition-apps/</link>
+      <link>https://mkvl.me/spaced-repetition-apps/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/spaced-repetition-apps/</guid>
-      <description> Spaced-repetition apps Anki Zordi </description>
+      <guid>https://mkvl.me/spaced-repetition-apps/</guid>
+      <description>Spaced-repetition apps     Anki Zordi  </description>
       
         <type>note</type>
       
@@ -161,11 +161,11 @@ Notion Roam Research Foam (VSCode) Obsidian Zettlr Bear iA Writer Joplin </descr
     
     <item>
       <title></title>
-      <link>http://localhost:1313/zordi/</link>
+      <link>https://mkvl.me/zordi/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/zordi/</guid>
-      <description> Zordi Links https://zorbi.cards/ </description>
+      <guid>https://mkvl.me/zordi/</guid>
+      <description>Zordi    Links     https://zorbi.cards/  </description>
       
         <type>note</type>
       

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Golang on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/golang/</link>
-    <description>Recent content in Golang on Max Kovalevskii (MKVL)</description>
+    <title>golang on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/golang/</link>
+    <description>Recent content in golang on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 22 Jun 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo (Go)</title>
-      <link>http://localhost:1313/hugo-go/</link>
+      <link>https://mkvl.me/hugo-go/</link>
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/hugo-go/</guid>
-      <description>Hugo (Go) Links gohugo.io GitHub A static-site generator written in Golang.
-Resources byteski/hugo-blog-sample Installing 1 brew install hugo 1 hugo version 1 Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown Creating a new site 1 hugo new site &amp;lt;folder-name&amp;gt; Structure 1 2 3 4 5 6 7 8 9 ls -1 archetypes/ config.toml content/ data/ layouts/ static/ themes/ archetypes/ - entities that are smth like markdown templates of content config.</description>
+      <guid>https://mkvl.me/hugo-go/</guid>
+      <description>Hugo (Go)    Links     gohugo.io GitHub  A static-site generator written in Golang.
+Resources     byteski/hugo-blog-sample  Installing    1  brew install hugo   1  hugo version   1  Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown   Creating a new site    1  hugo new site &amp;lt;folder-name&amp;gt;   Structure    1 2 3 4 5 6 7 8 9  ls -1 archetypes/ config.</description>
       
         
             <type>note</type>
@@ -27,13 +27,13 @@ Resources byteski/hugo-blog-sample Installing 1 brew install hugo 1 hugo version
     
     <item>
       <title>Golang</title>
-      <link>http://localhost:1313/golang/</link>
+      <link>https://mkvl.me/golang/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/golang/</guid>
-      <description>Golang Go or Golang is a programming language that designed at Google.
+      <guid>https://mkvl.me/golang/</guid>
+      <description>Golang    Go or Golang is a programming language that designed at Google.
 The language can be described by these following items:
-it&amp;rsquo;s compiled language similar to C language by syntax the language has: memory safety garbage collection structural typing Official website cli **go run &amp;lt;module&amp;gt; - run the file/module as a program go test - run tests go mod init &amp;lt;module&amp;gt; - initialise a module godoc It provides an ability to open Go documentation locally and even offline</description>
+ it&amp;rsquo;s compiled language similar to C language by syntax the language has:  memory safety garbage collection structural typing   Official website  cli     **go run &amp;lt;module&amp;gt; - run the file/module as a program go test - run tests go mod init &amp;lt;module&amp;gt; - initialise a module  godoc    It provides an ability to open Go documentation locally and even offline</description>
       
         <type>note</type>
       

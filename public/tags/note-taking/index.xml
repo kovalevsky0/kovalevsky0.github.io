@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Note-Taking on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/note-taking/</link>
-    <description>Recent content in Note-Taking on Max Kovalevskii (MKVL)</description>
+    <title>note-taking on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/note-taking/</link>
+    <description>Recent content in note-taking on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/note-taking/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/note-taking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Evergreen notes</title>
-      <link>http://localhost:1313/evergreen-notes/</link>
+      <link>https://mkvl.me/evergreen-notes/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/evergreen-notes/</guid>
-      <description>Evergreen notes Evergreen notes is a term that was invented by Andy Matuschak Evergreen notes are notes that have actual information. They have been built not for short-term using. These notes can and should be used in long-term. Here is how I understand it: They are called evergreen because they are like leaves that get watered. The more you put new or update current information in there than more they are green.</description>
+      <guid>https://mkvl.me/evergreen-notes/</guid>
+      <description>Evergreen notes     Evergreen notes is a term that was invented by Andy Matuschak Evergreen notes are notes that have actual information. They have been built not for short-term using. These notes can and should be used in long-term. Here is how I understand it:  They are called evergreen because they are like leaves that get watered. The more you put new or update current information in there than more they are green.</description>
       
         <type>note</type>
       

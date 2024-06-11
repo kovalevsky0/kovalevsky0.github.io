@@ -3338,7 +3338,8 @@ body {
   padding: 0 30px; }
 
 .header {
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 40px; }
 
 .header__inner {
   width: 100%;
@@ -3356,5 +3357,31 @@ body {
     height: auto;
     flex-direction: column;
     padding: 10px 0 15px 0; } }
+
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+  /* If you want dots under the hoverable text */ }
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 250px;
+  background-color: #fff;
+  color: #000;
+  text-align: left;
+  padding: 5px 10px;
+  font-size: 12px;
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  z-index: 1;
+  left: -125px;
+  top: 25px; }
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible; }
 
 /*# sourceMappingURL=byte.css.map */

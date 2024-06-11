@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Software-Development on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/software-development/</link>
-    <description>Recent content in Software-Development on Max Kovalevskii (MKVL)</description>
+    <title>software-development on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/software-development/</link>
+    <description>Recent content in software-development on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/software-development/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Behavior Driven Development</title>
-      <link>http://localhost:1313/behavior-driven-development/</link>
+      <link>https://mkvl.me/behavior-driven-development/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/behavior-driven-development/</guid>
-      <description> Behavior Driven Development The concept provides the ability to write test by kind of human language (natural language constructs). It can be implemented by frameworks. Combines ideas from Test Driven Development and Domain Driven Design Frameworks Gherkin Syntax (cucumber.io) </description>
+      <guid>https://mkvl.me/behavior-driven-development/</guid>
+      <description>Behavior Driven Development     The concept provides the ability to write test by kind of human language (natural language constructs). It can be implemented by frameworks. Combines ideas from Test Driven Development and Domain Driven Design  Frameworks     Gherkin Syntax (cucumber.io)  </description>
       
         <type>note</type>
       
@@ -24,11 +24,11 @@
     
     <item>
       <title>Domain Driven Design</title>
-      <link>http://localhost:1313/domain-driven-design/</link>
+      <link>https://mkvl.me/domain-driven-design/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/domain-driven-design/</guid>
-      <description> Domain Driven Design </description>
+      <guid>https://mkvl.me/domain-driven-design/</guid>
+      <description>Domain Driven Design    </description>
       
         <type>note</type>
       
@@ -38,11 +38,11 @@
     
     <item>
       <title>monkey-patching</title>
-      <link>http://localhost:1313/monkey-patching/</link>
+      <link>https://mkvl.me/monkey-patching/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/monkey-patching/</guid>
-      <description> monkey-patching It replacement of attributes, methods of classes in runtime It replacement of modules in runtime It replacement or extending of external libraries Examples In JavaScript you can use monkey-patching for unit testing this ability is provided by libraries like Rewire </description>
+      <guid>https://mkvl.me/monkey-patching/</guid>
+      <description>monkey-patching     It replacement of attributes, methods of classes in runtime It replacement of modules in runtime It replacement or extending of external libraries  Examples     In JavaScript you can use monkey-patching for unit testing  this ability is provided by libraries like Rewire    </description>
       
         <type>note</type>
       

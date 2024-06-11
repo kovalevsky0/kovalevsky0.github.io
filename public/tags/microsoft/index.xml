@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Microsoft on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/microsoft/</link>
-    <description>Recent content in Microsoft on Max Kovalevskii (MKVL)</description>
+    <title>microsoft on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/microsoft/</link>
+    <description>Recent content in microsoft on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 08 Jul 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fluent UI Web</title>
-      <link>http://localhost:1313/fluent-ui-web/</link>
+      <link>https://mkvl.me/fluent-ui-web/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/fluent-ui-web/</guid>
-      <description> Fluent UI Web React components library Written in TypeScript Developed by Microsoft team </description>
+      <guid>https://mkvl.me/fluent-ui-web/</guid>
+      <description>Fluent UI Web     React components library Written in TypeScript Developed by Microsoft team  </description>
       
         <type>note</type>
       
@@ -24,11 +24,11 @@
     
     <item>
       <title>Microsoft</title>
-      <link>http://localhost:1313/microsoft/</link>
+      <link>https://mkvl.me/microsoft/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/microsoft/</guid>
-      <description> Microsoft An American international big tech company Links Official website (microsoft.com) github.com/microsoft </description>
+      <guid>https://mkvl.me/microsoft/</guid>
+      <description>Microsoft     An American international big tech company  Links     Official website (microsoft.com) github.com/microsoft  </description>
       
         <type>note</type>
       
@@ -38,12 +38,12 @@
     
     <item>
       <title>Visual Studio Code</title>
-      <link>http://localhost:1313/visual-studio-code/</link>
+      <link>https://mkvl.me/visual-studio-code/</link>
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/visual-studio-code/</guid>
-      <description> Visual Studio Code Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
-Links code.visualstudio.com GitHub </description>
+      <guid>https://mkvl.me/visual-studio-code/</guid>
+      <description>Visual Studio Code    Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
+Links     code.visualstudio.com GitHub  </description>
       
         <type>note</type>
       
@@ -53,12 +53,12 @@ Links code.visualstudio.com GitHub </description>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/microsoft-mvp/</link>
+      <link>https://mkvl.me/microsoft-mvp/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/microsoft-mvp/</guid>
-      <description> Microsoft MVP Microsoft Most Valuable Professional
-Links https://mvp.microsoft.com/en-US/Nomination/nominate-an-mvp </description>
+      <guid>https://mkvl.me/microsoft-mvp/</guid>
+      <description>Microsoft MVP    Microsoft Most Valuable Professional
+Links     https://mvp.microsoft.com/en-US/Nomination/nominate-an-mvp  </description>
       
         <type>note</type>
       

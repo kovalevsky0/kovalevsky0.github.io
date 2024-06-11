@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Web on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/web/</link>
-    <description>Recent content in Web on Max Kovalevskii (MKVL)</description>
+    <title>web on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/web/</link>
+    <description>Recent content in web on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IndieWeb</title>
-      <link>http://localhost:1313/indieweb/</link>
+      <link>https://mkvl.me/indieweb/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/indieweb/</guid>
-      <description> IndieWeb The idea about making own website or web page to store the content on your own platform instead of social media controlled by corporations.
-Links indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog part of the Fediverse and IndieWeb brid.gy tantek.com </description>
+      <guid>https://mkvl.me/indieweb/</guid>
+      <description>IndieWeb    The idea about making own website or web page to store the content on your own platform instead of social media controlled by corporations.
+Links     indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog part of the Fediverse and IndieWeb brid.gy tantek.com  </description>
       
         <type>note</type>
       
@@ -25,12 +25,12 @@ Links indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog par
     
     <item>
       <title>Chromium</title>
-      <link>http://localhost:1313/chromium/</link>
+      <link>https://mkvl.me/chromium/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/chromium/</guid>
-      <description> Chromium The open-source project which code can be compiled into a Web browser, developed by Google
-Links chromium.org </description>
+      <guid>https://mkvl.me/chromium/</guid>
+      <description>Chromium    The open-source project which code can be compiled into a Web browser, developed by Google
+Links     chromium.org  </description>
       
         <type>note</type>
       
@@ -40,12 +40,12 @@ Links chromium.org </description>
     
     <item>
       <title>Firefox</title>
-      <link>http://localhost:1313/firefox/</link>
+      <link>https://mkvl.me/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/firefox/</guid>
-      <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
-Links mozilla.org </description>
+      <guid>https://mkvl.me/firefox/</guid>
+      <description>Firefox    A Web browser that developed by Mozilla Corporation and Mozilla Foundation
+Links     mozilla.org  </description>
       
         <type>note</type>
       
@@ -55,12 +55,12 @@ Links mozilla.org </description>
     
     <item>
       <title>Google Chrome</title>
-      <link>http://localhost:1313/google-chrome/</link>
+      <link>https://mkvl.me/google-chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/google-chrome/</guid>
-      <description> Google Chrome A Web browser that made by Google company, based on Chromium project.
-Links google.com/chrome </description>
+      <guid>https://mkvl.me/google-chrome/</guid>
+      <description>Google Chrome    A Web browser that made by Google company, based on Chromium project.
+Links     google.com/chrome  </description>
       
         <type>note</type>
       
@@ -70,12 +70,12 @@ Links google.com/chrome </description>
     
     <item>
       <title>Web browser</title>
-      <link>http://localhost:1313/web-browser/</link>
+      <link>https://mkvl.me/web-browser/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/web-browser/</guid>
-      <description> Web browser An application that provides an ability to view web pages and more.
-Examples Chromium Google Chrome </description>
+      <guid>https://mkvl.me/web-browser/</guid>
+      <description>Web browser    An application that provides an ability to view web pages and more.
+Examples     Chromium Google Chrome  </description>
       
         <type>note</type>
       
@@ -85,12 +85,12 @@ Examples Chromium Google Chrome </description>
     
     <item>
       <title>WebKit</title>
-      <link>http://localhost:1313/webkit/</link>
+      <link>https://mkvl.me/webkit/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/webkit/</guid>
-      <description> WebKit A Web browser engine developed by Apple. It&amp;rsquo;s used in Safari Web browser. It was used in Chromium project (before fork Blink).
-Links webkit.org </description>
+      <guid>https://mkvl.me/webkit/</guid>
+      <description>WebKit    A Web browser engine developed by Apple. It&amp;rsquo;s used in Safari Web browser. It was used in Chromium project (before fork Blink).
+Links     webkit.org  </description>
       
         <type>note</type>
       

@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Chrome on Max Kovalevskii (MKVL)</title>
-    <link>http://localhost:1313/tags/chrome/</link>
-    <description>Recent content in Chrome on Max Kovalevskii (MKVL)</description>
+    <title>chrome on Max Kovalevskii (MKVL)</title>
+    <link>https://mkvl.me/tags/chrome/</link>
+    <description>Recent content in chrome on Max Kovalevskii (MKVL)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/chrome/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chromium</title>
-      <link>http://localhost:1313/chromium/</link>
+      <link>https://mkvl.me/chromium/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/chromium/</guid>
-      <description> Chromium The open-source project which code can be compiled into a Web browser, developed by Google
-Links chromium.org </description>
+      <guid>https://mkvl.me/chromium/</guid>
+      <description>Chromium    The open-source project which code can be compiled into a Web browser, developed by Google
+Links     chromium.org  </description>
       
         <type>note</type>
       
