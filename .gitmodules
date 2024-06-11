@@ -1,6 +1,4 @@
 [submodule "content"]
 	path = content
 	url = https://github.com/mkvl0/zk
-[submodule "themes/hugo-byte"]
-	path = themes/hugo-byte
-	url = https://github.com/mkvl0/hugo-byte
+
