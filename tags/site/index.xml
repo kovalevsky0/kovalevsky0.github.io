@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Site on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/site/</link>
+    <description>Recent content in Site on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://mkvl.me/tags/site/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mkvl.me/site-about-block/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/site-about-block/</guid>
+      <description>Hello there! I am Max.
+I am a software developer, currently working mostly with TypeScript, React and Node ecosystems.
+I write a blog about topics that interest me most: programming languages in general, TypeScript, testing, writing and other great stuff.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/site-blurb/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/site-blurb/</guid>
+      <description>Hello there! I am Max.
+I am a software developer, currently working mostly with TypeScript, React and Node ecosystems.
+I write a blog about topics that interest me most: programming languages in general, TypeScript, testing, writing and other great stuff.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://mkvl.me/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/about/</guid>
+      <description>About me @maxoid, a software developer This is my website - the place where I share information and knowledge about topics that interest me with everyone and myself.
+I have been working as a developer for several years. Most of the projects are related to web technologies, including UI (front end) side and server side.
+I work on the project that build on these following stack: TypeScript, React, Node, JestJS, RxJS and other great technologies.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>My Digital Garden</title>
+      <link>https://mkvl.me/notes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/notes/</guid>
+      <description>Welcome to my Digital Garden! This is the place where I share my knowledge with everyone on the Web and with myself.
+Notes are drafts or pre-complete materials that I could use for writing articles on my blog.
+I take notes following Zettelkasten method and I use Obsidian app for this. Some notes might contain a format that is working in Obsidian well but could be not supported by my website (yet).</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Git on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/git/</link>
+    <description>Recent content in Git on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://mkvl.me/git/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/git/</guid>
+      <description> Git The man page describes Git as &amp;ldquo;the stupid content tracker&amp;rdquo;.
+Links git-scm.com </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>https://mkvl.me/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/github/</guid>
+      <description> GitHub Hosting for Git repositories Website and/or service where you can create and manage Git repositories It also can be described as &amp;ldquo;social network for devs&amp;rdquo; </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Monorepo</title>
+      <link>https://mkvl.me/monorepo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/monorepo/</guid>
+      <description>Monorepo Monorepo is a way or strategy of managing a large project that consists of many packages or modules in one repository You have one repository with bunch of packages/modules instead of system &amp;ldquo;one package = one repository&amp;rdquo; An example of the project that is monorepo - Babel If you open Babel on GitHub you will see a folder called packages that contains all packages of Babel project In not monorepo system each of these packages would be in a separate repository Pros: You can provide cross-changes in a several packages faster and easily It is possible to create a one pull/merge request with changes in a several packages Managing different versions of packages and dependencies Deploying all packages at the same time Using the same build system for many packages Cons: Most of the tools for managing monorepo are hard to implementing or they bring a lot of unnecessary abstractions Technologies and tools Yarn Workspaces Lerna.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

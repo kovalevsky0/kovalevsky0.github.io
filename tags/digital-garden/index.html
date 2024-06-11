@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+  <meta name="keywords" content="Go,Programming,Blog,Go Programming,Golang,golang playground,golang install,golang tutorial,golangci-lint,golang for loop,golang enum,golang time,golang json,golang generics,golang gin,golang append,golang array,golang assert,golang append to slice,golang anonymous struct,golang atomic,golang atoi,golang array contains,golang api,awesome golang,append golang,array golang,aws lambda golang,anonymous struct golang,atoi golang,assert golang,atomic golang,golang byte array to string,golang bool to string,golang bufio,golang benchmark,golang base64 decode,golang base64,golang books,golang base64 encode,golang blog,brew install golang,byte to string golang,bufio golang,best ide for golang,bool to string golang,buffered channel golang,best golang books,bubble tea golang,bcrypt golang,base64 decode golang,golang context,golang channels,golang cobra,golang convert int to string,golang chi,golang check if file exists,golang constants,golang concurrency,golang copy,golang csv,cobra golang,convert string to int golang,context golang,chi golang,channels in golang,concurrency in golang,const golang,check if file exists golang,create error golang,clean architecture golang,golang download,golang defer,golang docker image,golang docs,golang developer,golang dependency injection,golang dictionary,golang developer jobs,golang delete from map,golang default parameter,download golang,defer golang,docker golang,dependency injection golang,database/sql golang,dockerfile golang,design patterns in golang,do while golang,data types in golang,delete from map golang,golang error,golang echo,golang else if,golang errgroup,golang embed,golang environment variables,golang error handling,golang exec">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Digital-Garden">
+  <meta name="twitter:description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+
+  <meta property="og:url" content="https://mkvl.me/tags/digital-garden/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="Digital-Garden">
+  <meta property="og:description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+
+  <title>
+    Digital-Garden
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/tags/digital-garden/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" href="/tags/digital-garden/index.xml" title="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang" />
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  <br />
+  
+  
+    <nav class="breadcrumbs">
+      <a href="/">Home</a>
+      <span class="splitter">/</span>
+      <a href="/tags">Tags</a>
+      <span class="splitter">/</span>
+      <span>Digital-Garden</span>
+    </nav>
+  
+  <div class="page-title">
+    <h1>#Digital-Garden</h1>
+  </div>
+  <div>
+    <section>
+        <div class="posts-list">
+          
+            
+            
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=12/03/2021>
+          12/03/2021
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/digital-garden/">
+          <h4 class="p-name">Digital Garden</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Digital Garden It is the way of making a content (notes) and sharing it with people on the Web.
+See …
+          
+          <a class="post__read-more" href="/digital-garden/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+          
+            
+            
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=24/11/2020>
+          24/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/note-taking-summary/">
+          <h4 class="p-name">Note-taking summary</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Note-taking summary Summarize all ideas and concepts in lists. Also keep links to articles about: …
+          
+          <a class="post__read-more" href="/note-taking-summary/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+          
+            
+            
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=23/11/2020>
+          23/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/list-of-digital-gardens/">
+          <h4 class="p-name">List of Digital Gardeners</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             List of Digital Gardeners List of Digital Gardeners on GitHub Alexis Rondeau&rsquo;s Digital Garden …
+          
+          <a class="post__read-more" href="/list-of-digital-gardens/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+          
+            
+            
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=19/11/2020>
+          19/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/gigital-gardens/">
+          <h4 class="p-name">Digital Gardens</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Digital Gardens It is the way of sharing knowledge in the Web.
+As far as I understand this …
+          
+          <a class="post__read-more" href="/gigital-gardens/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+          
+      </div>
+      
+
+
+
+
+
+
+    </section>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

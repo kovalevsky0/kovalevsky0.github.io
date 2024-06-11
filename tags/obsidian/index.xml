@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obsidian on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/obsidian/</link>
+    <description>Recent content in Obsidian on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 12 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/obsidian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Templates in Obsidian</title>
+      <link>https://mkvl.me/templates-in-obsidian/</link>
+      <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/templates-in-obsidian/</guid>
+      <description> Templates in Obsidian How to create and implement templates in Obsidian
+How to enable templates:
+Open settings Core Plugins Templates -&amp;gt; Enable </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian</title>
+      <link>https://mkvl.me/obsidian/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian/</guid>
+      <description> 💎 Obsidian Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
+Here is all information and materials about Obdisian
+Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours 👤 Communities &amp;amp; Socials Twitter Discord Forum /r/ObsidianMD/ Plugins [[Obsidian Dataview]] </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian.md Materials</title>
+      <link>https://mkvl.me/obsidian.md-materials/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian.md-materials/</guid>
+      <description> Obsidian.md Materials If you interested in topic how to effectively use @obsdmd Obsidian I’d recommend these YT channels:
+Effective Remote Work @EffectiveRemote Linking Your Thinking by @NickMilo Bryan Jenks @tallguyjenks Obsidian Office Hours </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://mkvl.me/obsidian-dataview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview/</guid>
+      <description>date: 2023-08-16 01:39:20 tags: #obsidian #dataview Obsidian Dataview Basics DW - Dataview write query inside 1 2 \```dataview \``` there are 4 types of DW queries list Query syntax LIST|TABLE|TASK|CALENDAR FROM - the location of notes you need (folder?) WHERE - notes with this criteria SORT - with sorting (asc/desc) GROUP BY - to group notes (shows them under the subitem/subtitle) LIMIT - how many notes to show Types of query List to show the list of all notes from the vault 1 2 LIST FROM &amp;#34;&amp;#34; to show the list of all notes from the vault which have a name &amp;ldquo;Obsidian Dataview&amp;rdquo; 1 2 3 LIST FROM &amp;#34;&amp;#34; WHERE file.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian DataView Docs</title>
+      <link>https://mkvl.me/obsidian-dataview-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview-docs/</guid>
+      <description> Obsidian DataView Docs Links https://blacksmithgu.github.io/obsidian-dataview/data-annotation/ </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian DataView Readme</title>
+      <link>https://mkvl.me/obsidian-dataview-readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview-readme/</guid>
+      <description>Obsidian DataView Readme Treat your obsidian vault as a database which you can query from. Provides a fully-fledged query language for filtering, sorting, and extracting data from your pages. See the Examples section below for some quick examples, or the full reference.
+Examples Show all games in the game folder, sorted by rating, with some metadata:
+1 2 3 4 5 ```dataview table time-played, length, rating from &amp;#34;games&amp;#34; sort rating desc ``` List games which are MOBAs or CRPGs.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

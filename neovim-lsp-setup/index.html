@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="Max Kovalevskii">
+  <meta name="description" content="Neovim - LSP Setup    Install plugin &rsquo;lspconfig&#39;    If you use Packer
+Put it inside vim config file:
+1  use &#39;neovim/nvim-lspconfig&#39;   Lua Language Server Configuration     github.com/sumneko/lua-language-server  Install (brew)
+1  brew install lua-language-server   In any lua file or in a specific file that includes LSP configuration:
+1  require&#39;lspconfig&#39;.sumneko_lua.setup{}    It activates LSP for lua files You can check that LSP works for Lua files  Open any .">
+  <meta name="keywords" content="blog">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Neovim - LSP Setup"/>
+<meta name="twitter:description" content="Neovim - LSP Setup    Install plugin &rsquo;lspconfig&#39;    If you use Packer
+Put it inside vim config file:
+1  use &#39;neovim/nvim-lspconfig&#39;   Lua Language Server Configuration     github.com/sumneko/lua-language-server  Install (brew)
+1  brew install lua-language-server   In any lua file or in a specific file that includes LSP configuration:
+1  require&#39;lspconfig&#39;.sumneko_lua.setup{}    It activates LSP for lua files You can check that LSP works for Lua files  Open any ."/>
+
+  <meta property="og:title" content="Neovim - LSP Setup" />
+<meta property="og:description" content="Neovim - LSP Setup    Install plugin &rsquo;lspconfig&#39;    If you use Packer
+Put it inside vim config file:
+1  use &#39;neovim/nvim-lspconfig&#39;   Lua Language Server Configuration     github.com/sumneko/lua-language-server  Install (brew)
+1  brew install lua-language-server   In any lua file or in a specific file that includes LSP configuration:
+1  require&#39;lspconfig&#39;.sumneko_lua.setup{}    It activates LSP for lua files You can check that LSP works for Lua files  Open any ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://mkvl.me/neovim-lsp-setup/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2022-08-23T14:10:15+00:00" />
+<meta property="article:modified_time" content="2022-08-23T14:10:15+00:00" />
+
+
+
+  <title>
+    Neovim - LSP Setup
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/neovim-lsp-setup/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.97ef5ae14db2373509968e933cfc86335a5762de4c8b06f94f6309cb312365a5.css" integrity="sha256-l&#43;9a4U2yNzUJlo6TPPyGM1pXYt5Miwb5T2MJyzEjZaU=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.1b42d15774e69478cb825e8007515bbf5e64035bbc3361161c7b911338e17dba.css" integrity="sha256-G0LRV3TmlHjLgl6AB1Fbv15kA1u8M2EWHHuREzjhfbo=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.95.0" />
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me" class="logo-title u-url">MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/index.xml">
+                    <i class='fa fa-rss-square color-pink'></i>
+                    rss.xml
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/notes" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Notes
+    </span>
+  </a>
+</div>
+
+  
+  <article class="content h-entry">
+    
+    <div class="content__inner">
+      <header>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=23/08/2022>
+              23/08/2022
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/neovim/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #neovim
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/nvim/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #nvim
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/vim/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #vim
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/linux/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #linux
+      </a>
+    </div></div>
+
+        
+        
+      </header>
+      
+      <section class="e-content">
+        <h1 id="neovim---lsp-setup">
+  Neovim - LSP Setup
+  <a class="heading-link" href="#neovim---lsp-setup">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h2 id="install-plugin-lspconfig">
+  Install plugin &rsquo;lspconfig'
+  <a class="heading-link" href="#install-plugin-lspconfig">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>If you use <strong>Packer</strong></p>
+<p>Put it inside vim config file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">use</span> <span class="s1">&#39;neovim/nvim-lspconfig&#39;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="lua-language-server-configuration">
+  Lua Language Server Configuration
+  <a class="heading-link" href="#lua-language-server-configuration">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://github.com/sumneko/lua-language-server">github.com/sumneko/lua-language-server</a></li>
+</ul>
+<p>Install (brew)</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">brew install lua-language-server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In any lua file or in a specific file that includes LSP configuration:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-lua" data-lang="lua"><span class="line"><span class="cl"><span class="n">require</span><span class="s1">&#39;lspconfig&#39;</span><span class="p">.</span><span class="n">sumneko_lua.setup</span><span class="p">{}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>It activates LSP for lua files</li>
+<li>You can check that LSP works for Lua files
+<ul>
+<li>Open any .lua file</li>
+<li>type :LspInfo</li>
+<li>You should see the line <code>1 client(s) attached to this bufer</code> and <code>Client: sumneko_lua</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="javascripttypescript-server-configuration">
+  JavaScript/TypeScript Server Configuration
+  <a class="heading-link" href="#javascripttypescript-server-configuration">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://github.com/typescript-language-server/typescript-language-server">github.com/typescript-language-server</a></li>
+</ul>
+<h3 id="install-npm">
+  Install (npm)
+  <a class="heading-link" href="#install-npm">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm install -g typescript-language-server typescript
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="install-yarn">
+  Install (yarn)
+  <a class="heading-link" href="#install-yarn">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">yarn global add typescript-language-server
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="nvm">
+  nvm
+  <a class="heading-link" href="#nvm">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li>If you use <strong>Node Version Manager</strong> then <strong>typescript-language-server</strong> will be installed in the specific folder for the specific version of Node</li>
+<li>For example for Node with version <strong>18.7.0</strong> it will be in the path <code>$NVM_DIR/versions/node/v18.7.0/lib/node_module/typescript-language-server</code></li>
+<li>Important!: ensure the server is executable from the command line (just type <code>typescript-language-server</code> and it should be available)</li>
+</ul>
+<h2 id="pre-installing-language-servers-by-nvm-and-npmyarn">
+  Pre-installing language servers by nvm and npm/yarn
+  <a class="heading-link" href="#pre-installing-language-servers-by-nvm-and-npmyarn">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li>Some of the language servers are available as npm packages</li>
+<li>They can be installed by npm or yarn</li>
+<li>You can specify the list of language servers that will be installed every time when you install <strong>node</strong> by <strong>nvm</strong></li>
+</ul>
+<p>The list should be in the special config file that is available on the path:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">$NVM_DIR/default-package
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>An example of file <strong>default-package</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">typescript-language-server
+</span></span><span class="line"><span class="cl">pyright
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>There can be any npm packages, not just language servers.</p>
+<ul>
+<li><a href="https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing">https://github.com/nvm-sh/nvm#default-global-packages-from-file-while-installing</a></li>
+</ul>
+
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             Max Kovalevskii 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/byteski/hugo-byte">Byte theme</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.f453d26c79f010446cf0d9770197f77de32c07b7a5512d141a286247fe154a22.js" integrity="sha256-9FPSbHnwEERs8Nl3AZf3feMsB7elUS0UGihiR/4VSiI="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.f3c695cf763a0e3f0761f70cc1e1a5bad832571b667b2f533b95ccc5249fd111.js" integrity="sha256-88aVz3Y6Dj8HYfcMweGlutgyVxtmey9TO5XMxSSf0RE="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.a67e7f4779c353fb307662cf463fd7e3f15c927b44fe97374a9ceb4255b19fcf.js" integrity="sha256-pn5/R3nDU/swdmLPRj/X4/FckntE/pc3SpzrQlWxn88="></script>
+    
+
+    
+
+    
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

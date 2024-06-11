@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Zettelkasten on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/zettelkasten/</link>
+    <description>Recent content in Zettelkasten on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 08 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/zettelkasten/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian</title>
+      <link>https://mkvl.me/obsidian/</link>
+      <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian/</guid>
+      <description> 💎 Obsidian Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
+Here is all information and materials about Obdisian
+Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours 👤 Communities &amp;amp; Socials Twitter Discord Forum /r/ObsidianMD/ Plugins [[Obsidian Dataview]] </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-taking Tools</title>
+      <link>https://mkvl.me/note-taking-tools/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/note-taking-tools/</guid>
+      <description> Note-taking Tools Requirements:
+Support note-taking by Zettelkasten method Zettelkasten method List:
+Notion Roam Research Foam (VSCode) Obsidian Zettlr Bear iA Writer Joplin </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Zettelkasten method</title>
+      <link>https://mkvl.me/zettelkasten-method/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/zettelkasten-method/</guid>
+      <description> Zettelkasten method Zettelkasten - method of taking short notes that contains connections (links) to relative notes. Author: Niklas Luhmann
+Links:
+Resources about Zettelkasten method Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-taking summary</title>
+      <link>https://mkvl.me/note-taking-summary/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/note-taking-summary/</guid>
+      <description> Note-taking summary Summarize all ideas and concepts in lists. Also keep links to articles about:
+note-taking itself Zettelkasten method Digital Garden Relative notes:
+Gigital Gardens List of Digital Gardens Learn in public inspirations Resources about Zettelkasten method </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Resources about Zettelkasten method</title>
+      <link>https://mkvl.me/resources-about-zettelkasten-method/</link>
+      <pubDate>Tue, 24 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/resources-about-zettelkasten-method/</guid>
+      <description> Resources about Zettelkasten method How to take smart notes (Book) r/Zettelkasten/ zettelkasten.de </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>List of Digital Gardeners</title>
+      <link>https://mkvl.me/list-of-digital-gardens/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/list-of-digital-gardens/</guid>
+      <description> List of Digital Gardeners List of Digital Gardeners on GitHub Alexis Rondeau&amp;rsquo;s Digital Garden (Obsidian Publish) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

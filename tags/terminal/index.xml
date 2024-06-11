@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Terminal on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/terminal/</link>
+    <description>Recent content in Terminal on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 31 Aug 2022 15:41:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>List of interesting command-line interface tools</title>
+      <link>https://mkvl.me/list-of-interesting-command-line-interface-tools/</link>
+      <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/list-of-interesting-command-line-interface-tools/</guid>
+      <description> List of interesting command-line interface tools ble.sh GitUI </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>tmux</title>
+      <link>https://mkvl.me/tmux/</link>
+      <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/tmux/</guid>
+      <description>tmux Installing macOS
+1 brew install tmux Commands tmux ls 1 tmux ls returns list of active tmux sessions Default key bindings Default prefix key 1 ctrl(control) + b Panes default key bindings
+Split the window horizontally (Horizontal pane)
+1 ctrl(control) + b + &amp;#34; Split the window vertically (Vertical pane)
+1 ctrl(control) + b + % Delete (kill) current (focused) pane
+(with confirmation prompt)
+1 ctrl(control) + b + x Switch to the right pane</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Bash</title>
+      <link>https://mkvl.me/bash/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/bash/</guid>
+      <description> Bash Bash is a Unix shell and command language. Name is acronym for Bourne Again Shell.
+It was default shell on macOS (currently - Z shell).
+Links Website </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Fish Shell</title>
+      <link>https://mkvl.me/fish-shell/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fish-shell/</guid>
+      <description> Fish Shell Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
+Links Website (fishshell.com) GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Fisher (Fish Shell Plugin Manager)</title>
+      <link>https://mkvl.me/fisher-fish-shell-plugin-manager/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/fisher-fish-shell-plugin-manager/</guid>
+      <description> Fisher (Fish Shell Plugin Manager) A plugin manager for Fish Shell.
+Links GitHub </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Z shell</title>
+      <link>https://mkvl.me/z-shell/</link>
+      <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/z-shell/</guid>
+      <description> Z shell Z shell is a Unix shell. It is an alternative to Bash. It is a community &amp;ldquo;Oh My Zsh&amp;rdquo; that is developing and supporting many plugins and themes for this shell.
+Now it is a default shell on macOS (previous - Bash).
+Links Official website (zsh.org) Oh My Zsh website </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

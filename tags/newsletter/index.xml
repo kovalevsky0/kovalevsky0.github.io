@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Newsletter on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/newsletter/</link>
+    <description>Recent content in Newsletter on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Fri, 06 Aug 2021 12:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>#2 Weekly Dose Of Software Engineering Stuff</title>
+      <link>https://mkvl.me/2-weekly-newsletter/</link>
+      <pubDate>Fri, 06 Aug 2021 12:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/2-weekly-newsletter/</guid>
+      <description>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there!
+Here is a second edition of the newsletter Weekly Dose Of Software Engineering Stuff.
+Blog Last week I published new post How To Configure tsconfig.json: TypeScript Strict options Book The book Grokking TypeScript was updated to version 0.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>#1 Weekly Dose Of Software Engineering Stuff</title>
+      <link>https://mkvl.me/1-weekly-newsletter/</link>
+      <pubDate>Fri, 30 Jul 2021 17:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/1-weekly-newsletter/</guid>
+      <description>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there! 👋
+It&amp;rsquo;s the first edition of Weekly Dose Of Software Engineering Stuff - a newsletter where you can read the content of topics that might be interesting for software developers and engineers.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Revue newsletter</title>
+      <link>https://mkvl.me/revue-newsletter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/revue-newsletter/</guid>
+      <description> Revue newsletter Links getrevue.co </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

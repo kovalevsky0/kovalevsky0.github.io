@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Web-Development on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/web-development/</link>
+    <description>Recent content in Web-Development on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 18 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/web-development/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Back End</title>
+      <link>https://mkvl.me/back-end/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/back-end/</guid>
+      <description>Back End Side of development that responsible for server-side of the application.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Front End</title>
+      <link>https://mkvl.me/front-end/</link>
+      <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/front-end/</guid>
+      <description>Front End Side of development that responsible for client-side or UI of the application.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Browser Object Model</title>
+      <link>https://mkvl.me/browser-object-model/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/browser-object-model/</guid>
+      <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Document Object Model</title>
+      <link>https://mkvl.me/document-object-model/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/document-object-model/</guid>
+      <description> Document Object Model DOM is a programming interface for HTML and XML documents.
+Links Introduction to the DOM (MDN Web Docs) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://mkvl.me/html/</link>
+      <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/html/</guid>
+      <description> HTML HTML (HyperText Markup Language) is a markup language for document that are displayed in the browser. It is not a programming language btw </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Server Side Rendering</title>
+      <link>https://mkvl.me/server-side-rendering/</link>
+      <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/server-side-rendering/</guid>
+      <description> Server Side Rendering Server Side Rendering is a process when your files (for example, HTML and CSS files) are rendering by server side instead of client side
+Links Rendering on the Web (developers.google.com) </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

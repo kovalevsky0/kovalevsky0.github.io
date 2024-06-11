@@ -1,0 +1,933 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.
+Because I work mostly with TypeScript and React ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.">
+  <meta name="keywords" content="testing,unit testing,tests,javascript,typescript,end to end tests,integration tests,unit tests,test doubles">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="First Steps in Unit Testing with TypeScript">
+  <meta name="twitter:description" content="Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.
+Because I work mostly with TypeScript and React ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.">
+
+  <meta property="og:url" content="https://mkvl.me/first-steps-in-unit-testing/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="First Steps in Unit Testing with TypeScript">
+  <meta property="og:description" content="Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.
+Because I work mostly with TypeScript and React ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-04-18T23:00:00+00:00">
+    <meta property="article:modified_time" content="2021-04-18T23:00:00+00:00">
+    <meta property="article:tag" content="Testing">
+    <meta property="article:tag" content="Jest">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="React">
+    <meta property="article:tag" content="Typescript">
+
+
+  <title>
+    First Steps in Unit Testing with TypeScript
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/first-steps-in-unit-testing/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">First Steps in Unit Testing with TypeScript</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=18/04/2021>
+              18/04/2021
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/testing/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #testing
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/jest/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #jest
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/javascript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #javascript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/react/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #react
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescript
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      
+        <div id="subscription" class="subscription-top">
+          
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+        </div>
+      
+      <section class="e-content">
+        <p>Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.</p>
+<p>Because I work mostly with <a href="/typescript/">TypeScript</a> and <a href="/react/">React</a> ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.</p>
+<h2 id="types-of-tests">
+  Types of tests
+  <a class="heading-link" href="#types-of-tests">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p><img alt="Pyramid of testing" src="/images/pyramid-of-testing.png"></p>
+<p>Before we dive into the subject of Unit testing, we need to know about other types of testing. In general, the are three types of software testing:</p>
+<ul>
+<li>End-to-End testing</li>
+<li>Integration testing</li>
+<li>Unit testing</li>
+</ul>
+<h3 id="unit-tests">
+  Unit tests
+  <a class="heading-link" href="#unit-tests">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Unit tests, also called as module tests, are tests of modularity. They test specific part of the system (module) independently from other modules of the system.</p>
+<p>Unit test should check, for example, module output (the result value that function returns) with different input parameters. This test should not check the result of other modules but output of module that test written for. If module receives data in parameters from another output of another module, we need to mock this data.</p>
+<p>Unit test can be a kind of documentation of the module.</p>
+<h3 id="what-is-a-unit">
+  What is a Unit?
+  <a class="heading-link" href="#what-is-a-unit">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Okay, now we know that Unit tests are used to test module (unit). But what is a unit? It depends on the technologies and programming languages that you use. In <a href="/typescript/">TypeScript</a> (<a href="/javascript/">JavaScript</a>) it could be a function or class. In <a href="/react/">React</a> it will be a component, which is, basically, <a href="/javascript/">JavaScript</a> function.</p>
+<p>For each unit, we should write an independent file that contains tests for this unit (module).</p>
+<p>But, what if a class or component contains several methods or functions? Do we need to write an independent test for each method/function?</p>
+<p>In the case of the class method, it doesn&rsquo;t make sense to write a test for method as for independent module (unit) because methods are inner parts of classes where they are placed. Mostly, methods have no meaning outside their classes, otherwise, they should not be a method of class but an independent function (if it&rsquo;s possible in a programming language).</p>
+<p>What about something like <a href="/react/">React</a> component? Well, it depends. For example, if you have some local state in your component when it doesn&rsquo;t make sense to write a test for the component&rsquo;s function as a unit, because this function, most likely, works with this state. In this case, you should think about the component as a unit itself and it doesn&rsquo;t matter the component has inner functions or not.</p>
+<p>Before answering the question <em>Why we should prefer to write Unit tests as developers?</em> we should find out about other types of tests.</p>
+<p>Typical example of <em><strong>Unit</strong></em> in <a href="/typescript/">TypeScript</a> - a helper function that doesn&rsquo;t have side effects:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">interface</span> <span class="nx">Transaction</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">user</span>: <span class="kt">User</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">const</span> <span class="nx">getUsersFromTransactions</span> <span class="o">=</span> <span class="p">(</span><span class="nx">transactions</span>: <span class="kt">Transaction</span><span class="p">[])</span> <span class="o">=&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">transactions</span><span class="p">.</span><span class="nx">map</span><span class="p">(({</span> <span class="nx">user</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="nx">user</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Another one is a model class in <a href="/typescript/">TypeScript</a>. In this class we have just simple getter methods and fields:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">class</span> <span class="nx">TransactionModel</span> <span class="kr">extends</span> <span class="nx">Model</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// some methods and fields
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="kr">private</span> <span class="kr">get</span> <span class="nx">getId</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">id</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">private</span> <span class="kr">get</span> <span class="nx">getUser</span><span class="p">()</span><span class="o">:</span> <span class="nx">User</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="k">this</span><span class="p">.</span><span class="nx">user</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">public</span> <span class="nx">getPlaceholder</span><span class="p">()</span><span class="o">:</span> <span class="kt">string</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">user</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">getUser</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="sb">`transaction #</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">getId</span><span class="p">()</span><span class="si">}</span><span class="sb"> for user: </span><span class="si">${</span><span class="nx">user</span><span class="p">.</span><span class="nx">firstName</span><span class="si">}</span><span class="sb"> </span><span class="si">${</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">user</span><span class="p">.</span><span class="nx">lastName</span>
+</span></span><span class="line"><span class="cl">    <span class="si">}</span><span class="sb">`</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>An example of <em><strong>Unit</strong></em> in <a href="/react/">React</a>. Simple component that renders information about user and has inner state:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-tsx" data-lang="tsx"><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">React</span><span class="p">,</span> <span class="p">{</span> <span class="nx">FC</span><span class="p">,</span> <span class="nx">useState</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;react&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">interface</span> <span class="nx">Props</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">user</span>: <span class="kt">User</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">const</span> <span class="nx">UserCard</span>: <span class="kt">FC</span><span class="p">&lt;</span><span class="nt">Props</span><span class="p">&gt;</span> <span class="o">=</span> <span class="p">({</span> <span class="nx">user</span> <span class="p">})</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="p">[</span><span class="nx">isPhoneNumberShown</span><span class="p">,</span> <span class="nx">setIsPhoneNumberShown</span><span class="p">]</span> <span class="o">=</span> <span class="nx">useState</span><span class="p">&lt;</span><span class="nt">boolean</span><span class="p">&gt;(</span><span class="kc">false</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">handleBtnClick</span> <span class="o">=</span> <span class="p">()</span><span class="o">:</span> <span class="k">void</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">setIsPhoneNumberShown</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;</span><span class="nt">Card</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">Avatar</span> <span class="na">src</span><span class="o">=</span><span class="p">{</span><span class="nx">user</span><span class="p">.</span><span class="nx">avatarUrl</span><span class="p">}</span> <span class="p">/&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;</span><span class="nt">tbody</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">{</span><span class="cm">/* some code */</span><span class="p">}</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&lt;</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span><span class="nx">Phone</span> <span class="kt">number</span><span class="o">:</span><span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="p">{</span><span class="nx">isPhoneNumberShown</span> <span class="o">?</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="p">&lt;&gt;{</span><span class="nx">user</span><span class="p">.</span><span class="nx">phoneNumber</span><span class="p">}&lt;/&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="p">)</span> <span class="o">:</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">                <span class="p">&lt;</span><span class="nt">button</span> <span class="na">onClick</span><span class="o">=</span><span class="p">{</span><span class="nx">handleBtnClick</span><span class="p">}&gt;</span><span class="nx">Show</span> <span class="nx">phone</span> <span class="kt">number</span><span class="p">&lt;/</span><span class="nt">button</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">              <span class="p">)}</span>
+</span></span><span class="line"><span class="cl">            <span class="p">&lt;/</span><span class="nt">td</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">          <span class="p">&lt;/</span><span class="nt">tr</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">        <span class="p">&lt;/</span><span class="nt">tbody</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">      <span class="p">&lt;/</span><span class="nt">table</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">&lt;/</span><span class="nt">Card</span><span class="p">&gt;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="end-to-end-tests">
+  End-to-End tests
+  <a class="heading-link" href="#end-to-end-tests">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>End-to-End (or e2e for short) tests are used to test software as a whole system from an outside observer&rsquo;s perspective. What does it mean? In <a href="/front-end/">Front End</a> development it looks like this:</p>
+<ul>
+<li>you write a test that &ldquo;opens&rdquo; the browser</li>
+<li>it goes to a specific page or view of your application</li>
+<li>it manipulates with the interface of your application: click on buttons, scrolling, types text in forms, etc</li>
+</ul>
+<p>The result of these tests should be <em>correct</em> behavior of the application&rsquo;s UI. E2E emulates user&rsquo;s interaction with your application. These tests don&rsquo;t know how the system <em>actually</em> works inside.</p>
+<div id="subscription-shortcode">
+  
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+</div>
+
+<p>Technologies that can be used for writing End-to-End test in <a href="/typescript/">TypeScript</a>/<a href="/javascript/">JavaScript</a> ecosystem are:</p>
+<ul>
+<li><a href="/puppeteer/">Puppeteer</a></li>
+<li><a href="/playwright/">Playwright</a></li>
+<li><a href="/cypress/">Cypress</a></li>
+</ul>
+<h3 id="integration-tests">
+  Integration tests
+  <a class="heading-link" href="#integration-tests">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Integration tests (also called module tests) are used to test a group of modules and interacting modules with each other in the system. They test how individual pieces work together as a whole.</p>
+<p>In <a href="/front-end/">Front End</a> a great example of this type of test could be a test that checks that the application works well when a few Units (for example, components in <a href="/react/">React</a>) interacting with each other.</p>
+<h2 id="why-prefer-unit-testing">
+  Why prefer unit testing?
+  <a class="heading-link" href="#why-prefer-unit-testing">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Alright, because we know about a few types of testing, let&rsquo;s discuss <em>Why should we prefer Unit tests as developers?</em> Unit tests have several advantages over other tests:</p>
+<ul>
+<li>Speed. Unit tests are written and, mostly, executed faster than other types of tests.</li>
+<li>Unit tests can show us where exactly the error occurred. End-to-End tests check an application as a whole system and you may not understand which part of the system contains the error.</li>
+<li>Because you write Unit tests for specific units like modules, functions, classes, components - you are mentally closer to the code. It&rsquo;s more understandable for you as a developer because you interact with the same concepts as in the code.</li>
+</ul>
+<h2 id="structure-of-unit-test">
+  Structure of Unit test
+  <a class="heading-link" href="#structure-of-unit-test">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>There is a concept of structuring Unit tests called <strong>AAA</strong> - <em>Arrange</em>, <em>Act</em>, <em>Assert</em>. The idea is simple: you split your unit test into three phases:</p>
+<ul>
+<li>Phase <em>Arrange</em>. It is a step where you prepare your test before the next phase (Act). Here you should make stubs, mocks, and other stuff (you will read about this below) that is needed for executing a code that the test is for.
+<ul>
+<li>In terms of <em>Jest</em>, these are methods <strong>beforeEach</strong>, <strong>beforeAll</strong>, <strong>afterEach</strong>, <strong>afterAll</strong>.</li>
+<li>Sometimes, you should make a mock for some modules that are used in the test (in this case we talk about <a href="/javascript/">JavaScript</a> modules that can be used by constructs <em>import</em> or <em>require</em>). For this purpose, you can use libraries that contain this feature (<em>Jest</em>), or you can use a library that is made just for this specific feature (<a href="/rewire/">Rewire</a>).</li>
+<li>The data for input parameters should be prepared here.</li>
+</ul>
+</li>
+<li>Phase <em>Act</em>. In this phase, you write the execution of the unit (function, class, component, etc) that test is for.</li>
+<li>Phase <em>Assert</em>. It is a phase where we should write expectations of the module&rsquo;s execution result. If expectations are the same as the result then the test is passed (green), otherwise the test is failed (red).
+<ul>
+<li>In this phase, we should use some <a href="/assertion/">Assertion</a> framework or library to write expectations. It could be a specific library like <a href="/chai.js/">Chai.js</a> or a library that contains an ability to write expectations like <em>Jest</em>.</li>
+</ul>
+</li>
+</ul>
+<h2 id="test-doubles">
+  Test Doubles
+  <a class="heading-link" href="#test-doubles">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>I have previously mentioned terms such as <em>mocks</em> and <em>stubs</em>. What do they mean? As we learned earlier, Unit tests are tests of modules and they have to test modules independently of each other. Mostly, modules have input parameters that receive some data. This data can be an output of another module. But we can&rsquo;t just use this another module&rsquo;s output data in the test. It won&rsquo;t be a Unit test. What if this <em>another module</em> will be changed inside? Then, the test of the first module will be failed. The problem here is that test will be failed because of the module that the test not for. It would violate the principle of modularity of tests.</p>
+<p>That&rsquo;s why we need to create fake data or to create fake behavior of another module for using it all in the input parameters of the tested module. To do this, we can use <em>Test Doubles</em>.</p>
+<h3 id="dummy-object">
+  Dummy Object
+  <a class="heading-link" href="#dummy-object">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>The Dummy Object is an object that doesn&rsquo;t have any data inside. They are used in tests more like placeholders, not real objects.</p>
+<p>An example of the Dummy Object is using an empty class that replaces a real one. The important thing here is Dummy empty class and real class has to inherit from one &ldquo;parent&rdquo; class, or they use the same interface.</p>
+<p>the Dummy Object is needed when a module that we test has the required parameter but we don&rsquo;t test the module’s behavior that is based on this parameter. We just need to execute the module with some empty data in the parameter that is required.</p>
+<p>Here is a simple example of dummy object:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">Player</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./Player&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">class</span> <span class="nx">DummyPlayer</span> <span class="kr">extends</span> <span class="nx">Player</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="kr">public</span> <span class="nx">getUsername() {</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="s2">&#34;player1&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">public</span> <span class="nx">getLevel() {</span>
+</span></span><span class="line"><span class="cl">    <span class="k">return</span> <span class="mi">42</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>An example of test with dummy object:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">DummyPlayer</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./DummyPlayer&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">GameSession</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./GameSession&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">describe</span><span class="p">(</span><span class="s2">&#34;GameSession&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>
+</span></span><span class="line"><span class="cl">  <span class="nx">it</span><span class="p">(</span><span class="s2">&#34;should start session with players&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">player</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">DummyPlayer</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">gameSession</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">GameSession</span><span class="p">(</span><span class="nx">player</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">gameSession</span><span class="p">.</span><span class="nx">start</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">expect</span><span class="p">(</span><span class="nx">gameSession</span><span class="p">.</span><span class="nx">isStarted</span><span class="p">).</span><span class="nx">toBe</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="fake-object">
+  Fake Object
+  <a class="heading-link" href="#fake-object">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>It contains simplified data of the real object. It used to replace some real object. Fake should contain the same data as a real object but not all.</p>
+<p>An example of the Fake Object is a fake instance of a database class that stored data in memory. You wouldn&rsquo;t need to read data from the database every time to use it in a test.</p>
+<p>A good example of using Fake is replacing <strong>XMLHttpRequest</strong> object by fake one using library <a href="/sinon.js/">Sinon.js</a> - <a href="https://sinonjs.org/releases/latest/fake-xhr-and-server">Fake XHR and server</a>.</p>
+<h3 id="stub">
+  Stub
+  <a class="heading-link" href="#stub">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><strong>Stub</strong> is an object which functions return predefined output data. It contains specific rules like <em>&ldquo;when parameters are <strong>x1</strong> and <strong>x2</strong> we should return result <strong>y</strong>&rdquo;</em>. Stub doesn&rsquo;t need to have parameters: a function can return some predefined data no matter what the parameters are. Predefined data is values that we need to make tests passed.</p>
+<p>Stubs guarantee us that test of a specific module won&rsquo;t fail when modules (the outputs of which is used in this module&rsquo;s test) were changed. However, there is another side to the coin. What if the results of these modules were changed too? Then, we will have not actual data (stubs) in the module&rsquo;s test.</p>
+<p>How can we avoid this problem? <a href="/static-typing/">Static typing</a> can help us here. If you use <a href="/typescript/">TypeScript</a> and you specified interface or type of some module&rsquo;s output, you need to change Stubs in every test where a type of module&rsquo;s output and type of stub&rsquo;s output is different.</p>
+<p>Here is an example. In <em>Jest</em> you can create stub by using method <strong>spyOn</strong>. It creates stub but it also can be used as a <strong>Spy</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="o">*</span> <span class="kr">as</span> <span class="nx">helpers</span> <span class="kr">from</span> <span class="s2">&#34;./helpers&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">describe</span><span class="p">(</span><span class="s2">&#34;moveFiles&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">it</span><span class="p">(</span><span class="s2">&#34;should return failed status&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">jest</span><span class="p">.</span><span class="nx">spyOn</span><span class="p">(</span><span class="nx">helpers</span><span class="p">,</span> <span class="s2">&#34;moveFiles&#34;</span><span class="p">).</span><span class="nx">mockReturnValue</span><span class="p">({</span> <span class="nx">success</span>: <span class="kt">false</span> <span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">expect</span><span class="p">(</span><span class="nx">helpers</span><span class="p">.</span><span class="nx">moveFiles</span><span class="p">([],</span> <span class="p">[])).</span><span class="nx">toStrictEqual</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">success</span>: <span class="kt">false</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="spy">
+  Spy
+  <a class="heading-link" href="#spy">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>It is a method that is <em>spying on</em> specific functions. Spy is tracking information from function about:</p>
+<ul>
+<li>how many times was the function called</li>
+<li>what was the result of the function&rsquo;s call</li>
+<li>with what parameters were the function called</li>
+</ul>
+<p>Let&rsquo;s use <em>Jest</em> again. We can start to spy on specific function what should be called inside another function which is test for:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="nx">it</span><span class="p">(</span><span class="s2">&#34;should call helper `checkFile`&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">jest</span><span class="p">.</span><span class="nx">spyOn</span><span class="p">(</span><span class="nx">helpers</span><span class="p">,</span> <span class="s2">&#34;checkFile&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nx">helpers</span><span class="p">.</span><span class="nx">moveFiles</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;file 1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">ext</span><span class="o">:</span> <span class="s2">&#34;txt&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">path</span><span class="o">:</span> <span class="s2">&#34;/home&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;file 1 // &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">ext</span><span class="o">:</span> <span class="s2">&#34;txt&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">path</span><span class="o">:</span> <span class="s2">&#34;/home&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">],</span>
+</span></span><span class="line"><span class="cl">    <span class="p">[</span>
+</span></span><span class="line"><span class="cl">      <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">path</span><span class="o">:</span> <span class="s2">&#34;/usr/etc&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">},</span>
+</span></span><span class="line"><span class="cl">    <span class="p">]</span>
+</span></span><span class="line"><span class="cl">  <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nx">expect</span><span class="p">(</span><span class="nx">helpers</span><span class="p">.</span><span class="nx">checkFile</span><span class="p">).</span><span class="nx">toHaveBeenCalledTimes</span><span class="p">(</span><span class="mi">2</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">expect</span><span class="p">(</span><span class="nx">helpers</span><span class="p">.</span><span class="nx">checkFile</span><span class="p">).</span><span class="nx">toHaveBeenLastCalledWith</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;file 1 // &#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">ext</span><span class="o">:</span> <span class="s2">&#34;txt&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">path</span><span class="o">:</span> <span class="s2">&#34;/home&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="mock">
+  Mock
+  <a class="heading-link" href="#mock">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p><strong>Mock</strong> is an object which functions have specific rules (or expectations), or is just a function with predefined <strong>behavior</strong> and predefined <strong>expectations</strong>. We can avoid API calls and other side effects by using mock.</p>
+<p>Okay, let&rsquo;s mock entire implementation of the function from previous example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="o">*</span> <span class="kr">as</span> <span class="nx">helpers</span> <span class="kr">from</span> <span class="s2">&#34;./helpers&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">file</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">name</span><span class="o">:</span> <span class="s2">&#34;file 000&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">ext</span><span class="o">:</span> <span class="s2">&#34;md&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">path</span><span class="o">:</span> <span class="s2">&#34;/home&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">checkFile</span> <span class="o">=</span> <span class="nx">jest</span><span class="p">.</span><span class="nx">fn</span><span class="p">().</span><span class="nx">mockReturnValue</span><span class="p">(</span><span class="kc">true</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">jest</span><span class="p">.</span><span class="nx">mock</span><span class="p">(</span><span class="s2">&#34;./helpers.ts&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">moveFiles</span>: <span class="kt">jest.fn</span><span class="p">().</span><span class="nx">mockImplementation</span><span class="p">(()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">checkFile</span><span class="p">(</span><span class="nx">file</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">success</span>: <span class="kt">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">      <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}),</span>
+</span></span><span class="line"><span class="cl">  <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">describe</span><span class="p">(</span><span class="s2">&#34;moveFiles&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">it</span><span class="p">(</span><span class="s2">&#34;should call helper `checkFile`&#34;</span><span class="p">,</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">result</span> <span class="o">=</span> <span class="nx">helpers</span><span class="p">.</span><span class="nx">moveFiles</span><span class="p">([],</span> <span class="p">[]);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">expect</span><span class="p">(</span><span class="nx">result</span><span class="p">).</span><span class="nx">toStrictEqual</span><span class="p">({</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">success</span>: <span class="kt">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="p">});</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">expect</span><span class="p">(</span><span class="nx">checkFile</span><span class="p">).</span><span class="nx">toHaveBeenCalledTimes</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">expect</span><span class="p">(</span><span class="nx">checkFile</span><span class="p">).</span><span class="nx">toHaveBeenLastCalledWith</span><span class="p">(</span><span class="nx">file</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">});</span>
+</span></span><span class="line"><span class="cl"><span class="p">});</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="fixtures">
+  Fixtures
+  <a class="heading-link" href="#fixtures">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>There is another type of test doubles - Fixtures. They are more used in <a href="/front-end/">Front End</a> development. Fixtures are fake data that replace in test real data from API. Instead of sending a request to a real API, you can use methods that return the same data as from API (fixtures).</p>
+<p>In <a href="/back-end/">Back End</a> is used for replacing requests to the real database. If you need some specific state of the database, you can make fixtures that replace data with a specific state from that database.</p>
+<p>How to create fixtures? There are several options. If you work on <a href="/front-end/">Front End</a> side, <a href="/back-end/">Back End</a> that you work with can provides you JSON file that generated based on the type of API responses. Sometimes you don&rsquo;t work closely with <a href="/back-end/">Back End</a> engineers (for example - it&rsquo;s API of some external service). Then, you can generate JSON schemes based on API documentation like Swagger / Open API.</p>
+<h2 id="conclusions">
+  Conclusions
+  <a class="heading-link" href="#conclusions">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Unit tests help you to write more effective, security code that you can easily change and refactor without fear that you will disrupt a working system. It is not a silver bullet, but there are some techniques and methods that can help you to fix and avoid the issue in Unit testing and development. We will talk about that in the next materials.</p>
+<p>Be in touch! 🔔 ✨</p>
+
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

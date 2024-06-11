@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="Intro There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.
+For that purpose, you can use a tool called nvm (Node Version Manager).">
+  <meta name="keywords" content="javascript,node,nvm">
+
+
+  
+    <meta name="image" content="https://mkvl.me/images/how-to-install-or-update-node-by-using-nvm.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mkvl.me/images/how-to-install-or-update-node-by-using-nvm.png">
+  <meta name="twitter:title" content="How To Install or Update Node by Using nvm (Node Version Manager)">
+  <meta name="twitter:description" content="Intro There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.
+For that purpose, you can use a tool called nvm (Node Version Manager).">
+
+  <meta property="og:url" content="https://mkvl.me/how-to-install-or-update-node-by-using-nvm/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="How To Install or Update Node by Using nvm (Node Version Manager)">
+  <meta property="og:description" content="Intro There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.
+For that purpose, you can use a tool called nvm (Node Version Manager).">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-05-09T21:00:00+00:00">
+    <meta property="article:modified_time" content="2021-05-09T21:00:00+00:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Node">
+    <meta property="og:image" content="https://mkvl.me/images/how-to-install-or-update-node-by-using-nvm.png">
+
+
+  <title>
+    How To Install or Update Node by Using nvm (Node Version Manager)
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/how-to-install-or-update-node-by-using-nvm/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+        <div class="content__image">
+      <Img class="content__image-inner" src="/images/how-to-install-or-update-node-by-using-nvm.png" alt="How To Install or Update Node by Using nvm (Node Version Manager)" ></Img>
+          
+            <div
+              style="
+                font-size: 14px;
+                text-align: right;
+                margin-top: 10px;
+                margin-right: 20px;
+              "
+            >
+              Photo by
+              
+                <a href="https://www.pexels.com/sv-se/@lucky-3592812">Lucky</a>
+              
+            </div>
+          
+        </div>
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">How To Install or Update Node by Using nvm (Node Version Manager)</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=09/05/2021>
+              09/05/2021
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/javascript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #javascript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/node/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #node
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      
+        <div id="subscription" class="subscription-top">
+          
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+        </div>
+      
+      <section class="e-content">
+        <h2 id="intro">
+  Intro
+  <a class="heading-link" href="#intro">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>There are few ways to install <a href="/node/">Node</a> on your local machine. The most popular way is to install it following <a href="https://nodejs.org/en">official website instructions</a>. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.</p>
+<p>For that purpose, you can use a tool called <strong>nvm</strong> (<a href="/node-version-manager/">Node Version Manager</a>).</p>
+<h2 id="installation">
+  Installation
+  <a class="heading-link" href="#installation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Because I use <strong>macOS</strong> on my local machine these instructions are specific to that operating system. You can find instructions that are specific to an operating system that you use on <a href="https://github.com/nvm-sh/nvm">official documentation on GitHub</a>.</p>
+<p>To install <strong>nvm</strong> on your local machine let&rsquo;s use this command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now let&rsquo;s type the command which tells us that nvm is installed and available on our local machine:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm --version
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You should see the current version of <a href="/node-version-manager/">Node Version Manager</a> that is installed on your local machine.</p>
+<h3 id="shell-troubleshooting">
+  Shell Troubleshooting
+  <a class="heading-link" href="#shell-troubleshooting">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>If you use some shell as <a href="/z-shell/">Z shell</a> or <a href="/fish-shell/">Fish Shell</a> you probably will have something like this in the Terminal:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fish: Unknown command: nvm
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Currently, I use <a href="/fish-shell/">Fish Shell</a>. If you use something else you should check <a href="https://github.com/nvm-sh/nvm#troubleshooting-on-macos">detail information about troubleshooting on GitHub</a>.</p>
+<p>Unfortunately, <strong>nvm doesn&rsquo;t support Fish</strong>. However, there is a solution called <a href="/fish-nvm/">fish-nvm</a>. It is a wrapper for <a href="/fish-shell/">Fish Shell</a>. You can install this by using <a href="/fisher-fish-shell-plugin-manager/">Fisher (Fish Shell Plugin Manager)</a>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fisher install FabioAntunes/fish-nvm edc/bass
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, if you type <code>nvm --version</code> you should see a version of <a href="/node-version-manager/">Node Version Manager</a> that is installed on your local machine.</p>
+<h2 id="usage">
+  Usage
+  <a class="heading-link" href="#usage">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<h3 id="node-installation">
+  Node Installation
+  <a class="heading-link" href="#node-installation">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>Now it&rsquo;s time to start using <a href="/node-version-manager/">Node Version Manager</a> to install <a href="/node/">Node</a> on the local machine.</p>
+<div id="subscription-shortcode">
+  
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+</div>
+
+<p>To install <strong>latest</strong> version of Node you can use the command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm install node
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>To see all versions of Node that are installed on your machine use the command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm ls
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It should print in the Terminal something like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-&gt;      v16.1.0
+</span></span><span class="line"><span class="cl">         system
+</span></span><span class="line"><span class="cl">default -&gt; node (-&gt; v16.1.0)
+</span></span><span class="line"><span class="cl">iojs -&gt; N/A (default)
+</span></span><span class="line"><span class="cl">unstable -&gt; N/A (default)
+</span></span><span class="line"><span class="cl">node -&gt; stable (-&gt; v16.1.0) (default)
+</span></span><span class="line"><span class="cl">stable -&gt; 16.1 (-&gt; v16.1.0) (default)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Pay attention to the symbol &ldquo;-&gt;&rdquo;. It shows us which version of Node is current on the local machine. So, basically, when you type <code>node -v</code> you should see the same version as with &ldquo;-&gt;&rdquo; before (in that case this version is 16.1.0).</p>
+<p>Now let&rsquo;s install another version of <a href="/node/">Node</a>. Let&rsquo;s say, I want to use some older version of Node. For example, 14 version. To install it use the command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm install 14
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It should install Node v.14.16.1. Let&rsquo;s look at the list of installed Node versions (<em><strong>nvm ls</strong></em>):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">-&gt;     v14.16.1
+</span></span><span class="line"><span class="cl">        v16.1.0
+</span></span><span class="line"><span class="cl">         system
+</span></span><span class="line"><span class="cl">default -&gt; node (-&gt; v16.1.0)
+</span></span><span class="line"><span class="cl">iojs -&gt; N/A (default)
+</span></span><span class="line"><span class="cl">unstable -&gt; N/A (default)
+</span></span><span class="line"><span class="cl">node -&gt; stable (-&gt; v16.1.0) (default)
+</span></span><span class="line"><span class="cl">stable -&gt; 16.1 (-&gt; v16.1.0) (default)
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">...
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now we have two versions: 14.16.1 and 16.1.0. The current is 14 (the symbol &ldquo;-&gt;&rdquo; before).</p>
+<p>To <strong>switch to</strong> version 16 use this command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm use 16
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We should see the answer of nvm:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">Now using node v16.1.0 (npm v7.11.2)
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>And if we use the command <em><strong>nvm ls</strong></em> again we will see that the current version is 16.1.0.</p>
+<h3 id="uninstall-node">
+  Uninstall Node
+  <a class="heading-link" href="#uninstall-node">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>To uninstall <strong>latest</strong> version of <a href="/node/">Node</a> use command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm uninstall node
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>To uninstall <strong>specific</strong> version of Node (for example - 14) use command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm uninstall 14
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="global-npm-packages">
+  Global npm packages
+  <a class="heading-link" href="#global-npm-packages">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>If you have some installed globally <a href="/npm/">npm</a> packages you should notice one thing. When you installed this npm package on one version of <a href="/node/">Node</a> and then you switch to another version of Node, the installed npm package won&rsquo;t be available for you. It&rsquo;s because npm packages that were installed on different versions of Node located in different places.</p>
+<p>An example. Now I am on version 16 of <a href="/node/">Node</a>. I want to install <a href="/prettier/">Prettier</a> globally on my computer by <a href="/npm/">npm</a>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm i -g prettier
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>And then we switch to version 14:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">nvm use 14
+</span></span><span class="line"><span class="cl">prettier --version
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You will see something like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">prettier: command not found
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Don&rsquo;t worry! If you want to use that package on version 14 you just need to install it again.</p>
+<p><a href="/npm/">npm</a> packages are located in specific folders for each version of <a href="/node/">Node</a> that is installed by <strong>nvm</strong>.</p>
+<p>Packages are located here (on macOS):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">~/.nvm/versions/node/&lt;version&gt;/lib/node_modules
+</span></span></code></pre></td></tr></table>
+</div>
+</div>
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

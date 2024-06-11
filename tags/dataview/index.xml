@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dataview on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/dataview/</link>
+    <description>Recent content in Dataview on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://mkvl.me/tags/dataview/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://mkvl.me/obsidian-dataview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview/</guid>
+      <description>date: 2023-08-16 01:39:20 tags: #obsidian #dataview Obsidian Dataview Basics DW - Dataview write query inside 1 2 \```dataview \``` there are 4 types of DW queries list Query syntax LIST|TABLE|TASK|CALENDAR FROM - the location of notes you need (folder?) WHERE - notes with this criteria SORT - with sorting (asc/desc) GROUP BY - to group notes (shows them under the subitem/subtitle) LIMIT - how many notes to show Types of query List to show the list of all notes from the vault 1 2 LIST FROM &amp;#34;&amp;#34; to show the list of all notes from the vault which have a name &amp;ldquo;Obsidian Dataview&amp;rdquo; 1 2 3 LIST FROM &amp;#34;&amp;#34; WHERE file.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Obsidian DataView Docs</title>
+      <link>https://mkvl.me/obsidian-dataview-docs/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/obsidian-dataview-docs/</guid>
+      <description> Obsidian DataView Docs Links https://blacksmithgu.github.io/obsidian-dataview/data-annotation/ </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

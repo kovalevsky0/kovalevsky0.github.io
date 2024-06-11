@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there!
+Here is a second edition of the newsletter Weekly Dose Of Software Engineering Stuff.
+Blog Last week I published new post How To Configure tsconfig.json: TypeScript Strict options Book The book Grokking TypeScript was updated to version 0.">
+  <meta name="keywords" content="typescript,newsletter,weekly dose of software engineering stuff,weekly,software,devs,developers,software engineering">
+
+
+  
+    <meta name="image" content="https://mkvl.me/images/2-weekly-newsletter.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mkvl.me/images/2-weekly-newsletter.png">
+  <meta name="twitter:title" content="#2 Weekly Dose Of Software Engineering Stuff">
+  <meta name="twitter:description" content="❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there!
+Here is a second edition of the newsletter Weekly Dose Of Software Engineering Stuff.
+Blog Last week I published new post How To Configure tsconfig.json: TypeScript Strict options Book The book Grokking TypeScript was updated to version 0.">
+
+  <meta property="og:url" content="https://mkvl.me/2-weekly-newsletter/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="#2 Weekly Dose Of Software Engineering Stuff">
+  <meta property="og:description" content="❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
+Hello there!
+Here is a second edition of the newsletter Weekly Dose Of Software Engineering Stuff.
+Blog Last week I published new post How To Configure tsconfig.json: TypeScript Strict options Book The book Grokking TypeScript was updated to version 0.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-08-06T12:00:00+00:00">
+    <meta property="article:modified_time" content="2021-08-06T12:00:00+00:00">
+    <meta property="article:tag" content="Newsletter">
+    <meta property="og:image" content="https://mkvl.me/images/2-weekly-newsletter.png">
+
+
+  <title>
+    #2 Weekly Dose Of Software Engineering Stuff
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/2-weekly-newsletter/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+        <div class="content__image">
+      <Img class="content__image-inner" src="/images/2-weekly-newsletter.png" alt="#2 Weekly Dose Of Software Engineering Stuff" ></Img>
+          
+        </div>
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">#2 Weekly Dose Of Software Engineering Stuff</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=06/08/2021>
+              06/08/2021
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/newsletter/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #newsletter
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      
+        <div id="subscription" class="subscription-top">
+          
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+        </div>
+      
+      <section class="e-content">
+        <blockquote>
+<p>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to <a href="https://maxoid.io/newsletter"><strong>Weekly Dose Of Software Engineering Stuff</strong></a> to be among the first to receive the newsletter.</p>
+</blockquote>
+<p>Hello there!</p>
+<p>Here is a second edition of the newsletter <em>Weekly Dose Of Software Engineering Stuff</em>.</p>
+<h2 id="blog">
+  Blog
+  <a class="heading-link" href="#blog">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li>Last week I published new post <a href="https://maxoid.io/blog/article/how-to-configure-tsconfigjson-typescript-strict-options">How To Configure tsconfig.json: TypeScript Strict options</a></li>
+</ul>
+<h2 id="book">
+  Book
+  <a class="heading-link" href="#book">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li>The book <em>Grokking TypeScript</em> was updated to version 0.0.2. New chapters have been added:
+<ul>
+<li>What Is Strict Mode In TypeScript, Why And When You Should Use It?</li>
+<li>How To Configure tsconfig.json: TypeScript Strict options</li>
+</ul>
+</li>
+<li>📚 <a href="https://www.dropbox.com/s/asnlmqzqwn1nqio/grokking-typescript-v002.pdf?dl=0">Download new version of the book</a></li>
+</ul>
+<h2 id="typescript">
+  TypeScript
+  <a class="heading-link" href="#typescript">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://fettblog.eu/typescript-unexpected-intersections/">New article &ldquo;TypeScript: Unexpected intersections&rdquo; by Stefan Baumgartner</a></li>
+<li><a href="https://github.com/microsoft/TypeScript/issues/45047">Google feedback on TypeScript 4.4-beta (github.com)</a></li>
+<li>Interesting project <a href="https://github.com/sinclairzx81/typebox">TypeBox</a>
+<ul>
+<li>JSON Schema Type Builder with Static Type Resolution for TypeScript</li>
+</ul>
+</li>
+</ul>
+<h2 id="tools">
+  Tools
+  <a class="heading-link" href="#tools">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://twitter.com/rometools/status/1422616144763097091">Rome is hiring Rust developers to help us rewrite Rome in Rust</a>
+<ul>
+<li><a href="https://rome.tools">Rome Tools</a> is a tool that combines functionality of transpiler, minifier, formatter, linter, test runner, and others.</li>
+<li>Currently it written in TypeScript</li>
+<li>Also check out <a href="https://2ality.com/2020/10/js-plus-other-languages.html">Writing JavaScript tools in other languages – a new trend?</a></li>
+</ul>
+</li>
+<li><a href="https://github.com/microsoft/playwright/releases/tag/v1.13.1">Playwright released v1.13.1</a>
+<ul>
+<li>For those who don&rsquo;t know, <a href="https://playwright.dev/">Playwright</a> is a Node.js library to automate browsers like Chrome, Firefox. Made by Microsoft and written in TypeScript.</li>
+</ul>
+</li>
+<li><a href="https://github.com/babel/babel/releases/tag/v7.14.9">Babel released v7.14.9</a></li>
+<li><a href="https://v2.parceljs.org/blog/rc0/">Parcel 2 RC</a></li>
+</ul>
+<h2 id="node">
+  Node
+  <a class="heading-link" href="#node">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://github.com/nodejs/node/releases/tag/v16.6.1">Node.js release v16.6.1</a></li>
+<li>Interesting project <a href="https://github.com/vercel/ncc">ncc</a>
+<ul>
+<li>Compile a Node.js project into a single file. Supports TypeScript, binary addons, dynamic requires.</li>
+</ul>
+</li>
+<li><a href="https://github.com/Schniz/fnm">Fast Node Manager - Fast and simple Node.js version manager, built in Rust</a></li>
+<li><a href="https://github.com/websockets/ws/releases/tag/8.0.0">ws (a Node.js WebSocket library) release v8.0.0</a></li>
+</ul>
+<h2 id="javascript">
+  JavaScript
+  <a class="heading-link" href="#javascript">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://tc39er.us/posts/episode-15-yulia-startsev/">Interesting episode of podcast tc39er.us with Yulia Startsev (Mozilla, SpiderMonkey)</a></li>
+<li>Interesting project <a href="https://github.com/ajitid/fzf-for-js">FZF for JavaScript</a></li>
+<li><a href="https://lists.wikimedia.org/hyperkitty/list/wikitech-l@lists.wikimedia.org/thread/SOZREBYR36PUNFZXMIUBVAIOQI4N7PDU/">Vue.js has been selected as Wikimedia Foundation&rsquo;s future JavaScript framework</a></li>
+</ul>
+<h2 id="obsidian">
+  Obsidian
+  <a class="heading-link" href="#obsidian">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://github.com/George-debug/obsidian-timeline">Obisdian.md plugin for creating timelines</a></li>
+<li><a href="https://www.youtube.com/watch?v=tdDFlSJtUIU">Surprising (for me) case of using Obsidian - Using Obsidian.md to DM D&amp;D</a></li>
+</ul>
+<h2 id="aws">
+  AWS
+  <a class="heading-link" href="#aws">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://expeditedsecurity.com/aws-in-plain-english/s3/">AWS S3 In Plain English</a></li>
+</ul>
+<h2 id="others">
+  Others
+  <a class="heading-link" href="#others">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<ul>
+<li><a href="https://www.jetbrains.com/lp/devecosystem-2021/">The State of Developer Ecosystem 2021 (by JetBrains)</a>
+<ul>
+<li>Key Takeaways:
+<ul>
+<li>JavaScript is the most popular language</li>
+<li>Python is more popular than Java in terms of overall usage, while Java is more popular than Python as a main language.</li>
+<li>The top-5 languages developers are planning to adopt or migrate to are Go, Kotlin, TypeScript, Python, and Rust.</li>
+<li>The top-5 languages developers were learning in 2021 were JavaScript, Python, TypeScript, Java, and Go.</li>
+<li>Ruby, Objective-C, and Scala have all decreased in popularity over the last 5 years.</li>
+<li>The 5 fastest growing languages are Python, TypeScript, Kotlin, SQL, and Go.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="https://insights.stackoverflow.com/survey/2021">StackOverflow&rsquo;s 2021 Developer Survey</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=nicoespeon.abracadabra#abracadabra">An extention for VSCode - Abracadabra</a>
+<ul>
+<li>With Abracadabra, you can quickly and safely refactor existing code in VS Code.</li>
+</ul>
+</li>
+<li><a href="https://github.com/qnkhuat/tstream">TStream - Streaming from terminal 🤯 </a></li>
+<li><a href="https://earthly.dev/blog/command-line-tools/">6 Command Line Tools for Productive Programmers</a></li>
+<li><a href="https://devblogs.microsoft.com/visualstudio/join-the-visual-studio-2022-for-mac-private-preview/">Join the Visual Studio 2022 for Mac Private Preview</a></li>
+<li><a href="http://craftinginterpreters.com/">A book &ldquo;Crafting Interpreters&rdquo;</a>
+<ul>
+<li>Crafting Interpreters contains everything you need to implement a full-featured, efficient scripting language&hellip;</li>
+</ul>
+</li>
+<li><a href="https://github.com/rockerBOO/awesome-neovim">Collections of awesome neovim plugins</a></li>
+<li><a href="https://www.banterly.net/2021/07/31/new-in-git-switch-and-restore/">New in Git: switch and restore</a></li>
+<li><a href="https://opensource.google/docs/growing/peer-bonus/">Open Source Peer Bonus Program</a></li>
+<li><a href="https://blog.rust-lang.org/2021/07/29/Rust-1.54.0.html">Announcing Rust 1.54.0</a></li>
+</ul>
+
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

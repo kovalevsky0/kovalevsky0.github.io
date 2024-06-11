@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jest on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/jest/</link>
+    <description>Recent content in Jest on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 27 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/jest/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Test asynchronous code using Jest</title>
+      <link>https://mkvl.me/test-asynchronous-code-using-jest/</link>
+      <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-asynchronous-code-using-jest/</guid>
+      <description>Test asynchronous code using Jest Test code that contains method setTimeout Let&amp;rsquo;s say we have some function that called another function after N seconds:
+1 2 3 4 5 function completeTask(task: Task) { setTimeout(() =&amp;gt; { task.complete(); }, DELAY); } Okay, now we want to test that method task.complete was called when we called function completeTask:
+1 2 3 4 5 6 7 8 9 10 11 12 13 const { completeTask } = require(&amp;#34;.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Name your mocked function with word &#34;mock&#34;</title>
+      <link>https://mkvl.me/name-your-mocked-function-with-word-mock/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/name-your-mocked-function-with-word-mock/</guid>
+      <description>Name your mocked function with word &amp;ldquo;mock&amp;rdquo; Let&amp;rsquo;s look at the example:
+1 2 3 4 5 6 7 8 9 10 11 const fakeApi = jest.fn().mockImplementation(() =&amp;gt; ({ ok({ data: [] }) })); jest.mock(&amp;#39;../some-module.js&amp;#39;, () =&amp;gt; { return jest.fn().mockImplementation(function () { this.api = fakeApi; }); }); It&amp;rsquo;s a part of the test where we mock some module. We also use mocked function &amp;ldquo;fakeApi&amp;rdquo; in the mock of module. But it will not work because function &amp;ldquo;fakeApi&amp;rdquo; will be in Temporal Dead Zone In JavaScript.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>First Steps in Unit Testing with TypeScript</title>
+      <link>https://mkvl.me/first-steps-in-unit-testing/</link>
+      <pubDate>Sun, 18 Apr 2021 23:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/first-steps-in-unit-testing/</guid>
+      <description>Unit testing is one of the greatest ways to write effective code. In this article, I want to introduce you to what is this type of testing exactly and some basic terms of the Unit testing world.
+Because I work mostly with TypeScript and React ecosystems, I will refer to tools and examples that are commonly used there, but terms and definitions in this article are applicable to all languages and technologies.</description>
+      
+        
+            <type>blog post</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Don&#39;t use arrow function inside mockImplementation with this (Jest)</title>
+      <link>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</guid>
+      <description>Don&amp;rsquo;t use arrow function inside mockImplementation with this (Jest) When using the arrow function:
+1 2 3 4 5 6 7 8 // ... someAPI.JWT = jest.fn().mockImplementation(() =&amp;gt; { this.authorize = jest.fn(); this.credentials = { access_token: &amp;#34;fake_access_token&amp;#34; }; }); // ... const jwtInstance = someAPI.JWT.mock.instances[0]; console.log(jwtInstance); // mockConstructor When using function:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 // .</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Debugging in Jest</title>
+      <link>https://mkvl.me/debugging-in-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/debugging-in-jest/</guid>
+      <description> Debugging in Jest Add breakpoint in test:
+1 2 3 4 5 6 7 8 it.each` a | b | result ${1} | ${2} | ${3} ${0} | ${4} | ${4} `(&amp;#34;should return $result when a = $a, b = $b&amp;#34;, ({ a, b, result }) =&amp;gt; { debugger; // breakpoint expect(sum(a, b)).toBe(result); }); Run this following command:
+1 node --inspect-brk ./node_modules/.bin/jest ./&amp;lt;file_of_test&amp;gt;.test.js </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Test of async method in Jest</title>
+      <link>https://mkvl.me/test-of-async-method-in-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/test-of-async-method-in-jest/</guid>
+      <description>Test of async method in Jest An example of code:
+1 2 3 4 5 6 7 8 9 10 module.exports = { checkUser: (user, cb) =&amp;gt; { if (user.age &amp;lt; 18) { setTimeout(() =&amp;gt; { // do smth cb(user.age); }, 500); } }, }; If you write test like this:
+1 2 3 4 5 6 7 8 9 10 11 12 13 describe(&amp;#34;example&amp;#34;, () =&amp;gt; { it(&amp;#34;First test&amp;#34;, () =&amp;gt; { expect.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>The problem with mutation of object data in Jest</title>
+      <link>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/the-problem-with-mutation-of-object-data-in-jest/</guid>
+      <description>The problem with mutation of object data in Jest Let&amp;rsquo;s say we have some method that just set fields like this:
+1 2 3 joinServer({ host, user }) { user.serverId = host.serverId; } Here is the example of test of this method:
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 it(&amp;#34;should move user to host&amp;#39;s server&amp;#34;, () =&amp;gt; { const user1 = { id: 1, serverId: 1, }; const user2 = { id: 2, serverId: 2, }; joinServer({ host: user1, user: user2, }); expect(user2.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Using &#34;table&#34; in method it.each of Jest</title>
+      <link>https://mkvl.me/using-table-in-method-it.each-of-jest/</link>
+      <pubDate>Wed, 14 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/using-table-in-method-it.each-of-jest/</guid>
+      <description> Using &amp;ldquo;table&amp;rdquo; in method it.each of Jest test.each`table`(name, fn, timeout)
+1 2 3 4 5 6 7 it.each` a | b | result ${1} | ${2} | ${3} ${0} | ${4} | ${4} `(&amp;#34;should return $result when a = $a, b = $b&amp;#34;, ({ a, b, result }) =&amp;gt; { expect(sum(a, b)).toBe(result); }); </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Jest</title>
+      <link>https://mkvl.me/jestjs/</link>
+      <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/jestjs/</guid>
+      <description>Jest It&amp;rsquo;s a JavaScript Testing Framework. It works with: TypeScript, React, Node, etc. It contains functionality of Test Runner Links GitHub repo (facebook/jest) Official website (jestjs.io) Examples Test of async method in Jest The problem with mutation of object data in Jest Using &amp;ldquo;table&amp;rdquo; in method it.each of Jest Debugging in Jest Don&amp;rsquo;t use arrow function inside mockImplementation with this (Jest) Name your mocked function with word &amp;ldquo;mock&amp;rdquo; Test asynchronous code using Jest Terminology mock (jest.</description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

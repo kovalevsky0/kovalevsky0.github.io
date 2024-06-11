@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="TypeScript is not just a superset of JavaScript with static types. It is also a quite configurable tool that can be used for different types of projects. One parameter or group of parameters that can be configured is strict. If you are not familiar with strict mode and why you should use it for a new project then check out the post What Is Strict Mode In TypeScript, Why And When You Should Use It?">
+  <meta name="keywords" content="typescript,typescript strict,typescript use strict,tsconfig.json,how to tsconfig,useUnknownInCatchVariables,noImplicitAny,strictNullChecks,strictFunctionTypes,strictBindCallApply,strictPropertyInitialization,noImplicitThis,alwaysStrict">
+
+
+  
+    <meta name="image" content="https://mkvl.me/images/how-to-configure-tsconfigjson-typescript-strict-options.jpeg" />
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mkvl.me/images/how-to-configure-tsconfigjson-typescript-strict-options.jpeg">
+  <meta name="twitter:title" content="How To Configure tsconfig.json: TypeScript Strict options">
+  <meta name="twitter:description" content="TypeScript is not just a superset of JavaScript with static types. It is also a quite configurable tool that can be used for different types of projects. One parameter or group of parameters that can be configured is strict. If you are not familiar with strict mode and why you should use it for a new project then check out the post What Is Strict Mode In TypeScript, Why And When You Should Use It?">
+
+  <meta property="og:url" content="https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="How To Configure tsconfig.json: TypeScript Strict options">
+  <meta property="og:description" content="TypeScript is not just a superset of JavaScript with static types. It is also a quite configurable tool that can be used for different types of projects. One parameter or group of parameters that can be configured is strict. If you are not familiar with strict mode and why you should use it for a new project then check out the post What Is Strict Mode In TypeScript, Why And When You Should Use It?">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-07-29T17:00:00+00:00">
+    <meta property="article:modified_time" content="2021-07-29T17:00:00+00:00">
+    <meta property="article:tag" content="Typescript">
+    <meta property="article:tag" content="Typescriptbook">
+    <meta property="og:image" content="https://mkvl.me/images/how-to-configure-tsconfigjson-typescript-strict-options.jpeg">
+
+
+  <title>
+    How To Configure tsconfig.json: TypeScript Strict options
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+        <div class="content__image">
+      <Img class="content__image-inner" src="/images/how-to-configure-tsconfigjson-typescript-strict-options.jpeg" alt="How To Configure tsconfig.json: TypeScript Strict options" ></Img>
+          
+        </div>
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">How To Configure tsconfig.json: TypeScript Strict options</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=29/07/2021>
+              29/07/2021
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescriptbook/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescriptbook
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      
+        <div id="subscription" class="subscription-top">
+          
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+        </div>
+      
+      <section class="e-content">
+        <p>TypeScript is not just a superset of JavaScript with static types. It is also a quite configurable tool that can be used for different types of projects. One parameter or group of parameters that can be configured is <strong>strict</strong>. If you are not familiar with strict mode and why you should use it for a new project then check out the post <a href="https://maxoid.io/blog/article/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it">What Is Strict Mode In TypeScript, Why And When You Should Use It?</a>. In this post I focus more on a practical side of this topic.</p>
+<p>TypeScript&rsquo;s strict mode parameter can be configurated as several individual parameters for each specific case of type checking. So, basically, if you set the parameter <strong>strict</strong> to <em>true</em> in <strong>tsconfig.json</strong> it means that all these strict options are set to <em>true</em>.</p>
+<p>List of strict options:</p>
+<ul>
+<li>useUnknownInCatchVariables (new)</li>
+<li>noImplicitAny</li>
+<li>strictNullChecks</li>
+<li>strictFunctionTypes</li>
+<li>strictBindCallApply</li>
+<li>strictPropertyInitialization</li>
+<li>noImplicitThis</li>
+<li>alwaysStrict</li>
+</ul>
+<p>Let&rsquo;s explore each strict option in practice.</p>
+<h2 id="typescript-strict-options-in-tsconfigjson-useunknownincatchvariables">
+  TypeScript Strict options in tsconfig.json: useUnknownInCatchVariables
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-useunknownincatchvariables">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>This option was introduced in <a href="https://devblogs.microsoft.com/typescript/announcing-typescript-4-4-beta/#use-unknown-catch-variables">TypeScript 4.4</a>.</p>
+<p>The problem is that when we use construction <strong>try catch</strong> the type of variable <strong>error</strong> in <em>catch</em> is <strong>any</strong>:</p>
+<p><img src="/images/strict-typescript-screen-1.png"></p>
+<p>It increases the potential risk of errors and application malfunction. The option <strong>useUnknownInCatchVariables</strong> solves this problem.</p>
+<p>If you set option <strong>useUnknownInCatchVariables</strong> to <code>true</code> then variable <strong>error</strong> in every <strong>try catch</strong> in your code base will have type <code>unknown</code>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;compilerOptions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;useUnknownInCatchVariables&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p><img src="/images/strict-typescript-screen-2.png"></p>
+<p>You can also use type <strong>Error</strong> for error variable:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// some code
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span><span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">if</span> <span class="p">(</span><span class="nx">e</span> <span class="k">instanceof</span> <span class="nb">Error</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">.</span><span class="nx">message</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="typescript-strict-options-in-tsconfigjson-noimplicitany">
+  TypeScript Strict options in tsconfig.json: noImplicitAny
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-noimplicitany">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Let&rsquo;s start with option <strong>noImplicitAny</strong>.</p>
+<p>In the <strong>main.ts</strong> file (or whatever file you want) let&rsquo;s create a simple function:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">printData</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>If you run <code>tsc</code> command you will see that TypeScript successfully compiles the code because there is no error.</p>
+<p>Now, set the options in configuration file <strong>tsconfig.json</strong> in your project:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;compilerOptions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;noImplicitAny&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>If you&rsquo;re writing your code in an editor like <a href="/visual-studio-code/">Visual Studio Code</a> or some IDE you probably already see that something is wrong with parameter <strong>data</strong> in the function. Let&rsquo;s run TypeScript compiler <code>tsc</code> and see what it will tell us.</p>
+<p>TypeScript compiler will print something like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">error TS7006: Parameter &#39;data&#39; implicitly has an &#39;any&#39; type.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">4 function printData(data) {
+</span></span><span class="line"><span class="cl">                     ~~~~
+</span></span><span class="line"><span class="cl">Found 1 error.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>So, if you set the option <strong>noImplicitAny</strong> to <code>true</code>, TypeScript won&rsquo;t allow us to write functions with parameters without types of parameters. The thing is that TypeScript doesn&rsquo;t know what type of the parameter <strong>data</strong> is and it doesn&rsquo;t <em>infer</em> because there is no information in the code about that value should be there.</p>
+<p>You need to set some type to avoid this TypeScript error. For example, I&rsquo;ll specify type <strong>string</strong> for the data:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">printData</span><span class="p">(</span><span class="nx">data</span>: <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Also, if your parameter is not required, you can specify the default value of the parameter. And there is the thing: if you set the default value of the parameter then you won&rsquo;t need to specify the type. In that case, TypeScript will understand what type of the parameter is by <em>Type inference</em>.</p>
+<p>An example. The default value of the parameter is empty <strong>string</strong> so type of the parameter is <strong>string</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">printData</span><span class="p">(</span><span class="nx">data</span> <span class="o">=</span> <span class="s2">&#34;&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="typescript-strict-options-in-tsconfigjson-why-should-noimplicitany-be-enabled">
+  TypeScript Strict options in tsconfig.json: Why Should noImplicitAny Be Enabled?
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-why-should-noimplicitany-be-enabled">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<p>By setting the option <strong>noImplicitAny</strong> to <code>true</code>, TypeScript forces you to write safer code. How? The problem with ignorance of the type of the parameter is that you can manipulate the value in the code by methods that can&rsquo;t work with this value. For example, inside the function <strong>printData</strong> you can use method <strong>.toLowerCase</strong> that works with type <strong>string</strong>. Your colleague (or even you!) can use the function <strong>printData</strong> somewhere in the future. Because you don&rsquo;t know what the type of the parameter <strong>data</strong> is, you probably can put the number value to this parameter.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kd">function</span> <span class="nx">printData</span><span class="p">(</span><span class="nx">data</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="nx">data</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">());</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">printData</span><span class="p">(</span><span class="mi">10</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The code above will successfully be compiled by <code>tsc</code> because there are no errors from the TypeScript perspective. But when you will run the program in the <a href="/web-browser/">Web browser</a> or by <a href="/node/">Node</a> as in our case, you will see that program falls:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">node dist/main.js
+</span></span><span class="line"><span class="cl">/ts-node-sample/dist/main.js:13
+</span></span><span class="line"><span class="cl">    console.log(data.toLowerCase());
+</span></span><span class="line"><span class="cl">                     ^
+</span></span><span class="line"><span class="cl">TypeError: data.toLowerCase is not a function
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>You can avoid this error before executing the code by specifying the type of the parameter. The TypeScript&rsquo;s option <strong>noImplicitAny</strong> won&rsquo;t allow you to escape from specifying the type in the new code.</p>
+<h2 id="typescript-strict-options-in-tsconfigjson-strictnullchecks">
+  TypeScript Strict options in tsconfig.json: strictNullChecks
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-strictnullchecks">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<blockquote>
+<p>Source code of this example is available on <a href="https://github.com/maxoidIO/ts-node-sample/tree/strict-options-strict-null-checks">GitHub</a></p>
+</blockquote>
+<p>This parameter obligates us to make a check of the variable existing. For example, let&rsquo;s say we have an array of some object. This data is available in a code of app from JSON file:</p>
+<p><strong>src/inventory.json</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">[</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;1&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;sword&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;level&#34;</span><span class="p">:</span> <span class="s2">&#34;10&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;icon&#34;</span><span class="p">:</span> <span class="s2">&#34;🗡&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;2&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;bow&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;level&#34;</span><span class="p">:</span> <span class="s2">&#34;7&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;icon&#34;</span><span class="p">:</span> <span class="s2">&#34;🏹&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;id&#34;</span><span class="p">:</span> <span class="s2">&#34;3&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;name&#34;</span><span class="p">:</span> <span class="s2">&#34;shield&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;level&#34;</span><span class="p">:</span> <span class="s2">&#34;5&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nt">&#34;icon&#34;</span><span class="p">:</span> <span class="s2">&#34;🛡&#34;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">]</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In some modules, we have a code where this JSON file is imported and used as a database. The app is simple: it asks the user to type the name of the item from inventory and then if this item exists the program will print information about it.</p>
+<p><strong>src/main.ts</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">createQuestioner</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./createQuestioner&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">greeting</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./greeting&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">inventory</span> <span class="kr">from</span> <span class="s2">&#34;./inventory.json&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your username: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">itemName</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;Type the name of the inventory item: &#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">foundItem</span> <span class="o">=</span> <span class="nx">inventory</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">item</span><span class="p">.</span><span class="nx">name</span> <span class="o">===</span> <span class="nx">itemName</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="sb">`You&#39;ve chosen an item: </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">icon</span><span class="si">}</span><span class="sb"> </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> (lvl </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">level</span><span class="si">}</span><span class="sb">)`</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>If you run this program by <code>npm run dev</code>, type any name and one of three item&rsquo;s names (sword, bow, shield) the program will run as it should. The problems begin when you type the name of the item that <em>does not exist</em> in the inventory. If you try this, you&rsquo;ll see something like this:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">❯ npm run dev
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">&gt; tsc-intro@1.0.0 dev
+</span></span><span class="line"><span class="cl">&gt; tsc &amp;&amp; node dist/main.js
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Type your username: byteski
+</span></span><span class="line"><span class="cl">Hello, @byteski!
+</span></span><span class="line"><span class="cl">Type the name of the inventory item: spear
+</span></span><span class="line"><span class="cl">TypeError: Cannot read property &#39;icon&#39; of undefine
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>All we need to do to fix this problem is to add the code that checks the variable existing before using it for printing the result. But the point is that <a href="/typescript/">TypeScript</a> should highlight that we need to fix the potential problem. To do it just set option <strong>strictNullChecks</strong> to <em>true</em>:</p>
+<p><strong>tsconfig.json</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;compilerOptions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;strictNullChecks&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, let&rsquo;s run <code>npm run dev</code> and see that happens:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">src/main.ts:20:33 - error TS2532: Object is possibly <span class="s1">&#39;undefined&#39;</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">20</span>       <span class="sb">`</span>You<span class="s1">&#39;ve chosen an item: ${foundItem.icon} ${foundItem.name} (lvl ${foundItem.level})`
+</span></span></span><span class="line"><span class="cl"><span class="s1">                                   ~~~~~~~~~
+</span></span></span><span class="line"><span class="cl"><span class="s1">
+</span></span></span><span class="line"><span class="cl"><span class="s1">src/main.ts:20:51 - error TS2532: Object is possibly &#39;</span>undefined<span class="s1">&#39;.
+</span></span></span><span class="line"><span class="cl"><span class="s1">
+</span></span></span><span class="line"><span class="cl"><span class="s1">20       `You&#39;</span>ve chosen an item: <span class="si">${</span><span class="nv">foundItem</span><span class="p">.icon</span><span class="si">}</span> <span class="si">${</span><span class="nv">foundItem</span><span class="p">.name</span><span class="si">}</span> <span class="o">(</span>lvl <span class="si">${</span><span class="nv">foundItem</span><span class="p">.level</span><span class="si">}</span><span class="o">)</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">                                                     ~~~~~~~~~
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">src/main.ts:20:74 - error TS2532: Object is possibly <span class="s1">&#39;undefined&#39;</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">20</span>       <span class="sb">`</span>You<span class="err">&#39;</span>ve chosen an item: <span class="si">${</span><span class="nv">foundItem</span><span class="p">.icon</span><span class="si">}</span> <span class="si">${</span><span class="nv">foundItem</span><span class="p">.name</span><span class="si">}</span> <span class="o">(</span>lvl <span class="si">${</span><span class="nv">foundItem</span><span class="p">.level</span><span class="si">}</span><span class="o">)</span><span class="sb">`</span>
+</span></span><span class="line"><span class="cl">                                                                            ~~~~~~~~~
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Found <span class="m">3</span> errors
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Great! Now we have information about where the problem is. Just add checking the variable <strong>foundItem</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your username: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">itemName</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="s2">&#34;Type the name of the inventory item: &#34;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">foundItem</span> <span class="o">=</span> <span class="nx">inventory</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">item</span><span class="p">.</span><span class="nx">name</span> <span class="o">===</span> <span class="nx">itemName</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">foundItem</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`There is no item with name &#39;</span><span class="si">${</span><span class="nx">itemName</span><span class="si">}</span><span class="sb">&#39; in the inventory.`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="sb">`You&#39;ve chosen an item: </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">icon</span><span class="si">}</span><span class="sb"> </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> (lvl </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">level</span><span class="si">}</span><span class="sb">)`</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="typescript-strict-options-in-tsconfigjson-strictnullchecks-and-exclamation-mark">
+  TypeScript Strict options in tsconfig.json: strictNullChecks and Exclamation mark
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-strictnullchecks-and-exclamation-mark">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<div id="subscription-shortcode">
+  
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+</div>
+
+<p>You can also use &ldquo;!&rdquo; in such a case when <strong>you are sure</strong> that found item or element exist. Let&rsquo;s see an example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span><span class="lnt">27
+</span><span class="lnt">28
+</span><span class="lnt">29
+</span><span class="lnt">30
+</span><span class="lnt">31
+</span><span class="lnt">32
+</span><span class="lnt">33
+</span><span class="lnt">34
+</span><span class="lnt">35
+</span><span class="lnt">36
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your username: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">listOfItems</span> <span class="o">=</span> <span class="nx">inventory</span>
+</span></span><span class="line"><span class="cl">      <span class="p">.</span><span class="nx">map</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">        <span class="p">(</span><span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="sb">`</span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">id</span><span class="si">}</span><span class="sb">) </span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">icon</span><span class="si">}</span><span class="sb"> </span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> (lvl </span><span class="si">${</span><span class="nx">item</span><span class="p">.</span><span class="nx">level</span><span class="si">}</span><span class="sb">)`</span>
+</span></span><span class="line"><span class="cl">      <span class="p">)</span>
+</span></span><span class="line"><span class="cl">      <span class="p">.</span><span class="nx">join</span><span class="p">(</span><span class="s2">&#34;\n&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">option</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="sb">`</span><span class="err">\</span><span class="sb">n</span><span class="si">${</span><span class="nx">listOfItems</span><span class="si">}</span><span class="err">\</span><span class="sb">n</span><span class="err">\</span><span class="sb">nChoose the item (type the number): `</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">itemsIds</span> <span class="o">=</span> <span class="nx">inventory</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">item</span><span class="p">.</span><span class="nx">id</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">itemsIds</span><span class="p">.</span><span class="nx">includes</span><span class="p">(</span><span class="nx">option</span><span class="p">))</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`There is no item with option number </span><span class="si">${</span><span class="nx">option</span><span class="si">}</span><span class="sb">.`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">foundItem</span> <span class="o">=</span> <span class="nx">inventory</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">item</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">item</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">option</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">      <span class="sb">`You&#39;ve chosen an item: </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">icon</span><span class="si">}</span><span class="sb"> </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> (lvl </span><span class="si">${</span><span class="nx">foundItem</span><span class="p">.</span><span class="nx">level</span><span class="si">}</span><span class="sb">)`</span>
+</span></span><span class="line"><span class="cl">    <span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In this case, a user is not typing the name of the inventory item but type an option number offered by the app. Because the code checks that the user typed option number that surely exists (the line <code>if (!itemsIds.includes(option)) {</code>) we don&rsquo;t need to manually check that variable <strong>foundItem</strong> has data inside. But TypeScript will tell us that we need to check this variable because <em>Object is possibly &lsquo;undefined&rsquo;</em>. To avoid this highlight we can use <strong>exclamation mark</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span>
+</span></span><span class="line"><span class="cl">  <span class="sb">`You&#39;ve chosen an item: </span><span class="si">${</span><span class="nx">foundItem</span><span class="o">!</span><span class="p">.</span><span class="nx">icon</span><span class="si">}</span><span class="sb"> </span><span class="si">${</span><span class="nx">foundItem</span><span class="o">!</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb"> (lvl </span><span class="si">${</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">foundItem</span><span class="o">!</span><span class="p">.</span><span class="nx">level</span>
+</span></span><span class="line"><span class="cl">  <span class="si">}</span><span class="sb">)`</span>
+</span></span><span class="line"><span class="cl"><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It tells TypeScript that we are totally sure that <strong>foundItem</strong> is not undefined or null. After that you can run the app it will work correctly.</p>
+<p><em>I recommend not use <strong>exclamation mark</strong> very often because it can expand the count of potential mistakes in the future. Use it only in case when <strong>you are totally sure</strong> that some data exists.</em></p>
+<h2 id="typescript-strict-options-in-tsconfigjson-strictbindcallapply">
+  TypeScript Strict options in tsconfig.json: strictBindCallApply
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-strictbindcallapply">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<blockquote>
+<p>Source code of this example is available on <a href="https://github.com/maxoidIO/ts-node-sample/tree/strict-options-strict-bind-call-apply">GitHub</a></p>
+</blockquote>
+<p>The next option is not so useful nowadays since we don&rsquo;t need to use <strong>bind()</strong> and related methods much often in modern JavaScript. But anyway, if you need to use bind(), call(), or apply() then this option might be useful for you.</p>
+<p>The example is unusual but you may come across this in existing projects with an old version of ECMAScript (where arrow functions are not available or their support is disabled for some reason). This function creates an object of a non-player character. You can start the dialog with this character (in our example it starts automatically after running the app) but the character is busy right now so it answers later (after 2 sec):</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">Questioner</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./createQuestioner&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">export</span> <span class="kd">function</span> <span class="nx">createMerchant</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">questioner</span>: <span class="kt">Questioner</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="kr">async</span> <span class="kd">function</span> <span class="nx">greeting</span><span class="p">(</span><span class="nx">caller</span><span class="o">:</span> <span class="p">{</span> <span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span> <span class="nx">level</span>: <span class="kt">number</span> <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;\nDid you complete the quest? \n 1) yes \n 2) no&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">answer</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;\nYour answer: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="nx">answer</span> <span class="o">===</span> <span class="s2">&#34;1&#34;</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`</span><span class="err">\</span><span class="sb">nExcellent! Now your level is: </span><span class="si">${</span><span class="nx">caller</span><span class="p">.</span><span class="nx">level</span> <span class="o">+</span> <span class="mi">1</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;\nSee ya later&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">const</span> <span class="nx">character</span> <span class="o">=</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">name</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">startDialog</span>: <span class="kt">function</span> <span class="p">(</span><span class="nx">caller</span><span class="o">:</span> <span class="p">{</span> <span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span> <span class="nx">level</span>: <span class="kt">string</span> <span class="p">})</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;[This character is busy now]&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">setTimeout</span><span class="p">(</span><span class="nx">greeting</span><span class="p">.</span><span class="nx">bind</span><span class="p">(</span><span class="k">this</span><span class="p">,</span> <span class="nx">caller</span><span class="p">),</span> <span class="mi">2000</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="nx">character</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Let&rsquo;s create a merchant in <strong>main</strong> module:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">createQuestioner</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./createQuestioner&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">greeting</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./greeting&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">createMerchant</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./merchant&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your username: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">level</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your level: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">(</span><span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">merchant</span> <span class="o">=</span> <span class="nx">createMerchant</span><span class="p">(</span><span class="s2">&#34;Trader&#34;</span><span class="p">,</span> <span class="nx">questioner</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">merchant</span><span class="p">.</span><span class="nx">startDialog</span><span class="p">({</span> <span class="nx">name</span>: <span class="kt">username</span><span class="p">,</span> <span class="nx">level</span> <span class="p">});</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, if you run the program and type your name and level (for example, 10) and then answer &ldquo;yes&rdquo; in dialog (type &ldquo;1&rdquo;) when you see something goes wrong with your level:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Excellent! Now your level is: <span class="m">10</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Typical problem with <code>string</code> and <code>number</code> values in <a href="/javascript/">JavaScript</a>. Notice that in <strong>createMerchant</strong> in method <strong>startDialog</strong> a parameter <em>level</em> has type <code>string</code> but in function <strong>greeting</strong> the parameter <em>caller</em> has field <em>level</em> with type <code>number</code>. But we don&rsquo;t have any type checking errors after running <strong>tsc</strong>. We should tell TypeScript to check parameters of function that called by <strong>bind()</strong> (call(), apply()). This is what option <strong>strictBindCallApply</strong> is for.</p>
+<p><strong>tsconfig.json</strong></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;compilerOptions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;strictBindCallApply&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, if you run the program you will see that TypeScript highlights the problem with different types of field <em>level</em> in function <strong>createMerchant</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">src/merchant.ts:21:38 - error TS2769: No overload matches this call.
+</span></span><span class="line"><span class="cl">...
+</span></span><span class="line"><span class="cl"><span class="m">21</span>       setTimeout<span class="o">(</span>greeting.bind<span class="o">(</span>this, <span class="nb">caller</span><span class="o">)</span>, 2000<span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                                        ~~~~~~
+</span></span><span class="line"><span class="cl">Found <span class="m">1</span> error.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h2 id="typescript-strict-options-in-tsconfigjson-strictfunctiontypes">
+  TypeScript Strict options in tsconfig.json: strictFunctionTypes
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-strictfunctiontypes">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>This option is intended for quite specific cases. If this option was set to <em>true</em> then TypeScript will not allow you to use a function in a case when types of parameters of this function are not the same as parameter&rsquo;s types in specified <em>type</em>.</p>
+<p>An example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">type</span> <span class="nx">loggerFn</span> <span class="o">=</span> <span class="p">(</span><span class="nx">id</span>: <span class="kt">number</span> <span class="o">|</span> <span class="kt">string</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="k">void</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">logTransaction</span>: <span class="kt">loggerFn</span> <span class="o">=</span> <span class="p">(</span><span class="nx">id</span>: <span class="kt">string</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`[</span><span class="si">${</span><span class="k">new</span> <span class="nb">Date</span><span class="p">().</span><span class="nx">toDateString</span><span class="p">()</span><span class="si">}</span><span class="sb">] </span><span class="si">${</span><span class="nx">id</span><span class="p">.</span><span class="nx">trim</span><span class="p">()</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">logTransaction</span><span class="p">(</span><span class="nx">transactionId</span><span class="p">);</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In this case, if options are enabled, <strong>tsc</strong> will return an error message after running:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">src/main.ts:11:11 - error TS2322: Type <span class="s1">&#39;(id: string) =&gt; void&#39;</span> is not assignable to <span class="nb">type</span> <span class="s1">&#39;loggerFn&#39;</span>.
+</span></span><span class="line"><span class="cl">  Types of parameters <span class="s1">&#39;id&#39;</span> and <span class="s1">&#39;id&#39;</span> are incompatible.
+</span></span><span class="line"><span class="cl">    Type <span class="s1">&#39;string | number&#39;</span> is not assignable to <span class="nb">type</span> <span class="s1">&#39;string&#39;</span>.
+</span></span><span class="line"><span class="cl">      Type <span class="s1">&#39;number&#39;</span> is not assignable to <span class="nb">type</span> <span class="s1">&#39;string&#39;</span>.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">11</span>     const logTransaction: <span class="nv">loggerFn</span> <span class="o">=</span> <span class="o">(</span>id: string<span class="o">)</span> <span class="o">=</span>&gt; <span class="o">{</span>
+</span></span><span class="line"><span class="cl">             ~~~~~~~~~~~~~~~
+</span></span><span class="line"><span class="cl">Found <span class="m">1</span> error
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Theoretically, in this case you could specify the parameter <strong>id</strong> as a number and call function <strong>logTransaction</strong> like that: <code>logTransaction(parseInt(transactionId))</code>. But still, you will have a type-checking error because you cannot use method <strong>trim()</strong> for a number value.</p>
+<p>Anyway, is good to know what specific options are needed if you enabled <strong>strict mode</strong> in your project.</p>
+<h2 id="typescript-strict-options-in-tsconfigjson-noimplicitthis">
+  TypeScript Strict options in tsconfig.json: noImplicitThis
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-noimplicitthis">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>You might know that <a href="/javascript/">JavaScript</a> has a quite important nuance with the variable &ldquo;this&rdquo;. Let&rsquo;s say, you have a method that prints a value of an object&rsquo;s field. If you wrote this method as <em>function declaration</em> then will lose &ldquo;this&rdquo; of an object where the method is specified. I would say that it&rsquo;s one of the famous &ldquo;features&rdquo; of <a href="/javascript/">JavaScript</a> and Internet has tons of materials about this.</p>
+<p>Here is an example:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">createCharacter</span> <span class="o">=</span> <span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">level</span>: <span class="kt">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">label</span><span class="o">:</span> <span class="sb">`[</span><span class="si">${</span><span class="nx">level</span><span class="si">}</span><span class="sb"> lvl] </span><span class="si">${</span><span class="nx">name</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">info</span><span class="p">(</span><span class="nx">prefix</span>: <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="kd">function</span> <span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">: </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">label</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">ranger</span> <span class="o">=</span> <span class="nx">createCharacter</span><span class="p">(</span><span class="s2">&#34;Ranger&#34;</span><span class="p">,</span> <span class="mi">77</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">printRangerInfo</span> <span class="o">=</span> <span class="nx">ranger</span><span class="p">.</span><span class="nx">info</span><span class="p">(</span><span class="s2">&#34;Neutral&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">printRangerInfo</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After running <code>npm run dev</code> you will see that it throws an error:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">TypeError: Cannot <span class="nb">read</span> property <span class="s1">&#39;label&#39;</span> of undefined
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, let&rsquo;s set option <strong>noImplicitThis</strong> in configuration file:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;compilerOptions&#34;</span><span class="p">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>    <span class="nt">&#34;noImplicitThis&#34;</span><span class="p">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After that <a href="/typescript/">TypeScript</a> will highlight an error in the code:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">error TS2683: <span class="s1">&#39;this&#39;</span> implicitly has <span class="nb">type</span> <span class="s1">&#39;any&#39;</span> because it does not have a <span class="nb">type</span> annotation.
+</span></span><span class="line"><span class="cl"><span class="m">14</span>             console.log<span class="o">(</span><span class="sb">`</span><span class="si">${</span><span class="nv">prefix</span><span class="si">}</span>: <span class="si">${</span><span class="nv">this</span><span class="p">.label</span><span class="si">}</span><span class="sb">`</span><span class="o">)</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">                                         ~~~~
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="m">13</span>           <span class="k">return</span> <span class="k">function</span> <span class="o">()</span> <span class="o">{</span>
+</span></span><span class="line"><span class="cl">					~~~~~~~~
+</span></span><span class="line"><span class="cl">An outer value of <span class="s1">&#39;this&#39;</span> is shadowed by this container.
+</span></span><span class="line"><span class="cl">Found <span class="m">1</span> error
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>By doing so we can fix the problem before running an application. One of a solution, in this case, is using an arrow function:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">const</span> <span class="nx">createCharacter</span> <span class="o">=</span> <span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">level</span>: <span class="kt">number</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="k">return</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">label</span><span class="o">:</span> <span class="sb">`[</span><span class="si">${</span><span class="nx">level</span><span class="si">}</span><span class="sb"> lvl] </span><span class="si">${</span><span class="nx">name</span><span class="si">}</span><span class="sb">`</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">info</span><span class="p">(</span><span class="nx">prefix</span>: <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span> <span class="p">()</span> <span class="o">=&gt;</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`</span><span class="si">${</span><span class="nx">prefix</span><span class="si">}</span><span class="sb">: </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">label</span><span class="si">}</span><span class="sb">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="p">};</span>
+</span></span><span class="line"><span class="cl">    <span class="p">},</span>
+</span></span><span class="line"><span class="cl">  <span class="p">};</span>
+</span></span><span class="line"><span class="cl"><span class="p">};</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>When you change the nested function to arrow one <a href="/typescript/">TypeScript</a> will stop highlight this line as an error. After running <code>npm run dev</code> you will see that the program works correctly.</p>
+<h2 id="typescript-strict-options-in-tsconfigjson-strictpropertyinitialization">
+  TypeScript Strict options in tsconfig.json: strictPropertyInitialization
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-strictpropertyinitialization">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>The next option is directly related to classes in <a href="/javascript/">JavaScript</a> and <a href="/typescript/">TypeScript</a>. In TypeScript, you can specify the properties of the class and also their types. Here is an example.</p>
+<p>Let&rsquo;s say we have a special class for game characters:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">class</span> <span class="nx">Character</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">name</span>: <span class="kt">string</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">level</span>: <span class="kt">string</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">constructor</span><span class="p">()</span> <span class="p">{}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nx">greeting</span><span class="p">(</span><span class="nx">callerName</span>: <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`[</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">level</span><span class="si">}</span><span class="sb">] </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb">: Hello, </span><span class="si">${</span><span class="nx">callerName</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, in the <strong>main</strong> module we create a character&rsquo;s object. The character should greetings the player:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">name</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your first name: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">traveler</span> <span class="o">=</span> <span class="k">new</span> <span class="nx">Character</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">traveler</span><span class="p">.</span><span class="nx">greeting</span><span class="p">(</span><span class="nx">name</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>If you run this small example, you will see:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">Type your first name: Max
+</span></span><span class="line"><span class="cl"><span class="o">[</span>undefined<span class="o">]</span> undefined: Hello, Max!
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>I guess we didn&rsquo;t give a name to the traveler! Okay, we made a mistake in the code. It&rsquo;s not a big deal. The real problem is that <a href="/typescript/">TypeScript</a> didn&rsquo;t say anything about it! Notice that <code>constructor</code> of class <strong>Character</strong> is empty. But also there is no highlighted error or warning. We don&rsquo;t have a specific syntax like <code>required name: string</code> in TypeScript to declare that properties <em>name</em> and <em>level</em> are required for initialization in the class <strong>Character</strong>. However, we can enable option <strong>strictPropertyInitialization</strong> and after that <a href="/typescript/">TypeScript</a> compiler will tell us that we didn&rsquo;t initialize properties name and level in the constructor method of class Character.</p>
+<p>An option <strong>strictPropertyInitialization</strong> can be enabled only if option <strong>strictNullChecks</strong> is enabled too.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="s2">&#34;compilerOptions&#34;</span><span class="o">:</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="c1">// ...
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>	<span class="s2">&#34;strictNullChecks&#34;</span><span class="o">:</span> <span class="kc">true</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">    <span class="s2">&#34;strictPropertyInitialization&#34;</span><span class="o">:</span> <span class="kc">true</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>And after that we run <code>tsc</code> and see:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">error TS2564: Property <span class="s1">&#39;name&#39;</span> has no initializer and is not definitely assigned in the constructor.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">2</span>   name: string<span class="p">;</span>
+</span></span><span class="line"><span class="cl">    ~~~~
+</span></span></code></pre></td></tr></table>
+</div>
+</div><div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">src/Character.ts:3:3 - error TS2564: Property <span class="s1">&#39;level&#39;</span> has no initializer and is not definitely assigned in the constructor.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="m">3</span>   level: string<span class="p">;</span>
+</span></span><span class="line"><span class="cl">    ~~~~~
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Found <span class="m">2</span> errors.
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This is exactly what we need. Now, let&rsquo;s fix the problem:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">export</span> <span class="kr">class</span> <span class="nx">Character</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="c1">// Class Property Inference from Constructors
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// since version 4.0 TypeScript can “take&#34; types of properties from a constructor
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="c1">// so we don&#39;t need to specify types of properties &#39;name&#39; and &#39;level&#39; here
+</span></span></span><span class="line"><span class="cl"><span class="c1"></span>  <span class="nx">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">level</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="kr">constructor</span><span class="p">(</span><span class="nx">name</span>: <span class="kt">string</span><span class="p">,</span> <span class="nx">level</span>: <span class="kt">number</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">name</span> <span class="o">=</span> <span class="nx">name</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="k">this</span><span class="p">.</span><span class="nx">level</span> <span class="o">=</span> <span class="nx">level</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">  <span class="nx">greeting</span><span class="p">(</span><span class="nx">callerName</span>: <span class="kt">string</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`[</span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">level</span><span class="si">}</span><span class="sb">] </span><span class="si">${</span><span class="k">this</span><span class="p">.</span><span class="nx">name</span><span class="si">}</span><span class="sb">: Hello, </span><span class="si">${</span><span class="nx">callerName</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>And don&rsquo;t forget to give a name for the traveler in <strong>main</strong> module!</p>
+<h2 id="typescript-strict-options-in-tsconfigjson-alwaysstrict">
+  TypeScript Strict options in tsconfig.json: alwaysStrict
+  <a class="heading-link" href="#typescript-strict-options-in-tsconfigjson-alwaysstrict">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>If you set the option <strong>alwaysStrict</strong> to <code>true</code> then <a href="/typescript/">TypeScript</a> will parse your code in <a href="/ecmascript/">ECMAScript</a> Strict mode and put &ldquo;use strict&rdquo; in each source file. If you are not familiar with <a href="/ecmascript/">ECMAScript</a> Strict mode then check out <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">article on MDN</a> about it.</p>
+<h2 id="conclusions">
+  Conclusions
+  <a class="heading-link" href="#conclusions">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>When you have already learned what errors can be prevented by TypeScript&rsquo;s strict options you may exclaim &ldquo;It can be fixed by a few lines of code. Just add a checking of variable&rsquo;s existing before print it. What&rsquo;s the big deal?&rdquo; and you&rsquo;ll be right. But, it&rsquo;s just a synthetic example to demonstrate the problem that can be solved by strict options. In reality, it could be one small part of a huge project with hundreds of files and thousands of lines of code. You cannot keep track of everything and you shouldn&rsquo;t. You also can make a typo or forget about doing a check because you can&rsquo;t concentrate after last night&rsquo;s party. It can also happen to your new colleague who hasn&rsquo;t completely figured out the codebase yet.</p>
+<p>The point is to delegate solving errors that are related to types of variables to tools like <a href="/typescript/">TypeScript</a>.</p>
+
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

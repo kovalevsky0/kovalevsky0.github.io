@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Puppeteer on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>https://mkvl.me/tags/puppeteer/</link>
+    <description>Recent content in Puppeteer on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/puppeteer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Puppeteer</title>
+      <link>https://mkvl.me/puppeteer/</link>
+      <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mkvl.me/puppeteer/</guid>
+      <description> Puppeteer Puppeteer is a Node library that provides API to control Chrome-based browser by DevTools protocol.
+Links GitHub pptr.dev </description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+  </channel>
+</rss>

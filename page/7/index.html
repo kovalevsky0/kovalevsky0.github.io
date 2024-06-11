@@ -1,0 +1,1738 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+  <meta name="keywords" content="Go,Programming,Blog,Go Programming,Golang,golang playground,golang install,golang tutorial,golangci-lint,golang for loop,golang enum,golang time,golang json,golang generics,golang gin,golang append,golang array,golang assert,golang append to slice,golang anonymous struct,golang atomic,golang atoi,golang array contains,golang api,awesome golang,append golang,array golang,aws lambda golang,anonymous struct golang,atoi golang,assert golang,atomic golang,golang byte array to string,golang bool to string,golang bufio,golang benchmark,golang base64 decode,golang base64,golang books,golang base64 encode,golang blog,brew install golang,byte to string golang,bufio golang,best ide for golang,bool to string golang,buffered channel golang,best golang books,bubble tea golang,bcrypt golang,base64 decode golang,golang context,golang channels,golang cobra,golang convert int to string,golang chi,golang check if file exists,golang constants,golang concurrency,golang copy,golang csv,cobra golang,convert string to int golang,context golang,chi golang,channels in golang,concurrency in golang,const golang,check if file exists golang,create error golang,clean architecture golang,golang download,golang defer,golang docker image,golang docs,golang developer,golang dependency injection,golang dictionary,golang developer jobs,golang delete from map,golang default parameter,download golang,defer golang,docker golang,dependency injection golang,database/sql golang,dockerfile golang,design patterns in golang,do while golang,data types in golang,delete from map golang,golang error,golang echo,golang else if,golang errgroup,golang embed,golang environment variables,golang error handling,golang exec">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta name="twitter:description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+
+  <meta property="og:url" content="https://mkvl.me/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+
+  <title>
+    Learn Go with MKVL | Golang Courses and Tutorials | How To Golang
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" href="/index.xml" title="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang" />
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <main>
+  <div>
+  
+  
+
+
+  </div>
+  <div style="display: flex">
+  <div style="width: 70%; padding-right: 80px;">
+    <h1 style=
+    "background: linear-gradient(-90deg, #1a3162, #453762);
+    padding: 3px 14px;
+    color: #f4f4f4;
+    font-weight: bold;">Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses</h1>
+    <p>Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. <span style="padding: 0 9px;
+    border-bottom: 3px solid #30a1e5;
+    box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.2)">Subscribe</span> now to get:</p>
+    <ul style="list-style-type: none; padding: 0;">
+      <li><i class="fa fa-check-circle color-blue"></i> Weekly tips and tricks</li>
+      <li><i class="fa fa-check-circle color-blue"></i> In-depth tutorials</li>
+      <li><i class="fa fa-check-circle color-blue"></i> Exclusive courses</li>
+      <li><i class="fa fa-check-circle color-blue"></i> Industry insights and best practices</li>
+    </ul>
+    <p>Join growing community of <span style="background: linear-gradient(-90deg, #12a2c7, #be6c59);
+    padding: 0 9px;
+}">Go (Golang)</span> developers and take your skills to the next level.</p>
+  </div>
+  <div style="width: 30%">
+    <div class="subscription">
+      <form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+        
+        <input type="text" name="name" id="name" style="" placeholder="// NAME" />
+        <br/>
+        
+        <input type="email" name="email" id="email" placeholder="// EMAIL"/><br/>
+        <div><input type="checkbox" name="gdpr" id="gdpr"/> <strong>Marketing permission</strong> <span class="tooltip"><i class="fa fa-question-circle color-blue"></i><span class="tooltiptext">I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span></span></div>
+        <div><strong>What to expect</strong> <span class="tooltip"><i class="fa fa-info-circle color-blue"></i><span class="tooltiptext">If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span></span></div>
+        <div style="display:none;">
+          <label for="hp">HP</label><br/>
+          <input type="text" name="hp" id="hp"/>
+        </div>
+          <input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+          <input type="hidden" name="subform" value="yes"/>
+          <input type="submit" name="submit" id="submit" value="Send Me Tutorials!"/>
+      </form>
+      </div>
+    </div>
+  </div>
+
+
+  
+  
+  
+  <br/>
+  <div class="h-feed" id="feed">
+    <div class="page-title">
+      <h1 class="p-name">Latest Blog Posts</h1>
+    </div>
+    <div class="page-grid">
+      <section>
+        <div>
+  <div class="posts-list">
+    
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=07/12/2020>
+          07/12/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/workflowy/">
+          <h4 class="p-name">Workflowy</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            Workflowy Workflowy is an app for writing note as lists (with outlines) or how it&rsquo;s described …
+          
+          <a class="post__read-more" href="/workflowy/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/apps/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #apps
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=06/12/2020>
+          06/12/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/static-typing/">
+          <h4 class="p-name">Static typing</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Static typing Static typing is a typing that could be described like Types checked before run-time …
+          
+          <a class="post__read-more" href="/static-typing/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/programming/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #programming
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=06/12/2020>
+          06/12/2020
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/neuracache/">
+          <h4 class="p-name">NeuraCache</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            NeuraCache It is a Anki-like app for spaced-repetition but cards are created from your note-taking …
+          
+          <a class="post__read-more" href="/neuracache/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/apps/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #apps
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=04/12/2020>
+          04/12/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/readwise/">
+          <h4 class="p-name">Readwise</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            Readwise Readwise.io
+          
+          <a class="post__read-more" href="/readwise/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/apps/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #apps
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=30/11/2020>
+          30/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/zettelkasten-method/">
+          <h4 class="p-name">Zettelkasten method</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Zettelkasten method Zettelkasten - method of taking short notes that contains connections (links) …
+          
+          <a class="post__read-more" href="/zettelkasten-method/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=30/11/2020>
+          30/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/note-taking-tools/">
+          <h4 class="p-name">Note-taking Tools</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Note-taking Tools Requirements:
+Support note-taking by Zettelkasten method Zettelkasten method …
+          
+          <a class="post__read-more" href="/note-taking-tools/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/apps/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #apps
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=24/11/2020>
+          24/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/resources-about-zettelkasten-method/">
+          <h4 class="p-name">Resources about Zettelkasten method</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Resources about Zettelkasten method How to take smart notes (Book) r/Zettelkasten/ zettelkasten.de 
+          
+          <a class="post__read-more" href="/resources-about-zettelkasten-method/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=24/11/2020>
+          24/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/note-taking-summary/">
+          <h4 class="p-name">Note-taking summary</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Note-taking summary Summarize all ideas and concepts in lists. Also keep links to articles about: …
+          
+          <a class="post__read-more" href="/note-taking-summary/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=24/11/2020>
+          24/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/about-roam-research/">
+          <h4 class="p-name">About Roam Research</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             About Roam Research Roam - is a tool for taking notes and doing links between them. Foam …
+          
+          <a class="post__read-more" href="/about-roam-research/">Read more</a>
+        </p>
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=23/11/2020>
+          23/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/list-of-digital-gardens/">
+          <h4 class="p-name">List of Digital Gardeners</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             List of Digital Gardeners List of Digital Gardeners on GitHub Alexis Rondeau&rsquo;s Digital Garden …
+          
+          <a class="post__read-more" href="/list-of-digital-gardens/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/zettelkasten/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #zettelkasten
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=19/11/2020>
+          19/11/2020
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/gigital-gardens/">
+          <h4 class="p-name">Digital Gardens</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Digital Gardens It is the way of sharing knowledge in the Web.
+As far as I understand this …
+          
+          <a class="post__read-more" href="/gigital-gardens/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/digital-garden/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #digital-garden
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    
+    
+    
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/obsidian-dataview-docs/">
+          <h4 class="p-name">Obsidian DataView Docs</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Obsidian DataView Docs Links https://blacksmithgu.github.io/obsidian-dataview/data-annotation/ 
+          
+          <a class="post__read-more" href="/obsidian-dataview-docs/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/obsidian/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #obsidian
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/dataview/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #dataview
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/neovim/">
+          <h4 class="p-name">Neovim</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            Neovim vim-based text-editor Since 0.5 version it is configurable by using Lua programming language …
+          
+          <a class="post__read-more" href="/neovim/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/neovim/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #neovim
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/vim/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #vim
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/monorepo/">
+          <h4 class="p-name">Monorepo</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            Monorepo Monorepo is a way or strategy of managing a large project that consists of many packages or …
+          
+          <a class="post__read-more" href="/monorepo/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/git/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #git
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/monorepo/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #monorepo
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/mini-typescript/">
+          <h4 class="p-name">mini-typescript</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             mini-typescript A project on GitHub that can be described as &ldquo;mini version of TypeScript …
+          
+          <a class="post__read-more" href="/mini-typescript/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescript
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/lua/">
+          <h4 class="p-name">Lua</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Lua It is a lightweight programming language that is designed for embedded use in applications. It …
+          
+          <a class="post__read-more" href="/lua/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/lua/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #lua
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/lerna.js/">
+          <h4 class="p-name">Lerna.js</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Lerna.js A tool that provides an ability to manage JavaScript with multiple packages JavaScript …
+          
+          <a class="post__read-more" href="/lerna.js/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/javascript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #javascript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/monorepo/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #monorepo
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/json/">
+          <h4 class="p-name">JSON</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            JSON JSON (JavaScript Object Notation) is a language-independent data format.
+          
+          <a class="post__read-more" href="/json/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/json/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #json
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/javascript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #javascript
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/homebrew/">
+          <h4 class="p-name">Homebrew</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             Homebrew A package manager for macOS
+Links Website GitHub 
+          
+          <a class="post__read-more" href="/homebrew/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/macos/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #macos
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+      
+          
+          
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+        <a href="/notes" class="post__type post__type_note">
+          <i aria-hidden="true" class="fa fa-archive"></i>
+        </a>
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=01/01/0001>
+          01/01/0001
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/github/">
+          <h4 class="p-name">GitHub</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+             GitHub Hosting for Git repositories Website and/or service where you can create and manage Git …
+          
+          <a class="post__read-more" href="/github/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/git/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #git
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+      
+    
+  </div>
+  
+
+
+
+
+
+<div style="text-align: center;">
+  
+    
+    <a class="pagination-link" href="/">&laquo;</a>
+    
+    <a class="pagination-link hidden" href="/page/6/">&lsaquo;</a>
+  
+  
+    
+    
+      
+        
+      
+    
+    
+  
+    
+    
+      
+        
+      
+    
+    
+  
+    
+    
+      
+        
+      
+    
+    
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        <a href="/page/4/" class="pagination-link">4</a>
+      
+    
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        <a href="/page/5/" class="pagination-link">5</a>
+      
+    
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        <a href="/page/6/" class="pagination-link">6</a>
+      
+    
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        <a href="" class="pagination-link pagination-link_active pagination-link_disabled">7</a>
+      
+    
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+      
+        <a href="/page/8/" class="pagination-link">8</a>
+      
+    
+  
+  
+    <a class="pagination-link hidden" href="/page/8/">&rsaquo;</a>
+    
+      <a class="pagination-link" href="/page/8/">&raquo;</a>
+    
+  
+</div>
+
+
+</div>
+
+      </section>
+    </div>
+  </div>
+  <div class="about-block h-card">
+      <a class="avatar" href="#feed">
+  <div class="avatar__inner">
+    <img class="avatar__img u-photo u-logo" src="/images/avatar.jpg" alt="avatar" />
+  </div>
+</a>
+
+      <div>
+        <h1><span class='gradient'>Hey, I'm</span> <span class='p-name'>Max</span></h1>
+        
+          <p class="p-note">A software developer who wants to teach you everything about amazing technology such as <a href="/golang">Go (Golang)</a> and more.</p>
+        
+          <p class="p-note">I write blog posts and make courses about topics that interest me most: <a href="/tags/golang">Go (Golang)</a>, Command-Line Interface (CLI) Applications, TUIs, <a href="/tags/linux">Linux</a>, <a href="/tags/git">Git</a>, <a href="/tags/docker">Docker</a>, <a href="/tags/vim">Vim (Neovim)</a>, Kubernetes (k8s), <a href="/tags/testing">TDD</a>, <a href="/tags/zettelkasten">note-taking</a> and other great stuff.</p>
+        
+        <p>
+          <span>More on
+            <a class="about-block__link" href="/about">
+              <i aria-hidden="true" class="fa fa-user color-skyblue"></i> about.md</a>
+          </span>
+          
+            <span> • </span>
+            <span>Contact <a class="about-block__link about-block__link_email u-email" href="mailto:max@mkvl.me" rel="me">
+              <i aria-hidden="true" class="fa fa-envelope"></i> max@mkvl.me</a>
+            </span>
+          
+        </p>
+        
+<ul class="socials-list">
+  
+    <li>
+      <a target="_blank" href="https://twitter.com/maxoidIO" rel="me">
+        <i class="fa fa-twitter" style="color: #5f9fe6"></i>
+      </a>
+    </li>
+  
+    <li>
+      <a target="_blank" href="https://github.com/mkvl0" rel="me">
+        <i class="fa fa-github" style="color: #f4f4f4"></i>
+      </a>
+    </li>
+  
+    <li>
+      <a target="_blank" href="https://www.youtube.com/@m_kvl" rel="me">
+        <i class="fa fa-youtube-play" style="color: #f4f4f4"></i>
+      </a>
+    </li>
+  
+</ul>
+
+
+      </div>
+  </div>
+</main>
+
+
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

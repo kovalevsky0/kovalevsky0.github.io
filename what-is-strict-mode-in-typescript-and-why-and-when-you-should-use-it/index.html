@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="MKVL">
+  <meta name="description" content="There are many options and parameters that can be used in the TypeScript configuration. One of the important &ldquo;groups&rdquo; of options is strict options. These options provide us the ability to write the safest code. How? Because TypeScript was developed primarily as superset of JavaScript, by default it allows us to write code that is not super strict in types and other aspects. It was made like this because TypeScript should be easily used by JavaScript developers.">
+  <meta name="keywords" content="javascript,typescript,typescript config">
+
+
+  
+    <meta name="image" content="https://mkvl.me/images/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it-thumbnail.jpeg" />
+  
+
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://mkvl.me/images/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it-thumbnail.jpeg">
+  <meta name="twitter:title" content="What Is Strict Mode In TypeScript, Why And When You Should Use It?">
+  <meta name="twitter:description" content="There are many options and parameters that can be used in the TypeScript configuration. One of the important “groups” of options is strict options. These options provide us the ability to write the safest code. How? Because TypeScript was developed primarily as superset of JavaScript, by default it allows us to write code that is not super strict in types and other aspects. It was made like this because TypeScript should be easily used by JavaScript developers.">
+
+  <meta property="og:url" content="https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="What Is Strict Mode In TypeScript, Why And When You Should Use It?">
+  <meta property="og:description" content="There are many options and parameters that can be used in the TypeScript configuration. One of the important “groups” of options is strict options. These options provide us the ability to write the safest code. How? Because TypeScript was developed primarily as superset of JavaScript, by default it allows us to write code that is not super strict in types and other aspects. It was made like this because TypeScript should be easily used by JavaScript developers.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-07-16T04:00:00+00:00">
+    <meta property="article:modified_time" content="2021-07-16T04:00:00+00:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Typescript">
+    <meta property="article:tag" content="Typescriptbook">
+    <meta property="og:image" content="https://mkvl.me/images/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it-thumbnail.jpeg">
+
+
+  <title>
+    What Is Strict Mode In TypeScript, Why And When You Should Use It?
+  </title>
+
+  
+    <link rel="canonical" href="https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/mkvl.me/webmention" />
+    <link rel="pingback" href="https://webmention.io/mkvl.me/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.4a24eed5b520e1e285f7130d8a15d14b7d4f9518416d1813263d45476125781e.css" integrity="sha256-SiTu1bUg4eKF9xMNihXRS31PlRhBbRgTJj1FR2EleB4=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://mkvl.me/" class="logo-title u-url">Learn Go with MKVL</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+        <div class="content__image">
+      <Img class="content__image-inner" src="/images/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it-thumbnail.jpeg" alt="What Is Strict Mode In TypeScript, Why And When You Should Use It?" ></Img>
+          
+            <div
+              style="
+                font-size: 14px;
+                text-align: right;
+                margin-top: 10px;
+                margin-right: 20px;
+              "
+            >
+              Photo by
+              
+                <a href="https://www.instagram.com/vlado.photo">Vlado Paunovic</a>
+              
+            </div>
+          
+        </div>
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">What Is Strict Mode In TypeScript, Why And When You Should Use It?</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=16/07/2021>
+              16/07/2021
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/javascript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #javascript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescript/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescript
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/typescriptbook/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #typescriptbook
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      
+        <div id="subscription" class="subscription-top">
+          
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+        </div>
+      
+      <section class="e-content">
+        <p>There are many options and parameters that can be used in the TypeScript configuration. One of the important &ldquo;groups&rdquo; of options is strict options. These options provide us the ability to write the safest code. How? Because TypeScript was developed primarily as <strong>superset of JavaScript</strong>, by default it allows us to write code that is not super strict in types and other aspects. It was made like this because TypeScript should be easily used by JavaScript developers. JavaScript doesn&rsquo;t have static types and is more flexible in some aspects of programming. It has many features to write code <em>faster</em> and <em>easier</em> (at first). However, the other side of this is that you probably will have more places where your code is unsafe. It means that the count of cases where your program will fall is big. TypeScript partially solves this problem.</p>
+<h2 id="what-is-strict-mode">
+  What Is Strict Mode?
+  <a class="heading-link" href="#what-is-strict-mode">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>You may probably have heard about <a href="/javascript/">JavaScript</a> strict mode and <a href="/typescript/">TypeScript</a> strict mode. The point is that they are different kinds of things.</p>
+<p>TypeScript strict mode is a bunch of TypeScript compiler parameters (that can be also be represented by one &ldquo;main&rdquo; parameter) that make TypeScript compiler <strong>tsc</strong> force you to follow specific rules of writing code in TypeScript. All these rules are directly related to <strong>types</strong> and <strong>managing types</strong> in the TypeScript code. For example, one of the rules forces you to always write a type of parameter in every function.</p>
+<p>TypeScript &ldquo;strict mode&rdquo; could be enabled in the TypeScript configuration file by one OR a few parameters. It&rsquo;s a group of parameters that can be enabled individually or can be enabled all at once by one parameter.</p>
+<p>The &ldquo;main strict mode&rdquo; parameter is called <strong>strict</strong>. It is a part of <strong>compilerOptions</strong> in <strong>tsconfig.json</strong>. If you set this parameter to <strong>true</strong> it will automatically set specific several parameters of configuration to <strong>true</strong>. Another important nuance is that if you enable <strong>strict</strong> parameter instead of individual strict checks parameters, the TypeScript compiler will <em>automatically</em> check your code with all new strict checks parameters that TypeScript may have in the next versions.</p>
+<p>Strict checks parameters are:</p>
+<ul>
+<li>noImplicitAny</li>
+<li>strictNullChecks</li>
+<li>strictFunctionTypes</li>
+<li>strictBindCallApply</li>
+<li>strictPropertyInitialization</li>
+<li>noImplicitThis</li>
+<li>alwaysStrict</li>
+</ul>
+<p>I will introduce you to each of these parameters in next posts of the series. Let&rsquo;s focus on <strong>strict mode</strong> itself.</p>
+<h2 id="should-i-use-strict-mode">
+  Should I Use Strict Mode?
+  <a class="heading-link" href="#should-i-use-strict-mode">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>What happens when you set this parameter to <strong>true</strong>? Well, it depends on is your project new (just created) or not. If you don&rsquo;t have any code in your project except configuration files or files with boilerplate code that was generated by tools like <a href="/create-react-app/">create-react-app</a> then <strong>tsc</strong> should compile the project without errors. But if your project is not new, have a huge amount of files and code and you didn&rsquo;t follow specific rules of strict mode then you probably will get a list of errors provided by <strong>tsc</strong> after you attempted to compile the project.</p>
+<p>And this is an answer to the question &ldquo;Should I use strict mode in TypeScript or not?&rdquo;. If you just start a new project <strong>I highly recommend using strict mode in TypeScript</strong>. It will help you to avoid errors, typos, and mistakes in your code in the future. Strict mode constricts you in ways of writing your code. On other hand, you won&rsquo;t choose the way that will bring you to make a mistake. Sometimes a simple, verbose, and &ldquo;boring&rdquo; code is better than &ldquo;cool&rdquo; one-line code because it won&rsquo;t be failed.</p>
+<p>Why strict mode in TypeScript can be enabled by several parameters? These parameters can be used in an existing project. You probably won&rsquo;t be able to set parameter <strong>strict</strong> to true in an existing project. But you can set some strict mode parameters to gradually rewrite your codebase following strict mode rules. For example, you can set the parameter <strong>noImplicitAny</strong> to <strong>true</strong> and rewrite your code to one that is following this rule (you should write a type of parameters in every function). You probably won&rsquo;t have time to rewrite all projects but you can improve specific parts of your code. Next time when you will have time to improve code quality you can set one more strict mode parameter (that suits your by time, number of changes in code, etc).</p>
+<div id="subscription-shortcode">
+  
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+</div>
+
+<h2 id="in-practice">
+  In Practice
+  <a class="heading-link" href="#in-practice">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Let&rsquo;s look at the example. Here is the simple console app that asks a user to type its name and then if the user exists in a database (which is basically <a href="/json/">JSON</a> file with an array of users) prints greetings in a terminal. The source of an example is available <a href="https://github.com/maxoidIO/ts-node-sample/tree/strict-mode-example">here</a>. Just create a new TypeScript project and create a few files with the code presented below.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">git clone https://github.com/maxoidIO/ts-node-sample/tree/strict-mode-example
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The app has three files or modules with functions. The entry point of the app is file <strong>src/main.ts</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">createQuestioner</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./createQuestioner&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="p">{</span> <span class="nx">greeting</span> <span class="p">}</span> <span class="kr">from</span> <span class="s2">&#34;./greeting&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl"><span class="kr">import</span> <span class="nx">usersDB</span> <span class="kr">from</span> <span class="s2">&#34;./users.json&#34;</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your name: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">foundUser</span> <span class="o">=</span> <span class="nx">usersDB</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">user</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">user</span><span class="p">.</span><span class="nx">username</span> <span class="o">===</span> <span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">(</span><span class="nx">foundUser</span><span class="p">.</span><span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">process</span><span class="p">.</span><span class="nx">exit</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We are not interested in the module <strong>createQuestioner</strong>. Let&rsquo;s perceive it as a third-party library with some API. What we really need to focus on is file <strong>src/greeting.ts</strong>:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">export</span> <span class="kd">function</span> <span class="nx">greeting</span><span class="p">(</span><span class="nx">names</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Hello, </span><span class="si">${</span><span class="nx">names</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">name</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">name</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">()).</span><span class="nx">join</span><span class="p">(</span><span class="s2">&#34;, &#34;</span><span class="p">)</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Pretty simple code, isn&rsquo;t it? We didn&rsquo;t specify the type of parameter names but we expect that there will be an array of strings.</p>
+<p>Okay, let&rsquo;s run our small application. Did you see any issues in the code? Because <strong>strict mode</strong> is disabled in the TypeScript configuration of this app we shouldn&rsquo;t see any errors in the editor.</p>
+<p>Run the app by the following command:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">tsc <span class="o">&amp;&amp;</span> node dist/main.js
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Or</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">npm run dev
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>After typing a name (it can be whatever name you want) you should see that there are errors in our code. But they were identified only after running <strong>Node</strong>, i.e. in runtime. So, the TypeScript compiler didn&rsquo;t find any problems in the code.</p>
+<p>Now, let&rsquo;s enable <strong>strict mode</strong> and see what happens. After enabling <strong>strict</strong> parameter in <strong>tsconfig.json</strong> you should see errors in your editor (if it supports TypeScript):</p>
+<p><img src="/images/what-is-strict-mode-in-typescript-and-why-you-should-use-it-screen-1.png"></p>
+<p>And if you run TypeScript compilation you will see that TypeScript highlight the error:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">src</span><span class="o">/</span><span class="n">greeting</span><span class="o">.</span><span class="n">ts</span><span class="p">:</span><span class="mi">1</span><span class="p">:</span><span class="mi">26</span> <span class="o">-</span> <span class="n">error</span> <span class="n">TS7006</span><span class="p">:</span> <span class="n">Parameter</span> <span class="s1">&#39;names&#39;</span> <span class="n">implicitly</span> <span class="n">has</span> <span class="n">an</span> <span class="s1">&#39;any&#39;</span> <span class="n">type</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="mi">1</span> <span class="k">export</span> <span class="n">function</span> <span class="n">greeting</span><span class="p">(</span><span class="n">names</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">                           <span class="o">~~~~~</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">src</span><span class="o">/</span><span class="n">greeting</span><span class="o">.</span><span class="n">ts</span><span class="p">:</span><span class="mi">2</span><span class="p">:</span><span class="mi">36</span> <span class="o">-</span> <span class="n">error</span> <span class="n">TS7006</span><span class="p">:</span> <span class="n">Parameter</span> <span class="s1">&#39;name&#39;</span> <span class="n">implicitly</span> <span class="n">has</span> <span class="n">an</span> <span class="s1">&#39;any&#39;</span> <span class="n">type</span><span class="o">.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="mi">2</span>   <span class="n">console</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="err">`</span><span class="n">Hello</span><span class="p">,</span> <span class="o">$</span><span class="p">{</span><span class="n">names</span><span class="o">.</span><span class="n">map</span><span class="p">((</span><span class="n">name</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="n">name</span><span class="o">.</span><span class="n">toLowerCase</span><span class="p">())</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="s1">&#39;, &#39;</span><span class="p">)}</span><span class="o">!</span><span class="err">`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">                                     <span class="o">~~~~</span>
+</span></span><span class="line"><span class="cl"><span class="n">Found</span> <span class="mi">2</span> <span class="n">errors</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Basically, the problem is that we didn&rsquo;t specify the type of parameter <strong>names</strong> in a function <strong>greeting</strong>. It means that the function can be called with wrong arguments in module <strong>main</strong>. Specify the type in <strong>src/greeting.ts</strong>. It should be an array of string values:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">export</span> <span class="kd">function</span> <span class="nx">greeting</span><span class="p">(</span><span class="nx">names</span>: <span class="kt">string</span><span class="p">[])</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="sb">`Hello, </span><span class="si">${</span><span class="nx">names</span><span class="p">.</span><span class="nx">map</span><span class="p">((</span><span class="nx">name</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">name</span><span class="p">.</span><span class="nx">toLowerCase</span><span class="p">()).</span><span class="nx">join</span><span class="p">(</span><span class="s2">&#34;, &#34;</span><span class="p">)</span><span class="si">}</span><span class="sb">!`</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Great! Let&rsquo;s see that we have in a file <strong>main.ts</strong>. In an editor, you probably may see that there is an error. Let&rsquo;s run TypeScript and see what&rsquo;s wrong here.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">src/main.ts:12:14 - error TS2345: Argument of type &#39;{ username: string; age: number; } | undefined&#39; is not assignable to parameter of type &#39;string[]&#39;.
+</span></span><span class="line"><span class="cl">  Type &#39;undefined&#39; is not assignable to type &#39;string[]&#39;.
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">12     greeting(foundUser.username);
+</span></span><span class="line"><span class="cl">                ~~~~~~~~~~~~~~~
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">Found 1 error
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Okay. So, the problem is that we put a value of variable <strong>foundUser</strong> as itself (it is an object or undefined) but a function <strong>greeting</strong> receives an array of string values. It seems like a small typo because all we need to do is write argument <strong>foundUser.username</strong> as bracketed. Also, because variable <strong>foundUser</strong> could be <em>undefined</em> we need to check that is it false or not:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-ts" data-lang="ts"><span class="line"><span class="cl"><span class="kr">async</span> <span class="kd">function</span> <span class="nx">main() {</span>
+</span></span><span class="line"><span class="cl">  <span class="k">try</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">questioner</span> <span class="o">=</span> <span class="nx">createQuestioner</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">username</span> <span class="o">=</span> <span class="k">await</span> <span class="nx">questioner</span><span class="p">.</span><span class="nx">ask</span><span class="p">(</span><span class="s2">&#34;Type your name: &#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="kr">const</span> <span class="nx">foundUser</span> <span class="o">=</span> <span class="nx">usersDB</span><span class="p">.</span><span class="nx">find</span><span class="p">((</span><span class="nx">user</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">user</span><span class="p">.</span><span class="nx">username</span> <span class="o">===</span> <span class="nx">username</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="nx">foundUser</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s2">&#34;User is not found&#34;</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">      <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">      <span class="k">return</span><span class="p">;</span>
+</span></span><span class="line"><span class="cl">    <span class="p">}</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">greeting</span><span class="p">([</span><span class="nx">foundUser</span><span class="p">.</span><span class="nx">username</span><span class="p">]);</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">    <span class="nx">questioner</span><span class="p">.</span><span class="nx">finishUp</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span> <span class="k">catch</span> <span class="p">(</span><span class="nx">e</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">console</span><span class="p">.</span><span class="nx">error</span><span class="p">(</span><span class="nx">e</span><span class="p">);</span>
+</span></span><span class="line"><span class="cl">    <span class="nx">process</span><span class="p">.</span><span class="nx">exit</span><span class="p">();</span>
+</span></span><span class="line"><span class="cl">  <span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, let&rsquo;s run the app again:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm run dev
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It should work correctly.</p>
+<h2 id="conclusions">
+  Conclusions
+  <a class="heading-link" href="#conclusions">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>So now you know that even code that compiles by <strong>tsc</strong> successfully can have issues and incorrect behavior when this code is running. The goal of TypeScript is to prevent times when the application works with errors or doesn&rsquo;t work at all <em><strong>before</strong></em> the code of the application executes. TypeScript analysis your code and based on types that were specified by you or by <em>type inference</em> and highlight part of the code with potential risk. And the best way it works is in <strong>strict mode</strong>. Using <strong>strict mode</strong> you will catch more potential errors and typos in your codebase before running the program.</p>
+
+      </section>
+    </div>
+  </article>
+  <div id="subscription">
+    
+<form action="https://sendy.mkvl.me/subscribe" method="POST" accept-charset="utf-8">
+	<label for="name">Name</label><br/>
+	<input type="text" name="name" id="name"/>
+	<br/>
+	<label for="email">Email</label><br/>
+	<input type="email" name="email" id="email"/><br/><br/>
+<input type="checkbox" name="gdpr" id="gdpr"/>
+<span><strong>Marketing permission</strong>: I give my consent to MKVL to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+<br/><br/>
+<span><strong>What to expect</strong>: If you wish to withdraw your consent and stop hearing from us, simply click the unsubscribe link at the bottom of every email we send or contact us at max@mkvl.me. We value and respect your personal data and privacy. To view our privacy policy, please visit our website. By submitting this form, you agree that we may process your information in accordance with these terms.</span>
+<br/><br/><div style="display:none;">
+	<label for="hp">HP</label><br/>
+	<input type="text" name="hp" id="hp"/>
+	</div>
+	<input type="hidden" name="list" value="jr5dhhdYyT763BY1CZl64s4A"/>
+	<input type="hidden" name="subform" value="yes"/>
+	<input type="submit" name="submit" id="submit"/>
+</form>
+
+
+  </div>
+  <div class="container">
+    <h3 class="monospace text-center bold">
+      Comments 💬
+    </h3>
+    
+  </div>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             MKVL 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    <script async defer data-domain="mkvl.me" src="https://plausible.io/js/plausible.js"></script>
+
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
