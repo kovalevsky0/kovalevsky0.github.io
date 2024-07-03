@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
       <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="Content-Language" content="en">
@@ -9,31 +9,36 @@
 
   
 
-  <meta name="author" content="Max Kovalevskii">
+  <meta name="author" content="MKVL">
   <meta name="description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
 The thing is that TypeScript is provided with a special program, tool - compiler.">
   <meta name="keywords" content="javascript,typescript">
 
 
   
-    <meta name="image" content="https://mkvl.meimages/getting-started-with-typescript-compiler.png" />
+    <meta name="image" content="http://localhost:1313/images/getting-started-with-typescript-compiler.png" />
   
 
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://mkvl.me/images/getting-started-with-typescript-compiler.png"/>
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/getting-started-with-typescript-compiler.png">
+  <meta name="twitter:title" content="Getting Started With TypeScript Compiler (tsc)">
+  <meta name="twitter:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
+The thing is that TypeScript is provided with a special program, tool - compiler.">
 
-<meta name="twitter:title" content="Getting Started With TypeScript Compiler (tsc)"/>
-<meta name="twitter:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
-The thing is that TypeScript is provided with a special program, tool - compiler."/>
-
-  <meta property="og:title" content="Getting Started With TypeScript Compiler (tsc)" />
-<meta property="og:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
-The thing is that TypeScript is provided with a special program, tool - compiler." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/" /><meta property="og:image" content="https://mkvl.me/images/getting-started-with-typescript-compiler.png" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2021-05-16T20:00:00+00:00" />
-<meta property="article:modified_time" content="2021-05-16T20:00:00+00:00" />
-
+  <meta property="og:url" content="http://localhost:1313/getting-started-using-and-configuring-typescript-compiler/">
+  <meta property="og:site_name" content="Learn Go with MKVL | Golang Courses and Tutorials | How To Golang">
+  <meta property="og:title" content="Getting Started With TypeScript Compiler (tsc)">
+  <meta property="og:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
+The thing is that TypeScript is provided with a special program, tool - compiler.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-05-16T20:00:00+00:00">
+    <meta property="article:modified_time" content="2021-05-16T20:00:00+00:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Typescript">
+    <meta property="article:tag" content="Typescriptbook">
+    <meta property="og:image" content="http://localhost:1313/images/getting-started-with-typescript-compiler.png">
 
 
   <title>
@@ -41,7 +46,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
   </title>
 
   
-    <link rel="canonical" href="https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/">
+    <link rel="canonical" href="http://localhost:1313/getting-started-using-and-configuring-typescript-compiler/">
   
 
   
@@ -54,7 +59,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
   
     
     
-    <link rel="stylesheet" href="/css/byte.min.97ef5ae14db2373509968e933cfc86335a5762de4c8b06f94f6309cb312365a5.css" integrity="sha256-l&#43;9a4U2yNzUJlo6TPPyGM1pXYt5Miwb5T2MJyzEjZaU=" crossorigin="anonymous" media="screen" />
+    <link rel="stylesheet" href="/css/byte.css" media="screen">
   
 
   
@@ -63,7 +68,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
     
       
       
-      <link rel="stylesheet" href="/css/byte-dark.min.1b42d15774e69478cb825e8007515bbf5e64035bbc3361161c7b911338e17dba.css" integrity="sha256-G0LRV3TmlHjLgl6AB1Fbv15kA1u8M2EWHHuREzjhfbo=" crossorigin="anonymous" media="screen" />
+      <link rel="stylesheet" href="/css/byte-dark.css" media="screen">
     
   
 
@@ -79,7 +84,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 
   
 
-  <meta name="generator" content="Hugo 0.95.0" />
+  <meta name="generator" content="Hugo 0.127.0">
 
   </head>
 
@@ -95,7 +100,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
         <header class="header">
   <div class="container">
     <div class="header__inner">
-      <a href="https://mkvl.me" class="logo-title u-url">MKVL</a>
+      <a href="http://localhost:1313/" class="logo-title u-url">Learn Go with MKVL</a>
       
         <div>
           <nav class="navbar">
@@ -127,13 +132,6 @@ The thing is that TypeScript is provided with a special program, tool - compiler
                   href="/notes/">
                     <i class='fa fa-archive color-orange'></i>
                     notes/
-                </a>
-              
-                <a
-                  class="navbar__link"
-                  href="/index.xml">
-                    <i class='fa fa-rss-square color-pink'></i>
-                    rss.xml
                 </a>
               
             
@@ -263,7 +261,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
         </div>
       
       <section class="e-content">
-        <p>From the previous post <a href="https://maxoid.io/blog/article/typescript-what-is-all-about-and-why-should-you-use-it">TypeScript - What Is All About And Why Should You Use It?</a> we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by <a href="/web-browser/">Web browser</a>. In Back End, your code is running by <a href="/node/">Node</a>. What about TypeScript?</p>
+        <p>From the previous post <a href="https://mkvl.me/blog/article/typescript-what-is-all-about-and-why-should-you-use-it">TypeScript - What Is All About And Why Should You Use It?</a> we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by <a href="/web-browser/">Web browser</a>. In Back End, your code is running by <a href="/node/">Node</a>. What about TypeScript?</p>
 <p>The thing is that TypeScript is provided with a special program, tool - compiler. A compiler is a program that compiles (transforms) one code to another.</p>
 <h2 id="what-is-typescript-compiler">
   What is TypeScript compiler?
@@ -283,7 +281,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 </span></span><span class="line"><span class="cl">tsc --version
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>TypeScript compiler has many flags and options to use in various types of projects. You can use it in Front End project with libraries like <a href="/react/">React</a>. In <a href="/angular/">Angular</a> it is already used inside Angular&rsquo;s toolchain. You can also use <strong>tsc</strong> in Back End development with <a href="/node/">Node</a>. Here is the post about <a href="https://maxoid.io/blog/article/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload">How To Setup Node TypeScript Workflow</a>.</p>
+</div><p>TypeScript compiler has many flags and options to use in various types of projects. You can use it in Front End project with libraries like <a href="/react/">React</a>. In <a href="/angular/">Angular</a> it is already used inside Angular&rsquo;s toolchain. You can also use <strong>tsc</strong> in Back End development with <a href="/node/">Node</a>. Here is the post about <a href="https://mkvl.me/blog/article/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload">How To Setup Node TypeScript Workflow</a>.</p>
 <p>In this post, we will explore how to use <strong>tsc</strong> with a few general options.</p>
 <h2 id="usage">
   Usage
@@ -291,8 +289,8 @@ The thing is that TypeScript is provided with a special program, tool - compiler
     <i class="fa fa-link" aria-hidden="true"></i>
   </a>
 </h2>
-<p>We will use <strong>tsc</strong> with a simple example. It is an <a href="/command-line-interface/">command-line interface</a> app that asks us to type our first name and username and then greetings us. It is a Node.js application and we will execute it by Node. If you didn&rsquo;t install Node or you have Node with a version that is lower than 15 on your local machine, check out the post <a href="https://maxoid.io/blog/article/how-to-install-or-update-node-by-using-nvm">How To Install or Update Node by Using nvm (Node Version Manager)</a>.</p>
-<p>If you don&rsquo;t know how to run a TypeScript compiler, I recommend checking out the post <a href="https://maxoid.io/blog/article/detecting-errors-before-running-code-with-typescript">Detecting Errors Before Running Code With TypeScript</a>. We will use pretty much the same example as in that post but with small differences.</p>
+<p>We will use <strong>tsc</strong> with a simple example. It is an <a href="/command-line-interface/">command-line interface</a> app that asks us to type our first name and username and then greetings us. It is a Node.js application and we will execute it by Node. If you didn&rsquo;t install Node or you have Node with a version that is lower than 15 on your local machine, check out the post <a href="https://mkvl.me/blog/article/how-to-install-or-update-node-by-using-nvm">How To Install or Update Node by Using nvm (Node Version Manager)</a>.</p>
+<p>If you don&rsquo;t know how to run a TypeScript compiler, I recommend checking out the post <a href="https://mkvl.me/blog/article/detecting-errors-before-running-code-with-typescript">Detecting Errors Before Running Code With TypeScript</a>. We will use pretty much the same example as in that post but with small differences.</p>
 <p>Let&rsquo;s create a folder called <strong>tsc-intro</strong> or whatever you want. First of all, create two helper modules (files) with the following code:</p>
 <p><strong>createQuestioner.ts</strong>:</p>
 <div class="highlight"><div class="chroma">
@@ -407,7 +405,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 </span></span><span class="line"><span class="cl"><span class="nx">main</span><span class="p">();</span>
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Also, you need to install Type Declarations of Node as a dev dependency in your local project. If you don&rsquo;t know about Type Declarations, check about the post <a href="https://maxoid.io/blog/article/what-are-type-declaration-files-in-typescript">What Are Type Declaration Files In TypeScript</a>.</p>
+</div><p>Also, you need to install Type Declarations of Node as a dev dependency in your local project. If you don&rsquo;t know about Type Declarations, check about the post <a href="https://mkvl.me/blog/article/what-are-type-declaration-files-in-typescript">What Are Type Declaration Files In TypeScript</a>.</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -777,7 +775,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">tsc --module ESNext --outDir &#34;./dist&#34; --watch src/main.ts
 </span></span></code></pre></td></tr></table>
 </div>
-</div><p>Using <strong>watch mode</strong> is not enough for developing Node.js application because we also need to re-run Node after changes in the code. Check out the post <a href="https://maxoid.io/blog/article/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload">How To Setup Simple Workflow To Write Node TypeScript Application In Live Reload</a>.</p>
+</div><p>Using <strong>watch mode</strong> is not enough for developing Node.js application because we also need to re-run Node after changes in the code. Check out the post <a href="https://mkvl.me/blog/article/setup-simple-workflow-to-write-node-typeScript-application-in-live-reload">How To Setup Simple Workflow To Write Node TypeScript Application In Live Reload</a>.</p>
 <h2 id="checking-code-without-compilation">
   Checking code without compilation
   <a class="heading-link" href="#checking-code-without-compilation">
@@ -848,7 +846,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
         <div>
           
             ©
-             Max Kovalevskii 
+             MKVL 
             2024
           
         </div>
@@ -862,7 +860,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
         
         <div>
           
-            Powered by <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/byteski/hugo-byte">Byte theme</a>
+            Powered by <a href="https://gohugo.io/">Hugo</a>
           
           
         </div>
@@ -875,22 +873,25 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 
     
       
-      <script src="/js/byte.min.f453d26c79f010446cf0d9770197f77de32c07b7a5512d141a286247fe154a22.js" integrity="sha256-9FPSbHnwEERs8Nl3AZf3feMsB7elUS0UGihiR/4VSiI="></script>
+      <script src="/js/byte.js"></script>
     
 
     
       
-      <script src="/js/subscription.min.f3c695cf763a0e3f0761f70cc1e1a5bad832571b667b2f533b95ccc5249fd111.js" integrity="sha256-88aVz3Y6Dj8HYfcMweGlutgyVxtmey9TO5XMxSSf0RE="></script>
+      <script src="/js/subscription.js"></script>
     
 
     
       
-      <script src="/js/subscribers-counter.min.a67e7f4779c353fb307662cf463fd7e3f15c927b44fe97374a9ceb4255b19fcf.js" integrity="sha256-pn5/R3nDU/swdmLPRj/X4/FckntE/pc3SpzrQlWxn88="></script>
+      <script src="/js/subscribers-counter.js"></script>
     
 
     
 
     
+  
+
+
 
     
 

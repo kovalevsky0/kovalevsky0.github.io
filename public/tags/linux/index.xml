@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linux on Max Kovalevskii (MKVL)</title>
-    <link>https://mkvl.me/tags/linux/</link>
-    <description>Recent content in linux on Max Kovalevskii (MKVL)</description>
+    <title>Linux on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>http://localhost:1313/tags/linux/</link>
+    <description>Recent content in Linux on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 15:41:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 15:41:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>List of interesting command-line interface tools</title>
-      <link>https://mkvl.me/list-of-interesting-command-line-interface-tools/</link>
+      <link>http://localhost:1313/list-of-interesting-command-line-interface-tools/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/list-of-interesting-command-line-interface-tools/</guid>
-      <description>List of interesting command-line interface tools     ble.sh GitUI  </description>
+      <guid>http://localhost:1313/list-of-interesting-command-line-interface-tools/</guid>
+      <description> List of interesting command-line interface tools ble.sh GitUI </description>
       
         <type>note</type>
       
@@ -24,15 +24,15 @@
     
     <item>
       <title>Neovim - LSP Setup</title>
-      <link>https://mkvl.me/neovim-lsp-setup/</link>
+      <link>http://localhost:1313/neovim---lsp-setup/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
-      <guid>https://mkvl.me/neovim-lsp-setup/</guid>
-      <description>Neovim - LSP Setup    Install plugin &amp;rsquo;lspconfig&#39;    If you use Packer
+      <guid>http://localhost:1313/neovim---lsp-setup/</guid>
+      <description>Neovim - LSP Setup Install plugin &amp;rsquo;lspconfig&#39; If you use Packer
 Put it inside vim config file:
-1  use &amp;#39;neovim/nvim-lspconfig&amp;#39;   Lua Language Server Configuration     github.com/sumneko/lua-language-server  Install (brew)
-1  brew install lua-language-server   In any lua file or in a specific file that includes LSP configuration:
-1  require&amp;#39;lspconfig&amp;#39;.sumneko_lua.setup{}    It activates LSP for lua files You can check that LSP works for Lua files  Open any .</description>
+1 use &amp;#39;neovim/nvim-lspconfig&amp;#39; Lua Language Server Configuration github.com/sumneko/lua-language-server Install (brew)
+1 brew install lua-language-server In any lua file or in a specific file that includes LSP configuration:
+1 require&amp;#39;lspconfig&amp;#39;.sumneko_lua.setup{} It activates LSP for lua files You can check that LSP works for Lua files Open any .lua file type :LspInfo You should see the line 1 client(s) attached to this bufer and Client: sumneko_lua JavaScript/TypeScript Server Configuration github.</description>
       
         <type>note</type>
       
@@ -42,11 +42,11 @@ Put it inside vim config file:
     
     <item>
       <title>Docker</title>
-      <link>https://mkvl.me/docker/</link>
+      <link>http://localhost:1313/docker/</link>
       <pubDate>Sun, 14 Aug 2022 22:59:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/docker/</guid>
-      <description>Docker    Image vs Container     container is a running env for image  it provides:  application image  postgres, redis   file system (virtual) env configs   it has port to connect to the application that runs inside the container  for example: 5000      Basic commands    docker pull    1  docker pull &amp;lt;image&amp;gt;    it pulls an image from the registry (by default: Docker Hub)  docker images    1  docker images    returns list of downloaded/available images on your machine  docker run    1  docker run &amp;lt;image&amp;gt;    it runs/start the image in the container  flags</description>
+      <guid>http://localhost:1313/docker/</guid>
+      <description>Docker Image vs Container container is a running env for image it provides: application image postgres, redis file system (virtual) env configs it has port to connect to the application that runs inside the container for example: 5000 Basic commands docker pull 1 docker pull &amp;lt;image&amp;gt; it pulls an image from the registry (by default: Docker Hub) docker images 1 docker images returns list of downloaded/available images on your machine docker run 1 docker run &amp;lt;image&amp;gt; it runs/start the image in the container flags</description>
       
         <type>note</type>
       
@@ -56,12 +56,12 @@ Put it inside vim config file:
     
     <item>
       <title>watch (command)</title>
-      <link>https://mkvl.me/watch-command/</link>
+      <link>http://localhost:1313/watch-command/</link>
       <pubDate>Sat, 13 Aug 2022 12:17:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/watch-command/</guid>
-      <description>watch (command)    The command runs other commands or jobs repeatedly in N time intervals
-Git: auto-commit all changes every 15 mins    1  watch -n 900 &amp;#34;git pull origin main &amp;amp;&amp;amp; (git ls-files --modified --others --exclude-standard | grep . &amp;gt; /dev/null) &amp;amp;&amp;amp; { git add . ; git commit -m &amp;#39;auto-commit&amp;#39; ; git push origin main; }&amp;#34;   </description>
+      <guid>http://localhost:1313/watch-command/</guid>
+      <description> watch (command) The command runs other commands or jobs repeatedly in N time intervals
+Git: auto-commit all changes every 15 mins 1 watch -n 900 &amp;#34;git pull origin main &amp;amp;&amp;amp; (git ls-files --modified --others --exclude-standard | grep . &amp;gt; /dev/null) &amp;amp;&amp;amp; { git add . ; git commit -m &amp;#39;auto-commit&amp;#39; ; git push origin main; }&amp;#34; </description>
       
         <type>note</type>
       
@@ -71,13 +71,17 @@ Git: auto-commit all changes every 15 mins    1  watch -n 900 &amp;#34;git pull 
     
     <item>
       <title>tmux</title>
-      <link>https://mkvl.me/tmux/</link>
+      <link>http://localhost:1313/tmux/</link>
       <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tmux/</guid>
-      <description>tmux    Installing    macOS
-1  brew install tmux   Commands    tmux ls    1  tmux ls    returns list of active tmux sessions  Default key bindings    Default prefix key    1  ctrl(control) + b   Panes    default key bindings
-Split the window horizontally (Horizontal pane)</description>
+      <guid>http://localhost:1313/tmux/</guid>
+      <description>tmux Installing macOS
+1 brew install tmux Commands tmux ls 1 tmux ls returns list of active tmux sessions Default key bindings Default prefix key 1 ctrl(control) + b Panes default key bindings
+Split the window horizontally (Horizontal pane)
+1 ctrl(control) + b + &amp;#34; Split the window vertically (Vertical pane)
+1 ctrl(control) + b + % Delete (kill) current (focused) pane
+(with confirmation prompt)
+1 ctrl(control) + b + x Switch to the right pane</description>
       
         <type>note</type>
       
@@ -87,13 +91,13 @@ Split the window horizontally (Horizontal pane)</description>
     
     <item>
       <title>Bash</title>
-      <link>https://mkvl.me/bash/</link>
+      <link>http://localhost:1313/bash/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/bash/</guid>
-      <description>Bash    Bash is a Unix shell and command language. Name is acronym for Bourne Again Shell.
+      <guid>http://localhost:1313/bash/</guid>
+      <description> Bash Bash is a Unix shell and command language. Name is acronym for Bourne Again Shell.
 It was default shell on macOS (currently - Z shell).
-Links     Website  </description>
+Links Website </description>
       
         <type>note</type>
       
@@ -103,12 +107,12 @@ Links     Website  </description>
     
     <item>
       <title>Fish Shell</title>
-      <link>https://mkvl.me/fish-shell/</link>
+      <link>http://localhost:1313/fish-shell/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fish-shell/</guid>
-      <description>Fish Shell    Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
-Links     Website (fishshell.com) GitHub  </description>
+      <guid>http://localhost:1313/fish-shell/</guid>
+      <description> Fish Shell Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
+Links Website (fishshell.com) GitHub </description>
       
         <type>note</type>
       
@@ -118,13 +122,13 @@ Links     Website (fishshell.com) GitHub  </description>
     
     <item>
       <title>fish-nvm</title>
-      <link>https://mkvl.me/fish-nvm/</link>
+      <link>http://localhost:1313/fish-nvm/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fish-nvm/</guid>
-      <description>fish-nvm    Node Version Manager wrapper for Fish Shell.
-Installation    Using Fisher (Fish Shell Plugin Manager):
-1  fisher install FabioAntunes/fish-nvm edc/bass   Links     GitHub  </description>
+      <guid>http://localhost:1313/fish-nvm/</guid>
+      <description> fish-nvm Node Version Manager wrapper for Fish Shell.
+Installation Using Fisher (Fish Shell Plugin Manager):
+1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
       
         <type>note</type>
       
@@ -134,12 +138,12 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
     
     <item>
       <title>Fisher (Fish Shell Plugin Manager)</title>
-      <link>https://mkvl.me/fisher-fish-shell-plugin-manager/</link>
+      <link>http://localhost:1313/fisher-fish-shell-plugin-manager/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fisher-fish-shell-plugin-manager/</guid>
-      <description>Fisher (Fish Shell Plugin Manager)    A plugin manager for Fish Shell.
-Links     GitHub  </description>
+      <guid>http://localhost:1313/fisher-fish-shell-plugin-manager/</guid>
+      <description> Fisher (Fish Shell Plugin Manager) A plugin manager for Fish Shell.
+Links GitHub </description>
       
         <type>note</type>
       
@@ -149,13 +153,13 @@ Links     GitHub  </description>
     
     <item>
       <title>Z shell</title>
-      <link>https://mkvl.me/z-shell/</link>
+      <link>http://localhost:1313/z-shell/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/z-shell/</guid>
-      <description>Z shell    Z shell is a Unix shell. It is an alternative to Bash. It is a community &amp;ldquo;Oh My Zsh&amp;rdquo; that is developing and supporting many plugins and themes for this shell.
+      <guid>http://localhost:1313/z-shell/</guid>
+      <description> Z shell Z shell is a Unix shell. It is an alternative to Bash. It is a community &amp;ldquo;Oh My Zsh&amp;rdquo; that is developing and supporting many plugins and themes for this shell.
 Now it is a default shell on macOS (previous - Bash).
-Links     Official website (zsh.org) Oh My Zsh website  </description>
+Links Official website (zsh.org) Oh My Zsh website </description>
       
         <type>note</type>
       
@@ -165,12 +169,12 @@ Links     Official website (zsh.org) Oh My Zsh website  </description>
     
     <item>
       <title>command-line interface</title>
-      <link>https://mkvl.me/command-line-interface/</link>
+      <link>http://localhost:1313/command-line-interface/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/command-line-interface/</guid>
-      <description>command-line interface    It is a program that has interface which is based on commands
-Examples     Git  </description>
+      <guid>http://localhost:1313/command-line-interface/</guid>
+      <description> command-line interface It is a program that has interface which is based on commands
+Examples Git </description>
       
         <type>note</type>
       
@@ -180,13 +184,13 @@ Examples     Git  </description>
     
     <item>
       <title>sed (utility)</title>
-      <link>https://mkvl.me/sed-utility/</link>
+      <link>http://localhost:1313/sed-utility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/sed-utility/</guid>
-      <description>sed (utility)    sed is an Linux utility or command that can be used to replace string by another string.
-Examples    Basic syntax    1  sed -i &amp;#39;s/old-word/new-word/g&amp;#39; *.md   Troubleshooting    sed: 1: &amp;ldquo;something&amp;hellip;&amp;rdquo;: invalid command code W     Try adding the -e argument explicitly and giving &#39;&#39; as argument to -i:
- 1  sed -i &amp;#39;&amp;#39; -e &amp;#39;s/.</description>
+      <guid>http://localhost:1313/sed-utility/</guid>
+      <description>sed (utility) sed is an Linux utility or command that can be used to replace string by another string.
+Examples Basic syntax 1 sed -i &amp;#39;s/old-word/new-word/g&amp;#39; *.md Troubleshooting sed: 1: &amp;ldquo;something&amp;hellip;&amp;rdquo;: invalid command code W Try adding the -e argument explicitly and giving &#39;&#39; as argument to -i:
+1 sed -i &amp;#39;&amp;#39; -e &amp;#39;s/..\/src\/components/..\/components/g&amp;#39; *.mdx sed: content: in-place editing only works for regular files 1 sed -i &amp;#39;&amp;#39; -e &amp;#34;s/oldstr/newstr/g&amp;#34; `find .</description>
       
         <type>note</type>
       

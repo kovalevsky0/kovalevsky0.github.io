@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>node on Max Kovalevskii (MKVL)</title>
-    <link>https://mkvl.me/tags/node/</link>
-    <description>Recent content in node on Max Kovalevskii (MKVL)</description>
+    <title>Node on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>http://localhost:1313/tags/node/</link>
+    <description>Recent content in Node on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/node/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/node/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CommonJS Modules</title>
-      <link>https://mkvl.me/commonjs-modules/</link>
+      <link>http://localhost:1313/commonjs-modules/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/commonjs-modules/</guid>
-      <description>CommonJS Modules    Module system for JavaScript that uses in Node.
+      <guid>http://localhost:1313/commonjs-modules/</guid>
+      <description> CommonJS Modules Module system for JavaScript that uses in Node.
 The syntax:
-1 2 3 4 5 6 7  const fs = require(&amp;#39;fs&amp;#39;); function foo() { // ... } exports.foo = foo;   Links     Node.js Docs Wikipedia  </description>
+1 2 3 4 5 6 7 const fs = require(&amp;#39;fs&amp;#39;); function foo() { // ... } exports.foo = foo; Links Node.js Docs Wikipedia </description>
       
         <type>note</type>
       
@@ -26,13 +26,13 @@ The syntax:
     
     <item>
       <title>Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)</title>
-      <link>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</link>
+      <link>http://localhost:1313/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</link>
       <pubDate>Wed, 12 May 2021 22:10:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
+      <guid>http://localhost:1313/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
       <description>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&amp;rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
 First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
-1  npm i -g typescript   I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
+1 npm i -g typescript I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
       
         
             <type>blog post</type>
@@ -44,12 +44,12 @@ First of all, you need to install TypeScript on your computer. Install it by npm
     
     <item>
       <title>nodemon</title>
-      <link>https://mkvl.me/nodemon/</link>
+      <link>http://localhost:1313/nodemon/</link>
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/nodemon/</guid>
-      <description>nodemon    nodemon is a tool that restarts your Node application when some file changes. It really helps in developing because you don&amp;rsquo;t need to re-run Node if you change code in your application.
-Links     GitHub nodemon.io  </description>
+      <guid>http://localhost:1313/nodemon/</guid>
+      <description> nodemon nodemon is a tool that restarts your Node application when some file changes. It really helps in developing because you don&amp;rsquo;t need to re-run Node if you change code in your application.
+Links GitHub nodemon.io </description>
       
         <type>note</type>
       
@@ -59,16 +59,16 @@ Links     GitHub nodemon.io  </description>
     
     <item>
       <title>ts-node</title>
-      <link>https://mkvl.me/ts-node/</link>
+      <link>http://localhost:1313/ts-node/</link>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/ts-node/</guid>
-      <description>ts-node    A tool that executes a Node program that is written in TypeScript
+      <guid>http://localhost:1313/ts-node/</guid>
+      <description>ts-node A tool that executes a Node program that is written in TypeScript
 Basically, instead of using this command every time:
-1  tsc index.ts &amp;amp;&amp;amp; node index.js   you can use this tool.
-Installing and Usage    Install it globally by npm:
-1  npm install -g ts-node   Create a file add.ts with simple TypeScript code:
-1 2 3 4 5  function add(a: number, b: number): number { return a + b; } console.</description>
+1 tsc index.ts &amp;amp;&amp;amp; node index.js you can use this tool.
+Installing and Usage Install it globally by npm:
+1 npm install -g ts-node Create a file add.ts with simple TypeScript code:
+1 2 3 4 5 function add(a: number, b: number): number { return a + b; } console.</description>
       
         <type>note</type>
       
@@ -78,11 +78,12 @@ Installing and Usage    Install it globally by npm:
     
     <item>
       <title>How To Install or Update Node by Using nvm (Node Version Manager)</title>
-      <link>https://mkvl.me/how-to-install-or-update-node-by-using-nvm/</link>
+      <link>http://localhost:1313/how-to-install-or-update-node-by-using-nvm/</link>
       <pubDate>Sun, 09 May 2021 21:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/how-to-install-or-update-node-by-using-nvm/</guid>
-      <description>Intro    There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.</description>
+      <guid>http://localhost:1313/how-to-install-or-update-node-by-using-nvm/</guid>
+      <description>Intro There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.
+For that purpose, you can use a tool called nvm (Node Version Manager).</description>
       
         
             <type>blog post</type>
@@ -94,13 +95,13 @@ Installing and Usage    Install it globally by npm:
     
     <item>
       <title>fish-nvm</title>
-      <link>https://mkvl.me/fish-nvm/</link>
+      <link>http://localhost:1313/fish-nvm/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fish-nvm/</guid>
-      <description>fish-nvm    Node Version Manager wrapper for Fish Shell.
-Installation    Using Fisher (Fish Shell Plugin Manager):
-1  fisher install FabioAntunes/fish-nvm edc/bass   Links     GitHub  </description>
+      <guid>http://localhost:1313/fish-nvm/</guid>
+      <description> fish-nvm Node Version Manager wrapper for Fish Shell.
+Installation Using Fisher (Fish Shell Plugin Manager):
+1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
       
         <type>note</type>
       
@@ -110,12 +111,12 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
     
     <item>
       <title>Node Version Manager</title>
-      <link>https://mkvl.me/node-version-manager/</link>
+      <link>http://localhost:1313/node-version-manager/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/node-version-manager/</guid>
-      <description>Node Version Manager    A tool that provides an ability to install Node on specific version on your local machine. Also you can upgrade or downgrade versions.
- GitHub  </description>
+      <guid>http://localhost:1313/node-version-manager/</guid>
+      <description> Node Version Manager A tool that provides an ability to install Node on specific version on your local machine. Also you can upgrade or downgrade versions.
+GitHub </description>
       
         <type>note</type>
       
@@ -125,12 +126,12 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
     
     <item>
       <title>Playwright</title>
-      <link>https://mkvl.me/playwright/</link>
+      <link>http://localhost:1313/playwright/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/playwright/</guid>
-      <description>Playwright    Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
-Links     GitHub playwright.dev  </description>
+      <guid>http://localhost:1313/playwright/</guid>
+      <description> Playwright Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
+Links GitHub playwright.dev </description>
       
         <type>note</type>
       
@@ -140,12 +141,12 @@ Links     GitHub playwright.dev  </description>
     
     <item>
       <title>ava.js</title>
-      <link>https://mkvl.me/ava.js/</link>
+      <link>http://localhost:1313/ava.js/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/ava.js/</guid>
-      <description>ava.js    Ava is a JavaScript test runner for Node
-Links     GitHub repo  </description>
+      <guid>http://localhost:1313/ava.js/</guid>
+      <description> ava.js Ava is a JavaScript test runner for Node
+Links GitHub repo </description>
       
         <type>note</type>
       
@@ -155,11 +156,11 @@ Links     GitHub repo  </description>
     
     <item>
       <title>Browser Object Model</title>
-      <link>https://mkvl.me/browser-object-model/</link>
+      <link>http://localhost:1313/browser-object-model/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/browser-object-model/</guid>
-      <description>Browser Object Model     BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document  Examples     Window.navigator (MDN Web Docs)  </description>
+      <guid>http://localhost:1313/browser-object-model/</guid>
+      <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
       
         <type>note</type>
       
@@ -169,12 +170,12 @@ Links     GitHub repo  </description>
     
     <item>
       <title>JSDOM</title>
-      <link>https://mkvl.me/jsdom/</link>
+      <link>http://localhost:1313/jsdom/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/jsdom/</guid>
-      <description>JSDOM    JSDOM is a JavaScript implementation of Document Object Model and Browser Object Model for Node
-Links     GitHub repo  </description>
+      <guid>http://localhost:1313/jsdom/</guid>
+      <description> JSDOM JSDOM is a JavaScript implementation of Document Object Model and Browser Object Model for Node
+Links GitHub repo </description>
       
         <type>note</type>
       
@@ -184,12 +185,12 @@ Links     GitHub repo  </description>
     
     <item>
       <title>mocha.js</title>
-      <link>https://mkvl.me/mocha.js/</link>
+      <link>http://localhost:1313/mocha.js/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/mocha.js/</guid>
-      <description>mocha.js    Mocha is a JavaScript test framework running on Node
-Links     mochajs.org  </description>
+      <guid>http://localhost:1313/mocha.js/</guid>
+      <description> mocha.js Mocha is a JavaScript test framework running on Node
+Links mochajs.org </description>
       
         <type>note</type>
       
@@ -199,12 +200,12 @@ Links     mochajs.org  </description>
     
     <item>
       <title>Rewire</title>
-      <link>https://mkvl.me/rewire/</link>
+      <link>http://localhost:1313/rewire/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/rewire/</guid>
-      <description>Rewire    The library that provides the ability to do monkey-patching
-Links     GitHub repo  </description>
+      <guid>http://localhost:1313/rewire/</guid>
+      <description> Rewire The library that provides the ability to do monkey-patching
+Links GitHub repo </description>
       
         <type>note</type>
       
@@ -214,12 +215,12 @@ Links     GitHub repo  </description>
     
     <item>
       <title>Node</title>
-      <link>https://mkvl.me/node/</link>
+      <link>http://localhost:1313/node/</link>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/node/</guid>
-      <description>Node.js    Node.js is a JavaScript runtime that is based on Chrome&amp;rsquo;s V8 Engine
-Links     GitHub repo (nodejs/node) Official website (nodejs.org)  </description>
+      <guid>http://localhost:1313/node/</guid>
+      <description> Node.js Node.js is a JavaScript runtime that is based on Chrome&amp;rsquo;s V8 Engine
+Links GitHub repo (nodejs/node) Official website (nodejs.org) </description>
       
         <type>note</type>
       

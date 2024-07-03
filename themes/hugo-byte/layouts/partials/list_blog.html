@@ -1,7 +1,7 @@
 <div>
-  {{ .Content }} 
+  {{ .Content }}
   <div class="posts-list">
-    {{ $paginate := .Paginate (where (where .Site.Pages "Type" "blog") ".Params.public" "==" true) }}
+    {{ $paginate := .Paginate (where (where (where .Site.Pages "Type" "blog") ".Params.public" "==" true) ".Params.archive" "ne" true) }}
     {{ range $paginate.Pages.ByDate.Reverse }}
       {{ .Scratch.Set "is_label_visible" false }}
       {{ partial "li.html" . }}

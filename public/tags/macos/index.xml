@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>macos on Max Kovalevskii (MKVL)</title>
-    <link>https://mkvl.me/tags/macos/</link>
-    <description>Recent content in macos on Max Kovalevskii (MKVL)</description>
+    <title>Macos on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>http://localhost:1313/tags/macos/</link>
+    <description>Recent content in Macos on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fish Shell</title>
-      <link>https://mkvl.me/fish-shell/</link>
+      <link>http://localhost:1313/fish-shell/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fish-shell/</guid>
-      <description>Fish Shell    Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
-Links     Website (fishshell.com) GitHub  </description>
+      <guid>http://localhost:1313/fish-shell/</guid>
+      <description> Fish Shell Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
+Links Website (fishshell.com) GitHub </description>
       
         <type>note</type>
       
@@ -25,13 +25,13 @@ Links     Website (fishshell.com) GitHub  </description>
     
     <item>
       <title>fish-nvm</title>
-      <link>https://mkvl.me/fish-nvm/</link>
+      <link>http://localhost:1313/fish-nvm/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fish-nvm/</guid>
-      <description>fish-nvm    Node Version Manager wrapper for Fish Shell.
-Installation    Using Fisher (Fish Shell Plugin Manager):
-1  fisher install FabioAntunes/fish-nvm edc/bass   Links     GitHub  </description>
+      <guid>http://localhost:1313/fish-nvm/</guid>
+      <description> fish-nvm Node Version Manager wrapper for Fish Shell.
+Installation Using Fisher (Fish Shell Plugin Manager):
+1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
       
         <type>note</type>
       
@@ -41,12 +41,12 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
     
     <item>
       <title>Fisher (Fish Shell Plugin Manager)</title>
-      <link>https://mkvl.me/fisher-fish-shell-plugin-manager/</link>
+      <link>http://localhost:1313/fisher-fish-shell-plugin-manager/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/fisher-fish-shell-plugin-manager/</guid>
-      <description>Fisher (Fish Shell Plugin Manager)    A plugin manager for Fish Shell.
-Links     GitHub  </description>
+      <guid>http://localhost:1313/fisher-fish-shell-plugin-manager/</guid>
+      <description> Fisher (Fish Shell Plugin Manager) A plugin manager for Fish Shell.
+Links GitHub </description>
       
         <type>note</type>
       
@@ -56,12 +56,12 @@ Links     GitHub  </description>
     
     <item>
       <title>Homebrew</title>
-      <link>https://mkvl.me/homebrew/</link>
+      <link>http://localhost:1313/homebrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/homebrew/</guid>
-      <description>Homebrew    A package manager for macOS
-Links     Website GitHub  </description>
+      <guid>http://localhost:1313/homebrew/</guid>
+      <description> Homebrew A package manager for macOS
+Links Website GitHub </description>
       
         <type>note</type>
       

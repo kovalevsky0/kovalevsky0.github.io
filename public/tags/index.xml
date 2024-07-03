@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Max Kovalevskii (MKVL)</title>
-    <link>https://mkvl.me/tags/</link>
-    <description>Recent content in Tags on Max Kovalevskii (MKVL)</description>
+    <title>Tags on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 31 Aug 2022 15:41:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 31 Aug 2022 15:41:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>cli</title>
-      <link>https://mkvl.me/tags/cli/</link>
+      <title>Cli</title>
+      <link>http://localhost:1313/tags/cli/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/cli/</guid>
+      <guid>http://localhost:1313/tags/cli/</guid>
       <description></description>
       
         <type>note</type>
@@ -23,11 +23,11 @@
     </item>
     
     <item>
-      <title>linux</title>
-      <link>https://mkvl.me/tags/linux/</link>
+      <title>Linux</title>
+      <link>http://localhost:1313/tags/linux/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/linux/</guid>
+      <guid>http://localhost:1313/tags/linux/</guid>
       <description></description>
       
         <type>note</type>
@@ -37,11 +37,11 @@
     </item>
     
     <item>
-      <title>terminal</title>
-      <link>https://mkvl.me/tags/terminal/</link>
+      <title>Terminal</title>
+      <link>http://localhost:1313/tags/terminal/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/terminal/</guid>
+      <guid>http://localhost:1313/tags/terminal/</guid>
       <description></description>
       
         <type>note</type>
@@ -51,11 +51,11 @@
     </item>
     
     <item>
-      <title>neovim</title>
-      <link>https://mkvl.me/tags/neovim/</link>
+      <title>Neovim</title>
+      <link>http://localhost:1313/tags/neovim/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/neovim/</guid>
+      <guid>http://localhost:1313/tags/neovim/</guid>
       <description></description>
       
         <type>note</type>
@@ -65,11 +65,11 @@
     </item>
     
     <item>
-      <title>nvim</title>
-      <link>https://mkvl.me/tags/nvim/</link>
+      <title>Nvim</title>
+      <link>http://localhost:1313/tags/nvim/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/nvim/</guid>
+      <guid>http://localhost:1313/tags/nvim/</guid>
       <description></description>
       
         <type>note</type>
@@ -79,11 +79,11 @@
     </item>
     
     <item>
-      <title>vim</title>
-      <link>https://mkvl.me/tags/vim/</link>
+      <title>Vim</title>
+      <link>http://localhost:1313/tags/vim/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/vim/</guid>
+      <guid>http://localhost:1313/tags/vim/</guid>
       <description></description>
       
         <type>note</type>
@@ -93,11 +93,11 @@
     </item>
     
     <item>
-      <title>docker</title>
-      <link>https://mkvl.me/tags/docker/</link>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
       <pubDate>Sun, 14 Aug 2022 22:59:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/docker/</guid>
+      <guid>http://localhost:1313/tags/docker/</guid>
       <description></description>
       
         <type>note</type>
@@ -107,11 +107,11 @@
     </item>
     
     <item>
-      <title>tmux</title>
-      <link>https://mkvl.me/tags/tmux/</link>
+      <title>Tmux</title>
+      <link>http://localhost:1313/tags/tmux/</link>
       <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/tmux/</guid>
+      <guid>http://localhost:1313/tags/tmux/</guid>
       <description></description>
       
         <type>note</type>
@@ -121,11 +121,11 @@
     </item>
     
     <item>
-      <title>lua</title>
-      <link>https://mkvl.me/tags/lua/</link>
+      <title>Lua</title>
+      <link>http://localhost:1313/tags/lua/</link>
       <pubDate>Sat, 23 Jul 2022 15:39:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/lua/</guid>
+      <guid>http://localhost:1313/tags/lua/</guid>
       <description></description>
       
         <type>note</type>
@@ -135,11 +135,11 @@
     </item>
     
     <item>
-      <title>link</title>
-      <link>https://mkvl.me/tags/link/</link>
+      <title>Link</title>
+      <link>http://localhost:1313/tags/link/</link>
       <pubDate>Tue, 03 May 2022 14:56:59 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/link/</guid>
+      <guid>http://localhost:1313/tags/link/</guid>
       <description></description>
       
         <type>note</type>
@@ -149,11 +149,11 @@
     </item>
     
     <item>
-      <title>websites</title>
-      <link>https://mkvl.me/tags/websites/</link>
+      <title>Websites</title>
+      <link>http://localhost:1313/tags/websites/</link>
       <pubDate>Tue, 03 May 2022 14:56:59 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/websites/</guid>
+      <guid>http://localhost:1313/tags/websites/</guid>
       <description></description>
       
         <type>note</type>
@@ -163,11 +163,11 @@
     </item>
     
     <item>
-      <title>blog</title>
-      <link>https://mkvl.me/tags/blog/</link>
+      <title>Blog</title>
+      <link>http://localhost:1313/tags/blog/</link>
       <pubDate>Mon, 02 May 2022 18:33:25 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/blog/</guid>
+      <guid>http://localhost:1313/tags/blog/</guid>
       <description></description>
       
         <type>note</type>
@@ -177,11 +177,11 @@
     </item>
     
     <item>
-      <title>indieweb</title>
-      <link>https://mkvl.me/tags/indieweb/</link>
+      <title>Indieweb</title>
+      <link>http://localhost:1313/tags/indieweb/</link>
       <pubDate>Mon, 02 May 2022 18:33:25 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/indieweb/</guid>
+      <guid>http://localhost:1313/tags/indieweb/</guid>
       <description></description>
       
         <type>note</type>
@@ -191,11 +191,11 @@
     </item>
     
     <item>
-      <title>blogs</title>
-      <link>https://mkvl.me/tags/blogs/</link>
+      <title>Blogs</title>
+      <link>http://localhost:1313/tags/blogs/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/blogs/</guid>
+      <guid>http://localhost:1313/tags/blogs/</guid>
       <description></description>
       
         <type>note</type>
@@ -205,11 +205,11 @@
     </item>
     
     <item>
-      <title>email</title>
-      <link>https://mkvl.me/tags/email/</link>
+      <title>Email</title>
+      <link>http://localhost:1313/tags/email/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/email/</guid>
+      <guid>http://localhost:1313/tags/email/</guid>
       <description></description>
       
         <type>note</type>
@@ -219,11 +219,11 @@
     </item>
     
     <item>
-      <title>newsletters</title>
-      <link>https://mkvl.me/tags/newsletters/</link>
+      <title>Newsletters</title>
+      <link>http://localhost:1313/tags/newsletters/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/newsletters/</guid>
+      <guid>http://localhost:1313/tags/newsletters/</guid>
       <description></description>
       
         <type>note</type>
@@ -233,11 +233,11 @@
     </item>
     
     <item>
-      <title>search</title>
-      <link>https://mkvl.me/tags/search/</link>
+      <title>Search</title>
+      <link>http://localhost:1313/tags/search/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/search/</guid>
+      <guid>http://localhost:1313/tags/search/</guid>
       <description></description>
       
         <type>note</type>
@@ -247,11 +247,11 @@
     </item>
     
     <item>
-      <title>services</title>
-      <link>https://mkvl.me/tags/services/</link>
+      <title>Services</title>
+      <link>http://localhost:1313/tags/services/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/services/</guid>
+      <guid>http://localhost:1313/tags/services/</guid>
       <description></description>
       
         <type>note</type>
@@ -261,11 +261,11 @@
     </item>
     
     <item>
-      <title>apps</title>
-      <link>https://mkvl.me/tags/apps/</link>
+      <title>Apps</title>
+      <link>http://localhost:1313/tags/apps/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/apps/</guid>
+      <guid>http://localhost:1313/tags/apps/</guid>
       <description></description>
       
         <type>note</type>
@@ -275,11 +275,11 @@
     </item>
     
     <item>
-      <title>language</title>
-      <link>https://mkvl.me/tags/language/</link>
+      <title>Language</title>
+      <link>http://localhost:1313/tags/language/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/language/</guid>
+      <guid>http://localhost:1313/tags/language/</guid>
       <description></description>
       
         <type>note</type>
@@ -289,11 +289,11 @@
     </item>
     
     <item>
-      <title>service</title>
-      <link>https://mkvl.me/tags/service/</link>
+      <title>Service</title>
+      <link>http://localhost:1313/tags/service/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/service/</guid>
+      <guid>http://localhost:1313/tags/service/</guid>
       <description></description>
       
         <type>note</type>
@@ -303,11 +303,11 @@
     </item>
     
     <item>
-      <title>journaling</title>
-      <link>https://mkvl.me/tags/journaling/</link>
+      <title>Journaling</title>
+      <link>http://localhost:1313/tags/journaling/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/journaling/</guid>
+      <guid>http://localhost:1313/tags/journaling/</guid>
       <description></description>
       
         <type>note</type>
@@ -317,11 +317,11 @@
     </item>
     
     <item>
-      <title>methodology</title>
-      <link>https://mkvl.me/tags/methodology/</link>
+      <title>Methodology</title>
+      <link>http://localhost:1313/tags/methodology/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/methodology/</guid>
+      <guid>http://localhost:1313/tags/methodology/</guid>
       <description></description>
       
         <type>note</type>
@@ -331,11 +331,11 @@
     </item>
     
     <item>
-      <title>writing</title>
-      <link>https://mkvl.me/tags/writing/</link>
+      <title>Writing</title>
+      <link>http://localhost:1313/tags/writing/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/writing/</guid>
+      <guid>http://localhost:1313/tags/writing/</guid>
       <description></description>
       
         <type>note</type>
@@ -345,11 +345,11 @@
     </item>
     
     <item>
-      <title>web</title>
-      <link>https://mkvl.me/tags/web/</link>
+      <title>Web</title>
+      <link>http://localhost:1313/tags/web/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/web/</guid>
+      <guid>http://localhost:1313/tags/web/</guid>
       <description></description>
       
         <type>note</type>
@@ -359,11 +359,11 @@
     </item>
     
     <item>
-      <title>website</title>
-      <link>https://mkvl.me/tags/website/</link>
+      <title>Website</title>
+      <link>http://localhost:1313/tags/website/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/website/</guid>
+      <guid>http://localhost:1313/tags/website/</guid>
       <description></description>
       
         <type>note</type>
@@ -373,11 +373,11 @@
     </item>
     
     <item>
-      <title>links</title>
-      <link>https://mkvl.me/tags/links/</link>
+      <title>Links</title>
+      <link>http://localhost:1313/tags/links/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/links/</guid>
+      <guid>http://localhost:1313/tags/links/</guid>
       <description></description>
       
         <type>note</type>
@@ -387,11 +387,11 @@
     </item>
     
     <item>
-      <title>empty</title>
-      <link>https://mkvl.me/tags/empty/</link>
+      <title>Empty</title>
+      <link>http://localhost:1313/tags/empty/</link>
       <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/empty/</guid>
+      <guid>http://localhost:1313/tags/empty/</guid>
       <description></description>
       
         <type>note</type>
@@ -401,11 +401,11 @@
     </item>
     
     <item>
-      <title>algorithms</title>
-      <link>https://mkvl.me/tags/algorithms/</link>
+      <title>Algorithms</title>
+      <link>http://localhost:1313/tags/algorithms/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/algorithms/</guid>
+      <guid>http://localhost:1313/tags/algorithms/</guid>
       <description></description>
       
         <type>note</type>
@@ -415,11 +415,11 @@
     </item>
     
     <item>
-      <title>faang</title>
-      <link>https://mkvl.me/tags/faang/</link>
+      <title>Faang</title>
+      <link>http://localhost:1313/tags/faang/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/faang/</guid>
+      <guid>http://localhost:1313/tags/faang/</guid>
       <description></description>
       
         <type>note</type>
@@ -429,11 +429,11 @@
     </item>
     
     <item>
-      <title>interview</title>
-      <link>https://mkvl.me/tags/interview/</link>
+      <title>Interview</title>
+      <link>http://localhost:1313/tags/interview/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/interview/</guid>
+      <guid>http://localhost:1313/tags/interview/</guid>
       <description></description>
       
         <type>note</type>
@@ -443,11 +443,11 @@
     </item>
     
     <item>
-      <title>solvingproblems</title>
-      <link>https://mkvl.me/tags/solvingproblems/</link>
+      <title>Solvingproblems</title>
+      <link>http://localhost:1313/tags/solvingproblems/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/solvingproblems/</guid>
+      <guid>http://localhost:1313/tags/solvingproblems/</guid>
       <description></description>
       
         <type>note</type>
@@ -457,11 +457,11 @@
     </item>
     
     <item>
-      <title>newsletter</title>
-      <link>https://mkvl.me/tags/newsletter/</link>
+      <title>Newsletter</title>
+      <link>http://localhost:1313/tags/newsletter/</link>
       <pubDate>Fri, 06 Aug 2021 12:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/newsletter/</guid>
+      <guid>http://localhost:1313/tags/newsletter/</guid>
       <description></description>
       
         <type>note</type>
@@ -471,11 +471,11 @@
     </item>
     
     <item>
-      <title>typescript</title>
-      <link>https://mkvl.me/tags/typescript/</link>
+      <title>Typescript</title>
+      <link>http://localhost:1313/tags/typescript/</link>
       <pubDate>Thu, 29 Jul 2021 17:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/typescript/</guid>
+      <guid>http://localhost:1313/tags/typescript/</guid>
       <description></description>
       
         <type>note</type>
@@ -485,11 +485,11 @@
     </item>
     
     <item>
-      <title>typescriptbook</title>
-      <link>https://mkvl.me/tags/typescriptbook/</link>
+      <title>Typescriptbook</title>
+      <link>http://localhost:1313/tags/typescriptbook/</link>
       <pubDate>Thu, 29 Jul 2021 17:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/typescriptbook/</guid>
+      <guid>http://localhost:1313/tags/typescriptbook/</guid>
       <description></description>
       
         <type>note</type>
@@ -499,11 +499,11 @@
     </item>
     
     <item>
-      <title>javascript</title>
-      <link>https://mkvl.me/tags/javascript/</link>
+      <title>Javascript</title>
+      <link>http://localhost:1313/tags/javascript/</link>
       <pubDate>Fri, 16 Jul 2021 04:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/javascript/</guid>
+      <guid>http://localhost:1313/tags/javascript/</guid>
       <description></description>
       
         <type>note</type>
@@ -513,11 +513,11 @@
     </item>
     
     <item>
-      <title>microsoft</title>
-      <link>https://mkvl.me/tags/microsoft/</link>
+      <title>Microsoft</title>
+      <link>http://localhost:1313/tags/microsoft/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/microsoft/</guid>
+      <guid>http://localhost:1313/tags/microsoft/</guid>
       <description></description>
       
         <type>note</type>
@@ -527,11 +527,11 @@
     </item>
     
     <item>
-      <title>react</title>
-      <link>https://mkvl.me/tags/react/</link>
+      <title>React</title>
+      <link>http://localhost:1313/tags/react/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/react/</guid>
+      <guid>http://localhost:1313/tags/react/</guid>
       <description></description>
       
         <type>note</type>
@@ -541,11 +541,11 @@
     </item>
     
     <item>
-      <title>nextjs</title>
-      <link>https://mkvl.me/tags/nextjs/</link>
+      <title>Nextjs</title>
+      <link>http://localhost:1313/tags/nextjs/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/nextjs/</guid>
+      <guid>http://localhost:1313/tags/nextjs/</guid>
       <description></description>
       
         <type>note</type>
@@ -555,11 +555,11 @@
     </item>
     
     <item>
-      <title>ssg</title>
-      <link>https://mkvl.me/tags/ssg/</link>
+      <title>Ssg</title>
+      <link>http://localhost:1313/tags/ssg/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/ssg/</guid>
+      <guid>http://localhost:1313/tags/ssg/</guid>
       <description></description>
       
         <type>note</type>
@@ -569,11 +569,11 @@
     </item>
     
     <item>
-      <title>golang</title>
-      <link>https://mkvl.me/tags/golang/</link>
+      <title>Golang</title>
+      <link>http://localhost:1313/tags/golang/</link>
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/golang/</guid>
+      <guid>http://localhost:1313/tags/golang/</guid>
       <description></description>
       
         <type>note</type>
@@ -583,11 +583,11 @@
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://mkvl.me/tags/hugo/</link>
+      <title>Hugo</title>
+      <link>http://localhost:1313/tags/hugo/</link>
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/hugo/</guid>
+      <guid>http://localhost:1313/tags/hugo/</guid>
       <description></description>
       
         <type>note</type>
@@ -597,11 +597,11 @@
     </item>
     
     <item>
-      <title>angular</title>
-      <link>https://mkvl.me/tags/angular/</link>
+      <title>Angular</title>
+      <link>http://localhost:1313/tags/angular/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/angular/</guid>
+      <guid>http://localhost:1313/tags/angular/</guid>
       <description></description>
       
         <type>note</type>
@@ -611,11 +611,11 @@
     </item>
     
     <item>
-      <title>ecmascript</title>
-      <link>https://mkvl.me/tags/ecmascript/</link>
+      <title>Ecmascript</title>
+      <link>http://localhost:1313/tags/ecmascript/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/ecmascript/</guid>
+      <guid>http://localhost:1313/tags/ecmascript/</guid>
       <description></description>
       
         <type>note</type>
@@ -625,11 +625,11 @@
     </item>
     
     <item>
-      <title>node</title>
-      <link>https://mkvl.me/tags/node/</link>
+      <title>Node</title>
+      <link>http://localhost:1313/tags/node/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/node/</guid>
+      <guid>http://localhost:1313/tags/node/</guid>
       <description></description>
       
         <type>note</type>
@@ -639,11 +639,11 @@
     </item>
     
     <item>
-      <title>fishshell</title>
-      <link>https://mkvl.me/tags/fishshell/</link>
+      <title>Fishshell</title>
+      <link>http://localhost:1313/tags/fishshell/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/fishshell/</guid>
+      <guid>http://localhost:1313/tags/fishshell/</guid>
       <description></description>
       
         <type>note</type>
@@ -653,11 +653,11 @@
     </item>
     
     <item>
-      <title>macos</title>
-      <link>https://mkvl.me/tags/macos/</link>
+      <title>Macos</title>
+      <link>http://localhost:1313/tags/macos/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/macos/</guid>
+      <guid>http://localhost:1313/tags/macos/</guid>
       <description></description>
       
         <type>note</type>
@@ -667,11 +667,11 @@
     </item>
     
     <item>
-      <title>unix</title>
-      <link>https://mkvl.me/tags/unix/</link>
+      <title>Unix</title>
+      <link>http://localhost:1313/tags/unix/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/unix/</guid>
+      <guid>http://localhost:1313/tags/unix/</guid>
       <description></description>
       
         <type>note</type>
@@ -681,11 +681,11 @@
     </item>
     
     <item>
-      <title>jest</title>
-      <link>https://mkvl.me/tags/jest/</link>
+      <title>Jest</title>
+      <link>http://localhost:1313/tags/jest/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/jest/</guid>
+      <guid>http://localhost:1313/tags/jest/</guid>
       <description></description>
       
         <type>note</type>
@@ -695,11 +695,11 @@
     </item>
     
     <item>
-      <title>testing</title>
-      <link>https://mkvl.me/tags/testing/</link>
+      <title>Testing</title>
+      <link>http://localhost:1313/tags/testing/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/testing/</guid>
+      <guid>http://localhost:1313/tags/testing/</guid>
       <description></description>
       
         <type>note</type>
@@ -709,11 +709,11 @@
     </item>
     
     <item>
-      <title>git</title>
-      <link>https://mkvl.me/tags/git/</link>
+      <title>Git</title>
+      <link>http://localhost:1313/tags/git/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/git/</guid>
+      <guid>http://localhost:1313/tags/git/</guid>
       <description></description>
       
         <type>note</type>
@@ -723,11 +723,11 @@
     </item>
     
     <item>
-      <title>npm</title>
-      <link>https://mkvl.me/tags/npm/</link>
+      <title>Npm</title>
+      <link>http://localhost:1313/tags/npm/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/npm/</guid>
+      <guid>http://localhost:1313/tags/npm/</guid>
       <description></description>
       
         <type>note</type>
@@ -737,11 +737,11 @@
     </item>
     
     <item>
-      <title>back-end</title>
-      <link>https://mkvl.me/tags/back-end/</link>
+      <title>Back-End</title>
+      <link>http://localhost:1313/tags/back-end/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/back-end/</guid>
+      <guid>http://localhost:1313/tags/back-end/</guid>
       <description></description>
       
         <type>note</type>
@@ -751,11 +751,11 @@
     </item>
     
     <item>
-      <title>front-end</title>
-      <link>https://mkvl.me/tags/front-end/</link>
+      <title>Front-End</title>
+      <link>http://localhost:1313/tags/front-end/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/front-end/</guid>
+      <guid>http://localhost:1313/tags/front-end/</guid>
       <description></description>
       
         <type>note</type>
@@ -765,11 +765,11 @@
     </item>
     
     <item>
-      <title>web-development</title>
-      <link>https://mkvl.me/tags/web-development/</link>
+      <title>Web-Development</title>
+      <link>http://localhost:1313/tags/web-development/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/web-development/</guid>
+      <guid>http://localhost:1313/tags/web-development/</guid>
       <description></description>
       
         <type>note</type>
@@ -779,11 +779,11 @@
     </item>
     
     <item>
-      <title>browser</title>
-      <link>https://mkvl.me/tags/browser/</link>
+      <title>Browser</title>
+      <link>http://localhost:1313/tags/browser/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/browser/</guid>
+      <guid>http://localhost:1313/tags/browser/</guid>
       <description></description>
       
         <type>note</type>
@@ -793,11 +793,11 @@
     </item>
     
     <item>
-      <title>chrome</title>
-      <link>https://mkvl.me/tags/chrome/</link>
+      <title>Chrome</title>
+      <link>http://localhost:1313/tags/chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/chrome/</guid>
+      <guid>http://localhost:1313/tags/chrome/</guid>
       <description></description>
       
         <type>note</type>
@@ -807,11 +807,11 @@
     </item>
     
     <item>
-      <title>company</title>
-      <link>https://mkvl.me/tags/company/</link>
+      <title>Company</title>
+      <link>http://localhost:1313/tags/company/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/company/</guid>
+      <guid>http://localhost:1313/tags/company/</guid>
       <description></description>
       
         <type>note</type>
@@ -821,11 +821,11 @@
     </item>
     
     <item>
-      <title>e2e</title>
-      <link>https://mkvl.me/tags/e2e/</link>
+      <title>E2e</title>
+      <link>http://localhost:1313/tags/e2e/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/e2e/</guid>
+      <guid>http://localhost:1313/tags/e2e/</guid>
       <description></description>
       
         <type>note</type>
@@ -835,11 +835,11 @@
     </item>
     
     <item>
-      <title>firefox</title>
-      <link>https://mkvl.me/tags/firefox/</link>
+      <title>Firefox</title>
+      <link>http://localhost:1313/tags/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/firefox/</guid>
+      <guid>http://localhost:1313/tags/firefox/</guid>
       <description></description>
       
         <type>note</type>
@@ -849,11 +849,11 @@
     </item>
     
     <item>
-      <title>google</title>
-      <link>https://mkvl.me/tags/google/</link>
+      <title>Google</title>
+      <link>http://localhost:1313/tags/google/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/google/</guid>
+      <guid>http://localhost:1313/tags/google/</guid>
       <description></description>
       
         <type>note</type>
@@ -864,10 +864,10 @@
     
     <item>
       <title>IT</title>
-      <link>https://mkvl.me/tags/it/</link>
+      <link>http://localhost:1313/tags/it/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/it/</guid>
+      <guid>http://localhost:1313/tags/it/</guid>
       <description></description>
       
         <type>note</type>
@@ -877,11 +877,11 @@
     </item>
     
     <item>
-      <title>mozilla</title>
-      <link>https://mkvl.me/tags/mozilla/</link>
+      <title>Mozilla</title>
+      <link>http://localhost:1313/tags/mozilla/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/mozilla/</guid>
+      <guid>http://localhost:1313/tags/mozilla/</guid>
       <description></description>
       
         <type>note</type>
@@ -891,11 +891,11 @@
     </item>
     
     <item>
-      <title>puppeteer</title>
-      <link>https://mkvl.me/tags/puppeteer/</link>
+      <title>Puppeteer</title>
+      <link>http://localhost:1313/tags/puppeteer/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/puppeteer/</guid>
+      <guid>http://localhost:1313/tags/puppeteer/</guid>
       <description></description>
       
         <type>note</type>
@@ -905,11 +905,11 @@
     </item>
     
     <item>
-      <title>html</title>
-      <link>https://mkvl.me/tags/html/</link>
+      <title>Html</title>
+      <link>http://localhost:1313/tags/html/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/html/</guid>
+      <guid>http://localhost:1313/tags/html/</guid>
       <description></description>
       
         <type>note</type>
@@ -919,11 +919,11 @@
     </item>
     
     <item>
-      <title>software-development</title>
-      <link>https://mkvl.me/tags/software-development/</link>
+      <title>Software-Development</title>
+      <link>http://localhost:1313/tags/software-development/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/software-development/</guid>
+      <guid>http://localhost:1313/tags/software-development/</guid>
       <description></description>
       
         <type>note</type>
@@ -933,11 +933,25 @@
     </item>
     
     <item>
-      <title>note-taking</title>
-      <link>https://mkvl.me/tags/note-taking/</link>
+      <title>Testing </title>
+      <link>http://localhost:1313/tags/testing-/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/testing-/</guid>
+      <description></description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-Taking</title>
+      <link>http://localhost:1313/tags/note-taking/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/note-taking/</guid>
+      <guid>http://localhost:1313/tags/note-taking/</guid>
       <description></description>
       
         <type>note</type>
@@ -947,11 +961,11 @@
     </item>
     
     <item>
-      <title>keyboards</title>
-      <link>https://mkvl.me/tags/keyboards/</link>
+      <title>Keyboards</title>
+      <link>http://localhost:1313/tags/keyboards/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/keyboards/</guid>
+      <guid>http://localhost:1313/tags/keyboards/</guid>
       <description></description>
       
         <type>note</type>
@@ -961,11 +975,11 @@
     </item>
     
     <item>
-      <title>mechanical keybords</title>
-      <link>https://mkvl.me/tags/mechanical-keybords/</link>
+      <title>Mechanical Keybords</title>
+      <link>http://localhost:1313/tags/mechanical-keybords/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/mechanical-keybords/</guid>
+      <guid>http://localhost:1313/tags/mechanical-keybords/</guid>
       <description></description>
       
         <type>note</type>
@@ -976,10 +990,10 @@
     
     <item>
       <title>RxJS</title>
-      <link>https://mkvl.me/tags/rxjs/</link>
+      <link>http://localhost:1313/tags/rxjs/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/rxjs/</guid>
+      <guid>http://localhost:1313/tags/rxjs/</guid>
       <description></description>
       
         <type>note</type>
@@ -989,11 +1003,11 @@
     </item>
     
     <item>
-      <title>digital-garden</title>
-      <link>https://mkvl.me/tags/digital-garden/</link>
+      <title>Digital-Garden</title>
+      <link>http://localhost:1313/tags/digital-garden/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/digital-garden/</guid>
+      <guid>http://localhost:1313/tags/digital-garden/</guid>
       <description></description>
       
         <type>note</type>
@@ -1003,11 +1017,11 @@
     </item>
     
     <item>
-      <title>obsidian</title>
-      <link>https://mkvl.me/tags/obsidian/</link>
+      <title>Obsidian</title>
+      <link>http://localhost:1313/tags/obsidian/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/obsidian/</guid>
+      <guid>http://localhost:1313/tags/obsidian/</guid>
       <description></description>
       
         <type>note</type>
@@ -1017,11 +1031,11 @@
     </item>
     
     <item>
-      <title>gatsbyjs</title>
-      <link>https://mkvl.me/tags/gatsbyjs/</link>
+      <title>Gatsbyjs</title>
+      <link>http://localhost:1313/tags/gatsbyjs/</link>
       <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/gatsbyjs/</guid>
+      <guid>http://localhost:1313/tags/gatsbyjs/</guid>
       <description></description>
       
         <type>note</type>
@@ -1031,11 +1045,11 @@
     </item>
     
     <item>
-      <title>graphql</title>
-      <link>https://mkvl.me/tags/graphql/</link>
+      <title>Graphql</title>
+      <link>http://localhost:1313/tags/graphql/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/graphql/</guid>
+      <guid>http://localhost:1313/tags/graphql/</guid>
       <description></description>
       
         <type>note</type>
@@ -1045,11 +1059,11 @@
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://mkvl.me/tags/markdown/</link>
+      <title>Markdown</title>
+      <link>http://localhost:1313/tags/markdown/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/markdown/</guid>
+      <guid>http://localhost:1313/tags/markdown/</guid>
       <description></description>
       
         <type>note</type>
@@ -1059,11 +1073,11 @@
     </item>
     
     <item>
-      <title>zettelkasten</title>
-      <link>https://mkvl.me/tags/zettelkasten/</link>
+      <title>Zettelkasten</title>
+      <link>http://localhost:1313/tags/zettelkasten/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/zettelkasten/</guid>
+      <guid>http://localhost:1313/tags/zettelkasten/</guid>
       <description></description>
       
         <type>note</type>
@@ -1073,11 +1087,11 @@
     </item>
     
     <item>
-      <title>notion</title>
-      <link>https://mkvl.me/tags/notion/</link>
+      <title>Notion</title>
+      <link>http://localhost:1313/tags/notion/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/notion/</guid>
+      <guid>http://localhost:1313/tags/notion/</guid>
       <description></description>
       
         <type>note</type>
@@ -1087,11 +1101,11 @@
     </item>
     
     <item>
-      <title>programming</title>
-      <link>https://mkvl.me/tags/programming/</link>
+      <title>Programming</title>
+      <link>http://localhost:1313/tags/programming/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/programming/</guid>
+      <guid>http://localhost:1313/tags/programming/</guid>
       <description></description>
       
         <type>note</type>
@@ -1101,11 +1115,11 @@
     </item>
     
     <item>
-      <title>anki</title>
-      <link>https://mkvl.me/tags/anki/</link>
+      <title>Anki</title>
+      <link>http://localhost:1313/tags/anki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/anki/</guid>
+      <guid>http://localhost:1313/tags/anki/</guid>
       <description></description>
       
         <type>note</type>
@@ -1115,11 +1129,11 @@
     </item>
     
     <item>
-      <title>blogging</title>
-      <link>https://mkvl.me/tags/blogging/</link>
+      <title>Blogging</title>
+      <link>http://localhost:1313/tags/blogging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/blogging/</guid>
+      <guid>http://localhost:1313/tags/blogging/</guid>
       <description></description>
       
         <type>note</type>
@@ -1129,11 +1143,11 @@
     </item>
     
     <item>
-      <title>bloggingfordevs</title>
-      <link>https://mkvl.me/tags/bloggingfordevs/</link>
+      <title>Bloggingfordevs</title>
+      <link>http://localhost:1313/tags/bloggingfordevs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/bloggingfordevs/</guid>
+      <guid>http://localhost:1313/tags/bloggingfordevs/</guid>
       <description></description>
       
         <type>note</type>
@@ -1143,11 +1157,11 @@
     </item>
     
     <item>
-      <title>dataview</title>
-      <link>https://mkvl.me/tags/dataview/</link>
+      <title>Dataview</title>
+      <link>http://localhost:1313/tags/dataview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/dataview/</guid>
+      <guid>http://localhost:1313/tags/dataview/</guid>
       <description></description>
       
         <type>note</type>
@@ -1157,11 +1171,11 @@
     </item>
     
     <item>
-      <title>idea</title>
-      <link>https://mkvl.me/tags/idea/</link>
+      <title>Idea</title>
+      <link>http://localhost:1313/tags/idea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/idea/</guid>
+      <guid>http://localhost:1313/tags/idea/</guid>
       <description></description>
       
         <type>note</type>
@@ -1171,11 +1185,11 @@
     </item>
     
     <item>
-      <title>js-tools</title>
-      <link>https://mkvl.me/tags/js-tools/</link>
+      <title>Js-Tools</title>
+      <link>http://localhost:1313/tags/js-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/js-tools/</guid>
+      <guid>http://localhost:1313/tags/js-tools/</guid>
       <description></description>
       
         <type>note</type>
@@ -1185,11 +1199,11 @@
     </item>
     
     <item>
-      <title>json</title>
-      <link>https://mkvl.me/tags/json/</link>
+      <title>Json</title>
+      <link>http://localhost:1313/tags/json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/json/</guid>
+      <guid>http://localhost:1313/tags/json/</guid>
       <description></description>
       
         <type>note</type>
@@ -1199,11 +1213,11 @@
     </item>
     
     <item>
-      <title>monicalent</title>
-      <link>https://mkvl.me/tags/monicalent/</link>
+      <title>Monicalent</title>
+      <link>http://localhost:1313/tags/monicalent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/monicalent/</guid>
+      <guid>http://localhost:1313/tags/monicalent/</guid>
       <description></description>
       
         <type>note</type>
@@ -1213,11 +1227,11 @@
     </item>
     
     <item>
-      <title>monorepo</title>
-      <link>https://mkvl.me/tags/monorepo/</link>
+      <title>Monorepo</title>
+      <link>http://localhost:1313/tags/monorepo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/monorepo/</guid>
+      <guid>http://localhost:1313/tags/monorepo/</guid>
       <description></description>
       
         <type>note</type>
@@ -1227,11 +1241,11 @@
     </item>
     
     <item>
-      <title>munich</title>
-      <link>https://mkvl.me/tags/munich/</link>
+      <title>Munich</title>
+      <link>http://localhost:1313/tags/munich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/munich/</guid>
+      <guid>http://localhost:1313/tags/munich/</guid>
       <description></description>
       
         <type>note</type>
@@ -1241,11 +1255,11 @@
     </item>
     
     <item>
-      <title>reddit</title>
-      <link>https://mkvl.me/tags/reddit/</link>
+      <title>Reddit</title>
+      <link>http://localhost:1313/tags/reddit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/reddit/</guid>
+      <guid>http://localhost:1313/tags/reddit/</guid>
       <description></description>
       
         <type>note</type>
@@ -1255,11 +1269,11 @@
     </item>
     
     <item>
-      <title>seo</title>
-      <link>https://mkvl.me/tags/seo/</link>
+      <title>Seo</title>
+      <link>http://localhost:1313/tags/seo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/seo/</guid>
+      <guid>http://localhost:1313/tags/seo/</guid>
       <description></description>
       
         <type>note</type>
@@ -1269,11 +1283,11 @@
     </item>
     
     <item>
-      <title>site</title>
-      <link>https://mkvl.me/tags/site/</link>
+      <title>Site</title>
+      <link>http://localhost:1313/tags/site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/site/</guid>
+      <guid>http://localhost:1313/tags/site/</guid>
       <description></description>
       
         <type>note</type>
@@ -1283,11 +1297,11 @@
     </item>
     
     <item>
-      <title>spacedrepetition</title>
-      <link>https://mkvl.me/tags/spacedrepetition/</link>
+      <title>Spacedrepetition</title>
+      <link>http://localhost:1313/tags/spacedrepetition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/tags/spacedrepetition/</guid>
+      <guid>http://localhost:1313/tags/spacedrepetition/</guid>
       <description></description>
       
         <type>note</type>

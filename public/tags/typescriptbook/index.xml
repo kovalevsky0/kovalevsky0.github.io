@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>typescriptbook on Max Kovalevskii (MKVL)</title>
-    <link>https://mkvl.me/tags/typescriptbook/</link>
-    <description>Recent content in typescriptbook on Max Kovalevskii (MKVL)</description>
+    <title>Typescriptbook on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>http://localhost:1313/tags/typescriptbook/</link>
+    <description>Recent content in Typescriptbook on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 29 Jul 2021 17:00:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/typescriptbook/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Jul 2021 17:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/typescriptbook/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How To Configure tsconfig.json: TypeScript Strict options</title>
-      <link>https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/</link>
+      <link>http://localhost:1313/how-to-configure-tsconfigjson-typescript-strict-options/</link>
       <pubDate>Thu, 29 Jul 2021 17:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/how-to-configure-tsconfigjson-typescript-strict-options/</guid>
+      <guid>http://localhost:1313/how-to-configure-tsconfigjson-typescript-strict-options/</guid>
       <description>TypeScript is not just a superset of JavaScript with static types. It is also a quite configurable tool that can be used for different types of projects. One parameter or group of parameters that can be configured is strict. If you are not familiar with strict mode and why you should use it for a new project then check out the post What Is Strict Mode In TypeScript, Why And When You Should Use It?</description>
       
         
@@ -74,10 +74,10 @@
     
     <item>
       <title>What Is Strict Mode In TypeScript, Why And When You Should Use It?</title>
-      <link>https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</link>
+      <link>http://localhost:1313/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</link>
       <pubDate>Fri, 16 Jul 2021 04:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</guid>
+      <guid>http://localhost:1313/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</guid>
       <description>There are many options and parameters that can be used in the TypeScript configuration. One of the important &amp;ldquo;groups&amp;rdquo; of options is strict options. These options provide us the ability to write the safest code. How? Because TypeScript was developed primarily as superset of JavaScript, by default it allows us to write code that is not super strict in types and other aspects. It was made like this because TypeScript should be easily used by JavaScript developers.</description>
       
         
@@ -90,10 +90,10 @@
     
     <item>
       <title>Configuring TypeScript: options rootDir, outDir, module, target</title>
-      <link>https://mkvl.me/configuring-typescript-options-rootdir-outdir-module-target/</link>
+      <link>http://localhost:1313/configuring-typescript-options-rootdir-outdir-module-target/</link>
       <pubDate>Tue, 18 May 2021 20:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/configuring-typescript-options-rootdir-outdir-module-target/</guid>
+      <guid>http://localhost:1313/configuring-typescript-options-rootdir-outdir-module-target/</guid>
       <description>In the post Getting Started With TypeScript Compiler (tsc) we started to use TypeScript compiler with a few options in a simple Node project. We used tsc command to compile our app with specific rules and in watch mode. It works but we can use much more options of TypeScript compiler. However, use it just like a command in the Terminal with a bunch of flags is not so comfortable. We can improve our workflow by using TypeScript configuration file - tsconfig.</description>
       
         
@@ -106,10 +106,10 @@
     
     <item>
       <title>Getting Started With TypeScript Compiler (tsc)</title>
-      <link>https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/</link>
+      <link>http://localhost:1313/getting-started-using-and-configuring-typescript-compiler/</link>
       <pubDate>Sun, 16 May 2021 20:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/getting-started-using-and-configuring-typescript-compiler/</guid>
+      <guid>http://localhost:1313/getting-started-using-and-configuring-typescript-compiler/</guid>
       <description>From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
 The thing is that TypeScript is provided with a special program, tool - compiler.</description>
       
@@ -123,13 +123,13 @@ The thing is that TypeScript is provided with a special program, tool - compiler
     
     <item>
       <title>Setup Simple Workflow To Write Node TypeScript Application In Live Reload (Nodemon, ts-node)</title>
-      <link>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</link>
+      <link>http://localhost:1313/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</link>
       <pubDate>Wed, 12 May 2021 22:10:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
+      <guid>http://localhost:1313/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
       <description>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&amp;rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
 First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
-1  npm i -g typescript   I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
+1 npm i -g typescript I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
       
         
             <type>blog post</type>
@@ -141,10 +141,10 @@ First of all, you need to install TypeScript on your computer. Install it by npm
     
     <item>
       <title>What Are Type Declaration Files In TypeScript?</title>
-      <link>https://mkvl.me/what-are-type-declaration-files-in-typescript/</link>
+      <link>http://localhost:1313/what-are-type-declaration-files-in-typescript/</link>
       <pubDate>Tue, 11 May 2021 20:00:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/what-are-type-declaration-files-in-typescript/</guid>
+      <guid>http://localhost:1313/what-are-type-declaration-files-in-typescript/</guid>
       <description>You probably have seen files with a file extension like .d.ts in some JavaScript or TypeScript projects (libraries or frameworks) before and you wondered what are these files and what they are for. In TypeScript they are called Type Declaration files. Let&amp;rsquo;s find out what is that practically.
 Let&amp;rsquo;s create a simple example with TypeScript code. Create a folder with the name typescript-type-defs or whatever name you want and then let&amp;rsquo;s create a file called users-list.</description>
       
@@ -158,11 +158,11 @@ Let&amp;rsquo;s create a simple example with TypeScript code. Create a folder wi
     
     <item>
       <title>Detecting Errors Before Running Code With TypeScript</title>
-      <link>https://mkvl.me/detecting-errors-before-running-code-with-typescript/</link>
+      <link>http://localhost:1313/detecting-errors-before-running-code-with-typescript/</link>
       <pubDate>Mon, 10 May 2021 21:10:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/detecting-errors-before-running-code-with-typescript/</guid>
-      <description>The problem    In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
+      <guid>http://localhost:1313/detecting-errors-before-running-code-with-typescript/</guid>
+      <description>The problem In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
 We need to know how to start using TypeScript in our JavaScript project. In examples of this post series, I will use mostly code that written in Node environment. It won&amp;rsquo;t be any specific code that is understandable for only developers who worked with Node before.</description>
       
         
@@ -175,11 +175,11 @@ We need to know how to start using TypeScript in our JavaScript project. In exam
     
     <item>
       <title>TypeScript - What Is All About and Why Should You Use It?</title>
-      <link>https://mkvl.me/typescript-what-is-all-about-and-why-should-you-use-it/</link>
+      <link>http://localhost:1313/typescript-what-is-all-about-and-why-should-you-use-it/</link>
       <pubDate>Sat, 08 May 2021 19:50:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/typescript-what-is-all-about-and-why-should-you-use-it/</guid>
-      <description>What is TypeScript?    TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
+      <guid>http://localhost:1313/typescript-what-is-all-about-and-why-should-you-use-it/</guid>
+      <description>What is TypeScript? TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
 What&amp;rsquo;s the purpose of this language? TypeScript brings to developers some features that help to write code on JavaScript easier and safer. One of the most important features that TypeScript provides is Static typing.</description>
       
         

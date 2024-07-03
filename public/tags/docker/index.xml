@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>docker on Max Kovalevskii (MKVL)</title>
-    <link>https://mkvl.me/tags/docker/</link>
-    <description>Recent content in docker on Max Kovalevskii (MKVL)</description>
+    <title>Docker on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in Docker on Learn Go with MKVL | Golang Courses and Tutorials | How To Golang</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 14 Aug 2022 22:59:00 +0000</lastBuildDate><atom:link href="https://mkvl.me/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Aug 2022 22:59:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Docker</title>
-      <link>https://mkvl.me/docker/</link>
+      <link>http://localhost:1313/docker/</link>
       <pubDate>Sun, 14 Aug 2022 22:59:00 +0000</pubDate>
       
-      <guid>https://mkvl.me/docker/</guid>
-      <description>Docker    Image vs Container     container is a running env for image  it provides:  application image  postgres, redis   file system (virtual) env configs   it has port to connect to the application that runs inside the container  for example: 5000      Basic commands    docker pull    1  docker pull &amp;lt;image&amp;gt;    it pulls an image from the registry (by default: Docker Hub)  docker images    1  docker images    returns list of downloaded/available images on your machine  docker run    1  docker run &amp;lt;image&amp;gt;    it runs/start the image in the container  flags</description>
+      <guid>http://localhost:1313/docker/</guid>
+      <description>Docker Image vs Container container is a running env for image it provides: application image postgres, redis file system (virtual) env configs it has port to connect to the application that runs inside the container for example: 5000 Basic commands docker pull 1 docker pull &amp;lt;image&amp;gt; it pulls an image from the registry (by default: Docker Hub) docker images 1 docker images returns list of downloaded/available images on your machine docker run 1 docker run &amp;lt;image&amp;gt; it runs/start the image in the container flags</description>
       
         <type>note</type>
       
