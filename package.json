@@ -1,8 +1,8 @@
 {
-  "name": "mkvl.me",
+  "name": "kovalevsky.io",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/mkvl0/mkvl.me",
+  "repository": "https://github.com/kovalevsky0/kovalevsky0.github.io",
   "author": "Max Kovalevskii <usrmaxoid@gmail.com>",
   "license": "MIT",
   "scripts": {
