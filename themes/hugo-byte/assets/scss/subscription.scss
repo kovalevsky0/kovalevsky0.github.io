@@ -124,8 +124,20 @@
 //   }
 // }
 
-.subscription-container {
+.subscription-top {
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
 
+.subscription-top .subscription input[type=text],
+.subscription-top .subscription input[type=email],
+.subscription-top .subscription input[type=submit] {
+  width: 100% !important;
+}
+
+.subscription-top .subscription input,
+.subscription-top .subscription strong {
+  font-size: 16px;
 }
 
 .subscription {
@@ -171,7 +183,7 @@
     text-transform: uppercase;
     font-weight: bold;
     font-size: 20px;
-        width: 325px;
+    // width: 325px;
   }
 
   input[type=submit]:hover {
@@ -189,7 +201,7 @@
   }
 
   .subscription-container > div:first-child {
-    padding-right: 0px;
+    padding-right: 0px !important;
   }
 
   .subscription-container > div:last-child {
