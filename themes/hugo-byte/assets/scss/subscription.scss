@@ -124,6 +124,10 @@
 //   }
 // }
 
+.subscription-container {
+
+}
+
 .subscription {
   input[type=text] {
       width: 250px;
@@ -172,5 +176,24 @@
 
   input[type=submit]:hover {
     background: white;
+  }
+}
+
+@media (max-width: 1200px) {
+  .subscription-container {
+    flex-direction: column;
+  }
+
+  .subscription-container > div {
+    width: 100% !important;
+  }
+
+  .subscription-container > div:first-child {
+    padding-right: 0px;
+  }
+
+  .subscription-container > div:last-child {
+    padding-top: 35px;
+    padding-bottom: 50px;
   }
 }
