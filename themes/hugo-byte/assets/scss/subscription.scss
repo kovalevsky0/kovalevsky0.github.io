@@ -131,7 +131,7 @@
 
 .subscription-top .subscription input[type=text],
 .subscription-top .subscription input[type=email],
-.subscription-top .subscription input[type=submit] {
+.subscription-top .subscription button {
   width: 100% !important;
 }
 
@@ -160,11 +160,13 @@
       width: 250px;
       border: none;
       margin-bottom: 20px;
-      padding: 9px 13px;
+      padding: 12px 13px;
       background: linear-gradient(-90deg, #c75d12, #83be59);
       //background: none;
       //color: black;
       color: black;
+      // text-transform: uppercase;
+      font-size: 19px;
   }
 
   input[type=email]::placeholder {
@@ -172,10 +174,11 @@
     color: black;
   }
 
-  input[type=submit] {
+  button {
+    width: 250px;
     border: none;
     padding: 11px 20px;
-    margin-top: 20px;
+    // margin-top: 20px;
     //background: #00e4b4;
     //
     background: linear-gradient(-90deg, rgb(18, 137, 199), rgb(190, 108, 89));
@@ -184,10 +187,13 @@
     font-weight: bold;
     font-size: 20px;
     // width: 325px;
+    margin-bottom: 15px;
   }
 
-  input[type=submit]:hover {
-    background: white;
+  button {
+    &:hover {
+      background: white;
+    }
   }
 }
 

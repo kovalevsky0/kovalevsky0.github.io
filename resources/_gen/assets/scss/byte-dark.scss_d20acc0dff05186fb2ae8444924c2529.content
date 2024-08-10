@@ -4266,6 +4266,19 @@ ul {
 /* GenericTraceback */
 /* GenericUnderline */
 /* TextWhitespace */
+.subscription-top {
+  padding-top: 35px;
+  padding-bottom: 35px; }
+
+.subscription-top .subscription input[type=text],
+.subscription-top .subscription input[type=email],
+.subscription-top .subscription button {
+  width: 100% !important; }
+
+.subscription-top .subscription input,
+.subscription-top .subscription strong {
+  font-size: 16px; }
+
 .subscription input[type=text] {
   width: 250px;
   border: 2px solid white;
@@ -4282,27 +4295,39 @@ ul {
   width: 250px;
   border: none;
   margin-bottom: 20px;
-  padding: 9px 13px;
+  padding: 12px 13px;
   background: linear-gradient(-90deg, #c75d12, #83be59);
-  color: black; }
+  color: black;
+  font-size: 19px; }
 
 .subscription input[type=email]::placeholder {
   opacity: 1;
   color: black; }
 
-.subscription input[type=submit] {
+.subscription button {
+  width: 250px;
   border: none;
   padding: 11px 20px;
-  margin-top: 20px;
   background: linear-gradient(-90deg, #1289c7, #be6c59);
   color: black;
   text-transform: uppercase;
   font-weight: bold;
   font-size: 20px;
-  width: 325px; }
+  margin-bottom: 15px; }
 
-.subscription input[type=submit]:hover {
+.subscription button:hover {
   background: white; }
+
+@media (max-width: 1200px) {
+  .subscription-container {
+    flex-direction: column; }
+  .subscription-container > div {
+    width: 100% !important; }
+  .subscription-container > div:first-child {
+    padding-right: 0px !important; }
+  .subscription-container > div:last-child {
+    padding-top: 35px;
+    padding-bottom: 50px; } }
 
 .subscribe-float-btn {
   display: flex;

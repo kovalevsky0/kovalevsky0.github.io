@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "byte.css",
-	"sourceRoot": "/Users/maksim.kovalevskii/projects/personal/mkvl0.github.io",
+	"sourceRoot": "/Users/maksim.kovalevskii/projects/personal/kovalevsky0.github.io",
 	"sources": [
 		"themes/hugo-byte/assets/scss/byte.scss",
 		"themes/hugo-byte/assets/scss/css/normalize.css",
