@@ -1,0 +1,158 @@
+{{ $image := resources.Get "daily-golang-logo.png" }}
+<img src="{{ $image.Permalink }}" alt="Daily Golang Logo" style="width: 160px; display: block; margin: 15px auto 25px auto;" />
+<h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">Daily Golang</h1>
+<div style="max-width: 800px; width: 100%; margin: 0 auto 30px auto; text-align: center;">
+  Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.
+</div>
+<div class="dgp-subscription-container">
+  <div class="dgp-subscription">
+    <form
+      action="https://app.convertkit.com/forms/6943295/subscriptions"
+      method="post"
+      data-sv-form="6943295"
+      data-uid="21cf677d62"
+      data-format="inline"
+      data-version="5"
+      data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+      min-width="400 500 600 700 800"
+    >
+      <div data-style="minimal">
+        <ul
+          data-element="errors"
+          data-group="alert"
+          style="margin: 0; padding: 0;"
+        ></ul>
+        <div
+          data-element="fields"
+          data-stacked="false"
+        >
+          <input
+            name="email_address"
+            aria-label="Email Address"
+            placeholder="// EMAIL"
+            required=""
+            type="email"
+          />
+          <div>
+            <fieldset
+              data-group="checkboxes"
+              class="formkit-8150"
+              group="field"
+              type="Custom"
+              order="3"
+              save_as="Tag"
+              style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  class="formkit-checkbox"
+                  id="tag-8150-5252218"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252218"
+                  checked=""
+                />
+                <strong>Subscribe to <a href="/newsletter" style="color: #f4f4f4; font-weight: bold; border-bottom: 3px solid #fa9312; box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.25);">Max Kovalevsky's newsletter</a></strong>
+              </div>
+            </fieldset>
+            <fieldset
+              data-group="checkboxes"
+              group="field"
+              type="Custom"
+              order="1"
+              save_as="Tag"
+                    style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  id="tag-2566-5252942"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252942"
+                  required=""
+                >
+                  <strong>Marketing permission (GDPR)</strong>
+                  <span class="tooltip">
+                        <i class="fa fa-question-circle color-blue"></i>
+                        <span class="tooltiptext">I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                  </span>
+              </div>
+            </fieldset>
+          </div>
+          <div
+            data-group="dropdown"
+            class="formkit-5581"
+            type="Custom"
+            order="1"
+            save_as="Tag"
+            group="field"
+          >
+            <div>How often would you like to receive the newsletter?</div>
+            <div class="dgp-select">
+              <select
+                data-element="tags-select"
+                name="tags[]"
+                required=""
+              >
+                <option value="5265584" selected>daily</option>
+                <option value="5265585">weekly</option>
+              </select>
+              <i class="fa fa-caret-down color-blue"></i>
+            </div>
+          </div>
+          <input
+            id="tag-6675-5265583"
+            type="checkbox"
+            name="tags[]"
+            value="5265583"
+            checked=""
+            hidden=""
+          />
+          <button
+            data-element="submit"
+          >
+            <div class="formkit-spinner">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span class="">Subscribe</span>
+          </button>
+        </div>
+        <div
+          data-element="guarantee"
+          class="dgp-no-spam"
+        >
+          We won't send you spam. Unsubscribe at any time.
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="dgp-why">
+    <h3>Why Subscribe to Daily Golang?</h3>
+    <ul>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Receive fresh Go programming content in your inbox every day and week.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Keep up with the latest news, trends, and developments in the Go community.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Access tips, tutorials, and best practices to enhance your Go programming expertise.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Save time with hand-picked articles and resources relevant to your Go journey.
+      </li>
+    </ul>
+  </div>
+</div>

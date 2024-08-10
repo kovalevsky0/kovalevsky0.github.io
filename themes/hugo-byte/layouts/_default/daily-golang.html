@@ -21,9 +21,9 @@
       <div>
         <header>
           <div class="container">
-            <div style="padding: 15px 0;">
+            <div style="padding: 15px 0 0 0;">
               <div class="go-back">
-                <a href="/" class="go-back__inner">
+                <a href="/" class="go-back__inner" style="margin-bottom: 0;">
                   <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
                   </svg>
@@ -35,22 +35,67 @@
             </div>
           </div>
         </header>
-        {{ $image := resources.Get "daily-golang-logo.png" }}
         <main class="container">
-          <img src="{{ $image.Permalink }}" alt="Daily Golang Logo" style="width: 170px; display: block; margin: 15px auto 25px auto;" />
-          <h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">Daily Golang</h1>
-          <div style="max-width: 800px; width: 100%; margin: 0 auto;">
-            <p style="text-align: center;">Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox. </p>
-          </div>
-          <div style="display: flex;">
-            <div class="subscription">
-
-            </div>
-            <div>
-              <h3>Why Subscribe to Daily Golang?</h3>
-              <ul>
-              </ul>
-            </div>
+          {{ partial "dailygolangsubscription" . }}
+          <div class="dgp-container">
+            <h2>Latest Issues</h2>
+            <section>
+              <div>
+                <section class="posts-list">
+                  {{ range where .Site.RegularPages "Params.type" "dailygolang" }}
+                    <article class="post h-entry">
+                      <div class="post__line">
+                        <div class="post__line-point">
+                          <a href="/daily-golang" class="post__type post__type_note">
+                            <i aria-hidden="true" class="fa fa-newspaper-o"></i>
+                          </a>
+                        </div>
+                        <div class="post__line-content">
+                          <div>
+                            <time class="dt-published" dateTime={{ .Date.Format (.Site.Params.dateFormat | default "02/01/2006" ) }}>
+                              {{ .Date.Format (.Site.Params.dateFormat | default "02/01/2006" ) }}
+                            </time>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post__inner">
+                        {{ if .Page.Params.Image }}
+                          <a class="post__image" href="{{ .Params.externalLink | default .RelPermalink }}">
+                            <img src="/{{ .Page.Params.Image }}" alt="{{ .Title }}" />
+                          </a>
+                        {{ end }}
+                        {{ $postContentClass := "" }}
+                        {{ if .Page.Params.Image }}
+                          {{ $postContentClass = "post__content_image" }}
+                        {{ end }}
+                        <div class="post__content {{ $postContentClass }}">
+                          <header>
+                            <a class="u-url" href="{{ .Params.externalLink | default .RelPermalink }}">
+                              <h4 class="p-name" style="border-radius: 8px;">{{ .Title }}</h4>
+                            </a>
+                          </header>
+                          <section>
+                            <p class="p-summary">
+                              {{ if .Page.Params.Excerpt }}
+                                {{ .Page.Params.Excerpt }}
+                              {{ else }}
+                                {{ .Summary | safeHTML | truncate .Site.Params.SummaryLength }}
+                              {{ end }}
+                              <a class="post__read-more" href="{{ .Params.externalLink | default .RelPermalink }}">Read more</a>
+                            </p>
+                            {{ with .Page.Params.Tags }}
+                              {{ partial "taxonomy/tags.html" . }}
+                            {{ end }}
+                          </section>
+                        </div>
+                      </div>
+                    </article>
+                  {{ else }}
+                    <p>No posts found.</p>
+                  {{ end }}
+                </section>
+              </div>
+            </section>
           </div>
         </main>
       </div>

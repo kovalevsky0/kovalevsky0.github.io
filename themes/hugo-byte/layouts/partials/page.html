@@ -74,24 +74,9 @@
           <hr />
         {{ end }}
       </header>
-      {{ if eq .Params.Type "blog" }}
-        <div id="subscription" class="subscription-top">
-          {{ partial "subscription" . }}
-          <hr/>
-        </div>
-      {{ end }}
       <section class="e-content">
         {{ .Content }}
       </section>
     </div>
   </article>
-  <div id="subscription">
-    {{ partial "subscription" . }}
-  </div>
-  <!-- <div class="container"> -->
-  <!--   <h3 class="monospace text-center bold"> -->
-  <!--     Comments 💬 -->
-  <!--   </h3> -->
-  <!--   {{ partial "posts/utterances.html" . }} -->
-  <!-- </div> -->
 </div>
