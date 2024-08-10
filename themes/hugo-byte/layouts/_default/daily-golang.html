@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+
+  <head>
+    {{ partial "head" . }}
+    {{ if and .Site.Params.plausibleAnalytics .Site.Params.plausibleAnalytics.domain }}
+      {{- partial "analytics/plausible" . -}}
+    {{ end }}
+  </head>
+
+  {{ $csClass := "colorscheme-light" }}
+  {{ if eq .Site.Params.colorScheme "dark" }}
+    {{ $csClass = "colorscheme-dark" }}
+  {{ else if eq .Site.Params.colorScheme "auto" }}
+    {{ $csClass = "colorscheme-auto" }}
+  {{ end }}
+  <body class="preload-transitions {{ $csClass }}{{ if .Site.Params.rtl }} rtl{{ end }}"
+        onload="{{ if .Site.Params.enableTwemoji }} twemoji.parse(document.body); {{ end }}"
+  >
+    <div class="main-layout">
+      <div>
+        <header>
+          <div class="container">
+            <div style="padding: 15px 0;">
+              <div class="go-back">
+                <a href="/" class="go-back__inner">
+                  <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path>
+                  </svg>
+                  <span>
+                    Home
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        {{ $image := resources.Get "daily-golang-logo.png" }}
+        <main class="container">
+          <img src="{{ $image.Permalink }}" alt="Daily Golang Logo" style="width: 170px; display: block; margin: 15px auto 25px auto;" />
+          <h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">Daily Golang</h1>
+          <div style="max-width: 800px; width: 100%; margin: 0 auto;">
+            <p style="text-align: center;">Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox. </p>
+          </div>
+          <div style="display: flex;">
+            <div class="subscription">
+
+            </div>
+            <div>
+              <h3>Why Subscribe to Daily Golang?</h3>
+              <ul>
+              </ul>
+            </div>
+          </div>
+        </main>
+      </div>
+
+        {{ partial "footer.html" . }}
+    </div>
+
+    {{ if .Site.IsServer }}
+      {{ $script := resources.Get "js/byte.js" }}
+      <script src="{{ $script.RelPermalink }}"></script>
+    {{ else }}
+      {{ $script := resources.Get "js/byte.js" | minify | fingerprint }}
+      <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+    {{ end }}
+
+    {{ if .Site.IsServer }}
+      {{ $script := resources.Get "js/subscription.js" }}
+      <script src="{{ $script.RelPermalink }}"></script>
+    {{ else }}
+      {{ $script := resources.Get "js/subscription.js" | minify | fingerprint }}
+      <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+    {{ end }}
+
+    {{ if .Site.IsServer }}
+      {{ $script := resources.Get "js/subscribers-counter.js" }}
+      <script src="{{ $script.RelPermalink }}"></script>
+    {{ else }}
+      {{ $script := resources.Get "js/subscribers-counter.js" | minify | fingerprint }}
+      <script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>
+    {{ end }}
+
+    {{ range .Site.Params.customJS }}
+      <script src="{{ . | relURL }}"></script>
+    {{ end }}
+
+    {{ template "_internal/google_analytics.html" . }}
+
+    {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}
+      {{- partial "analytics/fathom" . -}}
+    {{ end }}
+
+    {{ if and .Site.Params.goatCounter .Site.Params.goatCounter.code }}
+      {{- partial "analytics/goatcounter" . -}}
+    {{ end }}
+
+    {{ if and .Site.Params.cloudflare .Site.Params.cloudflare.token }}
+      {{- partial "analytics/cloudflare" . -}}
+    {{ end }}
+
+    {{ if and .Site.Params.matomo .Site.Params.matomo.serverURL }}
+      {{- partial "analytics/matomo" . -}}
+    {{ end }}
+
+    {{ if and .Site.Params.googleTagManager .Site.Params.googleTagManager.id }}
+      {{- partial "analytics/googletagmanager" . -}}
+    {{ end }}
+  </body>
+
+</html>

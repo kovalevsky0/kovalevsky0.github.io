@@ -111,6 +111,12 @@ weight = 4
 url = "notes/"
 pre = "<i class='fa fa-archive color-orange'></i>"
 
+[[languages.en.menu.main]]
+name = "Daily_Golang"
+weight = 5
+url = "daily-golang/"
+pre = "<i class='fa fa-newspaper-o color-skyblue'></i>"
+
 # [[languages.en.menu.main]]
 # name = "newsletter"
 # weight = 5
