@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="Max Kovalevsky">
+  <meta name="description" content="Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. Subscribe now to get:
+ Weekly tips and tricks  In-depth tutorials  Exclusive courses  Industry insights and best practices  Join growing community of Go (Golang) developers and take your skills to the next level.
+   Marketing permission (GDPR)  I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.">
+  <meta name="keywords" content="Go,Programming,Blog,Go Programming,Golang,golang playground,golang install,golang tutorial,golangci-lint,golang for loop,golang enum,golang time,golang json,golang generics,golang gin,golang append,golang array,golang assert,golang append to slice,golang anonymous struct,golang atomic,golang atoi,golang array contains,golang api,awesome golang,append golang,array golang,aws lambda golang,anonymous struct golang,atoi golang,assert golang,atomic golang,golang byte array to string,golang bool to string,golang bufio,golang benchmark,golang base64 decode,golang base64,golang books,golang base64 encode,golang blog,brew install golang,byte to string golang,bufio golang,best ide for golang,bool to string golang,buffered channel golang,best golang books,bubble tea golang,bcrypt golang,base64 decode golang,golang context,golang channels,golang cobra,golang convert int to string,golang chi,golang check if file exists,golang constants,golang concurrency,golang copy,golang csv,cobra golang,convert string to int golang,context golang,chi golang,channels in golang,concurrency in golang,const golang,check if file exists golang,create error golang,clean architecture golang,golang download,golang defer,golang docker image,golang docs,golang developer,golang dependency injection,golang dictionary,golang developer jobs,golang delete from map,golang default parameter,download golang,defer golang,docker golang,dependency injection golang,database/sql golang,dockerfile golang,design patterns in golang,do while golang,data types in golang,delete from map golang,golang error,golang echo,golang else if,golang errgroup,golang embed,golang environment variables,golang error handling,golang exec">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Full Introduction to Golang with Test-Driven Development. Part I"/>
+<meta name="twitter:description" content="Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. Subscribe now to get:
+ Weekly tips and tricks  In-depth tutorials  Exclusive courses  Industry insights and best practices  Join growing community of Go (Golang) developers and take your skills to the next level.
+   Marketing permission (GDPR)  I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing."/>
+
+  <meta property="og:title" content="Full Introduction to Golang with Test-Driven Development. Part I" />
+<meta property="og:description" content="Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. Subscribe now to get:
+ Weekly tips and tricks  In-depth tutorials  Exclusive courses  Industry insights and best practices  Join growing community of Go (Golang) developers and take your skills to the next level.
+   Marketing permission (GDPR)  I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://kovalevsky.io/full-introduction-to-golang-with-test-driven-development-part-1/" /><meta property="article:section" content="" />
+<meta property="article:published_time" content="2024-03-04T14:01:10+00:00" />
+<meta property="article:modified_time" content="2024-03-04T14:01:10+00:00" />
+
+
+
+  <title>
+    Full Introduction to Golang with Test-Driven Development. Part I
+  </title>
+
+  
+    <link rel="canonical" href="https://kovalevsky.io/full-introduction-to-golang-with-test-driven-development-part-1/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/kovalevsky.io/webmention" />
+    <link rel="pingback" href="https://webmention.io/kovalevsky.io/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.min.794e2699a17d0295e792b889d232a98c0dd7e98d033a23d7e1d47cbfc01aa279.css" integrity="sha256-eU4mmaF9ApXnkriJ0jKpjA3X6Y0DOiPX4dR8v8Aaonk=" crossorigin="anonymous" media="screen" />
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.min.8caeed23c58b6cb0120a252a7f2eae40e27029563b195a7f12dc27e26db6bb49.css" integrity="sha256-jK7tI8WLbLASCiUqfy6uQOJwKVY7GVp/Etwn4m22u0k=" crossorigin="anonymous" media="screen" />
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+
+  <meta name="generator" content="Hugo 0.95.0" />
+
+    <script async defer data-domain="kovalevsky.io" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="https://kovalevsky.io" class="logo-title u-url">Learn Go with Max</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/daily-golang/">
+                    <i class='fa fa-newspaper-o color-skyblue'></i>
+                    Daily_Golang
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+    
+    
+    <div class="go-back">
+  <a href="/blog" class="go-back__inner">
+    <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" width="16">
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        d="M10 19l-7-7m0 0l7-7m-7 7h18"
+      ></path>
+    </svg>
+    <span>
+      Go Back To Blog
+    </span>
+  </a>
+</div>
+
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+    <div class="content__inner">
+      <header>
+        
+          <h1 class="p-name">Full Introduction to Golang with Test-Driven Development. Part I</h1>
+        
+        
+          <div class="content__info">
+            <i aria-hidden="true" class="fa fa-calendar"></i>
+            <time class="dt-published" dateTime=04/03/2024>
+              04/03/2024
+            </time>
+          </div>
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/golang/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #golang
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/go/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #go
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/testing/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #testing
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/tdd/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #tdd
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/blog/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #blog
+      </a>
+    </div></div>
+
+        
+        
+          <hr />
+        
+      </header>
+      <section class="e-content">
+        <div id="subscription-shortcode">
+  <div style="display: flex" class="subscription-container">
+  <div style="width: 70%; padding-right: 80px;">
+    <h1 style=
+    "background: linear-gradient(-90deg, #1a3162, #453762);
+    padding: 3px 14px;
+    color: #f4f4f4;
+    font-weight: bold;">Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses</h1>
+    <p>Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. <span style="padding: 0 9px;
+    border-bottom: 3px solid #30a1e5;
+    box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.2)">Subscribe</span> now to get:</p>
+    <ul style="list-style-type: none; padding: 0;">
+      <li><i class="fa fa-check-circle color-blue"></i> Weekly tips and tricks</li>
+      <li><i class="fa fa-check-circle color-blue"></i> In-depth tutorials</li>
+      <li><i class="fa fa-check-circle color-blue"></i> Exclusive courses</li>
+      <li><i class="fa fa-check-circle color-blue"></i> Industry insights and best practices</li>
+    </ul>
+    <p>Join growing community of <span style="background: linear-gradient(-90deg, #12a2c7, #be6c59);
+    padding: 0 9px;
+}">Go (Golang)</span> developers and take your skills to the next level.</p>
+  </div>
+  <div style="width: 30%">
+    <div class="subscription">
+      <form
+        action="https://app.convertkit.com/forms/6924712/subscriptions"
+        method="post"
+        data-sv-form="6924712"
+        data-uid="724b4a15b1"
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+        min-width="400 500 600 700 800"
+      >
+        <div data-style="minimal">
+          <ul
+            data-element="errors"
+            data-group="alert"
+            style="margin: 0; padding: 0;"
+          ></ul>
+          <div
+            data-element="fields"
+            data-stacked="false"
+          >
+            <input
+              name="email_address"
+              aria-label="Email Address"
+              placeholder="// EMAIL"
+              required=""
+              type="email"
+            />
+            <div>
+              <fieldset
+                data-group="checkboxes"
+                group="field"
+                type="Custom"
+                order="1"
+                save_as="Tag"
+                      style="padding: 0; margin: 0 0 20px 0;"
+              >
+                <div
+                  data-element="tags-checkboxes"
+                  data-group="checkbox"
+                >
+                  <input
+                    id="tag-5631-5252942"
+                    type="checkbox"
+                    name="tags[]"
+                    value="5252942"
+                  >
+                    <strong>Marketing permission (GDPR)</strong>
+                    <span class="tooltip">
+                          <i class="fa fa-question-circle color-blue"></i>
+                          <span class="tooltiptext">I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                    </span>
+                </div>
+              </fieldset>
+            </div>
+            <button
+              data-element="submit"
+            >
+              <div class="formkit-spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <span class="">Subscribe</span>
+            </button>
+          </div>
+          <div
+            data-element="guarantee"
+          >
+            We won't send you spam. Unsubscribe at any time.
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+
+
+  <hr />
+</div>
+
+<blockquote>
+<p>This is a post based on the script for my video <a href="https://www.youtube.com/watch?v=EECXgocw4N0&amp;t=487s">&ldquo;A new learning way on how to write &ldquo;Hello, World!&rdquo; program in Go&rdquo;</a> which available <a href="https://www.youtube.com/channel/UCvjx6Q_8iyME0FHiDB-nxiA">&ldquo;on my YouTube channel&rdquo;</a> and it is a part of the upcoming course &ldquo;Grokking Go Fundamentals with Tests&rdquo; (GGFT).</p>
+</blockquote>
+<p>Hello and welcome. In this chapter, we will write our first <a href="https://kovalevsky.io/golang/">Go</a> program. As a tradition, we will create a classic &ldquo;hello world&rdquo; program. It is a program that prints &ldquo;Hello, World!&rdquo; in the terminal after you run it. In this series, we&rsquo;ll do all examples in the <a href="https://kovalevsky.io/test-driven-development/">TDD</a> way. <a href="https://kovalevsky.io/test-driven-development/">TDD (test-driven development)</a> is a special way of writing software. That special way of writing software is based on the Test-driven development cycle.</p>
+<p>The Test-driven development cycle consists of the following steps:</p>
+<ol>
+<li>Add a test, which means you have to write tests first for the code that solves your problem.</li>
+<li>Run tests. All new tests must be failed because you don&rsquo;t have enough code that passes these tests.</li>
+<li>Write the simplest code that passes the new test.</li>
+<li>All tests now should be passed.</li>
+<li>Refactor as needed, using tests after each refactor to ensure that functionality is preserved.</li>
+<li>Repeat the cycle. So, for our first and all future examples, we&rsquo;re gonna follow the TDD way in general and TDD cycle in particular.</li>
+</ol>
+<p>I found tests quite useful in daily programming practice but also it&rsquo;s a very practical way to learn a new programming language.</p>
+<p>So first of all, we need to create a folder for our project. In this series, all our examples will be in one folder. Let&rsquo;s call it &ldquo;go-sandbox,&rdquo; but you can name it whatever you want. I decided to name it &ldquo;sandbox&rdquo; because it will be a folder with a bunch of small examples that are mostly not related to each other; it will be basically a sandbox for our experiments with <a href="https://kovalevsky.io/golang/">Go</a>. I will create a folder using a Terminal emulator. You can use any terminal emulator app, for example, you can use one of the most popular terminal emulators on macOS that&rsquo;s called iTerm 2. In the Terminal, open the path where you&rsquo;re gonna create a folder for the project using the command <code>cd</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> projects/personal
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now I&rsquo;m in the folder with all my personal projects, I&rsquo;m gonna create a folder called &ldquo;go-sandbox&rdquo; using the command <code>mkdir</code>.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir go-sandbox
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Open this folder in the terminal using the <code>cd</code> command again. We will need the terminal with this opened folder later. After creating a folder open it in your editor or IDE of choice. I use different editors and IDEs for writing Go code such as Goland, VSCode, and <a href="https://kovalevsky.io/neovim/">Neovim</a> but now I will open it inside Neovim. Once we opened the project folder in our editor, we need to talk about Go program structure. First of all, all Go projects must have a &ldquo;go.mod&rdquo; file where you define information about your module, such as the module&rsquo;s path, the minimum version of Go that uses this module, information about dependencies on other modules, etc.</p>
+<p>But what is the module? Go code is organized into modules and packages. Basically, every Go program or project is a module. It should have a unique identifier, a path, which could be a location from which you can download this module. A module can be distributed as a dependency for another module. So, if you don&rsquo;t have a &ldquo;go.mod&rdquo; file in your project you need to use Go tool command <code>go mod</code> to create it or you can create it manually. Let&rsquo;s go back to the terminal and open the project&rsquo;s folder again. Type command <code>go mod init &lt;module_name&gt;</code> which in our case is <code>go mod init go-sandbox</code>. You will see that file &ldquo;go.mod&rdquo; appeared in the folder.</p>
+<p>Now, let&rsquo;s follow our TDD cycle and do the first step. The first step of the test-driven development cycle is to add a test. But in the first example, let&rsquo;s start with creating a file that will contain the simplified version of the code for which we&rsquo;ll add a test. We&rsquo;re doing it first just to have some basic understanding of how Go code looks like. So first of all, let&rsquo;s start with creating a new folder for our package &ldquo;helloworld&rdquo; in the root of the project folder.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir helloworld
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Open the new folder in the terminal.</p>
+<p>There, inside the folder, create a file called &ldquo;helloworld.go&rdquo; by using the command &ldquo;touch,&rdquo; but you can create it inside your code editor.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">touch helloworld.go
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Open the file in your code editor. Our Go file was created and it&rsquo;s empty for now. Just follow me and write the first line in the file.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">helloworld</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The very first line says package helloworld and that line is &ldquo;package declaration.&rdquo; &ldquo;Package declaration&rdquo; always begins with the keyword &ldquo;package&rdquo; and must be in every Go file, and it specifies to which package file belongs to. But what is a package? Go programs are structured into packages - some kind of grouping units which Go program consist of. And as I mentioned before, every module has at least one package. We will talk about packages in future chapters.</p>
+<p>Okay, we have our first Go file &ldquo;helloworld.go&rdquo;; so what&rsquo;s next? In most programming languages, the program &ldquo;Hello, World!&rdquo; contains a few lines of code where you call some method with the string &ldquo;Hello, World!&rdquo; as the first argument of this method. When you run the program, this method prints the string in the terminal. Since we&rsquo;re following the test-driven development way, we need to write a test that checks that our code works correctly and prints a string &ldquo;Hello, World!&rdquo; But we are not going to check the method that prints the string in the terminal. It requires a bit more knowledge for the first lesson. Instead, we&rsquo;re gonna write a simple function called &ldquo;HelloWorld&rdquo; that returns the string &ldquo;Hello, World!&rdquo;.</p>
+<p>If you had an experience with other programming languages before you probably know what a function is. But if not, here is a simple explanation of what a function is and what it is used for: a function is a named block of code that performs a specific task. It is like a mini-program within your program that you can call and use multiple times.</p>
+<ul>
+<li>A function has a name that you choose to describe what it does. In our case, its name is &ldquo;HelloWorld&rdquo;.</li>
+<li>It can take inputs or parameters (if needed) to perform its task. Our function &ldquo;HelloWorld&rdquo; won&rsquo;t have any parameters.</li>
+<li>It can also return a result (if needed) after completing its task. As I mentioned before, our function must return a string &ldquo;Hello, World!&rdquo;</li>
+<li>Inside the function, you write the code that defines the task or actions it should perform.</li>
+</ul>
+<p>For the function HelloWorld, we&rsquo;ll write a test that checks the function returns the expected value. And then in our main file of the program, we will call the function &ldquo;HelloWorld&rdquo; to pass the result of calling this function to the method that prints the string in the terminal. Okay, now let&rsquo;s start to write function HelloWorld. To write a function in Go you need to use the keyword &ldquo;func&rdquo;.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">HelloWorld</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This function doesn&rsquo;t return any values and doesn&rsquo;t have any logic inside for now. However, if we still follow the test-driven development cycle, we have to write the code inside the function on step 3.</p>
+<p>So let&rsquo;s go back to step 1 and add a test for the function HelloWorld. In the folder of the package &ldquo;helloworld,&rdquo; create the file called &ldquo;helloworld_test.go.&rdquo; There are some naming rules for tests. Any test files that will be run by Go&rsquo;s built-in test runner must be named as &ldquo;xxx_test.go&rdquo; where &ldquo;xxx&rdquo; is the name of the file that contains the code which tests are written for. In our case, we&rsquo;re gonna write tests for the code inside the file called &ldquo;helloworld.go,&rdquo; so we need to name our test file &ldquo;helloworld_test.go.&rdquo;</p>
+<p>In Go, to test some function, you need to write another function, a test function, inside a test file. This test function should contain checking of the function that we want to test. In our case, in the test function, we need to check that function HelloWorld returns the string &ldquo;Hello, World!&rdquo; So first of all, we need to write a function called &ldquo;TestHelloWorld&rdquo;.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">TestHelloWorld</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The name &ldquo;TestHelloWorld&rdquo; is very important here. There is a convention for naming a test function which looks like &ldquo;TestXxx&rdquo; where &ldquo;Xxx&rdquo; is the name of the function that we want to test, which is HelloWorld.</p>
+<p>Okay, so now we need to write a checking that function HelloWorld returns a string &ldquo;Hello, World!&rdquo;. To check the result of executing the function, we need to save this result somewhere first. We can use a variable to save the result of executing a function.</p>
+<p>A variable is a named container that holds a value. It&rsquo;s like a labeled box that can store different types of information, such as numbers, text, or more complex data.</p>
+<ul>
+<li>A variable has a name that you choose to identify it. In our case, the name is &ldquo;got.&rdquo;</li>
+<li>It can hold different types of values, such as numbers, strings, or booleans. Since the function &ldquo;HelloWorld&rdquo; returns a string, the variable &ldquo;got&rdquo; also should have a string type.</li>
+<li>You can assign a value to a variable using the &ldquo;=&rdquo; operator. Once a value is assigned, you can change it or use it in your program.</li>
+</ul>
+<p>There are several ways of declaring a variable in Go, but now we&rsquo;re gonna use the shortest one. It&rsquo;s called short variable declaration and it uses a special operator :=. The &ldquo;short variable declaration&rdquo; combines declaration and assignment of the variable. That means that you declare a type of the variable and also store some value in the variable.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">someVariable := someValue
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>In our test function, we&rsquo;re gonna create a variable called &ldquo;got&rdquo;:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">TestHelloWorld</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">got</span> <span class="o">:=</span> <span class="nf">HelloWorld</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The line &ldquo;HelloWorld()&rdquo; means that we&rsquo;re calling the function HelloWorld() and it should return some value, and that value should be stored in a variable &ldquo;got.&rdquo; Now let&rsquo;s declare another variable called &ldquo;want.&rdquo;</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">TestHelloWorld</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">got</span> <span class="o">:=</span> <span class="nf">HelloWorld</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">want</span> <span class="o">:=</span> <span class="s">&#34;Hello, World!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We just created a new variable called &ldquo;want&rdquo; and stored a value there, which is a string &ldquo;Hello, World!&rdquo; We&rsquo;re gonna use this variable to compare it with the variable &ldquo;got,&rdquo; and that&rsquo;s how we will check that function HelloWorld returns the correct value.</p>
+<p>Let&rsquo;s use an &ldquo;if statement&rdquo; to compare variables.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">TestHelloWorld</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">got</span> <span class="o">:=</span> <span class="nf">HelloWorld</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">want</span> <span class="o">:=</span> <span class="s">&#34;Hello, World!&#34;</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">expected</span> <span class="o">!=</span> <span class="nx">got</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The &ldquo;if statement&rdquo; in Go is pretty much the same as the if statement in another programming language. It is used to make decisions based on a condition. It checks if something is true or false and executes different code depending on the result.</p>
+<p>Here is a simplified algorithm for working with an &ldquo;if statement&rdquo;:</p>
+<ul>
+<li>You use the keyword &ldquo;if&rdquo; followed by a condition in parentheses.</li>
+<li>If the condition is true, the code inside the &ldquo;if&rdquo; block is executed.</li>
+<li>If the condition is false, the code inside the &ldquo;if&rdquo; block is skipped.</li>
+</ul>
+<p>We use the &ldquo;inequality operator&rdquo; (!=) to check if the variable &ldquo;want&rdquo; and &ldquo;got&rdquo; have different values.</p>
+<p>Okay, so what are we gonna do if variables will have different values? We need to show a message that this test failed. This message will be printed in the terminal where we will run tests for our Go program.</p>
+<p>To show the message about the failed test, we need to use special methods that can be provided to us by Go&rsquo;s built-in testing framework. We can have access to Go&rsquo;s built-in testing framework&rsquo;s methods in each test function. All we need to do is just specify a parameter of the test function. So let&rsquo;s do it. In the function TestHelloWorld, we&rsquo;re gonna specify the parameter called &ldquo;t,&rdquo; which has a special type, which is actually a struct. But don&rsquo;t focus too much on that now, we&rsquo;ll talk about this later.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">TestHelloWorld</span><span class="p">(</span><span class="nx">t</span> <span class="o">*</span><span class="nx">testing</span><span class="p">.</span><span class="nx">T</span><span class="p">)</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">got</span> <span class="o">:=</span> <span class="nf">HelloWorld</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">want</span> <span class="o">:=</span> <span class="s">&#34;Hello, World!&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">want</span> <span class="o">!=</span> <span class="nx">got</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>All we need to know is that parameter &ldquo;t&rdquo; includes all methods of Go&rsquo;s built-in test framework that we need. The parameter &ldquo;t&rdquo; has type (capital) &ldquo;T,&rdquo; and that capital T type is provided by the testing package. That&rsquo;s why we write &ldquo;testing.T,&rdquo; not just capital T. So basically, we have a package called &ldquo;testing&rdquo; which is Go&rsquo;s built-in package.</p>
+<p>However, to use type T from the package &ldquo;testing,&rdquo; we need to be sure that we have access to things from package &ldquo;testing&rdquo; in OUR source file. For that, we need to import package &ldquo;testing&rdquo; in this file. In the beginning of the file, right below the package declaration, write a new line import &ldquo;testing&rdquo;.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">helloworld</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;testing&#34;</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1">// ...
+</span></span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now, inside the if statement body, let&rsquo;s call a method that will show a message that the test failed.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">	<span class="k">if</span> <span class="nx">want</span> <span class="o">!=</span> <span class="nx">got</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">		<span class="nx">t</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">(</span><span class="s">&#34;Failed! Expected %q but received %q&#34;</span><span class="p">,</span> <span class="nx">want</span><span class="p">,</span> <span class="nx">got</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>We&rsquo;re using the method called &ldquo;Errorf,&rdquo; and it takes the string as the first parameter. This string will be printed as a message that the test failed. You may notice that the string contains some special characters %q. The thing is that the method Errorf replaces all %q substrings by values from parameters after the first one. But there are plenty of combinations of substrings that begin with %q, and they all have their special meaning. All substrings that begin with % are called formatting verbs in Go. In this case, the formatting verb %q means that the value from the second parameter will be wrapped into double quotes and then inserted into the string from the first parameter.</p>
+<p>Okay, we finished with our first test, and it means that we&rsquo;ve done the first step in the Test-driven development cycle. Now it&rsquo;s time to make step 2 - run the test. To run the test, we&rsquo;re gonna use the go tool.</p>
+<p>Open the terminal in the project folder. Now, in the terminal, type the command go test. It will show you the message:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">❯ go test 
+</span></span><span class="line"><span class="cl"># hello-world [hello-world.test]
+</span></span><span class="line"><span class="cl">./hello_test.go:6:12: HelloWorld() (no value) used as value
+</span></span><span class="line"><span class="cl">FAIL    hello-world [build failed]
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>It says that the function that we&rsquo;re checking and calling inside the test does not return any values. And now we passed step 2 in our test-driven development cycle. Now it&rsquo;s time to do step 3 and write the simplest code that will pass our test. Open the file &ldquo;helloworld.go&rdquo; and go to the function declaration. Write type &lsquo;string&rsquo; after paired parentheses.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">HelloWorld</span><span class="p">()</span> <span class="kt">string</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now Go is expecting that function HelloWorld returns a string value. However, we didn&rsquo;t write the code that returns any values from HelloWorld, and that&rsquo;s why your IDE will probably show you some signs that something is wrong. Okay, now let&rsquo;s write this line which means that function HelloWorld returns a string.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">HelloWorld</span><span class="p">()</span> <span class="kt">string</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="s">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Let&rsquo;s run the test again (<code>go test</code>). Okay, we did enough to call our function inside the test properly, and finally, we see that our test case failed.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">❯ go <span class="nb">test</span> 
+</span></span><span class="line"><span class="cl">--- FAIL: TestHelloWorld <span class="o">(</span>0.00s<span class="o">)</span>
+</span></span><span class="line"><span class="cl">    hello_test.go:10: Failed! Expected <span class="s2">&#34;Hello, World!&#34;</span> but received <span class="s2">&#34;&#34;</span>
+</span></span><span class="line"><span class="cl">FAIL
+</span></span><span class="line"><span class="cl"><span class="nb">exit</span> status <span class="m">1</span>
+</span></span><span class="line"><span class="cl">FAIL    hello-world     0.624s
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>That&rsquo;s alright. We just need to make sure that our test works correctly. Now it&rsquo;s time to write the code inside HelloWorld to pass the test.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">HelloWorld</span><span class="p">()</span> <span class="kt">string</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="s">&#34;Hello, World!&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Great! There are not many things to refactor, so we can skip step 5. We successfully finished our test-development cycle, and now let&rsquo;s complete our program so that it will print the string &ldquo;Hello, World!&rdquo; in the terminal.</p>
+<p>We need to run our program, and for that, we can use a special command provided by go tool. But it&rsquo;s not gonna work for several reasons. First of all, we didn&rsquo;t call our HelloWorld anywhere and didn&rsquo;t use the method that prints the string in the terminal.
+But where do we need to write this code? We cannot just call the function inside the file we want, like in programming languages such as JavaScript or Python. In Go, we need to have a function called &ldquo;main,&rdquo; which is an entry point to our program. This function will be called first when we run our program. Let&rsquo;s write this function in the file &ldquo;hello.go&rdquo;.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Now we need to use some method that will print the string in the terminal. Go has a built-in package called &ldquo;fmt,&rdquo; which stands for formatting. The package &ldquo;fmt&rdquo; has a bunch of methods for formatting and printing strings. The method that we need is called &ldquo;Println,&rdquo; so let&rsquo;s use it in our code.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nf">HelloWorld</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Don&rsquo;t forget about the import of the package which method you&rsquo;re gonna use in your code.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">import</span> <span class="s">&#34;fmt&#34;</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The method Println takes the string as the first argument and prints it in the terminal. But it also prints a string on a newline. That&rsquo;s what the &rsquo;ln&rsquo; in the name of the method stands for.</p>
+<p>Okay, now it&rsquo;s time to run our program. Open the terminal in the root of the project&rsquo;s folder and type go run hello.go. It will show you the message:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="err">❯</span> <span class="k">go</span> <span class="nx">run</span> <span class="nx">hello</span><span class="p">.</span><span class="k">go</span> 
+</span></span><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">command</span><span class="o">-</span><span class="nx">line</span><span class="o">-</span><span class="nx">arguments</span> <span class="nx">is</span> <span class="nx">not</span> <span class="nx">a</span> <span class="nx">main</span> <span class="kn">package</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Well, the thing is that every Go program should also have a main package the same way as the main function. So the main package is an entry point in a Go program. When you run a Go program by command go run, it will look at the package &ldquo;main&rdquo; first and will execute the function main inside that package. Remember that we declared that our package name is &ldquo;hello&rdquo; in hello.go and hello_test.go files. So all we need to do is just to create a file called &ldquo;main.go&rdquo; in the root of the project folder.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="nb">cd</span> ..
+</span></span><span class="line"><span class="cl">touch main.go
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Inside the new file write the package declaration line.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>And move the function &ldquo;main&rdquo; from the file helloworld.go to main.go.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nf">HelloWorld</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Since we are using the function HelloWorld from the package &ldquo;helloworld,&rdquo; we need to import this package in the file main.go; also, don&rsquo;t forget about importing the package &ldquo;fmt.&rdquo;</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;go-sandbox/helloworld&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nf">HelloWorld</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>But this is still not enough for this code to work. In Go, if you use some function from another package, you need to write the package&rsquo;s name before the name of the function on the line where you call it; like that:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">helloworld</span><span class="p">.</span><span class="nf">HelloWorld</span><span class="p">())</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Final code:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="kn">package</span> <span class="nx">main</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kn">import</span> <span class="p">(</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;fmt&#34;</span>
+</span></span><span class="line"><span class="cl">	<span class="s">&#34;go-sandbox/helloworld&#34;</span>
+</span></span><span class="line"><span class="cl"><span class="p">)</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="kd">func</span> <span class="nf">main</span><span class="p">()</span> <span class="p">{</span>
+</span></span><span class="line"><span class="cl">	<span class="nx">fmt</span><span class="p">.</span><span class="nf">Println</span><span class="p">(</span><span class="nx">helloworld</span><span class="p">.</span><span class="nf">HelloWorld</span><span class="p">())</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>Let&rsquo;s try to run our program again, but this time you need to run the file main.go in the project root folder instead of helloworld.go in the helloworld package folder.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">go run main.go
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>This should work perfectly. You can also run it by using go run . instead of writing the file name properly since it will look at package main first anyway.</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">go run .
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>The full source code is available on GitHub repository <a href="https://github.com/kovalevsky0/ggft">GGFT</a>.</p>
+<div id="subscription-shortcode">
+  <hr />
+  <div style="display: flex" class="subscription-container">
+  <div style="width: 70%; padding-right: 80px;">
+    <h1 style=
+    "background: linear-gradient(-90deg, #1a3162, #453762);
+    padding: 3px 14px;
+    color: #f4f4f4;
+    font-weight: bold;">Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses</h1>
+    <p>Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. <span style="padding: 0 9px;
+    border-bottom: 3px solid #30a1e5;
+    box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.2)">Subscribe</span> now to get:</p>
+    <ul style="list-style-type: none; padding: 0;">
+      <li><i class="fa fa-check-circle color-blue"></i> Weekly tips and tricks</li>
+      <li><i class="fa fa-check-circle color-blue"></i> In-depth tutorials</li>
+      <li><i class="fa fa-check-circle color-blue"></i> Exclusive courses</li>
+      <li><i class="fa fa-check-circle color-blue"></i> Industry insights and best practices</li>
+    </ul>
+    <p>Join growing community of <span style="background: linear-gradient(-90deg, #12a2c7, #be6c59);
+    padding: 0 9px;
+}">Go (Golang)</span> developers and take your skills to the next level.</p>
+  </div>
+  <div style="width: 30%">
+    <div class="subscription">
+      <form
+        action="https://app.convertkit.com/forms/6924712/subscriptions"
+        method="post"
+        data-sv-form="6924712"
+        data-uid="724b4a15b1"
+        data-format="inline"
+        data-version="5"
+        data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+        min-width="400 500 600 700 800"
+      >
+        <div data-style="minimal">
+          <ul
+            data-element="errors"
+            data-group="alert"
+            style="margin: 0; padding: 0;"
+          ></ul>
+          <div
+            data-element="fields"
+            data-stacked="false"
+          >
+            <input
+              name="email_address"
+              aria-label="Email Address"
+              placeholder="// EMAIL"
+              required=""
+              type="email"
+            />
+            <div>
+              <fieldset
+                data-group="checkboxes"
+                group="field"
+                type="Custom"
+                order="1"
+                save_as="Tag"
+                      style="padding: 0; margin: 0 0 20px 0;"
+              >
+                <div
+                  data-element="tags-checkboxes"
+                  data-group="checkbox"
+                >
+                  <input
+                    id="tag-5631-5252942"
+                    type="checkbox"
+                    name="tags[]"
+                    value="5252942"
+                  >
+                    <strong>Marketing permission (GDPR)</strong>
+                    <span class="tooltip">
+                          <i class="fa fa-question-circle color-blue"></i>
+                          <span class="tooltiptext">I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                    </span>
+                </div>
+              </fieldset>
+            </div>
+            <button
+              data-element="submit"
+            >
+              <div class="formkit-spinner">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+              <span class="">Subscribe</span>
+            </button>
+          </div>
+          <div
+            data-element="guarantee"
+          >
+            We won't send you spam. Unsubscribe at any time.
+          </div>
+        </div>
+      </form>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+
+      </section>
+    </div>
+  </article>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             Max Kovalevsky 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.min.f453d26c79f010446cf0d9770197f77de32c07b7a5512d141a286247fe154a22.js" integrity="sha256-9FPSbHnwEERs8Nl3AZf3feMsB7elUS0UGihiR/4VSiI="></script>
+    
+
+    
+      
+      <script src="/js/subscription.min.f3c695cf763a0e3f0761f70cc1e1a5bad832571b667b2f533b95ccc5249fd111.js" integrity="sha256-88aVz3Y6Dj8HYfcMweGlutgyVxtmey9TO5XMxSSf0RE="></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.min.a67e7f4779c353fb307662cf463fd7e3f15c927b44fe97374a9ceb4255b19fcf.js" integrity="sha256-pn5/R3nDU/swdmLPRj/X4/FckntE/pc3SpzrQlWxn88="></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>
