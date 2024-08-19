@@ -2,6 +2,9 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kovalevsky.io/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
     <loc>https://kovalevsky.io/daily-golang/</loc>
     <lastmod>2024-08-10T16:11:39+02:00</lastmod>
   </url><url>
@@ -18,9 +21,6 @@
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/golang/</loc>
-    <lastmod>2024-03-04T14:01:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kovalevsky.io/</loc>
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/</loc>
@@ -50,7 +50,7 @@
     <loc>https://kovalevsky.io/tags/neovim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/neovim-lsp-setup/</loc>
+    <loc>https://kovalevsky.io/neovim---lsp-setup/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/nvim/</loc>
@@ -59,10 +59,10 @@
     <loc>https://kovalevsky.io/tags/vim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/docker/</loc>
+    <loc>https://kovalevsky.io/tags/docker/</loc>
     <lastmod>2022-08-14T22:59:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/docker/</loc>
+    <loc>https://kovalevsky.io/docker/</loc>
     <lastmod>2022-08-14T22:59:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/watch-command/</loc>
@@ -71,16 +71,16 @@
     <loc>https://kovalevsky.io/neovim-cool-configs/</loc>
     <lastmod>2022-08-08T15:12:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/tmux/</loc>
+    <loc>https://kovalevsky.io/tmux/</loc>
     <lastmod>2022-08-02T23:24:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tmux/</loc>
+    <loc>https://kovalevsky.io/tags/tmux/</loc>
     <lastmod>2022-08-02T23:24:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/lua/</loc>
     <lastmod>2022-07-23T15:39:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/neovim-luasnip/</loc>
+    <loc>https://kovalevsky.io/neovim---luasnip/</loc>
     <lastmod>2022-07-23T15:39:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/link/</loc>
@@ -104,13 +104,13 @@
     <loc>https://kovalevsky.io/tags/email/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/newsletters/</loc>
-    <lastmod>2022-04-26T12:38:13+00:00</lastmod>
-  </url><url>
     <loc>https://kovalevsky.io/tags/newsletters/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/blog-search-engine-blog-surf/</loc>
+    <loc>https://kovalevsky.io/newsletters/</loc>
+    <lastmod>2022-04-26T12:38:13+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/blog-search-engine---blog-surf/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/search/</loc>
@@ -161,10 +161,10 @@
     <loc>https://kovalevsky.io/tags/links/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/empty/</loc>
+    <loc>https://kovalevsky.io/empty/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/empty/</loc>
+    <loc>https://kovalevsky.io/tags/empty/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/algorithms/</loc>
@@ -215,10 +215,10 @@
     <loc>https://kovalevsky.io/fluent-ui-web/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/microsoft/</loc>
+    <loc>https://kovalevsky.io/tags/microsoft/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/microsoft/</loc>
+    <loc>https://kovalevsky.io/microsoft/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/react/</loc>
@@ -248,10 +248,10 @@
     <loc>https://kovalevsky.io/getting-started-using-and-configuring-typescript-compiler/</loc>
     <lastmod>2021-05-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/angular/</loc>
+    <loc>https://kovalevsky.io/tags/angular/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/angular/</loc>
+    <loc>https://kovalevsky.io/angular/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/babel/</loc>
@@ -335,7 +335,7 @@
     <loc>https://kovalevsky.io/name-your-mocked-function-with-word-mock/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/testing-library/</loc>
+    <loc>https://kovalevsky.io/@testing-library/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/command-line-interface/</loc>
@@ -344,10 +344,10 @@
     <loc>https://kovalevsky.io/create-react-app/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/git/</loc>
+    <loc>https://kovalevsky.io/tags/git/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/git/</loc>
+    <loc>https://kovalevsky.io/git/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/npm/</loc>
@@ -395,16 +395,16 @@
     <loc>https://kovalevsky.io/tags/e2e/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/firefox/</loc>
-    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://kovalevsky.io/tags/firefox/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/google/</loc>
+    <loc>https://kovalevsky.io/firefox/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/google/</loc>
+    <lastmod>2021-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/google/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/google-chrome/</loc>
@@ -419,10 +419,10 @@
     <loc>https://kovalevsky.io/playwright/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/puppeteer/</loc>
+    <loc>https://kovalevsky.io/tags/puppeteer/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/puppeteer/</loc>
+    <loc>https://kovalevsky.io/puppeteer/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/web-browser/</loc>
@@ -476,10 +476,10 @@
     <loc>https://kovalevsky.io/fixtures/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/html/</loc>
+    <loc>https://kovalevsky.io/tags/html/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/html/</loc>
+    <loc>https://kovalevsky.io/html/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/jsdom/</loc>
@@ -516,6 +516,9 @@
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/test-doubles/</loc>
+    <lastmod>2021-04-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/testing-/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/end-to-end-tests/</loc>
@@ -593,16 +596,16 @@
     <loc>https://kovalevsky.io/basic-example-of-graphql-in-gatsbyjs/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/gatsbyjs-adding-the-display-of-posts-list-in-the-app/</loc>
+    <loc>https://kovalevsky.io/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/golang/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/graphql/</loc>
+    <loc>https://kovalevsky.io/tags/graphql/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/graphql/</loc>
+    <loc>https://kovalevsky.io/graphql/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/server-side-rendering/</loc>
@@ -626,10 +629,10 @@
     <loc>https://kovalevsky.io/react/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/markdown/</loc>
+    <loc>https://kovalevsky.io/tags/markdown/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/markdown/</loc>
+    <loc>https://kovalevsky.io/markdown/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/obsidian/</loc>
@@ -644,10 +647,10 @@
     <loc>https://kovalevsky.io/tags/zettelkasten/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/notion/</loc>
+    <loc>https://kovalevsky.io/tags/notion/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/tags/notion/</loc>
+    <loc>https://kovalevsky.io/notion/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/org-roam/</loc>
@@ -692,10 +695,15 @@
     <loc>https://kovalevsky.io/gigital-gardens/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://kovalevsky.io/how-to-search-a-string-in-specific-file-types-only-inside-neovim/</loc>
-    <priority>0</priority>
+    <loc>https://kovalevsky.io/daily-golang-issue-1/</loc>
   </url><url>
-    <loc>https://kovalevsky.io/idea-ui-library-for-code-snippets-to-show-arrows-and-annotations/</loc>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-research/</loc>
+  </url><url>
+    <loc>https://kovalevsky.io/email-marketing/</loc>
+  </url><url>
+    <loc>https://kovalevsky.io/how-to-search-a-string-in-specific-file-types-only-inside-neovim/</loc>
+  </url><url>
+    <loc>https://kovalevsky.io/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</loc>
   </url><url>
     <loc>https://kovalevsky.io/microsoft-mvp/</loc>
   </url><url>
@@ -710,9 +718,8 @@
     <loc>https://kovalevsky.io/spaced-repetition-apps/</loc>
   </url><url>
     <loc>https://kovalevsky.io/terminal-workflow/</loc>
-    <priority>0</priority>
   </url><url>
-    <loc>https://kovalevsky.io/workshop-on-site-seo-for-developers-notes/</loc>
+    <loc>https://kovalevsky.io/workshop-on-site-seo-for-developers---notes/</loc>
   </url><url>
     <loc>https://kovalevsky.io/zordi/</loc>
   </url><url>
@@ -738,9 +745,9 @@
   </url><url>
     <loc>https://kovalevsky.io/tags/js-tools/</loc>
   </url><url>
-    <loc>https://kovalevsky.io/json/</loc>
-  </url><url>
     <loc>https://kovalevsky.io/tags/json/</loc>
+  </url><url>
+    <loc>https://kovalevsky.io/json/</loc>
   </url><url>
     <loc>https://kovalevsky.io/lerna.js/</loc>
   </url><url>
@@ -752,9 +759,9 @@
   </url><url>
     <loc>https://kovalevsky.io/tags/monicalent/</loc>
   </url><url>
-    <loc>https://kovalevsky.io/monorepo/</loc>
-  </url><url>
     <loc>https://kovalevsky.io/tags/monorepo/</loc>
+  </url><url>
+    <loc>https://kovalevsky.io/monorepo/</loc>
   </url><url>
     <loc>https://kovalevsky.io/tags/munich/</loc>
   </url><url>

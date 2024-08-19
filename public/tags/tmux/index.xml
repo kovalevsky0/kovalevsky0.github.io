@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>tmux on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Tmux on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/tmux/</link>
-    <description>Recent content in tmux on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Tmux on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,9 +14,13 @@
       <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/tmux/</guid>
-      <description>tmux    Installing    macOS
-1  brew install tmux   Commands    tmux ls    1  tmux ls    returns list of active tmux sessions  Default key bindings    Default prefix key    1  ctrl(control) + b   Panes    default key bindings
-Split the window horizontally (Horizontal pane)</description>
+      <description>tmux Installing macOS
+1 brew install tmux Commands tmux ls 1 tmux ls returns list of active tmux sessions Default key bindings Default prefix key 1 ctrl(control) + b Panes default key bindings
+Split the window horizontally (Horizontal pane)
+1 ctrl(control) + b + &amp;#34; Split the window vertically (Vertical pane)
+1 ctrl(control) + b + % Delete (kill) current (focused) pane
+(with confirmation prompt)
+1 ctrl(control) + b + x Switch to the right pane</description>
       
         <type>note</type>
       

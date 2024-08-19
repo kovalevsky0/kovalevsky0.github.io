@@ -9,7 +9,7 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Mon, 04 Mar 2024 14:01:10 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>blog</title>
+      <title>Blog</title>
       <link>https://kovalevsky.io/tags/blog/</link>
       <pubDate>Mon, 04 Mar 2024 14:01:10 +0000</pubDate>
       
@@ -23,7 +23,7 @@
     </item>
     
     <item>
-      <title>go</title>
+      <title>Go</title>
       <link>https://kovalevsky.io/tags/go/</link>
       <pubDate>Mon, 04 Mar 2024 14:01:10 +0000</pubDate>
       
@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>golang</title>
+      <title>Golang</title>
       <link>https://kovalevsky.io/tags/golang/</link>
       <pubDate>Mon, 04 Mar 2024 14:01:10 +0000</pubDate>
       
@@ -51,7 +51,7 @@
     </item>
     
     <item>
-      <title>tdd</title>
+      <title>Tdd</title>
       <link>https://kovalevsky.io/tags/tdd/</link>
       <pubDate>Mon, 04 Mar 2024 14:01:10 +0000</pubDate>
       
@@ -65,7 +65,7 @@
     </item>
     
     <item>
-      <title>testing</title>
+      <title>Testing</title>
       <link>https://kovalevsky.io/tags/testing/</link>
       <pubDate>Mon, 04 Mar 2024 14:01:10 +0000</pubDate>
       
@@ -79,7 +79,7 @@
     </item>
     
     <item>
-      <title>cli</title>
+      <title>Cli</title>
       <link>https://kovalevsky.io/tags/cli/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
@@ -93,7 +93,7 @@
     </item>
     
     <item>
-      <title>linux</title>
+      <title>Linux</title>
       <link>https://kovalevsky.io/tags/linux/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
@@ -107,7 +107,7 @@
     </item>
     
     <item>
-      <title>terminal</title>
+      <title>Terminal</title>
       <link>https://kovalevsky.io/tags/terminal/</link>
       <pubDate>Wed, 31 Aug 2022 15:41:00 +0000</pubDate>
       
@@ -121,7 +121,7 @@
     </item>
     
     <item>
-      <title>neovim</title>
+      <title>Neovim</title>
       <link>https://kovalevsky.io/tags/neovim/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
@@ -135,7 +135,7 @@
     </item>
     
     <item>
-      <title>nvim</title>
+      <title>Nvim</title>
       <link>https://kovalevsky.io/tags/nvim/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
@@ -149,7 +149,7 @@
     </item>
     
     <item>
-      <title>vim</title>
+      <title>Vim</title>
       <link>https://kovalevsky.io/tags/vim/</link>
       <pubDate>Tue, 23 Aug 2022 14:10:15 +0000</pubDate>
       
@@ -163,7 +163,7 @@
     </item>
     
     <item>
-      <title>docker</title>
+      <title>Docker</title>
       <link>https://kovalevsky.io/tags/docker/</link>
       <pubDate>Sun, 14 Aug 2022 22:59:00 +0000</pubDate>
       
@@ -177,7 +177,7 @@
     </item>
     
     <item>
-      <title>tmux</title>
+      <title>Tmux</title>
       <link>https://kovalevsky.io/tags/tmux/</link>
       <pubDate>Tue, 02 Aug 2022 23:24:00 +0000</pubDate>
       
@@ -191,7 +191,7 @@
     </item>
     
     <item>
-      <title>lua</title>
+      <title>Lua</title>
       <link>https://kovalevsky.io/tags/lua/</link>
       <pubDate>Sat, 23 Jul 2022 15:39:00 +0000</pubDate>
       
@@ -205,7 +205,7 @@
     </item>
     
     <item>
-      <title>link</title>
+      <title>Link</title>
       <link>https://kovalevsky.io/tags/link/</link>
       <pubDate>Tue, 03 May 2022 14:56:59 +0000</pubDate>
       
@@ -219,7 +219,7 @@
     </item>
     
     <item>
-      <title>websites</title>
+      <title>Websites</title>
       <link>https://kovalevsky.io/tags/websites/</link>
       <pubDate>Tue, 03 May 2022 14:56:59 +0000</pubDate>
       
@@ -233,7 +233,7 @@
     </item>
     
     <item>
-      <title>indieweb</title>
+      <title>Indieweb</title>
       <link>https://kovalevsky.io/tags/indieweb/</link>
       <pubDate>Mon, 02 May 2022 18:33:25 +0000</pubDate>
       
@@ -247,7 +247,7 @@
     </item>
     
     <item>
-      <title>blogs</title>
+      <title>Blogs</title>
       <link>https://kovalevsky.io/tags/blogs/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
@@ -261,7 +261,7 @@
     </item>
     
     <item>
-      <title>email</title>
+      <title>Email</title>
       <link>https://kovalevsky.io/tags/email/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
@@ -275,7 +275,7 @@
     </item>
     
     <item>
-      <title>newsletters</title>
+      <title>Newsletters</title>
       <link>https://kovalevsky.io/tags/newsletters/</link>
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
@@ -289,7 +289,7 @@
     </item>
     
     <item>
-      <title>search</title>
+      <title>Search</title>
       <link>https://kovalevsky.io/tags/search/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
@@ -303,7 +303,7 @@
     </item>
     
     <item>
-      <title>services</title>
+      <title>Services</title>
       <link>https://kovalevsky.io/tags/services/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
@@ -317,7 +317,7 @@
     </item>
     
     <item>
-      <title>apps</title>
+      <title>Apps</title>
       <link>https://kovalevsky.io/tags/apps/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
@@ -331,7 +331,7 @@
     </item>
     
     <item>
-      <title>language</title>
+      <title>Language</title>
       <link>https://kovalevsky.io/tags/language/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
@@ -345,7 +345,7 @@
     </item>
     
     <item>
-      <title>service</title>
+      <title>Service</title>
       <link>https://kovalevsky.io/tags/service/</link>
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
@@ -359,7 +359,7 @@
     </item>
     
     <item>
-      <title>journaling</title>
+      <title>Journaling</title>
       <link>https://kovalevsky.io/tags/journaling/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
@@ -373,7 +373,7 @@
     </item>
     
     <item>
-      <title>methodology</title>
+      <title>Methodology</title>
       <link>https://kovalevsky.io/tags/methodology/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
@@ -387,7 +387,7 @@
     </item>
     
     <item>
-      <title>writing</title>
+      <title>Writing</title>
       <link>https://kovalevsky.io/tags/writing/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
@@ -401,7 +401,7 @@
     </item>
     
     <item>
-      <title>web</title>
+      <title>Web</title>
       <link>https://kovalevsky.io/tags/web/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -415,7 +415,7 @@
     </item>
     
     <item>
-      <title>website</title>
+      <title>Website</title>
       <link>https://kovalevsky.io/tags/website/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
@@ -429,7 +429,7 @@
     </item>
     
     <item>
-      <title>links</title>
+      <title>Links</title>
       <link>https://kovalevsky.io/tags/links/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
@@ -443,7 +443,7 @@
     </item>
     
     <item>
-      <title>empty</title>
+      <title>Empty</title>
       <link>https://kovalevsky.io/tags/empty/</link>
       <pubDate>Tue, 30 Nov 2021 00:00:00 +0000</pubDate>
       
@@ -457,7 +457,7 @@
     </item>
     
     <item>
-      <title>algorithms</title>
+      <title>Algorithms</title>
       <link>https://kovalevsky.io/tags/algorithms/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
@@ -471,7 +471,7 @@
     </item>
     
     <item>
-      <title>faang</title>
+      <title>Faang</title>
       <link>https://kovalevsky.io/tags/faang/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
@@ -485,7 +485,7 @@
     </item>
     
     <item>
-      <title>interview</title>
+      <title>Interview</title>
       <link>https://kovalevsky.io/tags/interview/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
@@ -499,7 +499,7 @@
     </item>
     
     <item>
-      <title>solvingproblems</title>
+      <title>Solvingproblems</title>
       <link>https://kovalevsky.io/tags/solvingproblems/</link>
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
@@ -513,7 +513,7 @@
     </item>
     
     <item>
-      <title>newsletter</title>
+      <title>Newsletter</title>
       <link>https://kovalevsky.io/tags/newsletter/</link>
       <pubDate>Fri, 06 Aug 2021 12:00:00 +0000</pubDate>
       
@@ -527,7 +527,7 @@
     </item>
     
     <item>
-      <title>typescript</title>
+      <title>Typescript</title>
       <link>https://kovalevsky.io/tags/typescript/</link>
       <pubDate>Thu, 29 Jul 2021 17:00:00 +0000</pubDate>
       
@@ -541,7 +541,7 @@
     </item>
     
     <item>
-      <title>typescriptbook</title>
+      <title>Typescriptbook</title>
       <link>https://kovalevsky.io/tags/typescriptbook/</link>
       <pubDate>Thu, 29 Jul 2021 17:00:00 +0000</pubDate>
       
@@ -555,7 +555,7 @@
     </item>
     
     <item>
-      <title>javascript</title>
+      <title>Javascript</title>
       <link>https://kovalevsky.io/tags/javascript/</link>
       <pubDate>Fri, 16 Jul 2021 04:00:00 +0000</pubDate>
       
@@ -569,7 +569,7 @@
     </item>
     
     <item>
-      <title>microsoft</title>
+      <title>Microsoft</title>
       <link>https://kovalevsky.io/tags/microsoft/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -583,7 +583,7 @@
     </item>
     
     <item>
-      <title>react</title>
+      <title>React</title>
       <link>https://kovalevsky.io/tags/react/</link>
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
@@ -597,7 +597,7 @@
     </item>
     
     <item>
-      <title>nextjs</title>
+      <title>Nextjs</title>
       <link>https://kovalevsky.io/tags/nextjs/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -611,7 +611,7 @@
     </item>
     
     <item>
-      <title>ssg</title>
+      <title>Ssg</title>
       <link>https://kovalevsky.io/tags/ssg/</link>
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -625,7 +625,7 @@
     </item>
     
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://kovalevsky.io/tags/hugo/</link>
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
@@ -639,7 +639,7 @@
     </item>
     
     <item>
-      <title>angular</title>
+      <title>Angular</title>
       <link>https://kovalevsky.io/tags/angular/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
@@ -653,7 +653,7 @@
     </item>
     
     <item>
-      <title>ecmascript</title>
+      <title>Ecmascript</title>
       <link>https://kovalevsky.io/tags/ecmascript/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
@@ -667,7 +667,7 @@
     </item>
     
     <item>
-      <title>node</title>
+      <title>Node</title>
       <link>https://kovalevsky.io/tags/node/</link>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
@@ -681,7 +681,7 @@
     </item>
     
     <item>
-      <title>fishshell</title>
+      <title>Fishshell</title>
       <link>https://kovalevsky.io/tags/fishshell/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
@@ -695,7 +695,7 @@
     </item>
     
     <item>
-      <title>macos</title>
+      <title>Macos</title>
       <link>https://kovalevsky.io/tags/macos/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
@@ -709,7 +709,7 @@
     </item>
     
     <item>
-      <title>unix</title>
+      <title>Unix</title>
       <link>https://kovalevsky.io/tags/unix/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
@@ -723,7 +723,7 @@
     </item>
     
     <item>
-      <title>jest</title>
+      <title>Jest</title>
       <link>https://kovalevsky.io/tags/jest/</link>
       <pubDate>Tue, 27 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -737,7 +737,7 @@
     </item>
     
     <item>
-      <title>git</title>
+      <title>Git</title>
       <link>https://kovalevsky.io/tags/git/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -751,7 +751,7 @@
     </item>
     
     <item>
-      <title>npm</title>
+      <title>Npm</title>
       <link>https://kovalevsky.io/tags/npm/</link>
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -765,7 +765,7 @@
     </item>
     
     <item>
-      <title>back-end</title>
+      <title>Back-End</title>
       <link>https://kovalevsky.io/tags/back-end/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -779,7 +779,7 @@
     </item>
     
     <item>
-      <title>front-end</title>
+      <title>Front-End</title>
       <link>https://kovalevsky.io/tags/front-end/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -793,7 +793,7 @@
     </item>
     
     <item>
-      <title>web-development</title>
+      <title>Web-Development</title>
       <link>https://kovalevsky.io/tags/web-development/</link>
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -807,7 +807,7 @@
     </item>
     
     <item>
-      <title>browser</title>
+      <title>Browser</title>
       <link>https://kovalevsky.io/tags/browser/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -821,7 +821,7 @@
     </item>
     
     <item>
-      <title>chrome</title>
+      <title>Chrome</title>
       <link>https://kovalevsky.io/tags/chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -835,7 +835,7 @@
     </item>
     
     <item>
-      <title>company</title>
+      <title>Company</title>
       <link>https://kovalevsky.io/tags/company/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -849,7 +849,7 @@
     </item>
     
     <item>
-      <title>e2e</title>
+      <title>E2e</title>
       <link>https://kovalevsky.io/tags/e2e/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -863,7 +863,7 @@
     </item>
     
     <item>
-      <title>firefox</title>
+      <title>Firefox</title>
       <link>https://kovalevsky.io/tags/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -877,7 +877,7 @@
     </item>
     
     <item>
-      <title>google</title>
+      <title>Google</title>
       <link>https://kovalevsky.io/tags/google/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -905,7 +905,7 @@
     </item>
     
     <item>
-      <title>mozilla</title>
+      <title>Mozilla</title>
       <link>https://kovalevsky.io/tags/mozilla/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -919,7 +919,7 @@
     </item>
     
     <item>
-      <title>puppeteer</title>
+      <title>Puppeteer</title>
       <link>https://kovalevsky.io/tags/puppeteer/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -933,7 +933,7 @@
     </item>
     
     <item>
-      <title>html</title>
+      <title>Html</title>
       <link>https://kovalevsky.io/tags/html/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -947,7 +947,7 @@
     </item>
     
     <item>
-      <title>software-development</title>
+      <title>Software-Development</title>
       <link>https://kovalevsky.io/tags/software-development/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
@@ -961,7 +961,21 @@
     </item>
     
     <item>
-      <title>note-taking</title>
+      <title>Testing </title>
+      <link>https://kovalevsky.io/tags/testing-/</link>
+      <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovalevsky.io/tags/testing-/</guid>
+      <description></description>
+      
+        <type>note</type>
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Note-Taking</title>
       <link>https://kovalevsky.io/tags/note-taking/</link>
       <pubDate>Mon, 29 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -975,7 +989,7 @@
     </item>
     
     <item>
-      <title>keyboards</title>
+      <title>Keyboards</title>
       <link>https://kovalevsky.io/tags/keyboards/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -989,7 +1003,7 @@
     </item>
     
     <item>
-      <title>mechanical keybords</title>
+      <title>Mechanical Keybords</title>
       <link>https://kovalevsky.io/tags/mechanical-keybords/</link>
       <pubDate>Sat, 27 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -1017,7 +1031,7 @@
     </item>
     
     <item>
-      <title>digital-garden</title>
+      <title>Digital-Garden</title>
       <link>https://kovalevsky.io/tags/digital-garden/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -1031,7 +1045,7 @@
     </item>
     
     <item>
-      <title>obsidian</title>
+      <title>Obsidian</title>
       <link>https://kovalevsky.io/tags/obsidian/</link>
       <pubDate>Fri, 12 Mar 2021 00:00:00 +0000</pubDate>
       
@@ -1045,7 +1059,7 @@
     </item>
     
     <item>
-      <title>gatsbyjs</title>
+      <title>Gatsbyjs</title>
       <link>https://kovalevsky.io/tags/gatsbyjs/</link>
       <pubDate>Thu, 07 Jan 2021 00:00:00 +0000</pubDate>
       
@@ -1059,7 +1073,7 @@
     </item>
     
     <item>
-      <title>graphql</title>
+      <title>Graphql</title>
       <link>https://kovalevsky.io/tags/graphql/</link>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -1073,7 +1087,7 @@
     </item>
     
     <item>
-      <title>markdown</title>
+      <title>Markdown</title>
       <link>https://kovalevsky.io/tags/markdown/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -1087,7 +1101,7 @@
     </item>
     
     <item>
-      <title>zettelkasten</title>
+      <title>Zettelkasten</title>
       <link>https://kovalevsky.io/tags/zettelkasten/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -1101,7 +1115,7 @@
     </item>
     
     <item>
-      <title>notion</title>
+      <title>Notion</title>
       <link>https://kovalevsky.io/tags/notion/</link>
       <pubDate>Mon, 07 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -1115,7 +1129,7 @@
     </item>
     
     <item>
-      <title>programming</title>
+      <title>Programming</title>
       <link>https://kovalevsky.io/tags/programming/</link>
       <pubDate>Sun, 06 Dec 2020 00:00:00 +0000</pubDate>
       
@@ -1129,7 +1143,7 @@
     </item>
     
     <item>
-      <title>anki</title>
+      <title>Anki</title>
       <link>https://kovalevsky.io/tags/anki/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1143,7 +1157,7 @@
     </item>
     
     <item>
-      <title>blogging</title>
+      <title>Blogging</title>
       <link>https://kovalevsky.io/tags/blogging/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1157,7 +1171,7 @@
     </item>
     
     <item>
-      <title>bloggingfordevs</title>
+      <title>Bloggingfordevs</title>
       <link>https://kovalevsky.io/tags/bloggingfordevs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1171,7 +1185,7 @@
     </item>
     
     <item>
-      <title>dataview</title>
+      <title>Dataview</title>
       <link>https://kovalevsky.io/tags/dataview/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1185,7 +1199,7 @@
     </item>
     
     <item>
-      <title>idea</title>
+      <title>Idea</title>
       <link>https://kovalevsky.io/tags/idea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1199,7 +1213,7 @@
     </item>
     
     <item>
-      <title>js-tools</title>
+      <title>Js-Tools</title>
       <link>https://kovalevsky.io/tags/js-tools/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1213,7 +1227,7 @@
     </item>
     
     <item>
-      <title>json</title>
+      <title>Json</title>
       <link>https://kovalevsky.io/tags/json/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1227,7 +1241,7 @@
     </item>
     
     <item>
-      <title>monicalent</title>
+      <title>Monicalent</title>
       <link>https://kovalevsky.io/tags/monicalent/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1241,7 +1255,7 @@
     </item>
     
     <item>
-      <title>monorepo</title>
+      <title>Monorepo</title>
       <link>https://kovalevsky.io/tags/monorepo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1255,7 +1269,7 @@
     </item>
     
     <item>
-      <title>munich</title>
+      <title>Munich</title>
       <link>https://kovalevsky.io/tags/munich/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1269,7 +1283,7 @@
     </item>
     
     <item>
-      <title>reddit</title>
+      <title>Reddit</title>
       <link>https://kovalevsky.io/tags/reddit/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1283,7 +1297,7 @@
     </item>
     
     <item>
-      <title>seo</title>
+      <title>Seo</title>
       <link>https://kovalevsky.io/tags/seo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1297,7 +1311,7 @@
     </item>
     
     <item>
-      <title>site</title>
+      <title>Site</title>
       <link>https://kovalevsky.io/tags/site/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -1311,7 +1325,7 @@
     </item>
     
     <item>
-      <title>spacedrepetition</title>
+      <title>Spacedrepetition</title>
       <link>https://kovalevsky.io/tags/spacedrepetition/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

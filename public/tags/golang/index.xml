@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>golang on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Golang on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/golang/</link>
-    <description>Recent content in golang on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Golang on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -15,8 +15,8 @@
       
       <guid>https://kovalevsky.io/full-introduction-to-golang-with-test-driven-development-part-1/</guid>
       <description>Master Go (Golang) with Weekly Tips, Tutorials and Exclusive Courses Keep your Go (Golang) skills sharp and up-to-date with my exclusive newsletter. Subscribe now to get:
- Weekly tips and tricks  In-depth tutorials  Exclusive courses  Industry insights and best practices  Join growing community of Go (Golang) developers and take your skills to the next level.
-   Marketing permission (GDPR)  I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</description>
+Weekly tips and tricks In-depth tutorials Exclusive courses Industry insights and best practices Join growing community of Go (Golang) developers and take your skills to the next level.
+Latest Issues Marketing permission (GDPR) I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</description>
       
         
             <type>blog post</type>
@@ -32,8 +32,8 @@
       <pubDate>Tue, 22 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/hugo-go/</guid>
-      <description>Hugo (Go)    Links     gohugo.io GitHub  A static-site generator written in Golang.
-Resources     byteski/hugo-blog-sample  Installing    1  brew install hugo   1  hugo version   1  Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown   Creating a new site    1  hugo new site &amp;lt;folder-name&amp;gt;   Structure    1 2 3 4 5 6 7 8 9  ls -1 archetypes/ config.</description>
+      <description>Hugo (Go) Links gohugo.io GitHub A static-site generator written in Golang.
+Resources byteski/hugo-blog-sample Installing 1 brew install hugo 1 hugo version 1 Hugo Static Site Generator v0.80.0/extended darwin/amd64 BuildDate: unknown Creating a new site 1 hugo new site &amp;lt;folder-name&amp;gt; Structure 1 2 3 4 5 6 7 8 9 ls -1 archetypes/ config.toml content/ data/ layouts/ static/ themes/ archetypes/ - entities that are smth like markdown templates of content config.</description>
       
         
             <type>note</type>
@@ -49,9 +49,9 @@ Resources     byteski/hugo-blog-sample  Installing    1  brew install hugo   1  
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/golang/</guid>
-      <description>Golang    Go or Golang is a programming language that designed at Google.
+      <description>Golang Go or Golang is a programming language that designed at Google.
 The language can be described by these following items:
- it&amp;rsquo;s compiled language similar to C language by syntax the language has:  memory safety garbage collection structural typing   Official website  cli     **go run &amp;lt;module&amp;gt; - run the file/module as a program go test - run tests go mod init &amp;lt;module&amp;gt; - initialise a module  godoc    It provides an ability to open Go documentation locally and even offline</description>
+it&amp;rsquo;s compiled language similar to C language by syntax the language has: memory safety garbage collection structural typing Official website cli **go run &amp;lt;module&amp;gt; - run the file/module as a program go test - run tests go mod init &amp;lt;module&amp;gt; - initialise a module godoc It provides an ability to open Go documentation locally and even offline</description>
       
         <type>note</type>
       

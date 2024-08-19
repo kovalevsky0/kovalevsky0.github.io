@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mozilla on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Mozilla on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/mozilla/</link>
-    <description>Recent content in mozilla on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Mozilla on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,8 +14,8 @@
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/firefox/</guid>
-      <description>Firefox    A Web browser that developed by Mozilla Corporation and Mozilla Foundation
-Links     mozilla.org  </description>
+      <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
+Links mozilla.org </description>
       
         <type>note</type>
       

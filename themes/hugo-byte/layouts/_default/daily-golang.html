@@ -37,66 +37,66 @@
         </header>
         <main class="container">
           {{ partial "dailygolangsubscription" . }}
-          <div class="dgp-container">
-            <h2>Latest Issues</h2>
-            <section>
-              <div>
-                <section class="posts-list">
-                  {{ range where .Site.RegularPages "Params.type" "dailygolang" }}
-                    <article class="post h-entry">
-                      <div class="post__line">
-                        <div class="post__line-point">
-                          <a href="/daily-golang" class="post__type post__type_note">
-                            <i aria-hidden="true" class="fa fa-newspaper-o"></i>
-                          </a>
-                        </div>
-                        <div class="post__line-content">
-                          <div>
-                            <time class="dt-published" dateTime={{ .Date.Format (.Site.Params.dateFormat | default "02/01/2006" ) }}>
-                              {{ .Date.Format (.Site.Params.dateFormat | default "02/01/2006" ) }}
-                            </time>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="post__inner">
-                        {{ if .Page.Params.Image }}
-                          <a class="post__image" href="{{ .Params.externalLink | default .RelPermalink }}">
-                            <img src="/{{ .Page.Params.Image }}" alt="{{ .Title }}" />
-                          </a>
-                        {{ end }}
-                        {{ $postContentClass := "" }}
-                        {{ if .Page.Params.Image }}
-                          {{ $postContentClass = "post__content_image" }}
-                        {{ end }}
-                        <div class="post__content {{ $postContentClass }}">
-                          <header>
-                            <a class="u-url" href="{{ .Params.externalLink | default .RelPermalink }}">
-                              <h4 class="p-name" style="border-radius: 8px;">{{ .Title }}</h4>
-                            </a>
-                          </header>
-                          <section>
-                            <p class="p-summary">
-                              {{ if .Page.Params.Excerpt }}
-                                {{ .Page.Params.Excerpt }}
-                              {{ else }}
-                                {{ .Summary | safeHTML | truncate .Site.Params.SummaryLength }}
-                              {{ end }}
-                              <a class="post__read-more" href="{{ .Params.externalLink | default .RelPermalink }}">Read more</a>
-                            </p>
-                            {{ with .Page.Params.Tags }}
-                              {{ partial "taxonomy/tags.html" . }}
-                            {{ end }}
-                          </section>
-                        </div>
-                      </div>
-                    </article>
-                  {{ else }}
-                    <p>No posts found.</p>
-                  {{ end }}
-                </section>
-              </div>
-            </section>
-          </div>
+          <!-- <div class="dgp-container"> -->
+          <!--   <h2>Latest Issues</h2> -->
+          <!--   <section> -->
+          <!--     <div> -->
+          <!--       <section class="posts-list"> -->
+          <!--         {{ range where .Site.RegularPages "Params.type" "dailygolang" }} -->
+          <!--           <article class="post h-entry"> -->
+          <!--             <div class="post__line"> -->
+          <!--               <div class="post__line-point"> -->
+          <!--                 <a href="/daily-golang" class="post__type post__type_note"> -->
+          <!--                   <i aria-hidden="true" class="fa fa-newspaper-o"></i> -->
+          <!--                 </a> -->
+          <!--               </div> -->
+          <!--               <div class="post__line-content"> -->
+          <!--                 <div> -->
+          <!--                   <time class="dt-published" dateTime={{ .Date.Format (.Site.Params.dateFormat | default "02/01/2006" ) }}> -->
+          <!--                     {{ .Date.Format (.Site.Params.dateFormat | default "02/01/2006" ) }} -->
+          <!--                   </time> -->
+          <!--                 </div> -->
+          <!--               </div> -->
+          <!--             </div> -->
+          <!--             <div class="post__inner"> -->
+          <!--               {{ if .Page.Params.Image }} -->
+          <!--                 <a class="post__image" href="{{ .Params.externalLink | default .RelPermalink }}"> -->
+          <!--                   <img src="/{{ .Page.Params.Image }}" alt="{{ .Title }}" /> -->
+          <!--                 </a> -->
+          <!--               {{ end }} -->
+          <!--               {{ $postContentClass := "" }} -->
+          <!--               {{ if .Page.Params.Image }} -->
+          <!--                 {{ $postContentClass = "post__content_image" }} -->
+          <!--               {{ end }} -->
+          <!--               <div class="post__content {{ $postContentClass }}"> -->
+          <!--                 <header> -->
+          <!--                   <a class="u-url" href="{{ .Params.externalLink | default .RelPermalink }}"> -->
+          <!--                     <h4 class="p-name" style="border-radius: 8px;">{{ .Title }}</h4> -->
+          <!--                   </a> -->
+          <!--                 </header> -->
+          <!--                 <section> -->
+          <!--                   <p class="p-summary"> -->
+          <!--                     {{ if .Page.Params.Excerpt }} -->
+          <!--                       {{ .Page.Params.Excerpt }} -->
+          <!--                     {{ else }} -->
+          <!--                       {{ .Summary | safeHTML | truncate .Site.Params.SummaryLength }} -->
+          <!--                     {{ end }} -->
+          <!--                     <a class="post__read-more" href="{{ .Params.externalLink | default .RelPermalink }}">Read more</a> -->
+          <!--                   </p> -->
+          <!--                   {{ with .Page.Params.Tags }} -->
+          <!--                     {{ partial "taxonomy/tags.html" . }} -->
+          <!--                   {{ end }} -->
+          <!--                 </section> -->
+          <!--               </div> -->
+          <!--             </div> -->
+          <!--           </article> -->
+          <!--         {{ else }} -->
+          <!--           <p>No posts found.</p> -->
+          <!--         {{ end }} -->
+          <!--       </section> -->
+          <!--     </div> -->
+          <!--   </section> -->
+          <!-- </div> -->
         </main>
       </div>
 

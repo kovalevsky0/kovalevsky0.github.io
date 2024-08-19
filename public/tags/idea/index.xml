@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>idea on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Idea on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/idea/</link>
-    <description>Recent content in idea on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Idea on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://kovalevsky.io/tags/idea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>https://kovalevsky.io/idea-ui-library-for-code-snippets-to-show-arrows-and-annotations/</link>
+      <link>https://kovalevsky.io/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/idea-ui-library-for-code-snippets-to-show-arrows-and-annotations/</guid>
-      <description>Idea - UI library for code snippets to show arrows and annotations     see an example in code snippets here:  https://imba.io   Should add arrows and labels under specific word/letter  </description>
+      <guid>https://kovalevsky.io/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</guid>
+      <description> Idea - UI library for code snippets to show arrows and annotations see an example in code snippets here: https://imba.io Should add arrows and labels under specific word/letter </description>
       
         <type>note</type>
       

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>site on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Site on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/site/</link>
-    <description>Recent content in site on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Site on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://kovalevsky.io/tags/site/index.xml" rel="self" type="application/rss+xml" />
@@ -45,7 +45,7 @@ I write a blog about topics that interest me most: programming languages in gene
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/about/</guid>
-      <description>About me    Max Kovalevskii, a software developer    This is my website - the place where I share information and knowledge about topics that interest me with everyone and myself.
+      <description>About me Max Kovalevskii, a software developer This is my website - the place where I share information and knowledge about topics that interest me with everyone and myself.
 A software developer who wants to teach you everything about amazing technology such as Go (Golang) and more.
 I write blog posts and make courses about topics that interest me most: Go (Golang), Command-Line Interface (CLI) Applications, TUIs, Linux, Git, Docker, Vim (Neovim), Kubernetes (k8s), TDD, note-taking and other great stuff.</description>
       
@@ -61,7 +61,7 @@ I write blog posts and make courses about topics that interest me most: Go (Gola
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/notes/</guid>
-      <description>Welcome to my Digital Garden!    This is the place where I share my knowledge with everyone on the Web and with myself.
+      <description>Welcome to my Digital Garden! This is the place where I share my knowledge with everyone on the Web and with myself.
 Notes are drafts or pre-complete materials that I could use for writing articles on my blog.
 I take notes following Zettelkasten method and I use Obsidian app for this. Some notes might contain a format that is working in Obsidian well but could be not supported by my website (yet).</description>
       

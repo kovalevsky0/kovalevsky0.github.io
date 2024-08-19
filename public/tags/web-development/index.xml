@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web-development on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Web-Development on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/web-development/</link>
-    <description>Recent content in web-development on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Web-Development on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/back-end/</guid>
-      <description>Back End    Side of development that responsible for server-side of the application.</description>
+      <description>Back End Side of development that responsible for server-side of the application.</description>
       
         <type>note</type>
       
@@ -28,7 +28,7 @@
       <pubDate>Sun, 18 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/front-end/</guid>
-      <description>Front End    Side of development that responsible for client-side or UI of the application.</description>
+      <description>Front End Side of development that responsible for client-side or UI of the application.</description>
       
         <type>note</type>
       
@@ -42,7 +42,7 @@
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/browser-object-model/</guid>
-      <description>Browser Object Model     BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document  Examples     Window.navigator (MDN Web Docs)  </description>
+      <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
       
         <type>note</type>
       
@@ -56,8 +56,8 @@
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/document-object-model/</guid>
-      <description>Document Object Model    DOM is a programming interface for HTML and XML documents.
-Links     Introduction to the DOM (MDN Web Docs)  </description>
+      <description> Document Object Model DOM is a programming interface for HTML and XML documents.
+Links Introduction to the DOM (MDN Web Docs) </description>
       
         <type>note</type>
       
@@ -71,7 +71,7 @@ Links     Introduction to the DOM (MDN Web Docs)  </description>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/html/</guid>
-      <description>HTML     HTML (HyperText Markup Language) is a markup language for document that are displayed in the browser. It is not a programming language btw  </description>
+      <description> HTML HTML (HyperText Markup Language) is a markup language for document that are displayed in the browser. It is not a programming language btw </description>
       
         <type>note</type>
       
@@ -85,8 +85,8 @@ Links     Introduction to the DOM (MDN Web Docs)  </description>
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/server-side-rendering/</guid>
-      <description>Server Side Rendering    Server Side Rendering is a process when your files (for example, HTML and CSS files) are rendering by server side instead of client side
-Links     Rendering on the Web (developers.google.com)  </description>
+      <description> Server Side Rendering Server Side Rendering is a process when your files (for example, HTML and CSS files) are rendering by server side instead of client side
+Links Rendering on the Web (developers.google.com) </description>
       
         <type>note</type>
       

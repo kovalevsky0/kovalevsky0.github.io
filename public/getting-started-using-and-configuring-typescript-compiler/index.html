@@ -16,24 +16,29 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 
 
   
-    <meta name="image" content="https://kovalevsky.ioimages/getting-started-with-typescript-compiler.png" />
+    <meta name="image" content="https://kovalevsky.io/images/getting-started-with-typescript-compiler.png" />
   
 
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://kovalevsky.io/images/getting-started-with-typescript-compiler.png"/>
+  
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="https://kovalevsky.io/images/getting-started-with-typescript-compiler.png">
+  <meta name="twitter:title" content="Getting Started With TypeScript Compiler (tsc)">
+  <meta name="twitter:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
+The thing is that TypeScript is provided with a special program, tool - compiler.">
 
-<meta name="twitter:title" content="Getting Started With TypeScript Compiler (tsc)"/>
-<meta name="twitter:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
-The thing is that TypeScript is provided with a special program, tool - compiler."/>
-
-  <meta property="og:title" content="Getting Started With TypeScript Compiler (tsc)" />
-<meta property="og:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
-The thing is that TypeScript is provided with a special program, tool - compiler." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://kovalevsky.io/getting-started-using-and-configuring-typescript-compiler/" /><meta property="og:image" content="https://kovalevsky.io/images/getting-started-with-typescript-compiler.png" /><meta property="article:section" content="" />
-<meta property="article:published_time" content="2021-05-16T20:00:00+00:00" />
-<meta property="article:modified_time" content="2021-05-16T20:00:00+00:00" />
-
+  <meta property="og:url" content="https://kovalevsky.io/getting-started-using-and-configuring-typescript-compiler/">
+  <meta property="og:site_name" content="Learn Go with Max | Golang Courses and Tutorials">
+  <meta property="og:title" content="Getting Started With TypeScript Compiler (tsc)">
+  <meta property="og:description" content="From the previous post TypeScript - What Is All About And Why Should You Use It? we know that TypeScript is a superset of JavaScript and programming language. But how can you use it? If you worked with JavaScript in Front End you know that your code is executing by Web browser. In Back End, your code is running by Node. What about TypeScript?
+The thing is that TypeScript is provided with a special program, tool - compiler.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2021-05-16T20:00:00+00:00">
+    <meta property="article:modified_time" content="2021-05-16T20:00:00+00:00">
+    <meta property="article:tag" content="Javascript">
+    <meta property="article:tag" content="Typescript">
+    <meta property="article:tag" content="Typescriptbook">
+    <meta property="og:image" content="https://kovalevsky.io/images/getting-started-with-typescript-compiler.png">
 
 
   <title>
@@ -81,7 +86,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 
   <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
 
-  <meta name="generator" content="Hugo 0.95.0" />
+  <meta name="generator" content="Hugo 0.127.0">
 
     <script async defer data-domain="kovalevsky.io" src="https://plausible.io/js/plausible.js"></script>
 
@@ -99,7 +104,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
         <header class="header">
   <div class="container">
     <div class="header__inner">
-      <a href="https://kovalevsky.io" class="logo-title u-url">Learn Go with Max</a>
+      <a href="https://kovalevsky.io/" class="logo-title u-url">Learn Go with Max</a>
       
         <div>
           <nav class="navbar">
@@ -135,8 +140,15 @@ The thing is that TypeScript is provided with a special program, tool - compiler
               
                 <a
                   class="navbar__link"
-                  href="/daily-golang/">
+                  href="/newsletter/">
                     <i class='fa fa-newspaper-o color-skyblue'></i>
+                    Newsletter
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/daily-golang/">
+                    <i class='fa fa-newspaper-o color-pink'></i>
                     Daily_Golang
                 </a>
               
@@ -437,6 +449,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
     <p>Join growing community of <span style="background: linear-gradient(-90deg, #12a2c7, #be6c59);
     padding: 0 9px;
 }">Go (Golang)</span> developers and take your skills to the next level.</p>
+    <a href="/newsletter" style="color: #f4f4f4; font-weight: bold; border-bottom: 3px solid #fa9312; box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.25);">Latest Issues</a>
   </div>
   <div style="width: 30%">
     <div class="subscription">
@@ -904,22 +917,25 @@ The thing is that TypeScript is provided with a special program, tool - compiler
 
     
       
-      <script src="/js/byte.min.f453d26c79f010446cf0d9770197f77de32c07b7a5512d141a286247fe154a22.js" integrity="sha256-9FPSbHnwEERs8Nl3AZf3feMsB7elUS0UGihiR/4VSiI="></script>
+      <script src="/js/byte.min.cb0c595e02234420f3ad3886bf4a9bd2874d0e1e78e090138a9ef158b35aaf17.js" integrity="sha256-ywxZXgIjRCDzrTiGv0qb0odNDh544JATip7xWLNarxc="></script>
     
 
     
       
-      <script src="/js/subscription.min.f3c695cf763a0e3f0761f70cc1e1a5bad832571b667b2f533b95ccc5249fd111.js" integrity="sha256-88aVz3Y6Dj8HYfcMweGlutgyVxtmey9TO5XMxSSf0RE="></script>
+      <script src="/js/subscription.min.184ec3109be47911f53337a4be06fd34a708c9d3c2a0f5400e2b732a48271317.js" integrity="sha256-GE7DEJvkeRH1Mzekvgb9NKcIydPCoPVADitzKkgnExc="></script>
     
 
     
       
-      <script src="/js/subscribers-counter.min.a67e7f4779c353fb307662cf463fd7e3f15c927b44fe97374a9ceb4255b19fcf.js" integrity="sha256-pn5/R3nDU/swdmLPRj/X4/FckntE/pc3SpzrQlWxn88="></script>
+      <script src="/js/subscribers-counter.min.217cfe7e1160df9d91c150712b1577ff4ca993af72acf96196cfb3f19ba4c61a.js" integrity="sha256-IXz&#43;fhFg352RwVBxKxV3/0ypk69yrPlhls&#43;z8Zukxho="></script>
     
 
     
 
     
+  
+
+
 
     
 

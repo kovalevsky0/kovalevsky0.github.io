@@ -1,0 +1,1283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="Max Kovalevsky">
+  <meta name="description" content="Hello everyone!
+Not a while ago I started to run a daily newsletter with resources (blog posts, videos and projects) about Go (Golang) that I found interesting. Here are the lastest 6 issues of the newsletter. I hope you will find it useful. Happy coding!
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.">
+  <meta name="keywords" content="Go,Programming,Blog,Go Programming,Golang,golang playground,golang install,golang tutorial,golangci-lint,golang for loop,golang enum,golang time,golang json,golang generics,golang gin,golang append,golang array,golang assert,golang append to slice,golang anonymous struct,golang atomic,golang atoi,golang array contains,golang api,awesome golang,append golang,array golang,aws lambda golang,anonymous struct golang,atoi golang,assert golang,atomic golang,golang byte array to string,golang bool to string,golang bufio,golang benchmark,golang base64 decode,golang base64,golang books,golang base64 encode,golang blog,brew install golang,byte to string golang,bufio golang,best ide for golang,bool to string golang,buffered channel golang,best golang books,bubble tea golang,bcrypt golang,base64 decode golang,golang context,golang channels,golang cobra,golang convert int to string,golang chi,golang check if file exists,golang constants,golang concurrency,golang copy,golang csv,cobra golang,convert string to int golang,context golang,chi golang,channels in golang,concurrency in golang,const golang,check if file exists golang,create error golang,clean architecture golang,golang download,golang defer,golang docker image,golang docs,golang developer,golang dependency injection,golang dictionary,golang developer jobs,golang delete from map,golang default parameter,download golang,defer golang,docker golang,dependency injection golang,database/sql golang,dockerfile golang,design patterns in golang,do while golang,data types in golang,delete from map golang,golang error,golang echo,golang else if,golang errgroup,golang embed,golang environment variables,golang error handling,golang exec">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="I curate a daily newsletter with resources about Golang - Daily Golang. Here are the latest 6 issues of the newsletter">
+  <meta name="twitter:description" content="Hello everyone!
+Not a while ago I started to run a daily newsletter with resources (blog posts, videos and projects) about Go (Golang) that I found interesting. Here are the lastest 6 issues of the newsletter. I hope you will find it useful. Happy coding!
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.">
+
+  <meta property="og:url" content="http://localhost:1313/daily-golang-newsletter-report-2024-08-19/">
+  <meta property="og:site_name" content="Learn Go with Max | Golang Courses and Tutorials">
+  <meta property="og:title" content="I curate a daily newsletter with resources about Golang - Daily Golang. Here are the latest 6 issues of the newsletter">
+  <meta property="og:description" content="Hello everyone!
+Not a while ago I started to run a daily newsletter with resources (blog posts, videos and projects) about Go (Golang) that I found interesting. Here are the lastest 6 issues of the newsletter. I hope you will find it useful. Happy coding!
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2024-08-19T10:31:32+02:00">
+    <meta property="article:modified_time" content="2024-08-19T10:31:32+02:00">
+    <meta property="article:tag" content="Go">
+    <meta property="article:tag" content="Golang">
+    <meta property="article:tag" content="Newsletter">
+    <meta property="article:tag" content="Dailygolang">
+
+
+  <title>
+    I curate a daily newsletter with resources about Golang - Daily Golang. Here are the latest 6 issues of the newsletter
+  </title>
+
+  
+    <link rel="canonical" href="http://localhost:1313/daily-golang-newsletter-report-2024-08-19/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/kovalevsky.io/webmention" />
+    <link rel="pingback" href="https://webmention.io/kovalevsky.io/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.css" media="screen">
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.css" media="screen">
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  
+
+  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+    <script async defer data-domain="kovalevsky.io" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="http://localhost:1313/" class="logo-title u-url">Learn Go with Max</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/newsletter/">
+                    <i class='fa fa-newspaper-o color-skyblue'></i>
+                    Newsletter
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/daily-golang/">
+                    <i class='fa fa-newspaper-o color-pink'></i>
+                    Daily_Golang
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  
+  
+
+
+  <br>
+  
+  
+  
+  
+  
+  
+  
+  
+  <article class="content h-entry">
+    
+    <div class="content__inner">
+      <header>
+        
+        
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/go/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #go
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/golang/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #golang
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/newsletter/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #newsletter
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/dailygolang/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #dailygolang
+      </a>
+    </div></div>
+
+        
+        
+      </header>
+      <section class="e-content">
+        <p>Hello everyone!</p>
+<p>Not a while ago I started to run a daily newsletter with resources (blog posts, videos and projects) about Go (Golang) that I found interesting. Here are the lastest 6 issues of the newsletter. I hope you will find it useful. Happy coding!</p>
+<p><div style="margin-top: 65px;">
+  
+<img src="http://localhost:1313/daily-golang-logo.png" alt="Daily Golang Logo" style="width: 160px; display: block; margin: 15px auto 25px auto;" />
+<h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">Daily Golang</h1>
+<div style="max-width: 800px; width: 100%; margin: 0 auto 30px auto; text-align: center;">
+  Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.
+</div>
+<div class="dgp-subscription-container">
+  <div class="dgp-subscription">
+    <form
+      action="https://app.convertkit.com/forms/6943295/subscriptions"
+      method="post"
+      data-sv-form="6943295"
+      data-uid="21cf677d62"
+      data-format="inline"
+      data-version="5"
+      data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+      min-width="400 500 600 700 800"
+    >
+      <div data-style="minimal">
+        <ul
+          data-element="errors"
+          data-group="alert"
+          style="margin: 0; padding: 0;"
+        ></ul>
+        <div
+          data-element="fields"
+          data-stacked="false"
+        >
+          <input
+            name="email_address"
+            aria-label="Email Address"
+            placeholder="// EMAIL"
+            required=""
+            type="email"
+          />
+          <div>
+            <fieldset
+              data-group="checkboxes"
+              class="formkit-8150"
+              group="field"
+              type="Custom"
+              order="3"
+              save_as="Tag"
+              style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  class="formkit-checkbox"
+                  id="tag-8150-5252218"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252218"
+                  checked=""
+                />
+                <strong>Subscribe to <a href="/newsletter" style="color: #f4f4f4; font-weight: bold; border-bottom: 3px solid #fa9312; box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.25);">Max Kovalevsky's newsletter</a></strong>
+              </div>
+            </fieldset>
+            <fieldset
+              data-group="checkboxes"
+              group="field"
+              type="Custom"
+              order="1"
+              save_as="Tag"
+                    style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  id="tag-2566-5252942"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252942"
+                  required=""
+                >
+                  <strong>Marketing permission (GDPR)</strong>
+                  <span class="tooltip">
+                        <i class="fa fa-question-circle color-blue"></i>
+                        <span class="tooltiptext">I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                  </span>
+              </div>
+            </fieldset>
+          </div>
+          <div
+            data-group="dropdown"
+            class="formkit-5581"
+            type="Custom"
+            order="1"
+            save_as="Tag"
+            group="field"
+          >
+            <div>How often would you like to receive the newsletter?</div>
+            <div class="dgp-select">
+              <select
+                data-element="tags-select"
+                name="tags[]"
+                required=""
+              >
+                <option value="5265584" selected>daily</option>
+                <option value="5265585">weekly</option>
+              </select>
+              <i class="fa fa-caret-down color-blue"></i>
+            </div>
+          </div>
+          <input
+            id="tag-6675-5265583"
+            type="checkbox"
+            name="tags[]"
+            value="5265583"
+            checked=""
+            hidden=""
+          />
+          <button
+            data-element="submit"
+          >
+            <div class="formkit-spinner">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span class="">Subscribe</span>
+          </button>
+        </div>
+        <div
+          data-element="guarantee"
+          class="dgp-no-spam"
+        >
+          We won't send you spam. Unsubscribe at any time.
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="dgp-why">
+    <h3>Why Subscribe to Daily Golang?</h3>
+    <ul>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Receive fresh Go programming content in your inbox every day and week.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Keep up with the latest news, trends, and developments in the Go community.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Access tips, tutorials, and best practices to enhance your Go programming expertise.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Save time with hand-picked articles and resources relevant to your Go journey.
+      </li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted --></p>
+<h1 id="daily-golang-issue-6-2024-08-19">
+  Daily Golang Issue #6 (2024-08-19)
+  <a class="heading-link" href="#daily-golang-issue-6-2024-08-19">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h3 id="your-daily-hub-for-go-news-insights-and-projects">
+  Your daily hub for Go news, insights, and projects
+  <a class="heading-link" href="#your-daily-hub-for-go-news-insights-and-projects">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<h2 id="-latest">
+  ⚡️ Latest
+  <a class="heading-link" href="#-latest">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here are the newest blog posts, videos, and projects from the Go community and all around it.</p>
+<ul>
+<li>GopherCon UK published recordings of talks from the latest conference
+<ul>
+<li>📹 <a href="https://www.youtube.com/watch?v=pLvZRnK2WRE">The Business of Go - Cameron Balahan, Google</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=7YfFBTkGIOI">Debugging Go Applications - Matt Boyle, Cloudflare</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=arH3jp_x8yQ">Understanding the Go runtime, Jesús Espino, Mattermost</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=0GkRJQ1aUOI">Boost application performance with profile guided optimization Michael Pratt, Google</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=eUIPFRNxDV8">AI is coming for your job - Adam Scholey, Benefex</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=mls9mQFgB7A">Improving your code craft with generative AI - Liam Hampton, Microsoft</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=gSPjoNczOsI">Decoding AI: A Go Programmer&rsquo;s Perspective - Beth Anderson, BBC</a></li>
+<li>📹 <a href="https://www.youtube.com/watch?v=zpP8aMqEna0">Event Driven Workflows - Andrew Wormald, Luno</a></li>
+</ul>
+</li>
+<li>📝 <a href="https://www.jvt.me/posts/2024/08/16/gophercon-uk-2024/">GopherCon UK 2024</a> by Jamie Tanna</li>
+<li>🛠️ <a href="https://github.com/bilbilak/treegen">TreeGen</a>
+<ul>
+<li>ASCII Tree to Directory and File Structure Generator</li>
+</ul>
+</li>
+</ul>
+<h2 id="-discoveries">
+  🧭 Discoveries
+  <a class="heading-link" href="#-discoveries">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.</p>
+<h3 id="-blog-posts">
+  📝 Blog Posts
+  <a class="heading-link" href="#-blog-posts">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://threedots.tech/post/safer-enums-in-go/">Safer Enums in Go</a>
+<ul>
+<li>This post explores how to implement safer enums in Go, providing strategies to avoid common errors associated with enums and ensuring type safety in your code.</li>
+</ul>
+</li>
+<li><a href="https://bitfieldconsulting.com/posts/random-testing">Random testing in Go</a> by John Arundel</li>
+<li><a href="https://eli.thegreenplace.net/2024/sign-in-with-google-in-go/" title="Permalink to Sign in with Google in Go">Sign in with Google in Go</a>
+<ul>
+<li>This post walks you through implementing Google OAuth authentication in a Go application. It covers setting up OAuth credentials, integrating with Google&rsquo;s API, and handling user sign-ins securely within your Go projects.</li>
+</ul>
+</li>
+<li><a href="https://www.dolthub.com/blog/2023-03-29-interactive-shell-golang/">Building an interactive shell in Golang</a>
+<ul>
+<li>The author provides a guide to creating an interactive command-line shell in Go. The post covers topics like handling user input, executing commands, and managing the shell&rsquo;s environment, offering a practical approach to building robust CLI tools.</li>
+</ul>
+</li>
+</ul>
+<h3 id="-videos">
+  📹 Videos
+  <a class="heading-link" href="#-videos">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=QFpneG6SVxw&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=72">Julia Ogris - Building a Beginner&rsquo;s Programming Language with Go | GopherConAU 2023</a></li>
+<li><a href="https://www.youtube.com/watch?v=xvPmJQ7U1A8&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=90">Why Golang + HTMX Is The Most Productive Stack</a></li>
+<li><a href="https://www.youtube.com/watch?v=yEcabpza3XA&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=60">Keynote - Go: the language of dreamers / Derek Parker</a></li>
+<li><a href="https://www.youtube.com/watch?v=iv5aRdslb5k&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=105">A REAL usecase of Golang Go Routines! - Golang  Concurrency Example</a></li>
+</ul>
+<h3 id="-projects">
+  🛠️ Projects
+  <a class="heading-link" href="#-projects">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://github.com/Sirupsen/logrus">sirupsen/logrus</a>
+<ul>
+<li>Logrus is a structured, pluggable logging library for Go, designed to provide a flexible logging framework that supports various output formats and hooks.</li>
+</ul>
+</li>
+<li><a href="https://github.com/fergusstrange/embedded-postgres">fergusstrange/embedded-postgres</a>
+<ul>
+<li>Embedded Postgres allows running a real Postgres database locally as part of another Go application or test, providing a simple way to include Postgres in your development environment.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="daily-golang-issue-5-2024-08-18">
+  Daily Golang Issue #5 (2024-08-18)
+  <a class="heading-link" href="#daily-golang-issue-5-2024-08-18">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h3 id="your-daily-hub-for-go-news-insights-and-projects-1">
+  Your daily hub for Go news, insights, and projects
+  <a class="heading-link" href="#your-daily-hub-for-go-news-insights-and-projects-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<h2 id="-latest-1">
+  ⚡️ Latest
+  <a class="heading-link" href="#-latest-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here are the newest blog posts, videos, and projects from the Go community and all around it.</p>
+<ul>
+<li></li>
+</ul>
+<h2 id="-discoveries-1">
+  🧭 Discoveries
+  <a class="heading-link" href="#-discoveries-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.</p>
+<h3 id="-blog-posts-1">
+  📝 Blog Posts
+  <a class="heading-link" href="#-blog-posts-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.calhoun.io/moving-towards-domain-driven-design-in-go/">Moving Towards Domain Driven Design in Go</a>
+<ul>
+<li>This post discusses how to implement Domain-Driven Design (DDD) principles in Go applications. The author provides practical steps to transition from traditional application structures to DDD, focusing on aligning code with business domains for better maintainability.</li>
+</ul>
+</li>
+<li><a href="https://bitfieldconsulting.com/posts/wrapping-errors">Error wrapping in Go</a> by John Arundel</li>
+<li><a href="https://threedots.tech/post/common-anti-patterns-in-go-web-applications/">Common Anti-Patterns in Go Web Applications</a>
+<ul>
+<li>The author identifies and explains several common anti-patterns in Go web applications, offering advice on how to avoid these pitfalls to create more efficient and maintainable code.</li>
+</ul>
+</li>
+<li><a href="https://notes.eatonphil.com/2023-05-25-raft.html">Implementing the Raft distributed consensus protocol in Go</a></li>
+</ul>
+<h3 id="-videos-1">
+  📹 Videos
+  <a class="heading-link" href="#-videos-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=sDTJMm__DXE&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=78">Raghav Roy - Coroutines and Go | GopherConAU 2023</a></li>
+<li><a href="https://www.youtube.com/watch?v=UjhpyjVMfuo&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=91">Golang Has Entered a New Era for Routing</a></li>
+<li><a href="https://www.youtube.com/watch?v=dKUiCF3abHc&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=128">How to EFFICIENTLY Handle Errors in Golang APIs</a></li>
+<li><a href="https://www.youtube.com/watch?v=Ax7J_Ks0UWs&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=185">How To Refactor A Golang Project By Using Interfaces</a></li>
+</ul>
+<h3 id="-projects-1">
+  🛠️ Projects
+  <a class="heading-link" href="#-projects-1">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://github.com/spf13/viper">spf13/viper</a>
+<ul>
+<li>A popular configuration management library in Go, supporting many formats, environment variables, remote configurations, and more, designed to work seamlessly with spf13/cobra.</li>
+</ul>
+</li>
+<li><a href="https://github.com/rqlite/rqlite">rqlite/rqlite</a>
+<ul>
+<li>Rqlite is a lightweight, distributed relational database built on SQLite, offering an easy-to-use solution for applications requiring high availability and fault tolerance.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="daily-golang-issue-4-2024-08-17">
+  Daily Golang Issue #4 (2024-08-17)
+  <a class="heading-link" href="#daily-golang-issue-4-2024-08-17">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h3 id="your-daily-hub-for-go-news-insights-and-projects-2">
+  Your daily hub for Go news, insights, and projects
+  <a class="heading-link" href="#your-daily-hub-for-go-news-insights-and-projects-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<h2 id="-latest-2">
+  ⚡️ Latest
+  <a class="heading-link" href="#-latest-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here are the newest blog posts, videos, and projects from the Go community and all around it.</p>
+<ul>
+<li></li>
+</ul>
+<h2 id="-discoveries-2">
+  🧭 Discoveries
+  <a class="heading-link" href="#-discoveries-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.</p>
+<h3 id="-blog-posts-2">
+  📝 Blog Posts
+  <a class="heading-link" href="#-blog-posts-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://bitfieldconsulting.com/posts/testscript-tool">Standalone test scripts</a> by John Arundel</li>
+<li><a href="https://www.calhoun.io/using-functional-options-instead-of-method-chaining-in-go/">Using functional options instead of method chaining in Go</a>
+<ul>
+<li>Jon Calhoun advocates for the use of functional options as an alternative to method chaining in Go, explaining how this pattern can lead to more flexible and maintainable code.</li>
+</ul>
+</li>
+<li><a href="https://threedots.tech/post/ddd-lite-in-go-introduction/">Introduction to DDD Lite: When microservices in Go are not enough</a>
+<ul>
+<li>This article introduces a &ldquo;DDD Lite&rdquo; approach, explaining how it can be a middle ground between full-blown Domain-Driven Design (DDD) and simpler design patterns. It’s particularly useful when microservices alone do not sufficiently address complex business needs.</li>
+</ul>
+</li>
+<li><a href="https://zenhorace.dev/blog/context-control-go/">Context Control in Go</a></li>
+</ul>
+<h3 id="-videos-2">
+  📹 Videos
+  <a class="heading-link" href="#-videos-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=MYtUOOizITs&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=2">The Secret Life of a Goroutine - Jesús Espino - April Gophers 2023</a></li>
+<li><a href="https://www.youtube.com/watch?v=DZIhkFLVNqc&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=39">GopherCon 2023: Ellery Addington-White - From Zero to Hero: Launch Your Own Game in 45 Minutes</a></li>
+<li><a href="https://www.youtube.com/watch?v=PLlEym5JVvM&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=71">06. Matteo Grella - The Go-to Language for AI: Opportunities and Challenges | GopherConAU 2023</a></li>
+<li><a href="https://www.youtube.com/watch?v=LGVRPFZr548&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=174">How To Use Goroutines For Aggregating Data In Golang?!</a></li>
+</ul>
+<h3 id="-projects-2">
+  🛠️ Projects
+  <a class="heading-link" href="#-projects-2">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://github.com/go-task/task">go-task/task</a>
+<ul>
+<li>simple &ldquo;Make&rdquo; alternative.</li>
+</ul>
+</li>
+<li><a href="https://github.com/joho/godotenv">joho/godotenv)</a>
+<ul>
+<li>A Go port of the Ruby dotenv library, which loads environment variables from a <code>.env</code> file, making it easier to manage environment-specific configurations.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<div style="margin-top: 65px;">
+  
+<img src="http://localhost:1313/daily-golang-logo.png" alt="Daily Golang Logo" style="width: 160px; display: block; margin: 15px auto 25px auto;" />
+<h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">Daily Golang</h1>
+<div style="max-width: 800px; width: 100%; margin: 0 auto 30px auto; text-align: center;">
+  Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.
+</div>
+<div class="dgp-subscription-container">
+  <div class="dgp-subscription">
+    <form
+      action="https://app.convertkit.com/forms/6943295/subscriptions"
+      method="post"
+      data-sv-form="6943295"
+      data-uid="21cf677d62"
+      data-format="inline"
+      data-version="5"
+      data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+      min-width="400 500 600 700 800"
+    >
+      <div data-style="minimal">
+        <ul
+          data-element="errors"
+          data-group="alert"
+          style="margin: 0; padding: 0;"
+        ></ul>
+        <div
+          data-element="fields"
+          data-stacked="false"
+        >
+          <input
+            name="email_address"
+            aria-label="Email Address"
+            placeholder="// EMAIL"
+            required=""
+            type="email"
+          />
+          <div>
+            <fieldset
+              data-group="checkboxes"
+              class="formkit-8150"
+              group="field"
+              type="Custom"
+              order="3"
+              save_as="Tag"
+              style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  class="formkit-checkbox"
+                  id="tag-8150-5252218"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252218"
+                  checked=""
+                />
+                <strong>Subscribe to <a href="/newsletter" style="color: #f4f4f4; font-weight: bold; border-bottom: 3px solid #fa9312; box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.25);">Max Kovalevsky's newsletter</a></strong>
+              </div>
+            </fieldset>
+            <fieldset
+              data-group="checkboxes"
+              group="field"
+              type="Custom"
+              order="1"
+              save_as="Tag"
+                    style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  id="tag-2566-5252942"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252942"
+                  required=""
+                >
+                  <strong>Marketing permission (GDPR)</strong>
+                  <span class="tooltip">
+                        <i class="fa fa-question-circle color-blue"></i>
+                        <span class="tooltiptext">I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                  </span>
+              </div>
+            </fieldset>
+          </div>
+          <div
+            data-group="dropdown"
+            class="formkit-5581"
+            type="Custom"
+            order="1"
+            save_as="Tag"
+            group="field"
+          >
+            <div>How often would you like to receive the newsletter?</div>
+            <div class="dgp-select">
+              <select
+                data-element="tags-select"
+                name="tags[]"
+                required=""
+              >
+                <option value="5265584" selected>daily</option>
+                <option value="5265585">weekly</option>
+              </select>
+              <i class="fa fa-caret-down color-blue"></i>
+            </div>
+          </div>
+          <input
+            id="tag-6675-5265583"
+            type="checkbox"
+            name="tags[]"
+            value="5265583"
+            checked=""
+            hidden=""
+          />
+          <button
+            data-element="submit"
+          >
+            <div class="formkit-spinner">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span class="">Subscribe</span>
+          </button>
+        </div>
+        <div
+          data-element="guarantee"
+          class="dgp-no-spam"
+        >
+          We won't send you spam. Unsubscribe at any time.
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="dgp-why">
+    <h3>Why Subscribe to Daily Golang?</h3>
+    <ul>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Receive fresh Go programming content in your inbox every day and week.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Keep up with the latest news, trends, and developments in the Go community.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Access tips, tutorials, and best practices to enhance your Go programming expertise.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Save time with hand-picked articles and resources relevant to your Go journey.
+      </li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+<h1 id="daily-golang-issue-3-2024-08-16">
+  Daily Golang Issue #3 (2024-08-16)
+  <a class="heading-link" href="#daily-golang-issue-3-2024-08-16">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h3 id="your-daily-hub-for-go-news-insights-and-projects-3">
+  Your daily hub for Go news, insights, and projects
+  <a class="heading-link" href="#your-daily-hub-for-go-news-insights-and-projects-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<h2 id="-latest-3">
+  ⚡️ Latest
+  <a class="heading-link" href="#-latest-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here are the newest blog posts, videos, and projects from the Go community and all around it.</p>
+<ul>
+<li><a href="https://www.maragu.dev/blog/go-is-my-hammer-and-everything-is-a-nail">Go is my hammer, and everything is a nail</a></li>
+<li><a href="https://www.youtube.com/watch?v=_Q9OLNiQZxE">How to find ANYTHING in Linux &ndash; newb guide</a></li>
+</ul>
+<h2 id="-discoveries-3">
+  🧭 Discoveries
+  <a class="heading-link" href="#-discoveries-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.</p>
+<h3 id="-blog-posts-3">
+  📝 Blog Posts
+  <a class="heading-link" href="#-blog-posts-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://bitfieldconsulting.com/posts/testing-errors">Testing errors in Go</a> by John Arundel</li>
+<li><a href="https://www.willem.dev/articles/time-now-monotonic-clock/">time.Now() and the Monotonic Clock</a>
+<ul>
+<li>The post discusses the use of <code>time.Now()</code> in Go, particularly focusing on the monotonic clock feature. The author explains how Go ensures time consistency across operations, crucial for preventing errors in time-sensitive applications.</li>
+</ul>
+</li>
+<li><a href="https://dev.to/aniket762/build-server-with-go-under-10-minutes-1i9m">Build Server With Go Under 10 minutes</a></li>
+<li><a href="https://www.whenmoon.xyz/posts/go-wallet-authentication-with-siwe-gin-and-jwt">Build a Go API with wallet authentication, JWT, Gin</a></li>
+</ul>
+<h3 id="-videos-3">
+  📹 Videos
+  <a class="heading-link" href="#-videos-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=NPq3d2HkxWU&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=119">Building a Chat with WebSockets and HTMX in Golang</a></li>
+<li><a href="https://www.youtube.com/watch?v=1ZbQS6pOlSQ&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=85">The BEST Tool to Structure Golang Projects</a></li>
+<li><a href="https://www.youtube.com/watch?v=zskPGr5dFU0&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=7">Pointers Are the Broccoli of Go -  Beth Knight  - July Gophers 2023</a></li>
+<li><a href="https://www.youtube.com/watch?v=Lv41EtkdZdU&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=8">Gosh - Writing Go at the Command Line - Nick Wells  - September Gophers</a></li>
+</ul>
+<h3 id="-projects-3">
+  🛠️ Projects
+  <a class="heading-link" href="#-projects-3">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://github.com/gookit/config">gookit/config</a>
+<ul>
+<li>A comprehensive Go configuration management library that supports multiple file formats, environment variables, and command-line flags, offering flexibility in how configurations are loaded and merged.</li>
+</ul>
+</li>
+<li><a href="https://github.com/onsi/ginkgo">onsi/ginkgo</a>
+<ul>
+<li>Ginkgo is a modern testing framework for Go, providing expressive syntax and powerful features for writing readable and maintainable tests, especially for behavior-driven development (BDD).</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="daily-golang-issue-2-2024-08-15">
+  Daily Golang Issue #2 (2024-08-15)
+  <a class="heading-link" href="#daily-golang-issue-2-2024-08-15">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h3 id="your-daily-hub-for-go-news-insights-and-projects-4">
+  Your daily hub for Go news, insights, and projects
+  <a class="heading-link" href="#your-daily-hub-for-go-news-insights-and-projects-4">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<h2 id="-latest-4">
+  ⚡️ Latest
+  <a class="heading-link" href="#-latest-4">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here are the newest blog posts, videos, and projects from the Go community and all around it.</p>
+<ul>
+<li><a href="https://tutorialedge.net/golang/go-123-iterators-tutorial">Go 1.23 Iterators Tutorial</a></li>
+</ul>
+<h2 id="-discoveries-4">
+  🧭 Discoveries
+  <a class="heading-link" href="#-discoveries-4">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.</p>
+<h3 id="-blog-posts-4">
+  📝 Blog Posts
+  <a class="heading-link" href="#-blog-posts-4">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://bitfieldconsulting.com/posts/tdd-shameless-green">Shameless green: TDD in Go</a> by John Arundel</li>
+<li><a href="https://appliedgo.net/bacalhau/">Distributed Computing With Dried, Salted Cod Fish, WASM, And (Tiny)Go</a>
+<ul>
+<li>This post creatively explores the use of WebAssembly (WASM) and TinyGo for distributed computing, drawing an analogy to the historical use of dried cod fish for trade. The author discusses the benefits of using TinyGo for running Go code in constrained environments like WASM.</li>
+</ul>
+</li>
+<li><a href="https://rednafi.com/go/strategy_pattern/">Strategy pattern in Go</a>
+<ul>
+<li>This article explains the Strategy Pattern, a behavioral design pattern that allows an algorithm&rsquo;s behavior to be selected at runtime. The author demonstrates how to implement this pattern in Go, making code more flexible and easier to maintain.</li>
+</ul>
+</li>
+<li><a href="https://boyter.org/posts/how-to-start-go-project-2023/">How to start a Go project in 2023</a></li>
+</ul>
+<h3 id="-videos-4">
+  📹 Videos
+  <a class="heading-link" href="#-videos-4">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=B9uR2gLM80E&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=95">Go Concurrency Explained: Go Routines &amp; Channels</a></li>
+<li><a href="https://www.youtube.com/watch?v=AcY_HID7mxY&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=65">How NOT to Write a Test in Go - Amir Malka</a></li>
+<li><a href="https://www.youtube.com/watch?v=YpRNFNFaLGY&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=21">Understanding the Go runtime - Jesus Espino</a></li>
+<li><a href="https://www.youtube.com/watch?v=egIDsv1RO88&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=181">How You Should Use Mutexes And Atomic Values In Golang?!</a></li>
+</ul>
+<h3 id="-projects-4">
+  🛠️ Projects
+  <a class="heading-link" href="#-projects-4">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://github.com/Evertras/bubble-table">Evertras/bubble-table</a>
+<ul>
+<li>A customizable and interactive table component designed for the Bubble Tea framework, allowing developers to build rich terminal-based UIs.</li>
+</ul>
+</li>
+<li><a href="https://github.com/nanovms/ops">nanovms/ops</a>
+<ul>
+<li>A tool for building and running unikernels in Go, designed to simplify the creation of lightweight, secure applications by bundling them into single-purpose virtual machines.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h1 id="daily-golang-issue-1-2024-08-14">
+  Daily Golang Issue #1 (2024-08-14)
+  <a class="heading-link" href="#daily-golang-issue-1-2024-08-14">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h1>
+<h3 id="your-daily-hub-for-go-news-insights-and-projects-5">
+  Your daily hub for Go news, insights, and projects
+  <a class="heading-link" href="#your-daily-hub-for-go-news-insights-and-projects-5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<h2 id="-latest-5">
+  ⚡️ Latest
+  <a class="heading-link" href="#-latest-5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here are the newest blog posts, videos, and projects from the Go community and all around it.</p>
+<ul>
+<li></li>
+</ul>
+<h2 id="-discoveries-5">
+  🧭 Discoveries
+  <a class="heading-link" href="#-discoveries-5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h2>
+<p>Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.</p>
+<h3 id="-blog-posts-5">
+  📝 Blog Posts
+  <a class="heading-link" href="#-blog-posts-5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://bitfieldconsulting.com/posts/functional">Functional programming in Go</a> by John Arundel</li>
+<li><a href="https://www.calhoun.io/connecting-to-a-postgresql-database-with-gos-database-sql-package/">Connecting to a PostgreSQL database with Go&rsquo;s database/sql package</a>
+<ul>
+<li>A comprehensive guide on connecting to a PostgreSQL database using Go’s <code>database/sql</code> package. The post walks you through the steps to set up a connection, execute queries, and handle errors.</li>
+</ul>
+</li>
+<li><a href="https://benhoyt.com/writings/go-1brc/">The One Billion Row Challenge in Go: from 1m45s to 3.4s in nine solutions</a>
+<ul>
+<li>The author discusses optimizing a Go program to handle one billion rows of data. The post details different strategies and solutions implemented to significantly reduce processing time, offering insights into performance tuning in Go.</li>
+</ul>
+</li>
+<li><a href="https://www.willem.dev/articles/how-to-parse-time-date/">How to parse a time or date in Go</a>
+<ul>
+<li>This article explains how to parse and format time and date strings in Go, covering common use cases and potential pitfalls. The author provides code examples to demonstrate how to handle various date and time formats effectively.</li>
+</ul>
+</li>
+</ul>
+<h3 id="-videos-5">
+  📹 Videos
+  <a class="heading-link" href="#-videos-5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=LP0sTNruvaM&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP">How to Rewrite a Service - Michal Bock - April Gophers 2023</a></li>
+<li><a href="https://www.youtube.com/watch?v=sRIFJ6H6Nmg&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=10">Time to Reflect - Sam Williams  - September Gophers</a></li>
+<li><a href="https://www.youtube.com/watch?v=ICSMdZO9Gns&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=98">Using RabbitMQ Steams In Go</a></li>
+<li><a href="https://www.youtube.com/watch?v=EkK8Jxjj95s&amp;list=PLCqcI2Ic-eM_RWwxxOvRBmt6jTNP8L5lP&amp;index=69">Understanding Language Server Protocol - autocomplete, formatting - Adrian Hesketh</a></li>
+</ul>
+<h3 id="-projects-5">
+  🛠️ Projects
+  <a class="heading-link" href="#-projects-5">
+    <i class="fa fa-link" aria-hidden="true"></i>
+  </a>
+</h3>
+<ul>
+<li><a href="https://github.com/knadh/koanf">knadh/koanf</a>
+<ul>
+<li>A simple, lightweight, and extensible Go configuration management library, supporting JSON, TOML, YAML, and more. It allows easy merging and layering of configurations from various sources.</li>
+</ul>
+</li>
+<li><a href="https://github.com/adrg/xdg">adrg/xdg</a>
+<ul>
+<li>A Go implementation of the XDG Base Directory Specification, providing a standardized way to manage user directories and application data locations across different operating systems.</li>
+</ul>
+</li>
+</ul>
+<hr>
+<div style="margin-top: 65px;">
+  
+<img src="http://localhost:1313/daily-golang-logo.png" alt="Daily Golang Logo" style="width: 160px; display: block; margin: 15px auto 25px auto;" />
+<h1 style="font-weight: bold; text-align: center; text-transform: uppercase;">Daily Golang</h1>
+<div style="max-width: 800px; width: 100%; margin: 0 auto 30px auto; text-align: center;">
+  Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.
+</div>
+<div class="dgp-subscription-container">
+  <div class="dgp-subscription">
+    <form
+      action="https://app.convertkit.com/forms/6943295/subscriptions"
+      method="post"
+      data-sv-form="6943295"
+      data-uid="21cf677d62"
+      data-format="inline"
+      data-version="5"
+      data-options='{"settings":{"after_subscribe":{"action":"message","success_message":"Success! Now check your email to confirm your subscription.","redirect_url":""},"analytics":{"google":null,"fathom":null,"facebook":null,"segment":null,"pinterest":null,"sparkloop":null,"googletagmanager":null},"modal":{"trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"powered_by":{"show":true,"url":"https://convertkit.com/features/forms?utm_campaign=poweredby&amp;utm_content=form&amp;utm_medium=referral&amp;utm_source=dynamic"},"recaptcha":{"enabled":false},"return_visitor":{"action":"show","custom_content":""},"slide_in":{"display_in":"bottom_right","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15},"sticky_bar":{"display_in":"top","trigger":"timer","scroll_percentage":null,"timer":5,"devices":"all","show_once_every":15}},"version":"5"}'
+      min-width="400 500 600 700 800"
+    >
+      <div data-style="minimal">
+        <ul
+          data-element="errors"
+          data-group="alert"
+          style="margin: 0; padding: 0;"
+        ></ul>
+        <div
+          data-element="fields"
+          data-stacked="false"
+        >
+          <input
+            name="email_address"
+            aria-label="Email Address"
+            placeholder="// EMAIL"
+            required=""
+            type="email"
+          />
+          <div>
+            <fieldset
+              data-group="checkboxes"
+              class="formkit-8150"
+              group="field"
+              type="Custom"
+              order="3"
+              save_as="Tag"
+              style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  class="formkit-checkbox"
+                  id="tag-8150-5252218"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252218"
+                  checked=""
+                />
+                <strong>Subscribe to <a href="/newsletter" style="color: #f4f4f4; font-weight: bold; border-bottom: 3px solid #fa9312; box-shadow: inset 0 -7px 0 rgba(178, 192, 232, 0.25);">Max Kovalevsky's newsletter</a></strong>
+              </div>
+            </fieldset>
+            <fieldset
+              data-group="checkboxes"
+              group="field"
+              type="Custom"
+              order="1"
+              save_as="Tag"
+                    style="padding: 0; margin: 0 0 20px 0;"
+            >
+              <div
+                data-element="tags-checkboxes"
+                data-group="checkbox"
+              >
+                <input
+                  id="tag-2566-5252942"
+                  type="checkbox"
+                  name="tags[]"
+                  value="5252942"
+                  required=""
+                >
+                  <strong>Marketing permission (GDPR)</strong>
+                  <span class="tooltip">
+                        <i class="fa fa-question-circle color-blue"></i>
+                        <span class="tooltiptext">I give my consent to Max Kovalevsky to be in touch with me via email using the information I have provided in this form for the purpose of news, updates and marketing.</span>
+                  </span>
+              </div>
+            </fieldset>
+          </div>
+          <div
+            data-group="dropdown"
+            class="formkit-5581"
+            type="Custom"
+            order="1"
+            save_as="Tag"
+            group="field"
+          >
+            <div>How often would you like to receive the newsletter?</div>
+            <div class="dgp-select">
+              <select
+                data-element="tags-select"
+                name="tags[]"
+                required=""
+              >
+                <option value="5265584" selected>daily</option>
+                <option value="5265585">weekly</option>
+              </select>
+              <i class="fa fa-caret-down color-blue"></i>
+            </div>
+          </div>
+          <input
+            id="tag-6675-5265583"
+            type="checkbox"
+            name="tags[]"
+            value="5265583"
+            checked=""
+            hidden=""
+          />
+          <button
+            data-element="submit"
+          >
+            <div class="formkit-spinner">
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+            <span class="">Subscribe</span>
+          </button>
+        </div>
+        <div
+          data-element="guarantee"
+          class="dgp-no-spam"
+        >
+          We won't send you spam. Unsubscribe at any time.
+        </div>
+      </div>
+    </form>
+  </div>
+  <div class="dgp-why">
+    <h3>Why Subscribe to Daily Golang?</h3>
+    <ul>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Receive fresh Go programming content in your inbox every day and week.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Keep up with the latest news, trends, and developments in the Go community.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Access tips, tutorials, and best practices to enhance your Go programming expertise.
+      </li>
+      <li>
+        <i class="fa fa-check-circle color-blue"></i>
+        Save time with hand-picked articles and resources relevant to your Go journey.
+      </li>
+    </ul>
+  </div>
+</div>
+
+</div>
+
+
+      </section>
+    </div>
+  </article>
+</div>
+
+  
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             Max Kovalevsky 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.js"></script>
+    
+
+    
+      
+      <script src="/js/subscription.js"></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>website on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Website on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/website/</link>
-    <description>Recent content in website on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Website on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,8 +14,8 @@
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/indieweb/</guid>
-      <description>IndieWeb    The idea about making own website or web page to store the content on your own platform instead of social media controlled by corporations.
-Links     indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog part of the Fediverse and IndieWeb brid.gy tantek.com  </description>
+      <description> IndieWeb The idea about making own website or web page to store the content on your own platform instead of social media controlled by corporations.
+Links indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog part of the Fediverse and IndieWeb brid.gy tantek.com </description>
       
         <type>note</type>
       
@@ -29,7 +29,7 @@ Links     indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/interesting-personal-websites-and-blogs/</guid>
-      <description>Interesting personal websites and blogs     randomwits.com  blog posts about Leetcode   tantek.com  IndieWeb contributor   ilya-sher.org  Next Generation Shell author&amp;rsquo;s blog   jvt.me  IndieWeber   monicalent.com  Monica Lent&amp;rsquo;s blog. Author of Blogging For Devs   notanomadblog.com  Monica Lent&amp;rsquo;s travel blog     https://mxb.dev   </description>
+      <description> Interesting personal websites and blogs randomwits.com blog posts about Leetcode tantek.com IndieWeb contributor ilya-sher.org Next Generation Shell author&amp;rsquo;s blog jvt.me IndieWeber monicalent.com Monica Lent&amp;rsquo;s blog. Author of Blogging For Devs notanomadblog.com Monica Lent&amp;rsquo;s travel blog https://mxb.dev </description>
       
         <type>note</type>
       

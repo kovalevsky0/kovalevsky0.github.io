@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ecmascript on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Ecmascript on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/ecmascript/</link>
-    <description>Recent content in ecmascript on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Ecmascript on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,9 +14,9 @@
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/es-modules/</guid>
-      <description>ES Modules    Module system in ECMAScript standard JavaScript.
+      <description> ES Modules Module system in ECMAScript standard JavaScript.
 An example:
-1 2 3 4 5 6 7 8  import { foo } from &amp;#39;first-module&amp;#39;; import * as all from &amp;#39;second-module&amp;#39;; export const SPECIAL_CHAR = &amp;#34;*&amp;#34;; export function anotherFoo() { // ... }   Links     Node.js Docs ES modules: A cartoon deep-dive  </description>
+1 2 3 4 5 6 7 8 import { foo } from &amp;#39;first-module&amp;#39;; import * as all from &amp;#39;second-module&amp;#39;; export const SPECIAL_CHAR = &amp;#34;*&amp;#34;; export function anotherFoo() { // ... } Links Node.js Docs ES modules: A cartoon deep-dive </description>
       
         <type>note</type>
       

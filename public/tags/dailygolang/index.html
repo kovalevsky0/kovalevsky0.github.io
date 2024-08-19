@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Content-Language" content="en">
+  <meta name="color-scheme" content="light dark">
+
+  
+
+  <meta name="author" content="Max Kovalevsky">
+  <meta name="description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+  <meta name="keywords" content="Go,Programming,Blog,Go Programming,Golang,golang playground,golang install,golang tutorial,golangci-lint,golang for loop,golang enum,golang time,golang json,golang generics,golang gin,golang append,golang array,golang assert,golang append to slice,golang anonymous struct,golang atomic,golang atoi,golang array contains,golang api,awesome golang,append golang,array golang,aws lambda golang,anonymous struct golang,atoi golang,assert golang,atomic golang,golang byte array to string,golang bool to string,golang bufio,golang benchmark,golang base64 decode,golang base64,golang books,golang base64 encode,golang blog,brew install golang,byte to string golang,bufio golang,best ide for golang,bool to string golang,buffered channel golang,best golang books,bubble tea golang,bcrypt golang,base64 decode golang,golang context,golang channels,golang cobra,golang convert int to string,golang chi,golang check if file exists,golang constants,golang concurrency,golang copy,golang csv,cobra golang,convert string to int golang,context golang,chi golang,channels in golang,concurrency in golang,const golang,check if file exists golang,create error golang,clean architecture golang,golang download,golang defer,golang docker image,golang docs,golang developer,golang dependency injection,golang dictionary,golang developer jobs,golang delete from map,golang default parameter,download golang,defer golang,docker golang,dependency injection golang,database/sql golang,dockerfile golang,design patterns in golang,do while golang,data types in golang,delete from map golang,golang error,golang echo,golang else if,golang errgroup,golang embed,golang environment variables,golang error handling,golang exec">
+
+
+  
+    <meta name="image" content="/images/default-image.png" />
+  
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Dailygolang">
+  <meta name="twitter:description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+
+  <meta property="og:url" content="http://localhost:1313/tags/dailygolang/">
+  <meta property="og:site_name" content="Learn Go with Max | Golang Courses and Tutorials">
+  <meta property="og:title" content="Dailygolang">
+  <meta property="og:description" content="Learn how to write powerful command-line applications and APIs in Golang. On this website I will teach you how to install golang, brew install golang, how to write golang programs that uses golang map, golang append, golang array, golang slice, golang struct, golang for loop, golang time, golang json, golang assert, golang api, golang bool, golang bufio, golang bytes, golang base64, cobra golang, golang copy, golang concurrency, channels in golang, const golang, bool to golang, buffered channel golang, bufio golang, byte to string golang. On this website you can find golang tutorial and list of golang books, best golang books.">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+
+
+  <title>
+    Dailygolang
+  </title>
+
+  
+    <link rel="canonical" href="http://localhost:1313/tags/dailygolang/">
+  
+
+  
+    <link rel="webmention" href="https://webmention.io/kovalevsky.io/webmention" />
+    <link rel="pingback" href="https://webmention.io/kovalevsky.io/xmlrpc" />
+  
+
+  <link rel="preload" href="/fonts/forkawesome-webfont.woff2?v=1.2.0" as="font" type="font/woff2" crossorigin>
+
+  
+    
+    
+    <link rel="stylesheet" href="/css/byte.css" media="screen">
+  
+
+  
+
+  
+    
+      
+      
+      <link rel="stylesheet" href="/css/byte-dark.css" media="screen">
+    
+  
+
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/images/favicon.png" sizes="16x16">
+
+  <link rel="apple-touch-icon" href="/images/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
+
+  <link rel="alternate" type="application/rss+xml" href="/tags/dailygolang/index.xml" title="Learn Go with Max | Golang Courses and Tutorials" />
+  
+
+  <script src="https://f.convertkit.com/ckjs/ck.5.js"></script>
+
+  <meta name="generator" content="Hugo 0.127.0">
+
+    <script async defer data-domain="kovalevsky.io" src="https://plausible.io/js/plausible.js"></script>
+
+  </head>
+
+  
+  
+    
+  
+  <body class="preload-transitions colorscheme-dark"
+        onload=""
+  >
+    <div class="main-layout">
+      <div>
+        <header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="http://localhost:1313/" class="logo-title u-url">Learn Go with Max</a>
+      
+        <div>
+          <nav class="navbar">
+            
+              
+                <a
+                  class="navbar__link"
+                  href="/">
+                    <i class='fa fa-home color-green'></i>
+                    ~/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/about/">
+                    <i class='fa fa-user color-skyblue'></i>
+                    about.md
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/blog/">
+                    <i class='fa fa-book color-pink'></i>
+                    blog/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/notes/">
+                    <i class='fa fa-archive color-orange'></i>
+                    notes/
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/newsletter/">
+                    <i class='fa fa-newspaper-o color-skyblue'></i>
+                    Newsletter
+                </a>
+              
+                <a
+                  class="navbar__link"
+                  href="/daily-golang/">
+                    <i class='fa fa-newspaper-o color-pink'></i>
+                    Daily_Golang
+                </a>
+              
+            
+          </nav>
+        </div>
+      
+    </div>
+  </div>
+</header>
+
+
+        <main class="container">
+          
+  <div>
+  <br />
+  
+  
+    <nav class="breadcrumbs">
+      <a href="/">Home</a>
+      <span class="splitter">/</span>
+      <a href="/tags">Tags</a>
+      <span class="splitter">/</span>
+      <span>Dailygolang</span>
+    </nav>
+  
+  <div class="page-title">
+    <h1>#Dailygolang</h1>
+  </div>
+  <div>
+    <section>
+        <div class="posts-list">
+          
+            
+            
+<article class="post h-entry">
+  <div class="post__line">
+    <div class="post__line-point">
+      
+      
+    </div>
+    
+    <div class="post__line-content">
+      <div>
+        <time class="dt-published" dateTime=19/08/2024>
+          19/08/2024
+        </time>
+        
+      </div>
+      
+      
+      
+    </div>
+  </div>
+  <div class="post__inner">
+    
+    
+    
+    <div class="post__content ">
+      <header>
+        <a class="u-url" href="/daily-golang-newsletter-report-2024-08-19/">
+          <h4 class="p-name">I curate a daily newsletter with resources about Golang - Daily Golang. Here are the latest 6 issues of the newsletter</h4>
+        </a>
+      </header>
+      <section>
+        <p class="p-summary">
+          
+            Hello everyone!
+Not a while ago I started to run a daily newsletter with resources (blog posts, …
+          
+          <a class="post__read-more" href="/daily-golang-newsletter-report-2024-08-19/">Read more</a>
+        </p>
+        
+          <div class="post-tags"><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/go/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #go
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/golang/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #golang
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/newsletter/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #newsletter
+      </a>
+    </div><div class="post-tags__tag">
+      <a class="post-tag p-category" href="/tags/dailygolang/">
+        <i aria-hidden="true" class="fa fa-tag"></i>
+        #dailygolang
+      </a>
+    </div></div>
+
+        
+      </section>
+    </div>
+  </div>
+  
+</article>
+
+
+          
+      </div>
+      
+
+
+
+
+
+
+    </section>
+  </div>
+</div>
+
+
+        </main>
+      </div>
+
+        
+  <footer class="footer">
+    <section class="container">
+      <div class="footer__inner">
+        <div>
+          
+            ©
+             Max Kovalevsky 
+            2024
+          
+        </div>
+        
+          <div>
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/previous">←</a>
+            An IndieWeb Webring 🕸💍
+            <a href="https://xn--sr8hvo.ws/%F0%9F%9A%A7%F0%9F%8D%9D%F0%9F%92%90/next">→</a>
+          </div>
+        
+        
+        <div>
+          
+            Powered by <a href="https://gohugo.io/">Hugo</a>
+          
+          
+        </div>
+      </div>
+    </section>
+  </footer>
+
+
+    </div>
+
+    
+      
+      <script src="/js/byte.js"></script>
+    
+
+    
+      
+      <script src="/js/subscription.js"></script>
+    
+
+    
+      
+      <script src="/js/subscribers-counter.js"></script>
+    
+
+    
+
+    
+  
+
+
+
+    
+
+    
+
+    
+
+    
+
+    
+  </body>
+
+</html>

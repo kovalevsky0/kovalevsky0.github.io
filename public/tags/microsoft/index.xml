@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>microsoft on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Microsoft on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/microsoft/</link>
-    <description>Recent content in microsoft on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Microsoft on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/fluent-ui-web/</guid>
-      <description>Fluent UI Web     React components library Written in TypeScript Developed by Microsoft team  </description>
+      <description> Fluent UI Web React components library Written in TypeScript Developed by Microsoft team </description>
       
         <type>note</type>
       
@@ -28,7 +28,7 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/microsoft/</guid>
-      <description>Microsoft     An American international big tech company  Links     Official website (microsoft.com) github.com/microsoft  </description>
+      <description> Microsoft An American international big tech company Links Official website (microsoft.com) github.com/microsoft </description>
       
         <type>note</type>
       
@@ -42,8 +42,8 @@
       <pubDate>Wed, 05 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/visual-studio-code/</guid>
-      <description>Visual Studio Code    Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
-Links     code.visualstudio.com GitHub  </description>
+      <description> Visual Studio Code Visual Studio Code (or VSCode) is source code editor developed by Microsoft and open source community. It is one of the most popular editor/IDE. It has built-in support for JavaScript, TypeScript and Node but it also can be extended to work with other programming languages and technologies.
+Links code.visualstudio.com GitHub </description>
       
         <type>note</type>
       
@@ -57,8 +57,8 @@ Links     code.visualstudio.com GitHub  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/microsoft-mvp/</guid>
-      <description>Microsoft MVP    Microsoft Most Valuable Professional
-Links     https://mvp.microsoft.com/en-US/Nomination/nominate-an-mvp  </description>
+      <description> Microsoft MVP Microsoft Most Valuable Professional
+Links https://mvp.microsoft.com/en-US/Nomination/nominate-an-mvp </description>
       
         <type>note</type>
       

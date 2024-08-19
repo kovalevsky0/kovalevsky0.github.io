@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>newsletters on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Newsletters on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/newsletters/</link>
-    <description>Recent content in newsletters on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Newsletters on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Tue, 26 Apr 2022 12:38:13 +0000</pubDate>
       
       <guid>https://kovalevsky.io/newsletters/</guid>
-      <description>Newsletters     https://sifted.eu/newsletter   </description>
+      <description> Newsletters https://sifted.eu/newsletter </description>
       
         <type>note</type>
       

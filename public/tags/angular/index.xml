@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>angular on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Angular on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/angular/</link>
-    <description>Recent content in angular on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Angular on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,8 +14,8 @@
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/angular/</guid>
-      <description>Angular    A TypeScript framework for building Front End web applications.
-Links     angular.io GitHub  </description>
+      <description> Angular A TypeScript framework for building Front End web applications.
+Links angular.io GitHub </description>
       
         <type>note</type>
       

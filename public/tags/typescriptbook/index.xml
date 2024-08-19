@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>typescriptbook on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Typescriptbook on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/typescriptbook/</link>
-    <description>Recent content in typescriptbook on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Typescriptbook on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -129,7 +129,7 @@ The thing is that TypeScript is provided with a special program, tool - compiler
       <guid>https://kovalevsky.io/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
       <description>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&amp;rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
 First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
-1  npm i -g typescript   I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
+1 npm i -g typescript I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
       
         
             <type>blog post</type>
@@ -162,7 +162,7 @@ Let&amp;rsquo;s create a simple example with TypeScript code. Create a folder wi
       <pubDate>Mon, 10 May 2021 21:10:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/detecting-errors-before-running-code-with-typescript/</guid>
-      <description>The problem    In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
+      <description>The problem In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
 We need to know how to start using TypeScript in our JavaScript project. In examples of this post series, I will use mostly code that written in Node environment. It won&amp;rsquo;t be any specific code that is understandable for only developers who worked with Node before.</description>
       
         
@@ -179,7 +179,7 @@ We need to know how to start using TypeScript in our JavaScript project. In exam
       <pubDate>Sat, 08 May 2021 19:50:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/typescript-what-is-all-about-and-why-should-you-use-it/</guid>
-      <description>What is TypeScript?    TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
+      <description>What is TypeScript? TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
 What&amp;rsquo;s the purpose of this language? TypeScript brings to developers some features that help to write code on JavaScript easier and safer. One of the most important features that TypeScript provides is Static typing.</description>
       
         

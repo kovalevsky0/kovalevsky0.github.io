@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>interview on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Interview on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/interview/</link>
-    <description>Recent content in interview on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Interview on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,8 +14,8 @@
       <pubDate>Fri, 08 Oct 2021 13:38:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/software-engs-interview-preparation/</guid>
-      <description>Software Engs Interview Preparation    Everything about coding interview, solving problems, algorithms and data structures, system design, etc.
-Links     Daily Coding Problem LeetCode AlgoExpert https://thedailybyte.dev https://binarysearch.com https://resumeworded.com https://bigfrontend.dev  </description>
+      <description> Software Engs Interview Preparation Everything about coding interview, solving problems, algorithms and data structures, system design, etc.
+Links Daily Coding Problem LeetCode AlgoExpert https://thedailybyte.dev https://binarysearch.com https://resumeworded.com https://bigfrontend.dev </description>
       
         <type>note</type>
       

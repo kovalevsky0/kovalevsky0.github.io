@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nextjs on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Nextjs on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/nextjs/</link>
-    <description>Recent content in nextjs on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Nextjs on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,8 +14,8 @@
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/next.js/</guid>
-      <description>Next.js    Next.js is a React full stack framework. It provides an ability to develop applications with server-side rendering and also can be used as a Static Site Generator.
-Creating a Next.js application (with TypeScript)    For creating a Next.js application you need install Node and npm on your machine. if you didn&amp;rsquo;t do it before check out the post How To Install or Update Node by Using nvm (Node Version Manager).</description>
+      <description>Next.js Next.js is a React full stack framework. It provides an ability to develop applications with server-side rendering and also can be used as a Static Site Generator.
+Creating a Next.js application (with TypeScript) For creating a Next.js application you need install Node and npm on your machine. if you didn&amp;rsquo;t do it before check out the post How To Install or Update Node by Using nvm (Node Version Manager).</description>
       
         
             <type>note</type>

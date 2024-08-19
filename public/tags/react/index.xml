@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>react on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>React on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/react/</link>
-    <description>Recent content in react on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in React on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/fluent-ui-web/</guid>
-      <description>Fluent UI Web     React components library Written in TypeScript Developed by Microsoft team  </description>
+      <description> Fluent UI Web React components library Written in TypeScript Developed by Microsoft team </description>
       
         <type>note</type>
       
@@ -28,8 +28,8 @@
       <pubDate>Sun, 27 Jun 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/next.js/</guid>
-      <description>Next.js    Next.js is a React full stack framework. It provides an ability to develop applications with server-side rendering and also can be used as a Static Site Generator.
-Creating a Next.js application (with TypeScript)    For creating a Next.js application you need install Node and npm on your machine. if you didn&amp;rsquo;t do it before check out the post How To Install or Update Node by Using nvm (Node Version Manager).</description>
+      <description>Next.js Next.js is a React full stack framework. It provides an ability to develop applications with server-side rendering and also can be used as a Static Site Generator.
+Creating a Next.js application (with TypeScript) For creating a Next.js application you need install Node and npm on your machine. if you didn&amp;rsquo;t do it before check out the post How To Install or Update Node by Using nvm (Node Version Manager).</description>
       
         
             <type>note</type>
@@ -45,9 +45,9 @@ Creating a Next.js application (with TypeScript)    For creating a Next.js appli
       <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/create-react-app/</guid>
-      <description>create-react-app    It is a command-line interface that provides an ability to create simple React application as a starting point of creating the application that you need.
-Usage    Quick start
-1 2 3  npx create-react-app my-app cd my-app npm start   Links     create-react-app.dev GitHub  </description>
+      <description> create-react-app It is a command-line interface that provides an ability to create simple React application as a starting point of creating the application that you need.
+Usage Quick start
+1 2 3 npx create-react-app my-app cd my-app npm start Links create-react-app.dev GitHub </description>
       
         <type>note</type>
       
@@ -78,8 +78,8 @@ Because I work mostly with TypeScript and React ecosystems, I will refer to tool
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/react/</guid>
-      <description>React    React is a JavaScript library for building user interface.
-Links     GitHub repo (facebook/react) Official website (reactjs.org)  </description>
+      <description> React React is a JavaScript library for building user interface.
+Links GitHub repo (facebook/react) Official website (reactjs.org) </description>
       
         <type>note</type>
       
@@ -93,8 +93,8 @@ Links     GitHub repo (facebook/react) Official website (reactjs.org)  </descrip
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/react-router/</guid>
-      <description>React Router    A library (or package) for React that provides an ability to specify routing in your React application in a declarative style.
-Links     GitHub reactrouter.com  </description>
+      <description> React Router A library (or package) for React that provides an ability to specify routing in your React application in a declarative style.
+Links GitHub reactrouter.com </description>
       
         <type>note</type>
       

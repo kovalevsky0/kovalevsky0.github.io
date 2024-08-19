@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>monorepo on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Monorepo on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/monorepo/</link>
-    <description>Recent content in monorepo on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Monorepo on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://kovalevsky.io/tags/monorepo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/lerna.js/</guid>
-      <description>Lerna.js     A tool that provides an ability to manage JavaScript with multiple packages JavaScript Monorepo manager  Links     lerna.js.org GitHub  </description>
+      <description> Lerna.js A tool that provides an ability to manage JavaScript with multiple packages JavaScript Monorepo manager Links lerna.js.org GitHub </description>
       
         <type>note</type>
       
@@ -27,7 +27,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/monorepo/</guid>
-      <description>Monorepo     Monorepo is a way or strategy of managing a large project that consists of many packages or modules in one repository You have one repository with bunch of packages/modules instead of system &amp;ldquo;one package = one repository&amp;rdquo; An example of the project that is monorepo - Babel  If you open Babel on GitHub you will see a folder called packages that contains all packages of Babel project  In not monorepo system each of these packages would be in a separate repository     Pros:  You can provide cross-changes in a several packages faster and easily  It is possible to create a one pull/merge request with changes in a several packages   Managing different versions of packages and dependencies Deploying all packages at the same time Using the same build system for many packages   Cons:  Most of the tools for managing monorepo are hard to implementing or they bring a lot of unnecessary abstractions    Technologies and tools     Yarn Workspaces Lerna.</description>
+      <description>Monorepo Monorepo is a way or strategy of managing a large project that consists of many packages or modules in one repository You have one repository with bunch of packages/modules instead of system &amp;ldquo;one package = one repository&amp;rdquo; An example of the project that is monorepo - Babel If you open Babel on GitHub you will see a folder called packages that contains all packages of Babel project In not monorepo system each of these packages would be in a separate repository Pros: You can provide cross-changes in a several packages faster and easily It is possible to create a one pull/merge request with changes in a several packages Managing different versions of packages and dependencies Deploying all packages at the same time Using the same build system for many packages Cons: Most of the tools for managing monorepo are hard to implementing or they bring a lot of unnecessary abstractions Technologies and tools Yarn Workspaces Lerna.</description>
       
         <type>note</type>
       
@@ -41,8 +41,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/rush-stack/</guid>
-      <description>Rush Stack    Tools for managing TypeScript monorepos
-Projects     Rush.js  Links     GitHub rushstack.io  </description>
+      <description> Rush Stack Tools for managing TypeScript monorepos
+Projects Rush.js Links GitHub rushstack.io </description>
       
         <type>note</type>
       
@@ -56,7 +56,7 @@ Projects     Rush.js  Links     GitHub rushstack.io  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/rush.js/</guid>
-      <description>Rush.js     A TypeScript Monorepo manager Part of the Rush Stack  Links     rushjs.io  </description>
+      <description> Rush.js A TypeScript Monorepo manager Part of the Rush Stack Links rushjs.io </description>
       
         <type>note</type>
       

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>node on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Node on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/node/</link>
-    <description>Recent content in node on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Node on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,9 +14,9 @@
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/commonjs-modules/</guid>
-      <description>CommonJS Modules    Module system for JavaScript that uses in Node.
+      <description> CommonJS Modules Module system for JavaScript that uses in Node.
 The syntax:
-1 2 3 4 5 6 7  const fs = require(&amp;#39;fs&amp;#39;); function foo() { // ... } exports.foo = foo;   Links     Node.js Docs Wikipedia  </description>
+1 2 3 4 5 6 7 const fs = require(&amp;#39;fs&amp;#39;); function foo() { // ... } exports.foo = foo; Links Node.js Docs Wikipedia </description>
       
         <type>note</type>
       
@@ -32,7 +32,7 @@ The syntax:
       <guid>https://kovalevsky.io/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
       <description>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&amp;rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
 First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
-1  npm i -g typescript   I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
+1 npm i -g typescript I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
       
         
             <type>blog post</type>
@@ -48,8 +48,8 @@ First of all, you need to install TypeScript on your computer. Install it by npm
       <pubDate>Wed, 12 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/nodemon/</guid>
-      <description>nodemon    nodemon is a tool that restarts your Node application when some file changes. It really helps in developing because you don&amp;rsquo;t need to re-run Node if you change code in your application.
-Links     GitHub nodemon.io  </description>
+      <description> nodemon nodemon is a tool that restarts your Node application when some file changes. It really helps in developing because you don&amp;rsquo;t need to re-run Node if you change code in your application.
+Links GitHub nodemon.io </description>
       
         <type>note</type>
       
@@ -63,12 +63,12 @@ Links     GitHub nodemon.io  </description>
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/ts-node/</guid>
-      <description>ts-node    A tool that executes a Node program that is written in TypeScript
+      <description>ts-node A tool that executes a Node program that is written in TypeScript
 Basically, instead of using this command every time:
-1  tsc index.ts &amp;amp;&amp;amp; node index.js   you can use this tool.
-Installing and Usage    Install it globally by npm:
-1  npm install -g ts-node   Create a file add.ts with simple TypeScript code:
-1 2 3 4 5  function add(a: number, b: number): number { return a + b; } console.</description>
+1 tsc index.ts &amp;amp;&amp;amp; node index.js you can use this tool.
+Installing and Usage Install it globally by npm:
+1 npm install -g ts-node Create a file add.ts with simple TypeScript code:
+1 2 3 4 5 function add(a: number, b: number): number { return a + b; } console.</description>
       
         <type>note</type>
       
@@ -82,7 +82,8 @@ Installing and Usage    Install it globally by npm:
       <pubDate>Sun, 09 May 2021 21:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/how-to-install-or-update-node-by-using-nvm/</guid>
-      <description>Intro    There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.</description>
+      <description>Intro There are few ways to install Node on your local machine. The most popular way is to install it following official website instructions. But if you use this way you will install just one specific (latest) version of Node. What if you need to install a specific version of Node? Or you need to upgrade from one version to another but only for a short while.
+For that purpose, you can use a tool called nvm (Node Version Manager).</description>
       
         
             <type>blog post</type>
@@ -98,9 +99,9 @@ Installing and Usage    Install it globally by npm:
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/fish-nvm/</guid>
-      <description>fish-nvm    Node Version Manager wrapper for Fish Shell.
-Installation    Using Fisher (Fish Shell Plugin Manager):
-1  fisher install FabioAntunes/fish-nvm edc/bass   Links     GitHub  </description>
+      <description> fish-nvm Node Version Manager wrapper for Fish Shell.
+Installation Using Fisher (Fish Shell Plugin Manager):
+1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
       
         <type>note</type>
       
@@ -114,8 +115,8 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/node-version-manager/</guid>
-      <description>Node Version Manager    A tool that provides an ability to install Node on specific version on your local machine. Also you can upgrade or downgrade versions.
- GitHub  </description>
+      <description> Node Version Manager A tool that provides an ability to install Node on specific version on your local machine. Also you can upgrade or downgrade versions.
+GitHub </description>
       
         <type>note</type>
       
@@ -129,8 +130,8 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/playwright/</guid>
-      <description>Playwright    Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
-Links     GitHub playwright.dev  </description>
+      <description> Playwright Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
+Links GitHub playwright.dev </description>
       
         <type>note</type>
       
@@ -144,8 +145,8 @@ Links     GitHub playwright.dev  </description>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/ava.js/</guid>
-      <description>ava.js    Ava is a JavaScript test runner for Node
-Links     GitHub repo  </description>
+      <description> ava.js Ava is a JavaScript test runner for Node
+Links GitHub repo </description>
       
         <type>note</type>
       
@@ -159,7 +160,7 @@ Links     GitHub repo  </description>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/browser-object-model/</guid>
-      <description>Browser Object Model     BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document  Examples     Window.navigator (MDN Web Docs)  </description>
+      <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
       
         <type>note</type>
       
@@ -173,8 +174,8 @@ Links     GitHub repo  </description>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/jsdom/</guid>
-      <description>JSDOM    JSDOM is a JavaScript implementation of Document Object Model and Browser Object Model for Node
-Links     GitHub repo  </description>
+      <description> JSDOM JSDOM is a JavaScript implementation of Document Object Model and Browser Object Model for Node
+Links GitHub repo </description>
       
         <type>note</type>
       
@@ -188,8 +189,8 @@ Links     GitHub repo  </description>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/mocha.js/</guid>
-      <description>mocha.js    Mocha is a JavaScript test framework running on Node
-Links     mochajs.org  </description>
+      <description> mocha.js Mocha is a JavaScript test framework running on Node
+Links mochajs.org </description>
       
         <type>note</type>
       
@@ -203,8 +204,8 @@ Links     mochajs.org  </description>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/rewire/</guid>
-      <description>Rewire    The library that provides the ability to do monkey-patching
-Links     GitHub repo  </description>
+      <description> Rewire The library that provides the ability to do monkey-patching
+Links GitHub repo </description>
       
         <type>note</type>
       
@@ -218,8 +219,8 @@ Links     GitHub repo  </description>
       <pubDate>Sun, 13 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/node/</guid>
-      <description>Node.js    Node.js is a JavaScript runtime that is based on Chrome&amp;rsquo;s V8 Engine
-Links     GitHub repo (nodejs/node) Official website (nodejs.org)  </description>
+      <description> Node.js Node.js is a JavaScript runtime that is based on Chrome&amp;rsquo;s V8 Engine
+Links GitHub repo (nodejs/node) Official website (nodejs.org) </description>
       
         <type>note</type>
       

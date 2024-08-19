@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>graphql on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Graphql on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/graphql/</link>
-    <description>Recent content in graphql on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Graphql on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,10 +14,10 @@
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/basic-example-of-graphql-in-gatsbyjs/</guid>
-      <description>Basic example of GraphQL in GatsbyJS    GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
+      <description>Basic example of GraphQL in GatsbyJS GraphQL editor is available in your local GatsbyJS app on http://localhost:8000/__graphql
 In the editor you can write a query and you will get information from API&amp;rsquo;s that based on this written query
 Example
-1 2 3 4 5  {site{}}  site is like an object/schema that contains some information about your website. For example, it contains information about siteMetadata (that you configured in gatsby-config.</description>
+1 2 3 4 5 { site { } } site is like an object/schema that contains some information about your website. For example, it contains information about siteMetadata (that you configured in gatsby-config.</description>
       
         <type>note</type>
       
@@ -31,8 +31,8 @@ Example
       <pubDate>Wed, 16 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/graphql/</guid>
-      <description>GraphQL    GraphQL is a data query and specific language for APIs
-Links     GraphQL spec (GitHub)  Examples of using GraphQL     Basic example of GraphQL in GatsbyJS  </description>
+      <description> GraphQL GraphQL is a data query and specific language for APIs
+Links GraphQL spec (GitHub) Examples of using GraphQL Basic example of GraphQL in GatsbyJS </description>
       
         <type>note</type>
       

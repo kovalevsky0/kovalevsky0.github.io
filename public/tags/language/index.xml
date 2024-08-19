@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>language on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Language on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/language/</link>
-    <description>Recent content in language on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Language on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,7 +14,7 @@
       <pubDate>Fri, 11 Mar 2022 13:56:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/languagetool/</guid>
-      <description>LanguageTool     LanguageTool’s multilingual grammar, style, and spell checker An alternative to Grammarly  Links     languagetool.org  </description>
+      <description> LanguageTool LanguageTool’s multilingual grammar, style, and spell checker An alternative to Grammarly Links languagetool.org </description>
       
         <type>note</type>
       

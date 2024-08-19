@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fishshell on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Fishshell on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/fishshell/</link>
-    <description>Recent content in fishshell on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Fishshell on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,9 +14,9 @@
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/fish-nvm/</guid>
-      <description>fish-nvm    Node Version Manager wrapper for Fish Shell.
-Installation    Using Fisher (Fish Shell Plugin Manager):
-1  fisher install FabioAntunes/fish-nvm edc/bass   Links     GitHub  </description>
+      <description> fish-nvm Node Version Manager wrapper for Fish Shell.
+Installation Using Fisher (Fish Shell Plugin Manager):
+1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
       
         <type>note</type>
       
@@ -30,8 +30,8 @@ Installation    Using Fisher (Fish Shell Plugin Manager):
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/fisher-fish-shell-plugin-manager/</guid>
-      <description>Fisher (Fish Shell Plugin Manager)    A plugin manager for Fish Shell.
-Links     GitHub  </description>
+      <description> Fisher (Fish Shell Plugin Manager) A plugin manager for Fish Shell.
+Links GitHub </description>
       
         <type>note</type>
       

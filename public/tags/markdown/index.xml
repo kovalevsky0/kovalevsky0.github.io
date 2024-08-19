@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>markdown on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Markdown on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/markdown/</link>
-    <description>Recent content in markdown on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Markdown on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -14,9 +14,9 @@
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/markdown/</guid>
-      <description>Markdown    Specific format of plain text.
+      <description> Markdown Specific format of plain text.
 Links:
- Markdown Syntax on GitHub  </description>
+Markdown Syntax on GitHub </description>
       
         <type>note</type>
       
@@ -30,9 +30,9 @@ Links:
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/obsidian/</guid>
-      <description>💎 Obsidian    Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
+      <description> 💎 Obsidian Obsidian is an app that I&amp;rsquo;m using for taking notes. It&amp;rsquo;s an editor of markdown files with some specific features like graph view, bidirectional links, and others.
 Here is all information and materials about Obdisian
-Useful links    📹 YT Channels     Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours  👤 Communities &amp;amp; Socials     Twitter Discord Forum /r/ObsidianMD/  Plugins     [[Obsidian Dataview]]  </description>
+Useful links 📹 YT Channels Effective Remote Work Linking Your Thinking Bryan Jenks Obsidian Office Hours 👤 Communities &amp;amp; Socials Twitter Discord Forum /r/ObsidianMD/ Plugins [[Obsidian Dataview]] </description>
       
         <type>note</type>
       

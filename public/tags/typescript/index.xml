@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>typescript on Learn Go with Max | Golang Courses and Tutorials</title>
+    <title>Typescript on Learn Go with Max | Golang Courses and Tutorials</title>
     <link>https://kovalevsky.io/tags/typescript/</link>
-    <description>Recent content in typescript on Learn Go with Max | Golang Courses and Tutorials</description>
+    <description>Recent content in Typescript on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -94,7 +94,7 @@
       <pubDate>Thu, 08 Jul 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/fluent-ui-web/</guid>
-      <description>Fluent UI Web     React components library Written in TypeScript Developed by Microsoft team  </description>
+      <description> Fluent UI Web React components library Written in TypeScript Developed by Microsoft team </description>
       
         <type>note</type>
       
@@ -141,8 +141,8 @@ The thing is that TypeScript is provided with a special program, tool - compiler
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/angular/</guid>
-      <description>Angular    A TypeScript framework for building Front End web applications.
-Links     angular.io GitHub  </description>
+      <description> Angular A TypeScript framework for building Front End web applications.
+Links angular.io GitHub </description>
       
         <type>note</type>
       
@@ -156,9 +156,9 @@ Links     angular.io GitHub  </description>
       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/es-modules/</guid>
-      <description>ES Modules    Module system in ECMAScript standard JavaScript.
+      <description> ES Modules Module system in ECMAScript standard JavaScript.
 An example:
-1 2 3 4 5 6 7 8  import { foo } from &amp;#39;first-module&amp;#39;; import * as all from &amp;#39;second-module&amp;#39;; export const SPECIAL_CHAR = &amp;#34;*&amp;#34;; export function anotherFoo() { // ... }   Links     Node.js Docs ES modules: A cartoon deep-dive  </description>
+1 2 3 4 5 6 7 8 import { foo } from &amp;#39;first-module&amp;#39;; import * as all from &amp;#39;second-module&amp;#39;; export const SPECIAL_CHAR = &amp;#34;*&amp;#34;; export function anotherFoo() { // ... } Links Node.js Docs ES modules: A cartoon deep-dive </description>
       
         <type>note</type>
       
@@ -174,7 +174,7 @@ An example:
       <guid>https://kovalevsky.io/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</guid>
       <description>In this post, we will learn how to set up a Node project with TypeScript. It is not based on any framework or library like Fastify, Express, Nest, etc. Let&amp;rsquo;s say you wanna build just a command-line application by using TypeScript and Node.
 First of all, you need to install TypeScript on your computer. Install it by npm or Yarn globally.
-1  npm i -g typescript   I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
+1 npm i -g typescript I&amp;rsquo;m sure you already installed Node on your computer but maybe you need to update your version.</description>
       
         
             <type>blog post</type>
@@ -207,12 +207,12 @@ Let&amp;rsquo;s create a simple example with TypeScript code. Create a folder wi
       <pubDate>Tue, 11 May 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/ts-node/</guid>
-      <description>ts-node    A tool that executes a Node program that is written in TypeScript
+      <description>ts-node A tool that executes a Node program that is written in TypeScript
 Basically, instead of using this command every time:
-1  tsc index.ts &amp;amp;&amp;amp; node index.js   you can use this tool.
-Installing and Usage    Install it globally by npm:
-1  npm install -g ts-node   Create a file add.ts with simple TypeScript code:
-1 2 3 4 5  function add(a: number, b: number): number { return a + b; } console.</description>
+1 tsc index.ts &amp;amp;&amp;amp; node index.js you can use this tool.
+Installing and Usage Install it globally by npm:
+1 npm install -g ts-node Create a file add.ts with simple TypeScript code:
+1 2 3 4 5 function add(a: number, b: number): number { return a + b; } console.</description>
       
         <type>note</type>
       
@@ -226,7 +226,7 @@ Installing and Usage    Install it globally by npm:
       <pubDate>Mon, 10 May 2021 21:10:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/detecting-errors-before-running-code-with-typescript/</guid>
-      <description>The problem    In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
+      <description>The problem In the previous post we talked about what is TypeScript and why should we use that. Now it&amp;rsquo;s time to go to practice.
 We need to know how to start using TypeScript in our JavaScript project. In examples of this post series, I will use mostly code that written in Node environment. It won&amp;rsquo;t be any specific code that is understandable for only developers who worked with Node before.</description>
       
         
@@ -243,7 +243,7 @@ We need to know how to start using TypeScript in our JavaScript project. In exam
       <pubDate>Sat, 08 May 2021 19:50:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/typescript-what-is-all-about-and-why-should-you-use-it/</guid>
-      <description>What is TypeScript?    TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
+      <description>What is TypeScript? TypeScript is a JavaScript Superset. It means that TypeScript is a language that is built upon JavaScript. It is based on JavaScript syntax, constructions, advantages (and disadvantages) but it also brings new features, syntax, and capabilities.
 What&amp;rsquo;s the purpose of this language? TypeScript brings to developers some features that help to write code on JavaScript easier and safer. One of the most important features that TypeScript provides is Static typing.</description>
       
         
@@ -277,8 +277,8 @@ Because I work mostly with TypeScript and React ecosystems, I will refer to tool
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/playwright/</guid>
-      <description>Playwright    Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
-Links     GitHub playwright.dev  </description>
+      <description> Playwright Playwright is Node library that provides ability to write End-to-End tests and automate Chromium, Firefox and WebKit with a single API.
+Links GitHub playwright.dev </description>
       
         <type>note</type>
       
@@ -292,9 +292,9 @@ Links     GitHub playwright.dev  </description>
       <pubDate>Sun, 27 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/typescript/</guid>
-      <description>TypeScript    TypeScript is a superset of JavaScript that provides you to write JavaScript code with static typing (optionally).
+      <description> TypeScript TypeScript is a superset of JavaScript that provides you to write JavaScript code with static typing (optionally).
 Interesting projects:
- type-challenges  Links     GitHub repo (Microsoft/TypeScript) Official website (typescriptlang.org)  Core Types     number  example: 0, 1, 2.5   string  example: &amp;ldquo;str1&amp;rdquo;, &amp;lsquo;str2&amp;rsquo;, `str3`   boolean  example: true, false    </description>
+type-challenges Links GitHub repo (Microsoft/TypeScript) Official website (typescriptlang.org) Core Types number example: 0, 1, 2.5 string example: &amp;ldquo;str1&amp;rdquo;, &amp;lsquo;str2&amp;rsquo;, `str3` boolean example: true, false </description>
       
         <type>note</type>
       
@@ -308,9 +308,10 @@ Interesting projects:
       <pubDate>Thu, 17 Dec 2020 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/how-to-set-up-gatsbyjs-with-typescript/</guid>
-      <description>How to set up GatsbyJS with TypeScript    First things    Install TypeScript as dependency:
- npm:  1  npm i typescript --save-dev    yarn  1  yarn add typescript -D   After installing, you should initialize TypeScript project by generating tsconfig.json file
-1  tsc --init   Because in GatsbyJS you are using React components that includes JSX you should set specific parameter in tsconfig.</description>
+      <description>How to set up GatsbyJS with TypeScript First things Install TypeScript as dependency:
+npm: 1 npm i typescript --save-dev yarn 1 yarn add typescript -D After installing, you should initialize TypeScript project by generating tsconfig.json file
+1 tsc --init Because in GatsbyJS you are using React components that includes JSX you should set specific parameter in tsconfig.json:
+1 2 3 4 5 6 { &amp;#34;compilerOptions&amp;#34;: { .... &amp;#34;jsx&amp;#34;: &amp;#34;react&amp;#34;, } } If you want to use TypeScript for your src/ files you can easily just rename all files in src/ from .</description>
       
         <type>note</type>
       
@@ -324,7 +325,7 @@ Interesting projects:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/mini-typescript/</guid>
-      <description>mini-typescript     A project on GitHub that can be described as &amp;ldquo;mini version of TypeScript compiler&amp;rdquo; The goal of this project is &amp;ldquo;to teach the structure of the real Typescript compiler&amp;rdquo;.  Links     sandersn/mini-typescript (GitHub)  </description>
+      <description> mini-typescript A project on GitHub that can be described as &amp;ldquo;mini version of TypeScript compiler&amp;rdquo; The goal of this project is &amp;ldquo;to teach the structure of the real Typescript compiler&amp;rdquo;. Links sandersn/mini-typescript (GitHub) </description>
       
         <type>note</type>
       
@@ -338,8 +339,8 @@ Interesting projects:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/rush-stack/</guid>
-      <description>Rush Stack    Tools for managing TypeScript monorepos
-Projects     Rush.js  Links     GitHub rushstack.io  </description>
+      <description> Rush Stack Tools for managing TypeScript monorepos
+Projects Rush.js Links GitHub rushstack.io </description>
       
         <type>note</type>
       
@@ -353,7 +354,7 @@ Projects     Rush.js  Links     GitHub rushstack.io  </description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://kovalevsky.io/rush.js/</guid>
-      <description>Rush.js     A TypeScript Monorepo manager Part of the Rush Stack  Links     rushjs.io  </description>
+      <description> Rush.js A TypeScript Monorepo manager Part of the Rush Stack Links rushjs.io </description>
       
         <type>note</type>
       
