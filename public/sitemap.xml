@@ -2,8 +2,29 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://kovalevsky.io/tags/dailygolang/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/go/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/golang/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
     <loc>https://kovalevsky.io/</loc>
     <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/newsletter/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/</loc>
+    <lastmod>2024-08-19T10:31:32+02:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-issue-6/</loc>
+    <lastmod>2024-08-19T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/daily-golang/</loc>
     <lastmod>2024-08-10T16:11:39+02:00</lastmod>
@@ -15,15 +36,6 @@
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/full-introduction-to-golang-with-test-driven-development-part-1/</loc>
-    <lastmod>2024-03-04T14:01:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kovalevsky.io/tags/go/</loc>
-    <lastmod>2024-03-04T14:01:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kovalevsky.io/tags/golang/</loc>
-    <lastmod>2024-03-04T14:01:10+00:00</lastmod>
-  </url><url>
-    <loc>https://kovalevsky.io/tags/</loc>
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/tags/tdd/</loc>
@@ -189,9 +201,6 @@
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/2-weekly-newsletter/</loc>
-    <lastmod>2021-08-06T12:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kovalevsky.io/tags/newsletter/</loc>
     <lastmod>2021-08-06T12:00:00+00:00</lastmod>
   </url><url>
     <loc>https://kovalevsky.io/1-weekly-newsletter/</loc>
@@ -694,8 +703,6 @@
   </url><url>
     <loc>https://kovalevsky.io/gigital-gardens/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://kovalevsky.io/daily-golang-issue-1/</loc>
   </url><url>
     <loc>https://kovalevsky.io/daily-golang-newsletter-research/</loc>
   </url><url>

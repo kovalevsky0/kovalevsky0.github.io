@@ -9,6 +9,41 @@
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Mon, 19 Aug 2024 10:31:32 +0200</lastBuildDate><atom:link href="https://kovalevsky.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>I curate a daily newsletter with resources about Golang - Daily Golang. Here are the latest 6 issues of the newsletter</title>
+      <link>https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/</link>
+      <pubDate>Mon, 19 Aug 2024 10:31:32 +0200</pubDate>
+      
+      <guid>https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/</guid>
+      <description>Hello everyone!
+Not a while ago I started to run a daily newsletter with resources (blog posts, videos and projects) about Go (Golang) that I found interesting. Here are the latest 6 issues of the newsletter. I hope you will find it useful. Happy coding!
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
+      
+        
+            <type>dailygolang</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Daily Golang Newsletter Issue #6</title>
+      <link>https://kovalevsky.io/daily-golang-newsletter-issue-6/</link>
+      <pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovalevsky.io/daily-golang-newsletter-issue-6/</guid>
+      <description>Daily Golang Issue #6 (2024-08-19) 🔥 This newsletter issue was published 7 days ago in my Daily Golang newsletter. Subscribe to the newsletter to get newsletter issues with best and latest resources about Golang every day in your mailbox.
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
+      
+        
+            <type>dailygolang</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
       <title>Daily Golang | Daily and weekly curated newsletter about Go (Golang)</title>
       <link>https://kovalevsky.io/daily-golang/</link>
       <pubDate>Sat, 10 Aug 2024 16:11:39 +0200</pubDate>
@@ -2340,21 +2375,6 @@ As far as I understand this terminology correctly, it is just another way of wri
 I&amp;rsquo;ve googled this term and wanna explore results.
 Links:
 List of digital gardeners List of Digital Gardens Resources about digital gardens [resources-about-digital-garden] My blog is a digital garden, not a blog </description>
-      
-        <type>note</type>
-      
-      
-      
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://kovalevsky.io/daily-golang-issue-1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://kovalevsky.io/daily-golang-issue-1/</guid>
-      <description>Daily Golang Issue #1 (2024-08-14) Your daily hub for Go news, insights, and projects 🧭 Discoveries Here is the list of discovered interesting blog posts, videos, and projects that are worth checking out.
-📝 Blog Posts Functional programming in Go by John Arundel Connecting to a PostgreSQL database with Go&amp;rsquo;s database/sql package A comprehensive guide on connecting to a PostgreSQL database using Go’s database/sql package. The post walks you through the steps to set up a connection, execute queries, and handle errors.</description>
       
         <type>note</type>
       
