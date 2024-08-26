@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Macos on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>https://kovalevsky.io/tags/macos/</link>
+    <link>http://localhost:1313/tags/macos/</link>
     <description>Recent content in Macos on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/macos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/macos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fish Shell</title>
-      <link>https://kovalevsky.io/fish-shell/</link>
+      <link>http://localhost:1313/fish-shell/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/fish-shell/</guid>
+      <guid>http://localhost:1313/fish-shell/</guid>
       <description> Fish Shell Fish Shell is a smart and user-friendly command line shell for Linux, macOS, and others.
 Links Website (fishshell.com) GitHub </description>
       
@@ -25,10 +25,10 @@ Links Website (fishshell.com) GitHub </description>
     
     <item>
       <title>fish-nvm</title>
-      <link>https://kovalevsky.io/fish-nvm/</link>
+      <link>http://localhost:1313/fish-nvm/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/fish-nvm/</guid>
+      <guid>http://localhost:1313/fish-nvm/</guid>
       <description> fish-nvm Node Version Manager wrapper for Fish Shell.
 Installation Using Fisher (Fish Shell Plugin Manager):
 1 fisher install FabioAntunes/fish-nvm edc/bass Links GitHub </description>
@@ -41,10 +41,10 @@ Installation Using Fisher (Fish Shell Plugin Manager):
     
     <item>
       <title>Fisher (Fish Shell Plugin Manager)</title>
-      <link>https://kovalevsky.io/fisher-fish-shell-plugin-manager/</link>
+      <link>http://localhost:1313/fisher-fish-shell-plugin-manager/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/fisher-fish-shell-plugin-manager/</guid>
+      <guid>http://localhost:1313/fisher-fish-shell-plugin-manager/</guid>
       <description> Fisher (Fish Shell Plugin Manager) A plugin manager for Fish Shell.
 Links GitHub </description>
       
@@ -56,10 +56,10 @@ Links GitHub </description>
     
     <item>
       <title>Homebrew</title>
-      <link>https://kovalevsky.io/homebrew/</link>
+      <link>http://localhost:1313/homebrew/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/homebrew/</guid>
+      <guid>http://localhost:1313/homebrew/</guid>
       <description> Homebrew A package manager for macOS
 Links Website GitHub </description>
       

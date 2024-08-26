@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Puppeteer on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>https://kovalevsky.io/tags/puppeteer/</link>
+    <link>http://localhost:1313/tags/puppeteer/</link>
     <description>Recent content in Puppeteer on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/puppeteer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/puppeteer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Puppeteer</title>
-      <link>https://kovalevsky.io/puppeteer/</link>
+      <link>http://localhost:1313/puppeteer/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/puppeteer/</guid>
+      <guid>http://localhost:1313/puppeteer/</guid>
       <description> Puppeteer Puppeteer is a Node library that provides API to control Chrome-based browser by DevTools protocol.
 Links GitHub pptr.dev </description>
       

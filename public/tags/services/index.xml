@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>https://kovalevsky.io/tags/services/</link>
+    <link>http://localhost:1313/tags/services/</link>
     <description>Recent content in Services on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 30 Mar 2022 14:08:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/services/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 14:08:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Search Engine - Blog Surf</title>
-      <link>https://kovalevsky.io/blog-search-engine---blog-surf/</link>
+      <link>http://localhost:1313/blog-search-engine---blog-surf/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/blog-search-engine---blog-surf/</guid>
+      <guid>http://localhost:1313/blog-search-engine---blog-surf/</guid>
       <description> Blog Search Engine - Blog Surf 🔗 Links blogsurf.io </description>
       
         <type>note</type>
@@ -24,10 +24,10 @@
     
     <item>
       <title>European alternatives for digital products</title>
-      <link>https://kovalevsky.io/european-alternatives-for-digital-products/</link>
+      <link>http://localhost:1313/european-alternatives-for-digital-products/</link>
       <pubDate>Mon, 27 Dec 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/european-alternatives-for-digital-products/</guid>
+      <guid>http://localhost:1313/european-alternatives-for-digital-products/</guid>
       <description> European alternatives for digital products Links european-alternatives.eu </description>
       
         <type>note</type>
@@ -38,10 +38,10 @@
     
     <item>
       <title>Substack</title>
-      <link>https://kovalevsky.io/substack/</link>
+      <link>http://localhost:1313/substack/</link>
       <pubDate>Tue, 08 Dec 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://kovalevsky.io/substack/</guid>
+      <guid>http://localhost:1313/substack/</guid>
       <description>Substack Link
 It is a new service that seems like Twitter and Patreon with email subscription for me</description>
       
