@@ -2,809 +2,815 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/daily-golang-newsletter-issue-7/</loc>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-issue-9/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/dailygolang/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/go/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/golang/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/newsletter/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/tags/</loc>
+    <lastmod>2024-08-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-issue-8/</loc>
+    <lastmod>2024-08-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-issue-7/</loc>
     <lastmod>2024-08-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/dailygolang/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/go/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/golang/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/newsletter/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2024-08-27T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/daily-golang-newsletter-issue-6/</loc>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-issue-6/</loc>
     <lastmod>2024-08-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/daily-golang-newsletter-report-2024-08-19/</loc>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/</loc>
     <lastmod>2024-08-19T10:31:32+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/daily-golang/</loc>
+    <loc>https://kovalevsky.io/daily-golang/</loc>
     <lastmod>2024-08-10T16:11:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newsletter/</loc>
+    <loc>https://kovalevsky.io/newsletter/</loc>
     <lastmod>2024-08-10T16:11:39+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blog/</loc>
+    <loc>https://kovalevsky.io/tags/blog/</loc>
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/full-introduction-to-golang-with-test-driven-development-part-1/</loc>
+    <loc>https://kovalevsky.io/full-introduction-to-golang-with-test-driven-development-part-1/</loc>
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tdd/</loc>
+    <loc>https://kovalevsky.io/tags/tdd/</loc>
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/testing/</loc>
+    <loc>https://kovalevsky.io/tags/testing/</loc>
     <lastmod>2024-03-04T14:01:10+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/links/</loc>
+    <loc>https://kovalevsky.io/links/</loc>
     <lastmod>2022-09-08T02:28:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/cli/</loc>
+    <loc>https://kovalevsky.io/tags/cli/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/linux/</loc>
+    <loc>https://kovalevsky.io/tags/linux/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/list-of-interesting-command-line-interface-tools/</loc>
+    <loc>https://kovalevsky.io/list-of-interesting-command-line-interface-tools/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/terminal/</loc>
+    <loc>https://kovalevsky.io/tags/terminal/</loc>
     <lastmod>2022-08-31T15:41:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/neovim/</loc>
+    <loc>https://kovalevsky.io/tags/neovim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neovim---lsp-setup/</loc>
+    <loc>https://kovalevsky.io/neovim---lsp-setup/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nvim/</loc>
+    <loc>https://kovalevsky.io/tags/nvim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/vim/</loc>
+    <loc>https://kovalevsky.io/tags/vim/</loc>
     <lastmod>2022-08-23T14:10:15+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/docker/</loc>
+    <loc>https://kovalevsky.io/tags/docker/</loc>
     <lastmod>2022-08-14T22:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/docker/</loc>
+    <loc>https://kovalevsky.io/docker/</loc>
     <lastmod>2022-08-14T22:59:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/watch-command/</loc>
+    <loc>https://kovalevsky.io/watch-command/</loc>
     <lastmod>2022-08-13T12:17:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neovim-cool-configs/</loc>
+    <loc>https://kovalevsky.io/neovim-cool-configs/</loc>
     <lastmod>2022-08-08T15:12:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tmux/</loc>
+    <loc>https://kovalevsky.io/tmux/</loc>
     <lastmod>2022-08-02T23:24:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/tmux/</loc>
+    <loc>https://kovalevsky.io/tags/tmux/</loc>
     <lastmod>2022-08-02T23:24:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/lua/</loc>
+    <loc>https://kovalevsky.io/tags/lua/</loc>
     <lastmod>2022-07-23T15:39:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neovim---luasnip/</loc>
+    <loc>https://kovalevsky.io/neovim---luasnip/</loc>
     <lastmod>2022-07-23T15:39:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/link/</loc>
+    <loc>https://kovalevsky.io/tags/link/</loc>
     <lastmod>2022-05-03T14:56:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</loc>
+    <loc>https://kovalevsky.io/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</loc>
     <lastmod>2022-05-03T14:56:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/websites/</loc>
+    <loc>https://kovalevsky.io/tags/websites/</loc>
     <lastmod>2022-05-03T14:56:59+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cool-things-people-do-with-their-blogs/</loc>
+    <loc>https://kovalevsky.io/cool-things-people-do-with-their-blogs/</loc>
     <lastmod>2022-05-02T18:33:25+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/indieweb/</loc>
+    <loc>https://kovalevsky.io/tags/indieweb/</loc>
     <lastmod>2022-05-02T18:33:25+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/blogs/</loc>
+    <loc>https://kovalevsky.io/tags/blogs/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/email/</loc>
+    <loc>https://kovalevsky.io/tags/email/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/newsletters/</loc>
+    <loc>https://kovalevsky.io/tags/newsletters/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/newsletters/</loc>
+    <loc>https://kovalevsky.io/newsletters/</loc>
     <lastmod>2022-04-26T12:38:13+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog-search-engine---blog-surf/</loc>
+    <loc>https://kovalevsky.io/blog-search-engine---blog-surf/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/search/</loc>
+    <loc>https://kovalevsky.io/tags/search/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/services/</loc>
+    <loc>https://kovalevsky.io/tags/services/</loc>
     <lastmod>2022-03-30T14:08:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/apps/</loc>
+    <loc>https://kovalevsky.io/tags/apps/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/language/</loc>
+    <loc>https://kovalevsky.io/tags/language/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/languagetool/</loc>
+    <loc>https://kovalevsky.io/languagetool/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/service/</loc>
+    <loc>https://kovalevsky.io/tags/service/</loc>
     <lastmod>2022-03-11T13:56:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bullet-journal/</loc>
+    <loc>https://kovalevsky.io/bullet-journal/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/journaling/</loc>
+    <loc>https://kovalevsky.io/tags/journaling/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/methodology/</loc>
+    <loc>https://kovalevsky.io/tags/methodology/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/writing/</loc>
+    <loc>https://kovalevsky.io/tags/writing/</loc>
     <lastmod>2022-03-10T06:19:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/indieweb/</loc>
+    <loc>https://kovalevsky.io/indieweb/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/interesting-personal-websites-and-blogs/</loc>
+    <loc>https://kovalevsky.io/interesting-personal-websites-and-blogs/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web/</loc>
+    <loc>https://kovalevsky.io/tags/web/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/website/</loc>
+    <loc>https://kovalevsky.io/tags/website/</loc>
     <lastmod>2022-02-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/european-alternatives-for-digital-products/</loc>
+    <loc>https://kovalevsky.io/european-alternatives-for-digital-products/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/links/</loc>
+    <loc>https://kovalevsky.io/tags/links/</loc>
     <lastmod>2021-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/empty/</loc>
+    <loc>https://kovalevsky.io/empty/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/empty/</loc>
+    <loc>https://kovalevsky.io/tags/empty/</loc>
     <lastmod>2021-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/algorithms/</loc>
+    <loc>https://kovalevsky.io/tags/algorithms/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/faang/</loc>
+    <loc>https://kovalevsky.io/tags/faang/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/interview/</loc>
+    <loc>https://kovalevsky.io/tags/interview/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/software-engs-interview-preparation/</loc>
+    <loc>https://kovalevsky.io/software-engs-interview-preparation/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/solvingproblems/</loc>
+    <loc>https://kovalevsky.io/tags/solvingproblems/</loc>
     <lastmod>2021-10-08T13:38:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/empty/</loc>
+    <loc>https://kovalevsky.io/empty/</loc>
     <lastmod>2021-10-02T15:35:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/empty/</loc>
+    <loc>https://kovalevsky.io/empty/</loc>
     <lastmod>2021-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/2-weekly-newsletter/</loc>
+    <loc>https://kovalevsky.io/2-weekly-newsletter/</loc>
     <lastmod>2021-08-06T12:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/1-weekly-newsletter/</loc>
+    <loc>https://kovalevsky.io/1-weekly-newsletter/</loc>
     <lastmod>2021-07-30T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/how-to-configure-tsconfigjson-typescript-strict-options/</loc>
+    <loc>https://kovalevsky.io/how-to-configure-tsconfigjson-typescript-strict-options/</loc>
     <lastmod>2021-07-29T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/typescript/</loc>
+    <loc>https://kovalevsky.io/tags/typescript/</loc>
     <lastmod>2021-07-29T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/typescriptbook/</loc>
+    <loc>https://kovalevsky.io/tags/typescriptbook/</loc>
     <lastmod>2021-07-29T17:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/javascript/</loc>
+    <loc>https://kovalevsky.io/tags/javascript/</loc>
     <lastmod>2021-07-16T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</loc>
+    <loc>https://kovalevsky.io/what-is-strict-mode-in-typescript-and-why-and-when-you-should-use-it/</loc>
     <lastmod>2021-07-16T04:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fluent-ui-web/</loc>
+    <loc>https://kovalevsky.io/fluent-ui-web/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/microsoft/</loc>
+    <loc>https://kovalevsky.io/tags/microsoft/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/microsoft/</loc>
+    <loc>https://kovalevsky.io/microsoft/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/react/</loc>
+    <loc>https://kovalevsky.io/tags/react/</loc>
     <lastmod>2021-07-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/next.js/</loc>
+    <loc>https://kovalevsky.io/next.js/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/nextjs/</loc>
+    <loc>https://kovalevsky.io/tags/nextjs/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ssg/</loc>
+    <loc>https://kovalevsky.io/tags/ssg/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/static-site-generator/</loc>
+    <loc>https://kovalevsky.io/static-site-generator/</loc>
     <lastmod>2021-06-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/hugo/</loc>
+    <loc>https://kovalevsky.io/tags/hugo/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/hugo-go/</loc>
+    <loc>https://kovalevsky.io/hugo-go/</loc>
     <lastmod>2021-06-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/configuring-typescript-options-rootdir-outdir-module-target/</loc>
+    <loc>https://kovalevsky.io/configuring-typescript-options-rootdir-outdir-module-target/</loc>
     <lastmod>2021-05-18T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/getting-started-using-and-configuring-typescript-compiler/</loc>
+    <loc>https://kovalevsky.io/getting-started-using-and-configuring-typescript-compiler/</loc>
     <lastmod>2021-05-16T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/angular/</loc>
+    <loc>https://kovalevsky.io/tags/angular/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/angular/</loc>
+    <loc>https://kovalevsky.io/angular/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/babel/</loc>
+    <loc>https://kovalevsky.io/babel/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/commonjs-modules/</loc>
+    <loc>https://kovalevsky.io/commonjs-modules/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/ecmascript/</loc>
+    <loc>https://kovalevsky.io/tags/ecmascript/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/es-modules/</loc>
+    <loc>https://kovalevsky.io/es-modules/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/node/</loc>
+    <loc>https://kovalevsky.io/tags/node/</loc>
     <lastmod>2021-05-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</loc>
+    <loc>https://kovalevsky.io/setup-simple-workflow-to-write-node-typescript-application-in-live-reload/</loc>
     <lastmod>2021-05-12T22:10:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/nodemon/</loc>
+    <loc>https://kovalevsky.io/nodemon/</loc>
     <lastmod>2021-05-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/what-are-type-declaration-files-in-typescript/</loc>
+    <loc>https://kovalevsky.io/what-are-type-declaration-files-in-typescript/</loc>
     <lastmod>2021-05-11T20:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ts-node/</loc>
+    <loc>https://kovalevsky.io/ts-node/</loc>
     <lastmod>2021-05-11T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/detecting-errors-before-running-code-with-typescript/</loc>
+    <loc>https://kovalevsky.io/detecting-errors-before-running-code-with-typescript/</loc>
     <lastmod>2021-05-10T21:10:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/how-to-install-or-update-node-by-using-nvm/</loc>
+    <loc>https://kovalevsky.io/how-to-install-or-update-node-by-using-nvm/</loc>
     <lastmod>2021-05-09T21:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/typescript-what-is-all-about-and-why-should-you-use-it/</loc>
+    <loc>https://kovalevsky.io/typescript-what-is-all-about-and-why-should-you-use-it/</loc>
     <lastmod>2021-05-08T19:50:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/bash/</loc>
+    <loc>https://kovalevsky.io/bash/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fish-shell/</loc>
+    <loc>https://kovalevsky.io/fish-shell/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fish-nvm/</loc>
+    <loc>https://kovalevsky.io/fish-nvm/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fisher-fish-shell-plugin-manager/</loc>
+    <loc>https://kovalevsky.io/fisher-fish-shell-plugin-manager/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/fishshell/</loc>
+    <loc>https://kovalevsky.io/tags/fishshell/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/macos/</loc>
+    <loc>https://kovalevsky.io/tags/macos/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/node-version-manager/</loc>
+    <loc>https://kovalevsky.io/node-version-manager/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/prettier/</loc>
+    <loc>https://kovalevsky.io/prettier/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/unix/</loc>
+    <loc>https://kovalevsky.io/tags/unix/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/z-shell/</loc>
+    <loc>https://kovalevsky.io/z-shell/</loc>
     <lastmod>2021-05-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/visual-studio-code/</loc>
+    <loc>https://kovalevsky.io/visual-studio-code/</loc>
     <lastmod>2021-05-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/jest/</loc>
+    <loc>https://kovalevsky.io/tags/jest/</loc>
     <lastmod>2021-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-asynchronous-code-using-jest/</loc>
+    <loc>https://kovalevsky.io/test-asynchronous-code-using-jest/</loc>
     <lastmod>2021-04-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/temporal-dead-zone-in-javascript/</loc>
+    <loc>https://kovalevsky.io/temporal-dead-zone-in-javascript/</loc>
     <lastmod>2021-04-25T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/name-your-mocked-function-with-word-mock/</loc>
+    <loc>https://kovalevsky.io/name-your-mocked-function-with-word-mock/</loc>
     <lastmod>2021-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/@testing-library/</loc>
+    <loc>https://kovalevsky.io/@testing-library/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/command-line-interface/</loc>
+    <loc>https://kovalevsky.io/command-line-interface/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/create-react-app/</loc>
+    <loc>https://kovalevsky.io/create-react-app/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://kovalevsky.io/tags/git/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/git/</loc>
+    <loc>https://kovalevsky.io/git/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/npm/</loc>
+    <loc>https://kovalevsky.io/tags/npm/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/npx/</loc>
+    <loc>https://kovalevsky.io/npx/</loc>
     <lastmod>2021-04-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/first-steps-in-unit-testing/</loc>
+    <loc>https://kovalevsky.io/first-steps-in-unit-testing/</loc>
     <lastmod>2021-04-18T23:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/back-end/</loc>
+    <loc>https://kovalevsky.io/back-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/back-end/</loc>
+    <loc>https://kovalevsky.io/tags/back-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/front-end/</loc>
+    <loc>https://kovalevsky.io/front-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/front-end/</loc>
+    <loc>https://kovalevsky.io/tags/front-end/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/web-development/</loc>
+    <loc>https://kovalevsky.io/tags/web-development/</loc>
     <lastmod>2021-04-18T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/browser/</loc>
+    <loc>https://kovalevsky.io/tags/browser/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/chrome/</loc>
+    <loc>https://kovalevsky.io/tags/chrome/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chromium/</loc>
+    <loc>https://kovalevsky.io/chromium/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/company/</loc>
+    <loc>https://kovalevsky.io/tags/company/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/cypress/</loc>
+    <loc>https://kovalevsky.io/cypress/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</loc>
+    <loc>https://kovalevsky.io/dont-use-arrow-function-inside-mockimplementation-with-this-jest/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/e2e/</loc>
+    <loc>https://kovalevsky.io/tags/e2e/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/firefox/</loc>
+    <loc>https://kovalevsky.io/tags/firefox/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/firefox/</loc>
+    <loc>https://kovalevsky.io/firefox/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/google/</loc>
+    <loc>https://kovalevsky.io/tags/google/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/google/</loc>
+    <loc>https://kovalevsky.io/google/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/google-chrome/</loc>
+    <loc>https://kovalevsky.io/google-chrome/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/it/</loc>
+    <loc>https://kovalevsky.io/tags/it/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mozilla/</loc>
+    <loc>https://kovalevsky.io/tags/mozilla/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/playwright/</loc>
+    <loc>https://kovalevsky.io/playwright/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/puppeteer/</loc>
+    <loc>https://kovalevsky.io/tags/puppeteer/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/puppeteer/</loc>
+    <loc>https://kovalevsky.io/puppeteer/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/web-browser/</loc>
+    <loc>https://kovalevsky.io/web-browser/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/webkit/</loc>
+    <loc>https://kovalevsky.io/webkit/</loc>
     <lastmod>2021-04-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/debugging-in-jest/</loc>
+    <loc>https://kovalevsky.io/debugging-in-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/spy-in-testing/</loc>
+    <loc>https://kovalevsky.io/spy-in-testing/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/stub/</loc>
+    <loc>https://kovalevsky.io/stub/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-of-async-method-in-jest/</loc>
+    <loc>https://kovalevsky.io/test-of-async-method-in-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/the-problem-with-mutation-of-object-data-in-jest/</loc>
+    <loc>https://kovalevsky.io/the-problem-with-mutation-of-object-data-in-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/using-table-in-method-it.each-of-jest/</loc>
+    <loc>https://kovalevsky.io/using-table-in-method-it.each-of-jest/</loc>
     <lastmod>2021-04-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/arrange-in-unit-test/</loc>
+    <loc>https://kovalevsky.io/arrange-in-unit-test/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/assertion/</loc>
+    <loc>https://kovalevsky.io/assertion/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ava.js/</loc>
+    <loc>https://kovalevsky.io/ava.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/behavior-driven-development/</loc>
+    <loc>https://kovalevsky.io/behavior-driven-development/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/browser-object-model/</loc>
+    <loc>https://kovalevsky.io/browser-object-model/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/chai.js/</loc>
+    <loc>https://kovalevsky.io/chai.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/document-object-model/</loc>
+    <loc>https://kovalevsky.io/document-object-model/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/domain-driven-design/</loc>
+    <loc>https://kovalevsky.io/domain-driven-design/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/fixtures/</loc>
+    <loc>https://kovalevsky.io/fixtures/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/html/</loc>
+    <loc>https://kovalevsky.io/tags/html/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/html/</loc>
+    <loc>https://kovalevsky.io/html/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jsdom/</loc>
+    <loc>https://kovalevsky.io/jsdom/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/mocha.js/</loc>
+    <loc>https://kovalevsky.io/mocha.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/monkey-patching/</loc>
+    <loc>https://kovalevsky.io/monkey-patching/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rewire/</loc>
+    <loc>https://kovalevsky.io/rewire/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/sinon.js/</loc>
+    <loc>https://kovalevsky.io/sinon.js/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/software-development/</loc>
+    <loc>https://kovalevsky.io/tags/software-development/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-driven-development/</loc>
+    <loc>https://kovalevsky.io/test-driven-development/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-runner/</loc>
+    <loc>https://kovalevsky.io/test-runner/</loc>
     <lastmod>2021-04-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/honesty-test/</loc>
+    <loc>https://kovalevsky.io/honesty-test/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/anti-fragility-in-testing/</loc>
+    <loc>https://kovalevsky.io/anti-fragility-in-testing/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/arrange-act-assert/</loc>
+    <loc>https://kovalevsky.io/arrange-act-assert/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/test-doubles/</loc>
+    <loc>https://kovalevsky.io/test-doubles/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/testing-/</loc>
+    <loc>https://kovalevsky.io/tags/testing-/</loc>
     <lastmod>2021-04-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/end-to-end-tests/</loc>
+    <loc>https://kovalevsky.io/end-to-end-tests/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/integration-tests/</loc>
+    <loc>https://kovalevsky.io/integration-tests/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/pyramid-of-testing/</loc>
+    <loc>https://kovalevsky.io/pyramid-of-testing/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/unit-tests/</loc>
+    <loc>https://kovalevsky.io/unit-tests/</loc>
     <lastmod>2021-04-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/evergreen-notes/</loc>
+    <loc>https://kovalevsky.io/evergreen-notes/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/note-taking/</loc>
+    <loc>https://kovalevsky.io/tags/note-taking/</loc>
     <lastmod>2021-03-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/jestjs/</loc>
+    <loc>https://kovalevsky.io/jestjs/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/keyboards/</loc>
+    <loc>https://kovalevsky.io/tags/keyboards/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/mechanical-keybords/</loc>
+    <loc>https://kovalevsky.io/tags/mechanical-keybords/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/rxjs/</loc>
+    <loc>https://kovalevsky.io/tags/rxjs/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/rxjs/</loc>
+    <loc>https://kovalevsky.io/rxjs/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/vortex-race-iii-rgb/</loc>
+    <loc>https://kovalevsky.io/vortex-race-iii-rgb/</loc>
     <lastmod>2021-03-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/digital-garden/</loc>
+    <loc>https://kovalevsky.io/digital-garden/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/digital-garden/</loc>
+    <loc>https://kovalevsky.io/tags/digital-garden/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/home/</loc>
+    <loc>https://kovalevsky.io/home/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/obsidian/</loc>
+    <loc>https://kovalevsky.io/tags/obsidian/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/templates-in-obsidian/</loc>
+    <loc>https://kovalevsky.io/templates-in-obsidian/</loc>
     <lastmod>2021-03-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/creating-gatsbyjs-theme/</loc>
+    <loc>https://kovalevsky.io/creating-gatsbyjs-theme/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gatsbyjs/</loc>
+    <loc>https://kovalevsky.io/tags/gatsbyjs/</loc>
     <lastmod>2021-01-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/yarn/</loc>
+    <loc>https://kovalevsky.io/yarn/</loc>
     <lastmod>2021-01-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/typescript/</loc>
+    <loc>https://kovalevsky.io/typescript/</loc>
     <lastmod>2020-12-27T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/working-with-images-in-gatsbyjs/</loc>
+    <loc>https://kovalevsky.io/working-with-images-in-gatsbyjs/</loc>
     <lastmod>2020-12-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/creating-a-post-page-in-gatsbyjs/</loc>
+    <loc>https://kovalevsky.io/creating-a-post-page-in-gatsbyjs/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/how-to-set-up-gatsbyjs-with-typescript/</loc>
+    <loc>https://kovalevsky.io/how-to-set-up-gatsbyjs-with-typescript/</loc>
     <lastmod>2020-12-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/basic-example-of-graphql-in-gatsbyjs/</loc>
+    <loc>https://kovalevsky.io/basic-example-of-graphql-in-gatsbyjs/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</loc>
+    <loc>https://kovalevsky.io/gatsbyjs---adding-the-display-of-posts-list-in-the-app/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/golang/</loc>
+    <loc>https://kovalevsky.io/golang/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/graphql/</loc>
+    <loc>https://kovalevsky.io/tags/graphql/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/graphql/</loc>
+    <loc>https://kovalevsky.io/graphql/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/server-side-rendering/</loc>
+    <loc>https://kovalevsky.io/server-side-rendering/</loc>
     <lastmod>2020-12-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ecmascript/</loc>
+    <loc>https://kovalevsky.io/ecmascript/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gatsbyjs/</loc>
+    <loc>https://kovalevsky.io/gatsbyjs/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/javascript/</loc>
+    <loc>https://kovalevsky.io/javascript/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/node/</loc>
+    <loc>https://kovalevsky.io/node/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/npm/</loc>
+    <loc>https://kovalevsky.io/npm/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/react/</loc>
+    <loc>https://kovalevsky.io/react/</loc>
     <lastmod>2020-12-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/markdown/</loc>
+    <loc>https://kovalevsky.io/tags/markdown/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/markdown/</loc>
+    <loc>https://kovalevsky.io/markdown/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/obsidian/</loc>
+    <loc>https://kovalevsky.io/obsidian/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/obsidian.md-materials/</loc>
+    <loc>https://kovalevsky.io/obsidian.md-materials/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/substack/</loc>
+    <loc>https://kovalevsky.io/substack/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/zettelkasten/</loc>
+    <loc>https://kovalevsky.io/tags/zettelkasten/</loc>
     <lastmod>2020-12-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/notion/</loc>
+    <loc>https://kovalevsky.io/tags/notion/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/notion/</loc>
+    <loc>https://kovalevsky.io/notion/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/org-roam/</loc>
+    <loc>https://kovalevsky.io/org-roam/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/remnote/</loc>
+    <loc>https://kovalevsky.io/remnote/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/workflowy/</loc>
+    <loc>https://kovalevsky.io/workflowy/</loc>
     <lastmod>2020-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/neuracache/</loc>
+    <loc>https://kovalevsky.io/neuracache/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/programming/</loc>
+    <loc>https://kovalevsky.io/tags/programming/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/static-typing/</loc>
+    <loc>https://kovalevsky.io/static-typing/</loc>
     <lastmod>2020-12-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/readwise/</loc>
+    <loc>https://kovalevsky.io/readwise/</loc>
     <lastmod>2020-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/note-taking-tools/</loc>
+    <loc>https://kovalevsky.io/note-taking-tools/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zettelkasten-method/</loc>
+    <loc>https://kovalevsky.io/zettelkasten-method/</loc>
     <lastmod>2020-11-30T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/about-roam-research/</loc>
+    <loc>https://kovalevsky.io/about-roam-research/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/note-taking-summary/</loc>
+    <loc>https://kovalevsky.io/note-taking-summary/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/resources-about-zettelkasten-method/</loc>
+    <loc>https://kovalevsky.io/resources-about-zettelkasten-method/</loc>
     <lastmod>2020-11-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/list-of-digital-gardens/</loc>
+    <loc>https://kovalevsky.io/list-of-digital-gardens/</loc>
     <lastmod>2020-11-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/gigital-gardens/</loc>
+    <loc>https://kovalevsky.io/gigital-gardens/</loc>
     <lastmod>2020-11-19T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/daily-golang-newsletter-research/</loc>
+    <loc>https://kovalevsky.io/daily-golang-newsletter-research/</loc>
   </url><url>
-    <loc>http://localhost:1313/email-marketing/</loc>
+    <loc>https://kovalevsky.io/email-marketing/</loc>
   </url><url>
-    <loc>http://localhost:1313/how-to-search-a-string-in-specific-file-types-only-inside-neovim/</loc>
+    <loc>https://kovalevsky.io/how-to-search-a-string-in-specific-file-types-only-inside-neovim/</loc>
   </url><url>
-    <loc>http://localhost:1313/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</loc>
+    <loc>https://kovalevsky.io/idea---ui-library-for-code-snippets-to-show-arrows-and-annotations/</loc>
   </url><url>
-    <loc>http://localhost:1313/microsoft-mvp/</loc>
+    <loc>https://kovalevsky.io/microsoft-mvp/</loc>
   </url><url>
-    <loc>http://localhost:1313/munich/</loc>
+    <loc>https://kovalevsky.io/munich/</loc>
   </url><url>
-    <loc>http://localhost:1313/obsidian-dataview/</loc>
+    <loc>https://kovalevsky.io/obsidian-dataview/</loc>
   </url><url>
-    <loc>http://localhost:1313/site-about-block/</loc>
+    <loc>https://kovalevsky.io/site-about-block/</loc>
   </url><url>
-    <loc>http://localhost:1313/site-blurb/</loc>
+    <loc>https://kovalevsky.io/site-blurb/</loc>
   </url><url>
-    <loc>http://localhost:1313/spaced-repetition-apps/</loc>
+    <loc>https://kovalevsky.io/spaced-repetition-apps/</loc>
   </url><url>
-    <loc>http://localhost:1313/terminal-workflow/</loc>
+    <loc>https://kovalevsky.io/terminal-workflow/</loc>
   </url><url>
-    <loc>http://localhost:1313/workshop-on-site-seo-for-developers---notes/</loc>
+    <loc>https://kovalevsky.io/workshop-on-site-seo-for-developers---notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/zordi/</loc>
+    <loc>https://kovalevsky.io/zordi/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://kovalevsky.io/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/anki/</loc>
+    <loc>https://kovalevsky.io/tags/anki/</loc>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>https://kovalevsky.io/blog/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/blogging/</loc>
+    <loc>https://kovalevsky.io/tags/blogging/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/bloggingfordevs/</loc>
+    <loc>https://kovalevsky.io/tags/bloggingfordevs/</loc>
   </url><url>
-    <loc>http://localhost:1313/dailygolang/</loc>
+    <loc>https://kovalevsky.io/dailygolang/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/dataview/</loc>
+    <loc>https://kovalevsky.io/tags/dataview/</loc>
   </url><url>
-    <loc>http://localhost:1313/github/</loc>
+    <loc>https://kovalevsky.io/github/</loc>
   </url><url>
-    <loc>http://localhost:1313/homebrew/</loc>
+    <loc>https://kovalevsky.io/homebrew/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/idea/</loc>
+    <loc>https://kovalevsky.io/tags/idea/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/js-tools/</loc>
+    <loc>https://kovalevsky.io/tags/js-tools/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/json/</loc>
+    <loc>https://kovalevsky.io/tags/json/</loc>
   </url><url>
-    <loc>http://localhost:1313/json/</loc>
+    <loc>https://kovalevsky.io/json/</loc>
   </url><url>
-    <loc>http://localhost:1313/lerna.js/</loc>
+    <loc>https://kovalevsky.io/lerna.js/</loc>
   </url><url>
-    <loc>http://localhost:1313/log-2021-07-12/</loc>
+    <loc>https://kovalevsky.io/log-2021-07-12/</loc>
   </url><url>
-    <loc>http://localhost:1313/lua/</loc>
+    <loc>https://kovalevsky.io/lua/</loc>
   </url><url>
-    <loc>http://localhost:1313/mini-typescript/</loc>
+    <loc>https://kovalevsky.io/mini-typescript/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/monicalent/</loc>
+    <loc>https://kovalevsky.io/tags/monicalent/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/monorepo/</loc>
+    <loc>https://kovalevsky.io/tags/monorepo/</loc>
   </url><url>
-    <loc>http://localhost:1313/monorepo/</loc>
+    <loc>https://kovalevsky.io/monorepo/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/munich/</loc>
+    <loc>https://kovalevsky.io/tags/munich/</loc>
   </url><url>
-    <loc>http://localhost:1313/notes/</loc>
+    <loc>https://kovalevsky.io/notes/</loc>
   </url><url>
-    <loc>http://localhost:1313/neovim/</loc>
+    <loc>https://kovalevsky.io/neovim/</loc>
   </url><url>
-    <loc>http://localhost:1313/obsidian-dataview-docs/</loc>
+    <loc>https://kovalevsky.io/obsidian-dataview-docs/</loc>
   </url><url>
-    <loc>http://localhost:1313/obsidian-dataview-readme/</loc>
+    <loc>https://kovalevsky.io/obsidian-dataview-readme/</loc>
   </url><url>
-    <loc>http://localhost:1313/react-router/</loc>
+    <loc>https://kovalevsky.io/react-router/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/reddit/</loc>
+    <loc>https://kovalevsky.io/tags/reddit/</loc>
   </url><url>
-    <loc>http://localhost:1313/revue-newsletter/</loc>
+    <loc>https://kovalevsky.io/revue-newsletter/</loc>
   </url><url>
-    <loc>http://localhost:1313/rush-stack/</loc>
+    <loc>https://kovalevsky.io/rush-stack/</loc>
   </url><url>
-    <loc>http://localhost:1313/rush.js/</loc>
+    <loc>https://kovalevsky.io/rush.js/</loc>
   </url><url>
-    <loc>http://localhost:1313/sed-utility/</loc>
+    <loc>https://kovalevsky.io/sed-utility/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/seo/</loc>
+    <loc>https://kovalevsky.io/tags/seo/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/site/</loc>
+    <loc>https://kovalevsky.io/tags/site/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/spacedrepetition/</loc>
+    <loc>https://kovalevsky.io/tags/spacedrepetition/</loc>
   </url><url>
-    <loc>http://localhost:1313/subreddit-byteski-greeting-post/</loc>
+    <loc>https://kovalevsky.io/subreddit-byteski-greeting-post/</loc>
   </url><url>
-    <loc>http://localhost:1313/vim/</loc>
+    <loc>https://kovalevsky.io/vim/</loc>
   </url><url>
-    <loc>http://localhost:1313/webpack/</loc>
+    <loc>https://kovalevsky.io/webpack/</loc>
   </url>
 </urlset>

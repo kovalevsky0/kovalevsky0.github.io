@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Web on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/web/</link>
+    <link>https://kovalevsky.io/tags/web/</link>
     <description>Recent content in Web on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/web/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/web/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>IndieWeb</title>
-      <link>http://localhost:1313/indieweb/</link>
+      <link>https://kovalevsky.io/indieweb/</link>
       <pubDate>Thu, 10 Feb 2022 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/indieweb/</guid>
+      <guid>https://kovalevsky.io/indieweb/</guid>
       <description> IndieWeb The idea about making own website or web page to store the content on your own platform instead of social media controlled by corporations.
 Links indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog part of the Fediverse and IndieWeb brid.gy tantek.com </description>
       
@@ -25,10 +25,10 @@ Links indieweb.org IndieAuth Into the Personal-Website-Verse Making the blog par
     
     <item>
       <title>Chromium</title>
-      <link>http://localhost:1313/chromium/</link>
+      <link>https://kovalevsky.io/chromium/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/chromium/</guid>
+      <guid>https://kovalevsky.io/chromium/</guid>
       <description> Chromium The open-source project which code can be compiled into a Web browser, developed by Google
 Links chromium.org </description>
       
@@ -40,10 +40,10 @@ Links chromium.org </description>
     
     <item>
       <title>Firefox</title>
-      <link>http://localhost:1313/firefox/</link>
+      <link>https://kovalevsky.io/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/firefox/</guid>
+      <guid>https://kovalevsky.io/firefox/</guid>
       <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
 Links mozilla.org </description>
       
@@ -55,10 +55,10 @@ Links mozilla.org </description>
     
     <item>
       <title>Google Chrome</title>
-      <link>http://localhost:1313/google-chrome/</link>
+      <link>https://kovalevsky.io/google-chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/google-chrome/</guid>
+      <guid>https://kovalevsky.io/google-chrome/</guid>
       <description> Google Chrome A Web browser that made by Google company, based on Chromium project.
 Links google.com/chrome </description>
       
@@ -70,10 +70,10 @@ Links google.com/chrome </description>
     
     <item>
       <title>Web browser</title>
-      <link>http://localhost:1313/web-browser/</link>
+      <link>https://kovalevsky.io/web-browser/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/web-browser/</guid>
+      <guid>https://kovalevsky.io/web-browser/</guid>
       <description> Web browser An application that provides an ability to view web pages and more.
 Examples Chromium Google Chrome </description>
       
@@ -85,10 +85,10 @@ Examples Chromium Google Chrome </description>
     
     <item>
       <title>WebKit</title>
-      <link>http://localhost:1313/webkit/</link>
+      <link>https://kovalevsky.io/webkit/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/webkit/</guid>
+      <guid>https://kovalevsky.io/webkit/</guid>
       <description> WebKit A Web browser engine developed by Apple. It&amp;rsquo;s used in Safari Web browser. It was used in Chromium project (before fork Blink).
 Links webkit.org </description>
       

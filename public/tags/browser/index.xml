@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Browser on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/browser/</link>
+    <link>https://kovalevsky.io/tags/browser/</link>
     <description>Recent content in Browser on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/browser/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/browser/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Chromium</title>
-      <link>http://localhost:1313/chromium/</link>
+      <link>https://kovalevsky.io/chromium/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/chromium/</guid>
+      <guid>https://kovalevsky.io/chromium/</guid>
       <description> Chromium The open-source project which code can be compiled into a Web browser, developed by Google
 Links chromium.org </description>
       
@@ -25,10 +25,10 @@ Links chromium.org </description>
     
     <item>
       <title>Firefox</title>
-      <link>http://localhost:1313/firefox/</link>
+      <link>https://kovalevsky.io/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/firefox/</guid>
+      <guid>https://kovalevsky.io/firefox/</guid>
       <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
 Links mozilla.org </description>
       
@@ -40,10 +40,10 @@ Links mozilla.org </description>
     
     <item>
       <title>Google Chrome</title>
-      <link>http://localhost:1313/google-chrome/</link>
+      <link>https://kovalevsky.io/google-chrome/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/google-chrome/</guid>
+      <guid>https://kovalevsky.io/google-chrome/</guid>
       <description> Google Chrome A Web browser that made by Google company, based on Chromium project.
 Links google.com/chrome </description>
       
@@ -55,10 +55,10 @@ Links google.com/chrome </description>
     
     <item>
       <title>Web browser</title>
-      <link>http://localhost:1313/web-browser/</link>
+      <link>https://kovalevsky.io/web-browser/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/web-browser/</guid>
+      <guid>https://kovalevsky.io/web-browser/</guid>
       <description> Web browser An application that provides an ability to view web pages and more.
 Examples Chromium Google Chrome </description>
       
@@ -70,10 +70,10 @@ Examples Chromium Google Chrome </description>
     
     <item>
       <title>Browser Object Model</title>
-      <link>http://localhost:1313/browser-object-model/</link>
+      <link>https://kovalevsky.io/browser-object-model/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/browser-object-model/</guid>
+      <guid>https://kovalevsky.io/browser-object-model/</guid>
       <description> Browser Object Model BOM is a browser&amp;rsquo;s API interfaces Additional objects, provided by browser to work with everything, except document Examples Window.navigator (MDN Web Docs) </description>
       
         <type>note</type>
@@ -84,10 +84,10 @@ Examples Chromium Google Chrome </description>
     
     <item>
       <title>Document Object Model</title>
-      <link>http://localhost:1313/document-object-model/</link>
+      <link>https://kovalevsky.io/document-object-model/</link>
       <pubDate>Tue, 13 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/document-object-model/</guid>
+      <guid>https://kovalevsky.io/document-object-model/</guid>
       <description> Document Object Model DOM is a programming interface for HTML and XML documents.
 Links Introduction to the DOM (MDN Web Docs) </description>
       

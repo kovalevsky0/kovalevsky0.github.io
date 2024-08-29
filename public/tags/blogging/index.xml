@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blogging on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/blogging/</link>
+    <link>https://kovalevsky.io/tags/blogging/</link>
     <description>Recent content in Blogging on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="http://localhost:1313/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright><atom:link href="https://kovalevsky.io/tags/blogging/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/workshop-on-site-seo-for-developers---notes/</link>
+      <link>https://kovalevsky.io/workshop-on-site-seo-for-developers---notes/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/workshop-on-site-seo-for-developers---notes/</guid>
+      <guid>https://kovalevsky.io/workshop-on-site-seo-for-developers---notes/</guid>
       <description>Workshop On-site SEO for Developers - Notes Parts of SEO described in this workshop:
 Technical SEO On-page SEO How Google Works Website Architecture important resource should be available after no more than 5 clicks
 Googlebot:

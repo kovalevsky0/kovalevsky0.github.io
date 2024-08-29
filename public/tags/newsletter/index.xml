@@ -2,18 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Newsletter on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/newsletter/</link>
+    <link>https://kovalevsky.io/tags/newsletter/</link>
     <description>Recent content in Newsletter on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 29 Aug 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/newsletter/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Golang Newsletter Issue #9</title>
+      <link>https://kovalevsky.io/daily-golang-newsletter-issue-9/</link>
+      <pubDate>Thu, 29 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovalevsky.io/daily-golang-newsletter-issue-9/</guid>
+      <description>Daily Golang Issue #9 (2024-08-22) 🔥 This newsletter issue was published 7 days ago in my Daily Golang newsletter. Subscribe to the newsletter to get newsletter issues with best and latest resources about Golang every day in your mailbox.
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
+      
+        
+            <type>dailygolang</type>
+        
+      
+      
+      
+    </item>
+    
+    <item>
+      <title>Daily Golang Newsletter Issue #8</title>
+      <link>https://kovalevsky.io/daily-golang-newsletter-issue-8/</link>
+      <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovalevsky.io/daily-golang-newsletter-issue-8/</guid>
+      <description>Daily Golang Issue #8 (2024-08-21) 🔥 This newsletter issue was published 7 days ago in my Daily Golang newsletter. Subscribe to the newsletter to get newsletter issues with best and latest resources about Golang every day in your mailbox.
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
+      
+        
+            <type>dailygolang</type>
+        
+      
+      
+      
+    </item>
+    
     <item>
       <title>Daily Golang Newsletter Issue #7</title>
-      <link>http://localhost:1313/daily-golang-newsletter-issue-7/</link>
+      <link>https://kovalevsky.io/daily-golang-newsletter-issue-7/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/daily-golang-newsletter-issue-7/</guid>
+      <guid>https://kovalevsky.io/daily-golang-newsletter-issue-7/</guid>
       <description>Daily Golang Issue #7 (2024-08-20) 🔥 This newsletter issue was published 7 days ago in my Daily Golang newsletter. Subscribe to the newsletter to get newsletter issues with best and latest resources about Golang every day in your mailbox.
 Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
       
@@ -27,10 +61,10 @@ Daily Golang Daily Golang is your daily and weekly source for everything about t
     
     <item>
       <title>Daily Golang Newsletter Issue #6</title>
-      <link>http://localhost:1313/daily-golang-newsletter-issue-6/</link>
+      <link>https://kovalevsky.io/daily-golang-newsletter-issue-6/</link>
       <pubDate>Mon, 26 Aug 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/daily-golang-newsletter-issue-6/</guid>
+      <guid>https://kovalevsky.io/daily-golang-newsletter-issue-6/</guid>
       <description>Daily Golang Issue #6 (2024-08-19) 🔥 This newsletter issue was published 7 days ago in my Daily Golang newsletter. Subscribe to the newsletter to get newsletter issues with best and latest resources about Golang every day in your mailbox.
 Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
       
@@ -44,10 +78,10 @@ Daily Golang Daily Golang is your daily and weekly source for everything about t
     
     <item>
       <title>I curate a daily newsletter with resources about Golang - Daily Golang. Here are the latest 6 issues of the newsletter</title>
-      <link>http://localhost:1313/daily-golang-newsletter-report-2024-08-19/</link>
+      <link>https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/</link>
       <pubDate>Mon, 19 Aug 2024 10:31:32 +0200</pubDate>
       
-      <guid>http://localhost:1313/daily-golang-newsletter-report-2024-08-19/</guid>
+      <guid>https://kovalevsky.io/daily-golang-newsletter-report-2024-08-19/</guid>
       <description>Hello everyone!
 Not a while ago I started to run a daily newsletter with resources (blog posts, videos and projects) about Go (Golang) that I found interesting. Here are the latest 6 issues of the newsletter. I hope you will find it useful. Happy coding!
 Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
@@ -62,10 +96,10 @@ Daily Golang Daily Golang is your daily and weekly source for everything about t
     
     <item>
       <title>#2 Weekly Dose Of Software Engineering Stuff</title>
-      <link>http://localhost:1313/2-weekly-newsletter/</link>
+      <link>https://kovalevsky.io/2-weekly-newsletter/</link>
       <pubDate>Fri, 06 Aug 2021 12:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2-weekly-newsletter/</guid>
+      <guid>https://kovalevsky.io/2-weekly-newsletter/</guid>
       <description>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
 Hello there!
 Here is a second edition of the newsletter Weekly Dose Of Software Engineering Stuff.
@@ -81,10 +115,10 @@ Blog Last week I published new post How To Configure tsconfig.json: TypeScript S
     
     <item>
       <title>#1 Weekly Dose Of Software Engineering Stuff</title>
-      <link>http://localhost:1313/1-weekly-newsletter/</link>
+      <link>https://kovalevsky.io/1-weekly-newsletter/</link>
       <pubDate>Fri, 30 Jul 2021 17:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/1-weekly-newsletter/</guid>
+      <guid>https://kovalevsky.io/1-weekly-newsletter/</guid>
       <description>❗️✉️ This post is a public version of the newsletter edition that was published 2 days ago. Sign up to Weekly Dose Of Software Engineering Stuff to be among the first to receive the newsletter.
 Hello there! 👋
 It&amp;rsquo;s the first edition of Weekly Dose Of Software Engineering Stuff - a newsletter where you can read the content of topics that might be interesting for software developers and engineers.</description>
@@ -99,10 +133,10 @@ It&amp;rsquo;s the first edition of Weekly Dose Of Software Engineering Stuff - 
     
     <item>
       <title>Revue newsletter</title>
-      <link>http://localhost:1313/revue-newsletter/</link>
+      <link>https://kovalevsky.io/revue-newsletter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/revue-newsletter/</guid>
+      <guid>https://kovalevsky.io/revue-newsletter/</guid>
       <description> Revue newsletter Links getrevue.co </description>
       
         <type>note</type>

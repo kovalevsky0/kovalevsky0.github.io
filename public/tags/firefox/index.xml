@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Firefox on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/firefox/</link>
+    <link>https://kovalevsky.io/tags/firefox/</link>
     <description>Recent content in Firefox on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 15 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/firefox/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Firefox</title>
-      <link>http://localhost:1313/firefox/</link>
+      <link>https://kovalevsky.io/firefox/</link>
       <pubDate>Thu, 15 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/firefox/</guid>
+      <guid>https://kovalevsky.io/firefox/</guid>
       <description> Firefox A Web browser that developed by Mozilla Corporation and Mozilla Foundation
 Links mozilla.org </description>
       

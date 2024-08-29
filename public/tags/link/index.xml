@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Link on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/link/</link>
+    <link>https://kovalevsky.io/tags/link/</link>
     <description>Recent content in Link on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 03 May 2022 14:56:59 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/link/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 May 2022 14:56:59 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/link/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Saving Links to My Site With a Bookmarklet (timkadlec.com) 🔗</title>
-      <link>http://localhost:1313/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</link>
+      <link>https://kovalevsky.io/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</link>
       <pubDate>Tue, 03 May 2022 14:56:59 +0000</pubDate>
       
-      <guid>http://localhost:1313/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</guid>
+      <guid>https://kovalevsky.io/saving-links-to-my-site-with-a-bookmarklet-timkadlec.com/</guid>
       <description> Saving Links to My Site With a Bookmarklet (timkadlec.com) Links https://timkadlec.com/remembers/2018-02-06-saving-links-to-my-site-with-a-bookmarklet/ See Also https://mxb.dev/blog/indieweb-link-sharing/ </description>
       
         <type>note</type>
@@ -24,10 +24,10 @@
     
     <item>
       <title>Cool Things People Do With Their Blogs 🔗</title>
-      <link>http://localhost:1313/cool-things-people-do-with-their-blogs/</link>
+      <link>https://kovalevsky.io/cool-things-people-do-with-their-blogs/</link>
       <pubDate>Mon, 02 May 2022 18:33:25 +0000</pubDate>
       
-      <guid>http://localhost:1313/cool-things-people-do-with-their-blogs/</guid>
+      <guid>https://kovalevsky.io/cool-things-people-do-with-their-blogs/</guid>
       <description>Cool Things People Do With Their Blogs 🔗 https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs</description>
       
         

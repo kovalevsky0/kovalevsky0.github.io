@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Search on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/search/</link>
+    <link>https://kovalevsky.io/tags/search/</link>
     <description>Recent content in Search on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 30 Mar 2022 14:08:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/search/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 30 Mar 2022 14:08:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/search/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Search Engine - Blog Surf</title>
-      <link>http://localhost:1313/blog-search-engine---blog-surf/</link>
+      <link>https://kovalevsky.io/blog-search-engine---blog-surf/</link>
       <pubDate>Wed, 30 Mar 2022 14:08:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/blog-search-engine---blog-surf/</guid>
+      <guid>https://kovalevsky.io/blog-search-engine---blog-surf/</guid>
       <description> Blog Search Engine - Blog Surf 🔗 Links blogsurf.io </description>
       
         <type>note</type>

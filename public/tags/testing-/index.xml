@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Testing  on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/testing-/</link>
+    <link>https://kovalevsky.io/tags/testing-/</link>
     <description>Recent content in Testing  on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/testing-/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Apr 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/testing-/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title></title>
-      <link>http://localhost:1313/honesty-test/</link>
+      <link>https://kovalevsky.io/honesty-test/</link>
       <pubDate>Mon, 12 Apr 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/honesty-test/</guid>
+      <guid>https://kovalevsky.io/honesty-test/</guid>
       <description> Honesty test If test is green then module works correctly nothing from the outside affects module to work correctly If test is red then module doesn&amp;rsquo;t work correctly the error inside module, nowhere else </description>
       
         <type>note</type>

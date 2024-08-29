@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unix on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/unix/</link>
+    <link>https://kovalevsky.io/tags/unix/</link>
     <description>Recent content in Unix on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 08 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bash</title>
-      <link>http://localhost:1313/bash/</link>
+      <link>https://kovalevsky.io/bash/</link>
       <pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/bash/</guid>
+      <guid>https://kovalevsky.io/bash/</guid>
       <description> Bash Bash is a Unix shell and command language. Name is acronym for Bourne Again Shell.
 It was default shell on macOS (currently - Z shell).
 Links Website </description>

@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Journaling on Learn Go with Max | Golang Courses and Tutorials</title>
-    <link>http://localhost:1313/tags/journaling/</link>
+    <link>https://kovalevsky.io/tags/journaling/</link>
     <description>Recent content in Journaling on Learn Go with Max | Golang Courses and Tutorials</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Thu, 10 Mar 2022 06:19:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/journaling/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Mar 2022 06:19:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/tags/journaling/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bullet Journal</title>
-      <link>http://localhost:1313/bullet-journal/</link>
+      <link>https://kovalevsky.io/bullet-journal/</link>
       <pubDate>Thu, 10 Mar 2022 06:19:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/bullet-journal/</guid>
+      <guid>https://kovalevsky.io/bullet-journal/</guid>
       <description> Bullet Journal Bullet Journal is a methodology of journaling.
 Links bulletjournal.com </description>
       
