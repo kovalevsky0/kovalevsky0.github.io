@@ -7,7 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 01 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://kovalevsky.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Daily Golang Newsletter Issue #13</title>
+      <link>https://kovalevsky.io/daily-golang-newsletter-issue-13/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://kovalevsky.io/daily-golang-newsletter-issue-13/</guid>
+      <description>Daily Golang Issue #13 (2024-08-26) 🔥 This newsletter issue was published 7 days ago in my Daily Golang newsletter. Subscribe to the newsletter to get newsletter issues with best and latest resources about Golang every day in your mailbox.
+Daily Golang Daily Golang is your daily and weekly source for everything about the Go (Golang) programming language. Get the latest news, tips, tutorials, and more delivered straight to your inbox.</description>
+      
+        
+            <type>dailygolang</type>
+        
+      
+      
+      
+    </item>
+    
     <item>
       <title>Daily Golang Newsletter Issue #12</title>
       <link>https://kovalevsky.io/daily-golang-newsletter-issue-12/</link>
